@@ -1,0 +1,13 @@
+[[LG Aimers 캡스톤]]
+[[『AI 윤리』]]
+[[『Mathmatics for ML』]]
+[[『Machine Learning 개론』]]
+[[『지도학습』]]
+[[『딥러닝(Deep Learning)』]]
+[[『품질경영』]]
+[[『제조 데이터 분석 및 AI 적용』]]
+[[『LG 전자 VS본부 해커톤 문제 및 도메인 지식 소개』]]
+[[★AI Essential Course - Wrap-up (Final Quiz 포함)]]
+[[About LG Life LG 전자 VS본부]]
+  
+![[LG_AI.pdf]]

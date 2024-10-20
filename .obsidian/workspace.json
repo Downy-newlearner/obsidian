@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "c7d813696eb1f6c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "2b1d7e5931ef5b0e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f02713125735b93e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notion/DK 학사 과정/단국대 학사 과정/멀티미디어신호처리.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a54594f327f9e38c",
+    "type": "split",
+    "children": [
+      {
+        "id": "404d0b8bacd725a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8f40c1f0fe0b281",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7910870f809ef780",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e26cc7c8fe8fdf3a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3a838d33f5dd2229",
+    "type": "split",
+    "children": [
+      {
+        "id": "08cee372e46bda89",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c111b5fe45d9571",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notion/DK 학사 과정/단국대 학사 과정/멀티미디어신호처리.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ff2bc35e0f6ecd58",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Notion/DK 학사 과정/단국대 학사 과정/멀티미디어신호처리.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0cdb331a6a2f54cf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bc2f4e3e68198577",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Notion/DK 학사 과정/단국대 학사 과정/멀티미디어신호처리.md"
+              }
+            }
+          },
+          {
+            "id": "3f6813a0d9114b6b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "f02713125735b93e",
+  "lastOpenFiles": [
+    "Notion/DK 학사 과정/단국대 학사 과정/멀티미디어신호처리/1차시.md",
+    "Notion/DK 학사 과정/단국대 학사 과정/멀티미디어신호처리.md",
+    "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드/12차시- Artificial Neural Network.md",
+    "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드/11차시- Artificial Neural Network.md",
+    "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드/10차시- Artificial Neural Network.md",
+    "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드/9차시- FS_stacking.md",
+    "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드/8차시- FS_Stacking.md",
+    "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드/7차시- Cross Validation.md",
+    "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드/6차시- SVM.md",
+    "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드/5차시.md",
+    "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드/4차시.md",
+    "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드/3차시.md",
+    "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드/2차시.md",
+    "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드/1주차.md",
+    "Notion/무제 파일.md",
+    "Notion/HUB/포트폴리오/LG Aimers/LG Aimers 캡스톤/하이퍼파라미터 튜닝/앙상블 결과/다훈- RF + XGB + LGB - 0.12 - 제출- 0.2085.md",
+    "Source/image 1 33.png",
+    "Source/image 96.png",
+    "Notion/HUB/포트폴리오/LG Aimers/LG Aimers 캡스톤/하이퍼파라미터 튜닝/앙상블 결과/유진- 000. Rf + XGB + LGB + Cat - 0.12.md",
+    "Notion/HUB/포트폴리오/LG Aimers/LG Aimers 캡스톤/하이퍼파라미터 튜닝/GradientBoosting/다훈 Trial 1- 0.14294592914853946.md",
+    "Notion/HUB/포트폴리오/LG Aimers/LG Aimers 캡스톤/하이퍼파라미터 튜닝/XGB/다훈 Trial2- 0.13315926892950392.md",
+    "Notion/HUB/포트폴리오/LG Aimers/LG Aimers 캡스톤/하이퍼파라미터 튜닝/XGB/다훈 Trial1- 0.12627986348122866.md",
+    "Notion/HUB/포트폴리오/LG Aimers/LG Aimers 캡스톤/하이퍼파라미터 튜닝/RF/다훈 0.14189189189189189.md",
+    "Source/IMG_1851.jpg",
+    "Source/IMG_1850.jpg",
+    "Source/IMG_1849.jpg",
+    "Source/IMG_1848.jpg",
+    "Source/IMG_1847.jpg",
+    "Source/IMG_1846.jpg",
+    "Source/IMG_1845.jpg",
+    "Notion/HUB/HUB/과외/민주 과외/중 3-2 중간고사 대비/쎈/원과 직선.md",
+    "Source/IMG_1844.jpg",
+    "Notion/HUB/HUB/과외/민주 과외/중 3-2 중간고사 대비/쎈/삼각비.md",
+    "Notion/HUB/HUB/과외/요담 과외/3-1 요담이 기말고사 대비 (1)/블랙라벨 오답 모음/이차함수.md",
+    "Notion/HUB/HUB/공부/공부/Stable Diffusion/Error Summary/해결/절대경로 설정.md",
+    "Notion/HUB/HUB/공부/공부/Stable Diffusion/Error Summary/해결/방법.md",
+    "Source/maps.zip",
+    "Source/all_data.csv",
+    "Source/1883_copy_(1).ipynb",
+    "Source/Fill2_%EB%B6%84%EC%84%9D.xlsx",
+    "Source/Fill1_%EB%B6%84%EC%84%9D.xlsx",
+    "Source/AutoClave.xlsx",
+    "Source/Dam_3660.xlsx",
+    "Source/test_second.csv",
+    "Source/train_second.csv",
+    "Source/test_begin.csv"
+  ]
+}
