@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notion/DK 학사 과정/단국대 학사 과정/멀티미디어신호처리.md",
+                "file": "Notion/DK 학사 과정.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notion/DK 학사 과정/단국대 학사 과정/멀티미디어신호처리.md",
+                "file": "Notion/DK 학사 과정.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notion/DK 학사 과정/단국대 학사 과정/멀티미디어신호처리.md",
+                "file": "Notion/DK 학사 과정.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notion/DK 학사 과정/단국대 학사 과정/멀티미디어신호처리.md"
+                "file": "Notion/DK 학사 과정.md"
               }
             }
           },
@@ -158,8 +158,10 @@
   },
   "active": "f02713125735b93e",
   "lastOpenFiles": [
-    "Notion/DK 학사 과정/단국대 학사 과정/멀티미디어신호처리/1차시.md",
+    "Notion/이쌤 수학학원 일정 관리 어플리케이션.md",
+    "Notion/오픽.md",
     "Notion/DK 학사 과정/단국대 학사 과정/멀티미디어신호처리.md",
+    "Notion/DK 학사 과정/단국대 학사 과정/멀티미디어신호처리/1차시.md",
     "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드/12차시- Artificial Neural Network.md",
     "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드/11차시- Artificial Neural Network.md",
     "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드/10차시- Artificial Neural Network.md",
@@ -192,8 +194,6 @@
     "Source/IMG_1844.jpg",
     "Notion/HUB/HUB/과외/민주 과외/중 3-2 중간고사 대비/쎈/삼각비.md",
     "Notion/HUB/HUB/과외/요담 과외/3-1 요담이 기말고사 대비 (1)/블랙라벨 오답 모음/이차함수.md",
-    "Notion/HUB/HUB/공부/공부/Stable Diffusion/Error Summary/해결/절대경로 설정.md",
-    "Notion/HUB/HUB/공부/공부/Stable Diffusion/Error Summary/해결/방법.md",
     "Source/maps.zip",
     "Source/all_data.csv",
     "Source/1883_copy_(1).ipynb",
