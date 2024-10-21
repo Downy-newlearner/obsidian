@@ -11,10 +11,14 @@
             "id": "f02713125735b93e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "type": "markdown",
+              "state": {
+                "file": "Notion/HUB/HUB/공부/공부/Diffusion Model.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Diffusion Model"
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notion/HUB/HUB/공부/공부/Diffusion Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "Diffusion Model의 백링크"
             }
           },
           {
@@ -107,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notion/HUB/HUB/공부/공부/Diffusion Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "나가는 링크"
+              "title": "Diffusion Model의 나가는 링크"
             }
           },
           {
@@ -132,9 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Notion/HUB/HUB/공부/공부/Diffusion Model.md"
+              },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "Diffusion Model 개요"
             }
           },
           {
@@ -168,6 +176,7 @@
   },
   "active": "f02713125735b93e",
   "lastOpenFiles": [
+    "Notion/MLPA/랩 미팅/08.22 박준영 선배.md",
     "Notion/HUB/DB/딥러닝&파이썬 용어 정리/그래픽스 파이프라인.md",
     "Notion/HUB/DB/딥러닝&파이썬 용어 정리/결합 분포(joint distribution).md",
     "Notion/HUB/DB/딥러닝&파이썬 용어 정리/4D Correleation Volumes.md",
@@ -193,7 +202,6 @@
     "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드/8차시- FS_Stacking.md",
     "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드/7차시- Cross Validation.md",
     "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드/6차시- SVM.md",
-    "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드/5차시.md",
     "Source/image 1 33.png",
     "Source/image 96.png",
     "Source/IMG_1851.jpg",
