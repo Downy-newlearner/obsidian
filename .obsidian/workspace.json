@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드.md",
+                "file": "Notion/HUB/DB/딥러닝&파이썬 용어 정리/데이터 샘플링.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "딥러닝-클라우드"
+              "title": "데이터 샘플링"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드.md",
+                "file": "Notion/HUB/DB/딥러닝&파이썬 용어 정리/데이터 샘플링.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "딥러닝-클라우드의 백링크"
+              "title": "데이터 샘플링의 백링크"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드.md",
+                "file": "Notion/HUB/DB/딥러닝&파이썬 용어 정리/데이터 샘플링.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "딥러닝-클라우드의 나가는 링크"
+              "title": "데이터 샘플링의 나가는 링크"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드.md"
+                "file": "Notion/HUB/DB/딥러닝&파이썬 용어 정리/데이터 샘플링.md"
               },
               "icon": "lucide-list",
-              "title": "딥러닝-클라우드 개요"
+              "title": "데이터 샘플링 개요"
             }
           },
           {
@@ -176,6 +176,11 @@
   },
   "active": "f02713125735b93e",
   "lastOpenFiles": [
+    "Notion/HUB/DB/딥러닝&파이썬 용어 정리/브이랩.md",
+    "Notion/HUB/DB/딥러닝&파이썬 용어 정리/시계열 데이터.md",
+    "Notion/HUB/DB/딥러닝&파이썬 용어 정리/용어 설명 템플릿.md",
+    "Notion/HUB/DB/딥러닝&파이썬 용어 정리/모델 샘플링.md",
+    "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드.md",
     "Notion/DK 학사 과정/단국대 학사 과정/데이터 사이언스.md",
     "Notion/DK 학사 과정/단국대 학사 과정/4차산업과서비스경영1.md",
     "Notion/DK 학사 과정/단국대 학사 과정/AI 헬스케어를 위한 컴퓨터 비전.md",
@@ -197,13 +202,8 @@
     "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드/2차시.md",
     "Notion/DK 학사 과정/단국대 학사 과정/딥러닝-클라우드/1주차.md",
     "Notion/무제 파일.md",
-    "Notion/HUB/포트폴리오/LG Aimers/LG Aimers 캡스톤/하이퍼파라미터 튜닝/앙상블 결과/다훈- RF + XGB + LGB - 0.12 - 제출- 0.2085.md",
     "Source/image 1 33.png",
     "Source/image 96.png",
-    "Notion/HUB/포트폴리오/LG Aimers/LG Aimers 캡스톤/하이퍼파라미터 튜닝/앙상블 결과/유진- 000. Rf + XGB + LGB + Cat - 0.12.md",
-    "Notion/HUB/포트폴리오/LG Aimers/LG Aimers 캡스톤/하이퍼파라미터 튜닝/GradientBoosting/다훈 Trial 1- 0.14294592914853946.md",
-    "Notion/HUB/포트폴리오/LG Aimers/LG Aimers 캡스톤/하이퍼파라미터 튜닝/XGB/다훈 Trial2- 0.13315926892950392.md",
-    "Notion/HUB/포트폴리오/LG Aimers/LG Aimers 캡스톤/하이퍼파라미터 튜닝/XGB/다훈 Trial1- 0.12627986348122866.md",
     "Source/IMG_1851.jpg",
     "Source/IMG_1850.jpg",
     "Source/IMG_1849.jpg",
