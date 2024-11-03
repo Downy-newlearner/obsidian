@@ -144,11 +144,12 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "08cee372e46bda89",
@@ -207,7 +208,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1aceeaca7a953a5e",
+  "active": "3f6813a0d9114b6b",
   "lastOpenFiles": [
     "Source/Pasted image 20241104001302.png",
     "3. Resource/Note",
@@ -216,7 +217,7 @@
     "3. Resource",
     "2. Area",
     "1. Projects",
-    "Calender Archive/2024-W45.md",
+    "3. Resource/Calender Archive/2024-W45.md",
     "4. Arichive/Notion/HUB/HUB/공부/공부/Diffusion Model/마지막 수식.md",
     "4. Arichive/Notion/HUB/DB.md",
     "4. Arichive/Notion/HUB/포트폴리오.md",
@@ -232,7 +233,7 @@
     "Source/Pasted image 20241104002224.png",
     "Source",
     "Calender Archive.md",
-    "Calender Archive",
+    "3. Resource/Calender Archive",
     "4. Arichive/Notion/HUB/HUB/공부/공부/Diffusion Model.md",
     "4. Arichive/Notion/DK 학사 과정/단국대 학사 과정/3학년 1학기/의료IT알고리즘및웹프로그래밍.md",
     "4. Arichive/Notion/DK 학사 과정/단국대 학사 과정/2학년 2학기/웹 프로그래밍.md",
