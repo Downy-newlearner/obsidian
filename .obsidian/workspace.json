@@ -31,10 +31,14 @@
             "id": "1aceeaca7a953a5e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Calender Archive/2024-W45.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2024-W45"
             }
           }
         ]
@@ -208,8 +212,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7b5a003ac4c2c94d",
+  "active": "1aceeaca7a953a5e",
   "lastOpenFiles": [
+    "Calender Archive/2024-W45.md",
     "Calender Archive.md",
     "Calender Archive",
     "Notion/HUB/HUB/공부/공부/Diffusion Model.md",
