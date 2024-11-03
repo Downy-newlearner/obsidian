@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/PARA.md",
+                "file": "Calender Archive/2024-W45.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PARA"
+              "title": "2024-W45"
             }
           },
           {
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/PARA.md",
+                "file": "Calender Archive/2024-W45.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,28 +150,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for PARA"
-            }
-          }
-        ]
-      },
-      {
-        "id": "08cee372e46bda89",
-        "type": "tabs",
-        "dimension": 38.582677165354326,
-        "children": [
-          {
-            "id": "ff2bc35e0f6ecd58",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "+/PARA.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from PARA"
+              "title": "Backlinks for 2024-W45"
             }
           },
           {
@@ -200,9 +179,30 @@
         ]
       },
       {
+        "id": "08cee372e46bda89",
+        "type": "tabs",
+        "dimension": 20.787401574803148,
+        "children": [
+          {
+            "id": "ff2bc35e0f6ecd58",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Calender Archive/2024-W45.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2024-W45"
+            }
+          }
+        ]
+      },
+      {
         "id": "5afc8d646a143946",
         "type": "tabs",
-        "dimension": 38.582677165354326,
+        "dimension": 56.37795275590551,
         "children": [
           {
             "id": "bc2f4e3e68198577",
@@ -210,10 +210,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/PARA.md"
+                "file": "Calender Archive/2024-W45.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of PARA"
+              "title": "Outline of 2024-W45"
             }
           }
         ]
@@ -234,11 +234,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9c111b5fe45d9571",
+  "active": "1aceeaca7a953a5e",
   "lastOpenFiles": [
-    "Calender Archive/2024-W45.md",
     "+/PARA.md",
     "+/Note Architecture.md",
+    "Calender Archive/2024-W45.md",
     "Calender Archive.md",
     "Calender Archive",
     "Notion/HUB/HUB/공부/공부/Diffusion Model.md",
