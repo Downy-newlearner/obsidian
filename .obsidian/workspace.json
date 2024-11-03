@@ -31,8 +31,26 @@
     "type": "split",
     "children": [
       {
+        "id": "4239d6fa4f885e04",
+        "type": "tabs",
+        "dimension": 23.555555555555554,
+        "children": [
+          {
+            "id": "7b5a003ac4c2c94d",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      },
+      {
         "id": "404d0b8bacd725a9",
         "type": "tabs",
+        "dimension": 76.44444444444444,
         "children": [
           {
             "id": "f8f40c1f0fe0b281",
@@ -174,7 +192,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f02713125735b93e",
+  "active": "f8f40c1f0fe0b281",
   "lastOpenFiles": [
     "+/Untitled.md",
     "Notion/HUB/HUB/공부/공부/Diffusion Model.md",
