@@ -31,14 +31,10 @@
             "id": "1aceeaca7a953a5e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/Untitled.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "New tab"
             }
           }
         ]
@@ -212,10 +208,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1aceeaca7a953a5e",
+  "active": "7b5a003ac4c2c94d",
   "lastOpenFiles": [
+    "Calender Archive.md",
+    "Calender Archive",
     "Notion/HUB/HUB/공부/공부/Diffusion Model.md",
-    "+/Untitled.md",
     "Notion/DK 학사 과정/단국대 학사 과정/3학년 1학기/의료IT알고리즘및웹프로그래밍.md",
     "Notion/DK 학사 과정/단국대 학사 과정/2학년 2학기/웹 프로그래밍.md",
     "Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/패턴인식.md",
@@ -243,13 +240,11 @@
     "Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/지능정보특론/발표/History.md",
     "Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/지능정보특론/발표",
     "Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/지능정보특론/발표.md",
-    "Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/지능정보특론/Template.md",
     "Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/지능정보특론",
     "Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/의료IT알고리즘및웹프로그래밍/기말고사 준비",
     "Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/의료IT알고리즘및웹프로그래밍/2주차",
     "Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/의료IT알고리즘및웹프로그래밍",
     "Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/멀티미디어신호처리/멀티미디어신호처리 용어",
-    "Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/멀티미디어신호처리",
     "Source/image 1 33.png",
     "Source/image 96.png",
     "Source/IMG_1851.jpg",
