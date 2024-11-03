@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiArchive",
       "LiMessageCircleHeart",
       "LiRocket"
     ],
@@ -31,5 +32,6 @@
     "debugMode": false
   },
   "1. Projects": "LiRocket",
-  "2. Area": "LiMessageCircleHeart"
+  "2. Area": "LiMessageCircleHeart",
+  "3. Resource": "LiArchive"
 }
