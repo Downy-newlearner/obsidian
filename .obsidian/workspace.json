@@ -43,7 +43,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "파일 탐색기"
+              "title": "Files"
             }
           },
           {
@@ -164,18 +164,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-importer:Open Importer": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "f02713125735b93e",
   "lastOpenFiles": [
+    "+/Untitled.md",
+    "Notion/HUB/HUB/공부/공부/Diffusion Model.md",
     "Notion/DK 학사 과정/단국대 학사 과정/3학년 1학기/의료IT알고리즘및웹프로그래밍.md",
     "Notion/DK 학사 과정/단국대 학사 과정/2학년 2학기/웹 프로그래밍.md",
     "Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/패턴인식.md",
@@ -204,8 +206,6 @@
     "Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/지능정보특론/발표",
     "Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/지능정보특론/발표.md",
     "Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/지능정보특론/Template.md",
-    "Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/지능정보특론/2주차.md",
-    "Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/지능정보특론/3주차.md",
     "Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/지능정보특론",
     "Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/의료IT알고리즘및웹프로그래밍/기말고사 준비",
     "Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/의료IT알고리즘및웹프로그래밍/2주차",

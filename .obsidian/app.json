@@ -2,5 +2,7 @@
   "trashOption": "local",
   "newFileLocation": "folder",
   "newFileFolderPath": "+",
-  "attachmentFolderPath": "Source"
+  "attachmentFolderPath": "Source",
+  "spellcheck": false,
+  "promptDelete": false
 }
