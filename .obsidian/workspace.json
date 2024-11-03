@@ -159,8 +159,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ]
@@ -224,7 +224,7 @@
   },
   "active": "f8f40c1f0fe0b281",
   "lastOpenFiles": [
-    "Untitled",
+    "3. Resource",
     "2. Area",
     "1. Projects",
     "Calender Archive/2024-W45.md",
