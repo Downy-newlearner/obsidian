@@ -4,5 +4,6 @@
   "newFileFolderPath": "+",
   "attachmentFolderPath": "Source",
   "spellcheck": false,
-  "promptDelete": false
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
 }
