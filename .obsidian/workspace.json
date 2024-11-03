@@ -25,14 +25,12 @@
             "id": "84f8d294b53fe33c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "+/PARA.md",
-                "mode": "source",
-                "source": false
+                "file": "Source/Pasted image 20241104001302.png"
               },
-              "icon": "lucide-file",
-              "title": "PARA"
+              "icon": "lucide-image",
+              "title": "Pasted image 20241104001302"
             }
           }
         ],
@@ -127,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+/PARA.md",
+                "file": "Source/Pasted image 20241104001302.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +135,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for PARA"
+              "title": "Backlinks for Pasted image 20241104001302"
             }
           },
           {
@@ -176,12 +174,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/PARA.md",
+                "file": "Source/Pasted image 20241104001302.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from PARA"
+              "title": "Outgoing links from Pasted image 20241104001302"
             }
           }
         ]
@@ -197,10 +195,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/PARA.md"
+                "file": "Source/Pasted image 20241104001302.png"
               },
               "icon": "lucide-list",
-              "title": "Outline of PARA"
+              "title": "Outline of Pasted image 20241104001302"
             }
           }
         ]
@@ -222,8 +220,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f8f40c1f0fe0b281",
+  "active": "84f8d294b53fe33c",
   "lastOpenFiles": [
+    "+/PARA.md",
     "4. Arichive",
     "3. Resource",
     "2. Area",
@@ -237,7 +236,6 @@
     "Notion/DK 학사 과정.md",
     "Notion/이쌤 수학학원 일정 관리 어플리케이션.md",
     "Notion/밑바닥부터 시작하는 딥러닝.md",
-    "+/PARA.md",
     "+/Note Architecture.md",
     "Source/Pasted image 20241104002549.png",
     "Source/Pasted image 20241104002501.png",
@@ -264,7 +262,6 @@
     "Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/패턴인식/Chapter 2 - 9월11,16,18일 강의(1)",
     "Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/패턴인식",
     "Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/지능정보특론/발표",
-    "Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/지능정보특론",
     "Source/image 1 33.png",
     "Source/image 96.png",
     "Source/IMG_1851.jpg",
