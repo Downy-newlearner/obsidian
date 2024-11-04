@@ -3,7 +3,12 @@
 		{"id":"04467b0564c8936e","x":-420,"y":-60,"width":400,"height":400,"type":"file","file":"Source/Pasted image 20241104102032.png"},
 		{"id":"13c5681c293a6952","x":200,"y":-60,"width":400,"height":400,"type":"file","file":"Source/Pasted image 20241104102058.png"},
 		{"id":"f13d43c86a95680d","x":1480,"y":41,"width":666,"height":199,"type":"file","file":"Source/Pasted image 20241104102127.png"},
-		{"id":"d73fd543a05e795e","x":1253,"y":259,"width":333,"height":400,"type":"file","file":"Source/Pasted image 20241104102156.png"}
+		{"id":"d73fd543a05e795e","x":880,"y":-59,"width":333,"height":400,"type":"file","file":"Source/Pasted image 20241104102156.png"},
+		{"id":"2300e640c7d9d4fb","x":820,"y":408,"width":250,"height":60,"type":"text","text":"DB에 개인이 복용 중인 약물 추가"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"e9df619deeb4d158","fromNode":"04467b0564c8936e","fromSide":"right","toNode":"13c5681c293a6952","toSide":"left"},
+		{"id":"ce1101686143f4de","fromNode":"13c5681c293a6952","fromSide":"right","toNode":"d73fd543a05e795e","toSide":"left"},
+		{"id":"aab6bd3a17f812a0","fromNode":"d73fd543a05e795e","fromSide":"right","toNode":"f13d43c86a95680d","toSide":"left"}
+	]
 }
