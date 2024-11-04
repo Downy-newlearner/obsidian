@@ -108,7 +108,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"설명\"]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,7 +116,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "검색"
             }
           },
           {
@@ -261,7 +261,7 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "1aceeaca7a953a5e",
+  "active": "f8f40c1f0fe0b281",
   "lastOpenFiles": [
     "4. Arichive/Notion/HUB/HUB/세미나/IEEE Xplore Seminar.md",
     "4. Arichive/Notion/HUB/HUB/만들기/수학문제 문제집(문제 이미지 배치) Prog.md",
