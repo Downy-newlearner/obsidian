@@ -10,4 +10,6 @@
 	"edges":[
 		{"id":"e9df619deeb4d158","fromNode":"04467b0564c8936e","fromSide":"right","toNode":"13c5681c293a6952","toSide":"left"},
 		{"id":"ce1101686143f4de","fromNode":"13c5681c293a6952","fromSide":"right","toNode":"d73fd543a05e795e","toSide":"left"},
-		{"id":"aab6bd3a17f812a0","fro
+		{"id":"aab6bd3a17f812a0","fromNode":"d73fd543a05e795e","fromSide":"right","toNode":"f13d43c86a95680d","toSide":"left"}
+	]
+}
