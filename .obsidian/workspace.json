@@ -68,8 +68,21 @@
               "icon": "lucide-file",
               "title": "딥페이크 디텍터- ResNet50"
             }
+          },
+          {
+            "id": "ddd37f845d98fd8f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Source/32202841유석 지능정보특론 발표자료.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "32202841유석 지능정보특론 발표자료"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -224,12 +237,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Resource/Image, Video/딥페이크 디텍터- ResNet50.md",
+                "file": "Source/32202841유석 지능정보특론 발표자료.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "딥페이크 디텍터- ResNet50의 나가는 링크"
+              "title": "32202841유석 지능정보특론 발표자료의 나가는 링크"
             }
           }
         ]
@@ -245,10 +258,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. Resource/Image, Video/딥페이크 디텍터- ResNet50.md"
+                "file": "Source/32202841유석 지능정보특론 발표자료.pdf"
               },
               "icon": "lucide-list",
-              "title": "딥페이크 디텍터- ResNet50 개요"
+              "title": "32202841유석 지능정보특론 발표자료 개요"
             }
           }
         ]
@@ -271,11 +284,12 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "edb1b9d01448319a",
+  "active": "ddd37f845d98fd8f",
   "lastOpenFiles": [
+    "3. Resource/Image, Video/딥페이크 디텍터- ResNet50.md",
+    "Source/32202841유석 지능정보특론 발표자료.pdf",
     "3. Resource/Image, Video/ResNet.md",
     "3. Resource/Terminology/Template.md",
-    "3. Resource/Image, Video/딥페이크 디텍터- ResNet50.md",
     "+/Forensics.md",
     "+/잔차 연결.md",
     "1. Projects/프로메테우스 Memoji Project/프로메테우스 Memoji Project.md",
@@ -310,12 +324,10 @@
     "3. Resource/Note",
     "4. Arichive",
     "3. Resource",
-    "2. Area",
     "4. Arichive/Notion/HUB/HUB/공부/공부/Diffusion Model/마지막 수식.md",
     "4. Arichive/Notion/HUB/DB.md",
     "4. Arichive/Notion/HUB/포트폴리오.md",
     "Notion/HUB/ㅁ.md",
-    "4. Arichive/Notion/HUB.md",
     "Source/Pasted image 20241104002549.png",
     "Source/Pasted image 20241104002501.png",
     "Source/Pasted image 20241104002459.png",
