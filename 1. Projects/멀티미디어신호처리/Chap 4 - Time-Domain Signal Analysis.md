@@ -2,6 +2,10 @@
 created: 2024-11-04 00:57
 week: 10W
 ---
+**복습**
+anti 앨리어싱 필터
+sample rate >= 2 B(만족하지 못하면 앨리어싱 에러가 발생한다.)
+
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0001.jpg]]
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0002.jpg]]
