@@ -6,7 +6,9 @@ week: 10W
 anti 앨리어싱 필터
 sample rate >= 2 B(만족하지 못하면 앨리어싱 에러가 발생한다.)
 
-
+Quantization error
+	컴퓨터가 표현할 수 있는 값에 제한이 있어서 truncation하는 중에 발생하는 에러
+	비트 수를 늘리면 에러가 줄지만 자원이 많이
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0001.jpg]]
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0002.jpg]]
 
