@@ -68,21 +68,8 @@
               "icon": "lucide-file",
               "title": "딥페이크 디텍터- ResNet50"
             }
-          },
-          {
-            "id": "ddd37f845d98fd8f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Source/32202841유석 지능정보특론 발표자료.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "32202841유석 지능정보특론 발표자료"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -237,12 +224,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Source/32202841유석 지능정보특론 발표자료.pdf",
+                "file": "3. Resource/Image, Video/딥페이크 디텍터- ResNet50.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "32202841유석 지능정보특론 발표자료의 나가는 링크"
+              "title": "딥페이크 디텍터- ResNet50의 나가는 링크"
             }
           }
         ]
@@ -258,10 +245,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Source/32202841유석 지능정보특론 발표자료.pdf"
+                "file": "3. Resource/Image, Video/딥페이크 디텍터- ResNet50.md"
               },
               "icon": "lucide-list",
-              "title": "32202841유석 지능정보특론 발표자료 개요"
+              "title": "딥페이크 디텍터- ResNet50 개요"
             }
           }
         ]
@@ -284,10 +271,11 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "ddd37f845d98fd8f",
+  "active": "edb1b9d01448319a",
   "lastOpenFiles": [
-    "3. Resource/Image, Video/딥페이크 디텍터- ResNet50.md",
+    "Source/Pasted image 20241104141905.png",
     "Source/32202841유석 지능정보특론 발표자료.pdf",
+    "3. Resource/Image, Video/딥페이크 디텍터- ResNet50.md",
     "3. Resource/Image, Video/ResNet.md",
     "3. Resource/Terminology/Template.md",
     "+/Forensics.md",
