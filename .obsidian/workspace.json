@@ -68,6 +68,18 @@
               "icon": "lucide-file",
               "title": "딥페이크 디텍터- ResNet50"
             }
+          },
+          {
+            "id": "3108c4e5cef31cf4",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Source/Pasted image 20241104141905.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20241104141905"
+            }
           }
         ]
       }
@@ -273,10 +285,11 @@
   },
   "active": "edb1b9d01448319a",
   "lastOpenFiles": [
-    "Source/Pasted image 20241104141905.png",
-    "Source/32202841유석 지능정보특론 발표자료.pdf",
-    "3. Resource/Image, Video/딥페이크 디텍터- ResNet50.md",
     "3. Resource/Image, Video/ResNet.md",
+    "3. Resource/Image, Video/딥페이크 디텍터- ResNet50.md",
+    "Source/Pasted image 20241104141905.png",
+    "Source/Pasted image 20241104141905.png.~tmp",
+    "Source/32202841유석 지능정보특론 발표자료.pdf",
     "3. Resource/Terminology/Template.md",
     "+/Forensics.md",
     "+/잔차 연결.md",
@@ -311,14 +324,12 @@
     "Source/Pasted image 20241104001302.png",
     "3. Resource/Note",
     "4. Arichive",
-    "3. Resource",
     "4. Arichive/Notion/HUB/HUB/공부/공부/Diffusion Model/마지막 수식.md",
     "4. Arichive/Notion/HUB/DB.md",
     "4. Arichive/Notion/HUB/포트폴리오.md",
     "Notion/HUB/ㅁ.md",
     "Source/Pasted image 20241104002549.png",
     "Source/Pasted image 20241104002501.png",
-    "Source/Pasted image 20241104002459.png",
-    "Source/Pasted image 20241104002224.png"
+    "Source/Pasted image 20241104002459.png"
   ]
 }

@@ -9,3 +9,4 @@ aliases:
 
 ## Architecture
 ![[Pasted image 20241104141905.png]]
+
