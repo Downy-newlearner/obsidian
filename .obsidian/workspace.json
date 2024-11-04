@@ -39,13 +39,16 @@
             "id": "855341d57afab6da",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "+/무제 파일.md",
-                "mode": "source",
-                "source": false
+                "file": "무제 파일.canvas",
+                "viewState": {
+                  "x": 1253.4208726881304,
+                  "y": 258.54507084890264,
+                  "zoom": -0.8051892305513224
+                }
               },
-              "icon": "lucide-file",
+              "icon": "lucide-layout-dashboard",
               "title": "무제 파일"
             }
           }
@@ -205,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/무제 파일.md",
+                "file": "무제 파일.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -226,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/무제 파일.md"
+                "file": "무제 파일.canvas"
               },
               "icon": "lucide-list",
               "title": "무제 파일 개요"
@@ -236,7 +239,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -254,8 +258,13 @@
   },
   "active": "855341d57afab6da",
   "lastOpenFiles": [
-    "1. Projects/프로메테우스 Memoji Project/프로메테우스 Memoji Project.md",
+    "Source/Pasted image 20241104102156.png",
+    "Source/Pasted image 20241104102127.png",
+    "Source/Pasted image 20241104102058.png",
+    "Source/Pasted image 20241104102032.png",
     "+/무제 파일.md",
+    "무제 파일.canvas",
+    "1. Projects/프로메테우스 Memoji Project/프로메테우스 Memoji Project.md",
     "2. Area/Book/왜 나는 너를 사랑하는가.md",
     "+/2024-11-04.md",
     "Source/Pasted image 20241104005654.jpg",
@@ -294,11 +303,7 @@
     "4. Arichive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/멀티미디어신호처리.md",
     "4. Arichive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/딥러닝-클라우드.md",
     "4. Arichive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/AI 헬스케어를 위한 컴퓨터 비전.md",
-    "4. Arichive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/패턴인식/패턴인식/시계열 데이터.md",
     "4. Arichive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/패턴인식/패턴인식",
-    "Source/image 1 33.png",
-    "Source/image 96.png",
-    "Source/IMG_1851.jpg",
-    "Source/IMG_1850.jpg"
+    "Source/image 1 33.png"
   ]
 }
