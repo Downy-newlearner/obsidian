@@ -1,4 +1,4 @@
-ResNet(Residual Network)은 딥러닝에서 매우 인기 있는 신경망 아키텍처로, 깊은 네트워크의 학습 문제를 해결하기 위해 "잔차 연결(residual connection)"을 도입한 것이 특징입니다. 
+ResNet([[잔차 연결|Residual Network]])은 딥러닝에서 매우 인기 있는 신경망 아키텍처로, 깊은 네트워크의 학습 문제를 해결하기 위해 "[[잔차 연결]](residual connection)"을 도입한 것이 특징입니다. 
 
 깊이가 깊어질수록 신경망이 학습하기 어려워지는데, 이를 해결하기 위해 ResNet은 입력 값을 일부 출력과 더하는 "스킵 연결(skip connection)"을 통해 모델이 더 쉽게 학습할 수 있도록 합니다. 
 
