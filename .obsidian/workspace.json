@@ -11,17 +11,14 @@
             "id": "1aceeaca7a953a5e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "헬스케어 공모전.canvas",
-                "viewState": {
-                  "x": 992.4873264847188,
-                  "y": 213,
-                  "zoom": -1.0635773099466235
-                }
+                "file": "3. Resource/Note/PARA.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "헬스케어 공모전"
+              "icon": "lucide-file",
+              "title": "PARA"
             }
           },
           {
@@ -193,12 +190,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "헬스케어 공모전.canvas",
+                "file": "3. Resource/Note/PARA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "헬스케어 공모전의 나가는 링크"
+              "title": "PARA의 나가는 링크"
             }
           }
         ]
@@ -214,10 +211,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "헬스케어 공모전.canvas"
+                "file": "3. Resource/Note/PARA.md"
               },
               "icon": "lucide-list",
-              "title": "헬스케어 공모전 개요"
+              "title": "PARA 개요"
             }
           }
         ]
@@ -242,9 +239,10 @@
   },
   "active": "1aceeaca7a953a5e",
   "lastOpenFiles": [
+    "1. Projects/프로메테우스 Memoji Project/프로메테우스 Memoji Project.md",
+    "헬스케어 공모전.canvas",
     "3. Resource/Image, Video/ResNet.md",
     "무제 파일.canvas",
-    "헬스케어 공모전.canvas",
     "3. Resource/Note/PARA.md",
     "Source/Pasted image 20241104150040.png",
     "+/잔차 연결.md",
@@ -258,7 +256,6 @@
     "Source/32202841유석 지능정보특론 발표자료.pdf",
     "3. Resource/Terminology/Template.md",
     "+/Forensics.md",
-    "1. Projects/프로메테우스 Memoji Project/프로메테우스 Memoji Project.md",
     "3. Resource/Calender Archive/2024-11-04.md",
     "3. Resource/Terminology",
     "2. Area/Work Out/벌크업 식단.md",
