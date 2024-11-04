@@ -11,10 +11,14 @@
             "id": "b1e7d281113f5fe1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "3. Resource/Calender Archive/2024-11-04.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2024-11-04"
             }
           }
         ]
@@ -178,11 +182,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "3. Resource/Calender Archive/2024-11-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from 2024-11-04"
             }
           }
         ]
@@ -197,9 +202,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "3. Resource/Calender Archive/2024-11-04.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 2024-11-04"
             }
           }
         ]
