@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
+                "file": "3. Resource/Calender Archive/2024-W45.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chap 4 - Time-Domain Signal Analysis"
+              "title": "2024-W45"
             }
           },
           {
@@ -109,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5,
-    "collapsed": true
+    "width": 271.5
   },
   "right": {
     "id": "3a838d33f5dd2229",
@@ -191,12 +190,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
+                "file": "3. Resource/Calender Archive/2024-W45.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Chap 4 - Time-Domain Signal Analysis의 나가는 링크"
+              "title": "2024-W45의 나가는 링크"
             }
           }
         ]
@@ -212,10 +211,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md"
+                "file": "3. Resource/Calender Archive/2024-W45.md"
               },
               "icon": "lucide-list",
-              "title": "Chap 4 - Time-Domain Signal Analysis 개요"
+              "title": "2024-W45 개요"
             }
           }
         ]
@@ -241,6 +240,7 @@
   },
   "active": "1aceeaca7a953a5e",
   "lastOpenFiles": [
+    "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
     "Source/Pasted image 20241104152823.png",
     "Source/DSPChap4_Time_Domain_Signal_Analysis_page-0043.jpg",
     "Source/DSPChap4_Time_Domain_Signal_Analysis_page-0042.jpg",
@@ -251,11 +251,9 @@
     "Source/DSPChap4_Time_Domain_Signal_Analysis_page-0037.jpg",
     "Source/DSPChap4_Time_Domain_Signal_Analysis_page-0036.jpg",
     "Source/DSPChap4_Time_Domain_Signal_Analysis_page-0035.jpg",
-    "Source/DSPChap4_Time_Domain_Signal_Analysis_page-0034.jpg",
     "Source/DSPChap4_Time_Domain_Signal_Analysis.pdf",
     "3. Resource/Calender Archive/2024-W45.md",
     "3. Resource/Calender Archive/2024-11-04.md",
-    "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
     "3. Resource/Note/PARA.md",
     "1. Projects/멀티미디어신호처리",
     "1. Projects/프로메테우스 Memoji Project/프로메테우스 Memoji Project.md",
