@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/스킵 연결.md",
+                "file": "3. Resource/Image, Video/ResNet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "스킵 연결"
+              "title": "ResNet"
             }
           },
           {
@@ -205,12 +205,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/스킵 연결.md",
+                "file": "3. Resource/Image, Video/ResNet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "스킵 연결의 나가는 링크"
+              "title": "ResNet의 나가는 링크"
             }
           }
         ]
@@ -226,10 +226,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/스킵 연결.md"
+                "file": "3. Resource/Image, Video/ResNet.md"
               },
               "icon": "lucide-list",
-              "title": "스킵 연결 개요"
+              "title": "ResNet 개요"
             }
           }
         ]
@@ -254,8 +254,11 @@
   },
   "active": "6a0bc30f1a94b3b8",
   "lastOpenFiles": [
-    "3. Resource/Image, Video/ResNet.md",
     "3. Resource/Image, Video/딥페이크 디텍터- ResNet50.md",
+    "4. Arichive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/딥러닝-클라우드/6차시- SVM.md",
+    "4. Arichive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/딥러닝-클라우드.md",
+    "+/스킵 연결.md",
+    "3. Resource/Image, Video/ResNet.md",
     "Source/Pasted image 20241104141905.png",
     "Source/Pasted image 20241104141905.png.~tmp",
     "Source/32202841유석 지능정보특론 발표자료.pdf",
@@ -264,7 +267,6 @@
     "+/잔차 연결.md",
     "1. Projects/프로메테우스 Memoji Project/프로메테우스 Memoji Project.md",
     "3. Resource/Calender Archive/2024-11-04.md",
-    "+/스킵 연결.md",
     "3. Resource/Terminology",
     "2. Area/Work Out/벌크업 식단.md",
     "3. Resource/Image, Video",
@@ -296,7 +298,6 @@
     "4. Arichive/Notion/HUB/HUB/공부/공부/Diffusion Model/마지막 수식.md",
     "4. Arichive/Notion/HUB/DB.md",
     "4. Arichive/Notion/HUB/포트폴리오.md",
-    "Notion/HUB/ㅁ.md",
     "Source/Pasted image 20241104002549.png",
     "Source/Pasted image 20241104002501.png",
     "Source/Pasted image 20241104002459.png"
