@@ -1,5 +1,5 @@
 ---
 created: 
-category: 
+tags: 
 aliases:
 ---
