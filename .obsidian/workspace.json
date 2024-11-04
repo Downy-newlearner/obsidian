@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Area/Book/왜 나는 너를 사랑하는가.md",
+                "file": "1. Projects/프로메테우스 Memoji Project/프로메테우스 Memoji Project.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "왜 나는 너를 사랑하는가"
+              "title": "프로메테우스 Memoji Project"
             }
           }
         ],
@@ -48,7 +48,7 @@
       {
         "id": "4239d6fa4f885e04",
         "type": "tabs",
-        "dimension": 23.555555555555554,
+        "dimension": 42.690815006468306,
         "children": [
           {
             "id": "7b5a003ac4c2c94d",
@@ -65,7 +65,7 @@
       {
         "id": "404d0b8bacd725a9",
         "type": "tabs",
-        "dimension": 76.44444444444444,
+        "dimension": 57.309184993531694,
         "children": [
           {
             "id": "f8f40c1f0fe0b281",
@@ -191,12 +191,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Area/Book/왜 나는 너를 사랑하는가.md",
+                "file": "1. Projects/프로메테우스 Memoji Project/프로메테우스 Memoji Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "왜 나는 너를 사랑하는가의 나가는 링크"
+              "title": "프로메테우스 Memoji Project의 나가는 링크"
             }
           }
         ]
@@ -212,10 +212,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Area/Book/왜 나는 너를 사랑하는가.md"
+                "file": "1. Projects/프로메테우스 Memoji Project/프로메테우스 Memoji Project.md"
               },
               "icon": "lucide-list",
-              "title": "왜 나는 너를 사랑하는가 개요"
+              "title": "프로메테우스 Memoji Project 개요"
             }
           }
         ]
@@ -238,10 +238,10 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "5eda5065211e843a",
+  "active": "f8f40c1f0fe0b281",
   "lastOpenFiles": [
-    "+/2024-11-04.md",
     "2. Area/Book/왜 나는 너를 사랑하는가.md",
+    "+/2024-11-04.md",
     "Source/Pasted image 20241104005654.jpg",
     "1. Projects/프로메테우스 Memoji Project/프로메테우스 Memoji Project.md",
     "2. Area/Book",
