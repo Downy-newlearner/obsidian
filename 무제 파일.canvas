@@ -1,11 +1,11 @@
 {
 	"nodes":[
-		{"id":"b08683883a82372a","x":2450,"y":122,"width":250,"height":60,"type":"text","text":""},
-		{"id":"04467b0564c8936e","x":-420,"y":-60,"width":400,"height":400,"type":"file","file":"Source/Pasted image 20241104102032.png"},
-		{"id":"13c5681c293a6952","x":200,"y":-60,"width":400,"height":400,"type":"file","file":"Source/Pasted image 20241104102058.png"},
-		{"id":"f13d43c86a95680d","x":1480,"y":41,"width":666,"height":199,"type":"file","file":"Source/Pasted image 20241104102127.png"},
-		{"id":"d73fd543a05e795e","x":880,"y":-59,"width":333,"height":400,"type":"file","file":"Source/Pasted image 20241104102156.png"},
-		{"id":"2300e640c7d9d4fb","x":867,"y":380,"width":360,"height":80,"type":"text","text":"DB에 개인이 복용 중인 약물 추가"}
+		{"id":"2300e640c7d9d4fb","x":867,"y":380,"width":360,"height":80,"type":"text","text":"DB에 개인이 복용 중인 약물 추가"},
+		{"id":"d73fd543a05e795e","x":937,"y":41,"width":220,"height":264,"type":"file","file":"Source/Pasted image 20241104102156.png"},
+		{"id":"13c5681c293a6952","x":560,"y":53,"width":240,"height":240,"type":"file","file":"Source/Pasted image 20241104102058.png"},
+		{"id":"04467b0564c8936e","x":180,"y":13,"width":320,"height":320,"type":"file","file":"Source/Pasted image 20241104102032.png"},
+		{"id":"f13d43c86a95680d","x":1227,"y":74,"width":666,"height":199,"type":"file","file":"Source/Pasted image 20241104102127.png"},
+		{"id":"b08683883a82372a","x":1960,"y":144,"width":250,"height":60,"type":"text","text":"결고"}
 	],
 	"edges":[
 		{"id":"e9df619deeb4d158","fromNode":"04467b0564c8936e","fromSide":"right","toNode":"13c5681c293a6952","toSide":"left"},
