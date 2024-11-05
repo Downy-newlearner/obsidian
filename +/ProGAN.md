@@ -9,3 +9,6 @@ Progressive Growing of Generative Adversarial Networks
 ## 생성자 & 판별자의 기본 작동 구조
 ![[Pasted image 20241105124130.png]]
 ### 생성자
+
+
+![[Pasted image 20241105124545.png]]
