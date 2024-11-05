@@ -23,7 +23,8 @@ PCA
 ![[DSPChap3_Discrete_Signals_page-0006.jpg]]
 
 ![[DSPChap3_Discrete_Signals_page-0007.jpg]]
-에너지 값이 유한한지, 무한한지로 Energy Signal / Power S
+에너지 값이 유한한지, 무한한지로 Energy Signal / Power Signal을 구분한다.
+Energy signal은 파워를 측정할 수 없으므로, Average power를 사용하여 비교한다.
 ![[DSPChap3_Discrete_Signals_page-0008.jpg]]
 
 ![[DSPChap3_Discrete_Signals_page-0009.jpg]]
@@ -90,4 +91,4 @@ PCA
 
 ![[DSPChap3_Discrete_Signals_page-0040.jpg]]
 
-![[DSPChap3_Discrete_Signal
+![[DSPChap3_Discrete_Signals_page-0041.jpg]]
