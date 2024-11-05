@@ -47,6 +47,8 @@ time delayed and time reversal
 
 ![[DSPChap3_Discrete_Signals_page-0015.jpg]]
 기본 이산 시그널 연산2: time scaling
+1. Compress
+	compre
 ![[DSPChap3_Discrete_Signals_page-0016.jpg]]
 
 ![[DSPChap3_Discrete_Signals_page-0017.jpg]]
@@ -97,4 +99,4 @@ time delayed and time reversal
 
 ![[DSPChap3_Discrete_Signals_page-0040.jpg]]
 
-![[DSPChap3_Discrete_Signals_page-0041.jpg]]
+![[DSPChap3_Discrete_Signals_page-0041.
