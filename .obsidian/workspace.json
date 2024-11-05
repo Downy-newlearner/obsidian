@@ -121,17 +121,14 @@
             "id": "08cf6b88afcb257d",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "헬스케어 공모전.canvas",
-                "viewState": {
-                  "x": 1090,
-                  "y": 213,
-                  "zoom": -0.8019566181317732
-                }
+                "file": "2024-11-05.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "헬스케어 공모전"
+              "icon": "lucide-file",
+              "title": "2024-11-05"
             }
           }
         ],
@@ -290,12 +287,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "헬스케어 공모전.canvas",
+                "file": "2024-11-05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "헬스케어 공모전의 나가는 링크"
+              "title": "2024-11-05의 나가는 링크"
             }
           }
         ]
@@ -311,10 +308,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "헬스케어 공모전.canvas"
+                "file": "2024-11-05.md"
               },
               "icon": "lucide-list",
-              "title": "헬스케어 공모전 개요"
+              "title": "2024-11-05 개요"
             }
           }
         ]
@@ -341,6 +338,9 @@
   },
   "active": "08cf6b88afcb257d",
   "lastOpenFiles": [
+    "3. Resource/Calender Archive/2024-11-04.md",
+    "2024-11-05.md",
+    "헬스케어 공모전.canvas",
     "1. Projects/AI 아이디어 경진대회/아이디에이션.md",
     "+/무제 파일 2.md",
     "+/StyleGAN.md",
@@ -385,9 +385,6 @@
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/otbench/data/README.md",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/README.md",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/CONTRIBUTING.md",
-    "1. Projects/딥러닝클라우드/Chap 11 - keras_dnn.md",
-    "3. Resource/Calender Archive/2024-11-04.md",
-    "헬스케어 공모전.canvas",
     "무제 파일.canvas"
   ]
 }
