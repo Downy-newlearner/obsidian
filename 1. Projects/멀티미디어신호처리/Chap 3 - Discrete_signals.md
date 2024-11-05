@@ -53,7 +53,8 @@ time delayed and time reversal
 2. EXpand
 	중간에 0인 값을 삽입한다.
 ![[DSPChap3_Discrete_Signals_page-0016.jpg]]
-
+Expansion을 한 후 LPF를 통과시키면 삽입되는 값들이 0이 아니라 양옆의 평균값이 된다.
+그래서 더욱 부드러운 구조가 나타난다.
 ![[DSPChap3_Discrete_Signals_page-0017.jpg]]
 
 ![[DSPChap3_Discrete_Signals_page-0018.jpg]]
