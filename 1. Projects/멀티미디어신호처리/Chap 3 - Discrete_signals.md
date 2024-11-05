@@ -105,11 +105,11 @@ unit step function을 합성해서 함수를 조작할 수 있다.
 ![[DSPChap3_Discrete_Signals_page-0024.jpg]]
 
 ![[DSPChap3_Discrete_Signals_page-0025.jpg]]
-unit step function을 곱해서 rectangle pulse를 만들 수 있다.
+unit step function을 ==곱하거나 빼서== rectangle pulse를 만들 수 있다.
 ![[DSPChap3_Discrete_Signals_page-0026.jpg]]
 
 ![[DSPChap3_Discrete_Signals_page-0027.jpg]]
-
+복소수가 포함된 exponential fu
 ![[DSPChap3_Discrete_Signals_page-0028.jpg]]
 [[Aliasing]]은 $f_s$(sampling rate)가 충분히 크지 않아서, 즉 $T_s$(sampling period)가 충분히 짧지 않아서 원본 신호의 정보를 잘못 해석하거나 왜곡하는 것이다.
 ![[DSPChap3_Discrete_Signals_page-0029.jpg]]
@@ -136,4 +136,4 @@ unit step function을 곱해서 rectangle pulse를 만들 수 있다.
 
 ![[DSPChap3_Discrete_Signals_page-0040.jpg]]
 
-![[DSPChap3_Discrete_Signals_page-0041.jpg]]
+![[DSPChap3_Discrete_Signals_page-0041
