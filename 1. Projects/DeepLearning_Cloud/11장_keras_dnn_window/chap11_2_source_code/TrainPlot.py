@@ -1,4 +1,4 @@
-# Shows matrics during training process
+# Shows metrics during training process
 import keras
 import numpy as np
 import matplotlib.pyplot as plt
@@ -32,15 +32,15 @@ class TrainingPlot(keras.callbacks.Callback):
             clear_output(wait=True)
             N = np.arange(0, len(self.losses))
             
-            # You can chose the style of your preference
+            # You can choose the style of your preference
             # print(plt.style.available) to see the available options
-            plt.style.use("seaborn")
+            plt.style.use("ggplot")  # 변경된 스타일
             
             # Plot train loss, train acc, val loss and val acc against epochs passed
             plt.figure()
-            #plt.plot(N, self.losses, label = "train_loss")
+            # plt.plot(N, self.losses, label = "train_loss")
             plt.plot(N, self.acc, label = "train_acc")
-            #plt.plot(N, self.val_losses, label = "val_loss")
+            # plt.plot(N, self.val_losses, label = "val_loss")
             plt.plot(N, self.val_acc, label = "val_acc")
             plt.title("Training Loss and Accuracy [Epoch {}]".format(epoch))
             plt.xlabel("Epoch #")
@@ -48,4 +48,4 @@ class TrainingPlot(keras.callbacks.Callback):
             plt.legend()
             plt.show()
 
-#plot_losses = TrainingPlot()
+# plot_losses = TrainingPlot()
