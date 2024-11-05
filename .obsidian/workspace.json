@@ -192,8 +192,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
-    "collapsed": true
+    "width": 268.5
   },
   "right": {
     "id": "3a838d33f5dd2229",
@@ -323,8 +322,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c1b060235033d8b4",
+  "active": "f8f40c1f0fe0b281",
   "lastOpenFiles": [
+    "1. Projects/AI 아이디어 공모전",
     "Source/Pasted image 20241105125523.png",
     "Source/Pasted image 20241105125402.png",
     "Source/Pasted image 20241105125240.png",
@@ -348,7 +348,6 @@
     "1. Projects/DeepLearning_Cloud/12장/chap12_source_code",
     "1. Projects/DeepLearning_Cloud/12장/chap12_source_code.zip",
     "Source/chap12_keras_CNN_page-0044.jpg",
-    "Source/chap12_keras_CNN_page-0043.jpg",
     "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/Chap 11 - keras_dnn.md",
     "1. Projects/DeepLearning_Cloud/12장",
     "3. Resource/Calender Archive/2024-W45.md",
