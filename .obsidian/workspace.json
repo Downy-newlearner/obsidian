@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "1. Projects/딥러닝클라우드/자료/chap11_keras_dnn_2 1.pdf"
+                "file": "1. Projects/딥러닝클라우드/자료/chap11_keras_dnn_2.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "chap11_keras_dnn_2 1"
+              "title": "chap11_keras_dnn_2"
             }
           },
           {
@@ -188,12 +188,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/딥러닝클라우드/자료/chap11_keras_dnn_2 1.pdf",
+                "file": "1. Projects/딥러닝클라우드/자료/chap11_keras_dnn_2.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "chap11_keras_dnn_2 1의 나가는 링크"
+              "title": "chap11_keras_dnn_2의 나가는 링크"
             }
           }
         ]
@@ -209,10 +209,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/딥러닝클라우드/자료/chap11_keras_dnn_2 1.pdf"
+                "file": "1. Projects/딥러닝클라우드/자료/chap11_keras_dnn_2.pdf"
               },
               "icon": "lucide-list",
-              "title": "chap11_keras_dnn_2 1 개요"
+              "title": "chap11_keras_dnn_2 개요"
             }
           }
         ]
@@ -238,17 +238,18 @@
   },
   "active": "1aceeaca7a953a5e",
   "lastOpenFiles": [
+    "1. Projects/딥러닝클라우드/자료/chap11_keras_dnn_window.pdf",
+    "1. Projects/딥러닝클라우드/자료/chap04_regression.pdf",
+    "1. Projects/딥러닝클라우드/자료/chap04_regression (1).pdf",
+    "1. Projects/딥러닝클라우드/자료/chap05_DT_RF_SVM.pdf",
+    "1. Projects/딥러닝클라우드/자료/chap05_DT_RF_SVM (1).pdf",
     "1. Projects/딥러닝클라우드/자료/chap11_keras_dnn_2.pdf",
     "1. Projects/딥러닝클라우드/자료/chap11_keras_dnn_2 1.pdf",
-    "1. Projects/딥러닝클라우드/자료/chap11_keras_dnn_window.pdf",
     "3. Resource/Calender Archive/2024-11-04.md",
     "1. Projects/딥러닝클라우드/chap11_keras_dnn_2.pdf",
     "1. Projects/딥러닝클라우드/자료/chap12_keras_CNN.pdf",
     "1. Projects/딥러닝클라우드/자료/chap10_terms_of_dnn.pdf",
     "1. Projects/딥러닝클라우드/자료/chap09_신경망학습.pdf",
-    "1. Projects/딥러닝클라우드/자료/chap08_인공신경망개요.pdf",
-    "1. Projects/딥러닝클라우드/자료/chap07_FS_stacking_update.pdf",
-    "1. Projects/딥러닝클라우드/자료/chap07_FS_stacking.pdf",
     "3. Resource/Calender Archive/2024-W45.md",
     "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
     "Source/Pasted image 20241104153047.png",
