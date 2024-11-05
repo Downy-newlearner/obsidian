@@ -1,13 +1,4 @@
 {
-  "insert-template": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "L"
-    }
-  ],
   "editor:swap-line-up": [
     {
       "modifiers": [
@@ -22,6 +13,16 @@
         "Mod"
       ],
       "key": "ArrowDown"
+    }
+  ],
+  "workspace:undo-close-pane": [],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
     }
   ]
 }
