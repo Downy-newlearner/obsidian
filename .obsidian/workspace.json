@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/Chap 11 - keras_dnn.md",
+                "file": "1. Projects/DeepLearning_Cloud/12장/Chap 12 - keras_CNN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chap 11 - keras_dnn"
+              "title": "Chap 12 - keras_CNN"
             }
           },
           {
@@ -202,12 +202,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/Chap 11 - keras_dnn.md",
+                "file": "1. Projects/DeepLearning_Cloud/12장/Chap 12 - keras_CNN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Chap 11 - keras_dnn의 나가는 링크"
+              "title": "Chap 12 - keras_CNN의 나가는 링크"
             }
           }
         ]
@@ -223,17 +223,18 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/Chap 11 - keras_dnn.md"
+                "file": "1. Projects/DeepLearning_Cloud/12장/Chap 12 - keras_CNN.md"
               },
               "icon": "lucide-list",
-              "title": "Chap 11 - keras_dnn 개요"
+              "title": "Chap 12 - keras_CNN 개요"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 228.5
+    "width": 228.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,6 +253,20 @@
   },
   "active": "1aceeaca7a953a5e",
   "lastOpenFiles": [
+    "Source/chap12_keras_CNN_page-0044.jpg",
+    "Source/chap12_keras_CNN_page-0043.jpg",
+    "Source/chap12_keras_CNN_page-0042.jpg",
+    "Source/chap12_keras_CNN_page-0041.jpg",
+    "Source/chap12_keras_CNN_page-0040.jpg",
+    "Source/chap12_keras_CNN_page-0039.jpg",
+    "Source/chap12_keras_CNN_page-0038.jpg",
+    "Source/chap12_keras_CNN_page-0037.jpg",
+    "Source/chap12_keras_CNN_page-0036.jpg",
+    "Source/chap12_keras_CNN_page-0035.jpg",
+    "Source/chap12_keras_CNN_page-0034.jpg",
+    "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/Chap 11 - keras_dnn.md",
+    "1. Projects/DeepLearning_Cloud/12장/Chap 12 - keras_CNN.md",
+    "1. Projects/DeepLearning_Cloud/12장",
     "3. Resource/Calender Archive/2024-W45.md",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench_env/Lib/site-packages/_distutils_hack/__pycache__/__init__.cpython-310.pyc",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench_env/Lib/site-packages/_distutils_hack/__pycache__/override.cpython-310.pyc",
@@ -262,7 +277,6 @@
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench_env/Lib/site-packages/xarray/__pycache__/conventions.cpython-310.pyc",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench_env/Lib/site-packages/xarray/util/generate_aggregations.py",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench_env/Lib/site-packages/xarray/util/__pycache__",
-    "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench_env/Lib/site-packages/xarray/util/__init__.py",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench_env/Lib/site-packages/numpy/random/LICENSE.md",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/otbench/data/usna_cn2_sm/README.md",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/otbench/data/usna_cn2_sm/citation.md",
@@ -273,18 +287,8 @@
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/otbench/data/mlo_cn2/README.md",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/otbench/data/mlo_cn2/citation.md",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/otbench/data/README.md",
-    "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/doc/img/usna_cn2_sm_forecasting.png",
-    "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/doc/img/mlo_cn2_regression.png",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/README.md",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/CONTRIBUTING.md",
-    "1. Projects/딥러닝클라우드/DeepLearning_Cloud/data/sample_img_1.jpg",
-    "Source/chap11_keras_dnn_2_page-0017.jpg",
-    "Source/chap11_keras_dnn_2_page-0016.jpg",
-    "Source/chap11_keras_dnn_2_page-0015.jpg",
-    "Source/chap11_keras_dnn_2_page-0014.jpg",
-    "Source/chap11_keras_dnn_2_page-0013.jpg",
-    "Source/chap11_keras_dnn_2_page-0012.jpg",
-    "Source/chap11_keras_dnn_2_page-0011.jpg",
     "1. Projects/딥러닝클라우드/Chap 11 - keras_dnn.md",
     "3. Resource/Calender Archive/2024-11-04.md",
     "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
@@ -296,8 +300,6 @@
     "무제 파일.canvas",
     "+/잔차 연결.md",
     "+/네트워크.md",
-    "3. Resource/Image, Video/딥페이크 디텍터- ResNet50.md",
-    "4. Arichive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/딥러닝-클라우드/6차시- SVM.md",
-    "4. Arichive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/딥러닝-클라우드.md"
+    "3. Resource/Image, Video/딥페이크 디텍터- ResNet50.md"
   ]
 }

@@ -32,3 +32,4 @@
 ![[chap11_keras_dnn_2_page-0016.jpg]]
 
 ![[chap11_keras_dnn_2_page-0017.jpg]]
+
