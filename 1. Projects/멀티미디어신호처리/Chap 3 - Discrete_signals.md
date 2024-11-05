@@ -105,7 +105,7 @@ unit step function을 합성해서 함수를 조작할 수 있다.
 ![[DSPChap3_Discrete_Signals_page-0024.jpg]]
 
 ![[DSPChap3_Discrete_Signals_page-0025.jpg]]
-
+unit step function을 곱해서 rectangle pulse를 만들 수 있다.
 ![[DSPChap3_Discrete_Signals_page-0026.jpg]]
 
 ![[DSPChap3_Discrete_Signals_page-0027.jpg]]
