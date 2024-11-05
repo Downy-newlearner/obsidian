@@ -74,12 +74,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/WGAN-GP, CGAN.md",
+                "file": "+/CGAN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WGAN-GP, CGAN"
+              "title": "CGAN"
             }
           }
         ]
@@ -237,12 +237,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/GAN.md",
+                "file": "+/CGAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "GAN의 나가는 링크"
+              "title": "CGAN의 나가는 링크"
             }
           }
         ]
@@ -258,10 +258,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/GAN.md"
+                "file": "+/CGAN.md"
               },
               "icon": "lucide-list",
-              "title": "GAN 개요"
+              "title": "CGAN 개요"
             }
           }
         ]
@@ -286,10 +286,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6a6cb72dc19bea68",
+  "active": "7ac99a6c6d9e9257",
   "lastOpenFiles": [
-    "+/WGAN-GP, CGAN.md",
     "+/GAN.md",
+    "+/CGAN.md",
     "Source/Pasted image 20241105121701.png",
     "Source/Pasted image 20241105121629.png",
     "1. Projects/DeepLearning_Cloud/12장/Chap 12 - keras_CNN.md",
