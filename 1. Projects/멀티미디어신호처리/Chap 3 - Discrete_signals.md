@@ -16,8 +16,8 @@ week: 9W
 		- Energy Signal: 유한한 신호에너지를 가지는 시그널
 		- Power Signal: 무한한 신호에너지를 가지는 시그널
 	- ***Average Power***
-		- 무한한 신호에너지를 가지는 주기함수는 Average power로 정리한다.
 		- ![[Pasted image 20241105154748.png]]
+		- 무한한 신호에너지를 가지는 주기함수는 Average power로 정리한다.
 	- 
 - Digital signal operations
  ![[DSPChap3_Discrete_Signals_page-0001.jpg]]
