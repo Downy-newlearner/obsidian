@@ -279,12 +279,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/무제 파일 2.md",
+                "file": "+/WGAN-GP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "무제 파일 2의 나가는 링크"
+              "title": "WGAN-GP의 나가는 링크"
             }
           }
         ]
@@ -300,10 +300,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/무제 파일 2.md"
+                "file": "+/WGAN-GP.md"
               },
               "icon": "lucide-list",
-              "title": "무제 파일 2 개요"
+              "title": "WGAN-GP 개요"
             }
           }
         ]
@@ -328,10 +328,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "348708015519af0d",
+  "active": "5db054f86722cd1d",
   "lastOpenFiles": [
-    "+/WGAN-GP.md",
     "+/무제 파일 2.md",
+    "+/WGAN-GP.md",
     "+/베셔슈타인 거리.md",
     "+/CGAN.md",
     "+/LS 발산.md",
