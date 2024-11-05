@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -259,12 +259,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/베셔슈타인 거리.md",
+                "file": "+/WGAN-GP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "베셔슈타인 거리의 나가는 링크"
+              "title": "WGAN-GP의 나가는 링크"
             }
           }
         ]
@@ -280,10 +280,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/베셔슈타인 거리.md"
+                "file": "+/WGAN-GP.md"
               },
               "icon": "lucide-list",
-              "title": "베셔슈타인 거리 개요"
+              "title": "WGAN-GP 개요"
             }
           }
         ]
@@ -308,12 +308,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "56df7d046457f2f9",
+  "active": "5db054f86722cd1d",
   "lastOpenFiles": [
-    "+/WGAN-GP.md",
     "+/베셔슈타인 거리.md",
-    "+/LS 발산.md",
+    "+/WGAN-GP.md",
     "+/CGAN.md",
+    "+/LS 발산.md",
     "+/GAN.md",
     "Source/Pasted image 20241105121701.png",
     "Source/Pasted image 20241105121629.png",
