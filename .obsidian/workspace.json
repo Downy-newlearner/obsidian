@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "4cab60c6aa6ffcba",
+        "id": "1b33d4c3ee97efb0",
         "type": "tabs",
         "children": [
           {
-            "id": "b1e7d281113f5fe1",
+            "id": "1aceeaca7a953a5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Area/Work Out/벌크업 식단.md",
+                "file": "3. Resource/Calender Archive/2024-W45.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "벌크업 식단"
+              "title": "2024-W45"
+            }
+          },
+          {
+            "id": "5eda5065211e843a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Projects/프로메테우스 Memoji Project/프로메테우스 Memoji Project.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "프로메테우스 Memoji Project"
             }
           }
         ]
@@ -33,7 +47,7 @@
       {
         "id": "4239d6fa4f885e04",
         "type": "tabs",
-        "dimension": 28.338762214983714,
+        "dimension": 45.019404915912034,
         "children": [
           {
             "id": "7b5a003ac4c2c94d",
@@ -48,10 +62,39 @@
         ]
       },
       {
-        "id": "89d5aa11bc447c94",
+        "id": "404d0b8bacd725a9",
         "type": "tabs",
-        "dimension": 16.286644951140065,
+        "dimension": 54.980595084087966,
         "children": [
+          {
+            "id": "f8f40c1f0fe0b281",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "7910870f809ef780",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
           {
             "id": "e26cc7c8fe8fdf3a",
             "type": "leaf",
@@ -63,46 +106,10 @@
             }
           }
         ]
-      },
-      {
-        "id": "404d0b8bacd725a9",
-        "type": "tabs",
-        "dimension": 55.37459283387622,
-        "children": [
-          {
-            "id": "f8f40c1f0fe0b281",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
-          {
-            "id": "7910870f809ef780",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "[\"설명\"]",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 271.5
   },
   "right": {
     "id": "3a838d33f5dd2229",
@@ -119,6 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2. Area/Book/왜 나는 너를 사랑하는가.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 왜 나는 너를 사랑하는가"
             }
           },
           {
@@ -182,12 +190,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Area/Work Out/벌크업 식단.md",
+                "file": "3. Resource/Calender Archive/2024-W45.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 벌크업 식단"
+              "title": "2024-W45의 나가는 링크"
             }
           }
         ]
@@ -203,81 +211,82 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Area/Work Out/벌크업 식단.md"
+                "file": "3. Resource/Calender Archive/2024-W45.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 벌크업 식단"
+              "title": "2024-W45 개요"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
       "obsidian-importer:Open Importer": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "b1e7d281113f5fe1",
+  "active": "1aceeaca7a953a5e",
   "lastOpenFiles": [
-    "+/1.md",
-    "2. Area/Work Out/벌크업 식단.md",
-    "4. Arichive/Notion/HUB/포트폴리오/환경부 데이터분석 공모전/2024 환경부 데이터분석 공모전 DB (1)/3차 데이터 분석/정다훈/1.md",
-    "2. Area/Book/왜 나는 너를 사랑하는가.md",
     "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
-    "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
-    "3. Resource/Calender Archive/2024-11-04.md",
-    "3. Resource/Calender Archive/2024-W45.md",
-    "conflict-files-obsidian-git.md",
-    "3. Resource/Terminology/Template.md",
-    "3. Resource/Terminology",
-    "3. Resource/Image, Video/딥페이크 디텍터- ResNet50.md",
-    "3. Resource/Image, Video/ResNet.md",
-    "3. Resource/Image, Video",
-    "2. Area/Work Out",
-    "1. Projects/멀티미디어신호처리",
-    "헬스케어 공모전.canvas",
-    "무제 파일.canvas",
     "Source/Pasted image 20241104153047.png",
+    "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
     "Source/Pasted image 20241104152823.png",
-    "Source/Pasted image 20241104150040.png",
-    "Source/Pasted image 20241104141905.png",
-    "Source/Pasted image 20241104102156.png",
-    "Source/Pasted image 20241104102127.png",
-    "Source/Pasted image 20241104102058.png",
-    "Source/Pasted image 20241104102032.png",
     "Source/DSPChap4_Time_Domain_Signal_Analysis_page-0043.jpg",
     "Source/DSPChap4_Time_Domain_Signal_Analysis_page-0042.jpg",
-    "+/2024-11-04.md",
+    "Source/DSPChap4_Time_Domain_Signal_Analysis_page-0041.jpg",
+    "Source/DSPChap4_Time_Domain_Signal_Analysis_page-0040.jpg",
+    "Source/DSPChap4_Time_Domain_Signal_Analysis_page-0039.jpg",
+    "Source/DSPChap4_Time_Domain_Signal_Analysis_page-0038.jpg",
+    "Source/DSPChap4_Time_Domain_Signal_Analysis_page-0037.jpg",
+    "Source/DSPChap4_Time_Domain_Signal_Analysis_page-0036.jpg",
     "Source/DSPChap4_Time_Domain_Signal_Analysis.pdf",
-    "Source/32202841유석 지능정보특론 발표자료.pdf",
+    "3. Resource/Calender Archive/2024-W45.md",
+    "3. Resource/Calender Archive/2024-11-04.md",
+    "3. Resource/Note/PARA.md",
+    "1. Projects/멀티미디어신호처리",
+    "1. Projects/프로메테우스 Memoji Project/프로메테우스 Memoji Project.md",
+    "헬스케어 공모전.canvas",
+    "3. Resource/Image, Video/ResNet.md",
+    "무제 파일.canvas",
     "+/잔차 연결.md",
-    "+/스킵 연결.md",
-    "+/무제 파일.md",
-    "+/무제 파일 1.md",
     "+/네트워크.md",
+    "3. Resource/Image, Video/딥페이크 디텍터- ResNet50.md",
+    "4. Arichive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/딥러닝-클라우드/6차시- SVM.md",
+    "4. Arichive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/딥러닝-클라우드.md",
+    "+/스킵 연결.md",
+    "Source/Pasted image 20241104141905.png.~tmp",
+    "Source/32202841유석 지능정보특론 발표자료.pdf",
+    "3. Resource/Terminology/Template.md",
     "+/Forensics.md",
-    "4. Arichive/Notion/밑바닥부터 시작하는 딥러닝/밑바닥부터 시작하는 딥러닝/학습.md",
-    "4. Arichive/Notion/밑바닥부터 시작하는 딥러닝/밑바닥부터 시작하는 딥러닝/전처리.md",
-    "4. Arichive/Notion/밑바닥부터 시작하는 딥러닝/1권- 파이썬으로 익히는 딥러닝 이론과 구현/1장- 헬로 파이썬.md",
-    "4. Arichive/Notion/밑바닥부터 시작하는 딥러닝/밑바닥부터 시작하는 딥러닝/넘파이 - shape.md",
-    "4. Arichive/Notion/밑바닥부터 시작하는 딥러닝/밑바닥부터 시작하는 딥러닝/고원.md",
-    "4. Arichive/Notion/밑바닥부터 시작하는 딥러닝/밑바닥부터 시작하는 딥러닝/경사법.md",
-    "4. Arichive/Notion/밑바닥부터 시작하는 딥러닝/1권- 파이썬으로 익히는 딥러닝 이론과 구현.md",
+    "3. Resource/Terminology",
+    "2. Area/Work Out/벌크업 식단.md",
+    "3. Resource/Image, Video",
+    "4. Arichive/Notion/HUB/HUB/세미나/IEEE Xplore Seminar.md",
+    "4. Arichive/Notion/HUB/HUB/만들기/수학문제 문제집(문제 이미지 배치) Prog.md",
+    "4. Arichive/Notion/HUB/HUB/논문 정리/논문/Denoising Diffusion Probabilistic Model.md",
+    "4. Arichive/Notion/HUB/HUB/과외/민주 과외.md",
+    "Calender Archive/2024-W45.md",
+    "Calender Archive",
+    "2. Area/Book/왜 나는 너를 사랑하는가.md",
+    "4. Arichive/Notion/밑바닥부터 시작하는 딥러닝/밑바닥부터 시작하는 딥러닝/모멘텀.md",
+    "+/무제 파일 1.md",
+    "2. Area/Work Out",
+    "+/무제 파일.md",
     "2. Area/Book",
     "1. Projects/프로메테우스 Memoji Project",
-    "3. Resource/Note",
-    "4. Arichive"
+    "4. Arichive/Notion/밑바닥부터 시작하는 딥러닝/밑바닥부터 시작하는 딥러닝/특징(feature).md"
   ]
 }
