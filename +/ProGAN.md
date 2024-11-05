@@ -14,3 +14,7 @@ Progressive Growing of Generative Adversarial Networks
 ![[Pasted image 20241105124545.png]]
 $\alpha$값은 0에서 1로 점차 커져서 새로운 toRGB 이미지의 비중이 높아진다.
 
+### 판별자
+![[Pasted image 20241105124824.png]]
+$\alpha$는 여기서도 0에서 1로 점차 증가하는가?
+
