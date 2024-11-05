@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "1. Projects/딥러닝클라우드/chap11_keras_dnn_2.pdf"
+                "file": "1. Projects/딥러닝클라우드/자료/chap11_keras_dnn_2 1.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "chap11_keras_dnn_2"
+              "title": "chap11_keras_dnn_2 1"
             }
           },
           {
@@ -107,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 315.5
   },
   "right": {
     "id": "3a838d33f5dd2229",
@@ -188,12 +188,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/딥러닝클라우드/chap11_keras_dnn_2.pdf",
+                "file": "1. Projects/딥러닝클라우드/자료/chap11_keras_dnn_2 1.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "chap11_keras_dnn_2의 나가는 링크"
+              "title": "chap11_keras_dnn_2 1의 나가는 링크"
             }
           }
         ]
@@ -209,10 +209,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/딥러닝클라우드/chap11_keras_dnn_2.pdf"
+                "file": "1. Projects/딥러닝클라우드/자료/chap11_keras_dnn_2 1.pdf"
               },
               "icon": "lucide-list",
-              "title": "chap11_keras_dnn_2 개요"
+              "title": "chap11_keras_dnn_2 1 개요"
             }
           }
         ]
@@ -236,11 +236,19 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "f8f40c1f0fe0b281",
+  "active": "1aceeaca7a953a5e",
   "lastOpenFiles": [
-    "1. Projects/딥러닝클라우드",
+    "1. Projects/딥러닝클라우드/자료/chap11_keras_dnn_2.pdf",
+    "1. Projects/딥러닝클라우드/자료/chap11_keras_dnn_2 1.pdf",
+    "1. Projects/딥러닝클라우드/자료/chap11_keras_dnn_window.pdf",
     "3. Resource/Calender Archive/2024-11-04.md",
     "1. Projects/딥러닝클라우드/chap11_keras_dnn_2.pdf",
+    "1. Projects/딥러닝클라우드/자료/chap12_keras_CNN.pdf",
+    "1. Projects/딥러닝클라우드/자료/chap10_terms_of_dnn.pdf",
+    "1. Projects/딥러닝클라우드/자료/chap09_신경망학습.pdf",
+    "1. Projects/딥러닝클라우드/자료/chap08_인공신경망개요.pdf",
+    "1. Projects/딥러닝클라우드/자료/chap07_FS_stacking_update.pdf",
+    "1. Projects/딥러닝클라우드/자료/chap07_FS_stacking.pdf",
     "3. Resource/Calender Archive/2024-W45.md",
     "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
     "Source/Pasted image 20241104153047.png",
@@ -254,9 +262,7 @@
     "Source/DSPChap4_Time_Domain_Signal_Analysis_page-0038.jpg",
     "Source/DSPChap4_Time_Domain_Signal_Analysis_page-0037.jpg",
     "Source/DSPChap4_Time_Domain_Signal_Analysis_page-0036.jpg",
-    "Source/DSPChap4_Time_Domain_Signal_Analysis.pdf",
     "3. Resource/Note/PARA.md",
-    "1. Projects/멀티미디어신호처리",
     "1. Projects/프로메테우스 Memoji Project/프로메테우스 Memoji Project.md",
     "헬스케어 공모전.canvas",
     "3. Resource/Image, Video/ResNet.md",
@@ -267,24 +273,17 @@
     "4. Arichive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/딥러닝-클라우드/6차시- SVM.md",
     "4. Arichive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/딥러닝-클라우드.md",
     "+/스킵 연결.md",
-    "Source/Pasted image 20241104141905.png.~tmp",
-    "Source/32202841유석 지능정보특론 발표자료.pdf",
     "3. Resource/Terminology/Template.md",
     "+/Forensics.md",
-    "3. Resource/Terminology",
     "2. Area/Work Out/벌크업 식단.md",
-    "3. Resource/Image, Video",
     "4. Arichive/Notion/HUB/HUB/세미나/IEEE Xplore Seminar.md",
     "4. Arichive/Notion/HUB/HUB/만들기/수학문제 문제집(문제 이미지 배치) Prog.md",
     "4. Arichive/Notion/HUB/HUB/논문 정리/논문/Denoising Diffusion Probabilistic Model.md",
     "4. Arichive/Notion/HUB/HUB/과외/민주 과외.md",
     "Calender Archive/2024-W45.md",
-    "Calender Archive",
     "2. Area/Book/왜 나는 너를 사랑하는가.md",
     "4. Arichive/Notion/밑바닥부터 시작하는 딥러닝/밑바닥부터 시작하는 딥러닝/모멘텀.md",
     "+/무제 파일 1.md",
-    "2. Area/Work Out",
-    "+/무제 파일.md",
-    "2. Area/Book"
+    "+/무제 파일.md"
   ]
 }
