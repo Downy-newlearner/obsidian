@@ -22,7 +22,11 @@ week: 9W
 	1. Time delay(shift)
 		$x[n] -> x[n+k]$
 	2. Time reverse
-		1.
+		$x[n] -> x[-n]$
+	3. Time delayed time reversal(1,2번 연산 둘 다 함)
+		$y[n]=x[-n-a]$
+
+	4. Time scail
  ![[DSPChap3_Discrete_Signals_page-0001.jpg]]
 
 ![[DSPChap3_Discrete_Signals_page-0002.jpg]]
