@@ -48,7 +48,10 @@ time delayed and time reversal
 ![[DSPChap3_Discrete_Signals_page-0015.jpg]]
 기본 이산 시그널 연산2: time scaling
 1. Compress
-	compre
+	compress는 $\alpha$가 짝수면 $X[n]$에서 n이 홀수일 때, 홀수면 n이 짝수일 때를 버려버린다.
+
+2. EXpand
+	중간에 0인 값을 삽입한다.
 ![[DSPChap3_Discrete_Signals_page-0016.jpg]]
 
 ![[DSPChap3_Discrete_Signals_page-0017.jpg]]
@@ -99,4 +102,4 @@ time delayed and time reversal
 
 ![[DSPChap3_Discrete_Signals_page-0040.jpg]]
 
-![[DSPChap3_Discrete_Signals_page-0041.
+![[DSPChap3_Discrete_Signals_page-0041.jpg]]
