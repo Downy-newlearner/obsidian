@@ -26,7 +26,9 @@ week: 9W
 	3. Time delayed time reversal(1,2번 연산 둘 다 함)
 		$y[n]=x[-n-a]$
 
-	4. Time scail
+	4. Time scaling
+		- compress
+		- expand
  ![[DSPChap3_Discrete_Signals_page-0001.jpg]]
 
 ![[DSPChap3_Discrete_Signals_page-0002.jpg]]
@@ -129,4 +131,4 @@ Expansion을 한 후 LPF를 통과시키면 삽입되는 값들이 0이 아니�
 
 ![[DSPChap3_Discrete_Signals_page-0040.jpg]]
 
-![[DSPChap3_Discrete_Signals_page-0
+![[DSPChap3_Discrete_Signals_page-0041.jpg]]
