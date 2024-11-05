@@ -18,7 +18,7 @@ PCA
 
 ![[DSPChap3_Discrete_Signals_page-0005.jpg]]
 수학적인 표현을 간편하게 하기 위해서 $T_s$를 1로 가정한다.
-하지만 일반적으로 
+하지만 일반적으로 $T_s\neq1$이다.
 
 ![[DSPChap3_Discrete_Signals_page-0006.jpg]]
 
@@ -90,4 +90,4 @@ PCA
 
 ![[DSPChap3_Discrete_Signals_page-0040.jpg]]
 
-![[DSPChap3_Discrete_Signals
+![[DSPChap3_Discrete_Signals_page-0041.jpg]]
