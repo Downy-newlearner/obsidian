@@ -39,6 +39,8 @@ model.add(Dense(256, activation='relu'))
 model.add(Dropout(rate = 0.4))
 model.add(Dense(128, activation='relu'))
 model.add(Dropout(rate = 0.3))
+model.add(Dense(128, activation='relu'))
+model.add(Dropout(rate = 0.2))
 model.add(Dense(10, activation='softmax'))
 
 model.summary()  # show model structure
