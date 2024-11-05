@@ -7,6 +7,9 @@ week: 9W
 **수업 내용 정리**
 - Signal Classification and discrete signals
 	- 시그널은 연속-연속, 연속-이산, 이산-연속, 이산-이산(x축-y축)
+	- 아날로그 신호: 연속-연속
+	- 디지털 신호: 이산-이산
+	- 수업에서 다루는 신호: 이산-연속(discrete signals라고 부른다.)
 - Signal measure
 - Digital signal operations
  ![[DSPChap3_Discrete_Signals_page-0001.jpg]]
