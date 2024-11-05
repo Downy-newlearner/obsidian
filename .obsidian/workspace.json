@@ -102,29 +102,23 @@
               "icon": "lucide-file",
               "title": "베셔슈타인 거리"
             }
-          }
-        ],
-        "currentTab": 5
-      },
-      {
-        "id": "9b00495a1429b82d",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "348708015519af0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/무제 파일 2.md",
+                "file": "+/ProGAN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제 파일 2"
+              "title": "ProGAN"
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -198,7 +192,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 268.5,
+    "collapsed": true
   },
   "right": {
     "id": "3a838d33f5dd2229",
@@ -279,12 +274,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/WGAN-GP.md",
+                "file": "+/ProGAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "WGAN-GP의 나가는 링크"
+              "title": "ProGAN의 나가는 링크"
             }
           }
         ]
@@ -300,10 +295,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/WGAN-GP.md"
+                "file": "+/ProGAN.md"
               },
               "icon": "lucide-list",
-              "title": "WGAN-GP 개요"
+              "title": "ProGAN 개요"
             }
           }
         ]
@@ -328,10 +323,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5db054f86722cd1d",
+  "active": "348708015519af0d",
   "lastOpenFiles": [
-    "+/무제 파일 2.md",
     "+/WGAN-GP.md",
+    "+/ProGAN.md",
     "+/베셔슈타인 거리.md",
     "+/CGAN.md",
     "+/LS 발산.md",
