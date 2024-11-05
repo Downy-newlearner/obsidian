@@ -8,7 +8,7 @@ week: 9W
 
 ![[DSPChap3_Discrete_Signals_page-0003.jpg]]
 신호 분류
-x축
+x축과 y축이 각각 연속적 / 이산적인지 여부에 따라 4가지로
 
 ![[DSPChap3_Discrete_Signals_page-0004.jpg]]
 
@@ -84,4 +84,4 @@ x축
 
 ![[DSPChap3_Discrete_Signals_page-0040.jpg]]
 
-![[DSPChap3_Discrete_Signals_page-0041.jpg]]
+![[DSPChap3
