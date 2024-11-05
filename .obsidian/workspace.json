@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Resource/Calender Archive/2024-W45.md",
+                "file": "3. Resource/Calender Archive/2024-11-04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-W45"
+              "title": "2024-11-04"
             }
           },
           {
@@ -190,12 +190,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Resource/Calender Archive/2024-W45.md",
+                "file": "3. Resource/Calender Archive/2024-11-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "2024-W45의 나가는 링크"
+              "title": "2024-11-04의 나가는 링크"
             }
           }
         ]
@@ -211,10 +211,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. Resource/Calender Archive/2024-W45.md"
+                "file": "3. Resource/Calender Archive/2024-11-04.md"
               },
               "icon": "lucide-list",
-              "title": "2024-W45 개요"
+              "title": "2024-11-04 개요"
             }
           }
         ]
@@ -240,6 +240,7 @@
   },
   "active": "1aceeaca7a953a5e",
   "lastOpenFiles": [
+    "3. Resource/Calender Archive/2024-W45.md",
     "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
     "Source/Pasted image 20241104153047.png",
     "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
@@ -253,7 +254,6 @@
     "Source/DSPChap4_Time_Domain_Signal_Analysis_page-0037.jpg",
     "Source/DSPChap4_Time_Domain_Signal_Analysis_page-0036.jpg",
     "Source/DSPChap4_Time_Domain_Signal_Analysis.pdf",
-    "3. Resource/Calender Archive/2024-W45.md",
     "3. Resource/Calender Archive/2024-11-04.md",
     "3. Resource/Note/PARA.md",
     "1. Projects/멀티미디어신호처리",
