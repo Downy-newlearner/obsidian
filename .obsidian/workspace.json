@@ -22,18 +22,6 @@
             }
           },
           {
-            "id": "a44a36108525cf57",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.5"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.5"
-            }
-          },
-          {
             "id": "6a6cb72dc19bea68",
             "type": "leaf",
             "state": {
@@ -81,40 +69,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/StyleGAN.md",
+                "file": "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "StyleGAN"
-            }
-          },
-          {
-            "id": "413bfeb13ac4b98e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/Aliasing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Aliasing"
-            }
-          },
-          {
-            "id": "c77f1b7d07770948",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "Chap 3 - Discrete_signals"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -188,8 +152,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
-    "collapsed": true
+    "width": 268.5
   },
   "right": {
     "id": "3a838d33f5dd2229",
@@ -270,12 +233,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/StyleGAN.md",
+                "file": "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "StyleGAN의 나가는 링크"
+              "title": "Chap 3 - Discrete_signals의 나가는 링크"
             }
           }
         ]
@@ -291,10 +254,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/StyleGAN.md"
+                "file": "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md"
               },
               "icon": "lucide-list",
-              "title": "StyleGAN 개요"
+              "title": "Chap 3 - Discrete_signals 개요"
             }
           }
         ]
@@ -321,13 +284,16 @@
   },
   "active": "c1b060235033d8b4",
   "lastOpenFiles": [
-    "+/Aliasing.md",
+    "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
+    "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
     "+/StyleGAN.md",
+    "+/무제 파일 2.md",
+    "+/무제 파일 1.md",
+    "+/Aliasing.md",
+    "1. Projects/DeepLearning_Cloud/12장/Chap 12 - keras_CNN.md",
     "+/WGAN-GP.md",
     "+/베셔슈타인 거리.md",
     "1. Projects/프로메테우스 Memoji Project/프로메테우스 Memoji Project.md",
-    "1. Projects/DeepLearning_Cloud/12장/Chap 12 - keras_CNN.md",
-    "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
     "Source/Pasted image 20241105154748.png",
     "Source/Pasted image 20241105154446.png",
     "Source/DSPChap3_Discrete_Signals_page-0041.jpg",
@@ -338,12 +304,10 @@
     "Source/DSPChap3_Discrete_Signals_page-0036.jpg",
     "Source/DSPChap3_Discrete_Signals_page-0035.jpg",
     "Source/DSPChap3_Discrete_Signals_page-0034.jpg",
-    "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
     "2024-11-05.md",
     "3. Resource/Calender Archive/2024-11-04.md",
     "헬스케어 공모전.canvas",
     "1. Projects/AI 아이디어 경진대회/아이디에이션.md",
-    "+/무제 파일 2.md",
     "1. Projects/AI 아이디어 경진대회",
     "+/ProGAN.md",
     "+/CGAN.md",
@@ -367,7 +331,6 @@
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/otbench/data/usna_cn2_lg/README.md",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/otbench/data/usna_cn2_full/README.md",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/otbench/data/usna_cn2_full/citation.md",
-    "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/otbench/data/mlo_cn2/README.md",
     "무제 파일.canvas"
   ]
 }
