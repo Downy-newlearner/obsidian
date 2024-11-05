@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Resource/Calender Archive/2024-W45.md",
+                "file": "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/Chap 11 - keras_dnn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-W45"
+              "title": "Chap 11 - keras_dnn"
             }
           },
           {
@@ -130,7 +130,7 @@
       {
         "id": "3df5e72e1cbb4fbb",
         "type": "tabs",
-        "dimension": 22.83464566929134,
+        "dimension": 44.97549019607843,
         "children": [
           {
             "id": "9c111b5fe45d9571",
@@ -194,7 +194,7 @@
       {
         "id": "08cee372e46bda89",
         "type": "tabs",
-        "dimension": 47.63779527559055,
+        "dimension": 25.49019607843137,
         "children": [
           {
             "id": "ff2bc35e0f6ecd58",
@@ -202,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/딥러닝클라우드/Chap 11 - keras_dnn.md",
+                "file": "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/Chap 11 - keras_dnn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -215,7 +215,7 @@
       {
         "id": "5afc8d646a143946",
         "type": "tabs",
-        "dimension": 29.527559055118108,
+        "dimension": 29.534313725490197,
         "children": [
           {
             "id": "bc2f4e3e68198577",
@@ -223,18 +223,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. Resource/Calender Archive/2024-W45.md"
+                "file": "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/Chap 11 - keras_dnn.md"
               },
               "icon": "lucide-list",
-              "title": "2024-W45 개요"
+              "title": "Chap 11 - keras_dnn 개요"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 228.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -253,6 +252,7 @@
   },
   "active": "1aceeaca7a953a5e",
   "lastOpenFiles": [
+    "3. Resource/Calender Archive/2024-W45.md",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench_env/Lib/site-packages/_distutils_hack/__pycache__/__init__.cpython-310.pyc",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench_env/Lib/site-packages/_distutils_hack/__pycache__/override.cpython-310.pyc",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench_env/Lib/site-packages/xarray/__pycache__/convert.cpython-310.pyc",
@@ -263,7 +263,6 @@
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench_env/Lib/site-packages/xarray/util/generate_aggregations.py",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench_env/Lib/site-packages/xarray/util/__pycache__",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench_env/Lib/site-packages/xarray/util/__init__.py",
-    "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench_env/Lib/site-packages/xarray/util/print_versions.py",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench_env/Lib/site-packages/numpy/random/LICENSE.md",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/otbench/data/usna_cn2_sm/README.md",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/otbench/data/usna_cn2_sm/citation.md",
@@ -288,7 +287,6 @@
     "Source/chap11_keras_dnn_2_page-0011.jpg",
     "1. Projects/딥러닝클라우드/Chap 11 - keras_dnn.md",
     "3. Resource/Calender Archive/2024-11-04.md",
-    "3. Resource/Calender Archive/2024-W45.md",
     "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
     "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
     "3. Resource/Note/PARA.md",
