@@ -104,7 +104,7 @@
             }
           },
           {
-            "id": "348708015519af0d",
+            "id": "c1b060235033d8b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -119,26 +119,6 @@
           }
         ],
         "currentTab": 7
-      },
-      {
-        "id": "d0c971bfa1b95709",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c1b060235033d8b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/StyleGAN.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "StyleGAN"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -294,12 +274,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/StyleGAN.md",
+                "file": "+/ProGAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "StyleGAN의 나가는 링크"
+              "title": "ProGAN의 나가는 링크"
             }
           }
         ]
@@ -315,10 +295,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/StyleGAN.md"
+                "file": "+/ProGAN.md"
               },
               "icon": "lucide-list",
-              "title": "StyleGAN 개요"
+              "title": "ProGAN 개요"
             }
           }
         ]
@@ -345,8 +325,8 @@
   },
   "active": "c1b060235033d8b4",
   "lastOpenFiles": [
-    "+/ProGAN.md",
     "+/StyleGAN.md",
+    "+/ProGAN.md",
     "Source/Pasted image 20241105124824.png",
     "Source/Pasted image 20241105124545.png",
     "Source/Pasted image 20241105124130.png",
