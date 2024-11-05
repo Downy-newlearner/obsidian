@@ -5,3 +5,6 @@ Progressive Growing of Generative Adversarial Networks
 판별자: 해상도를 줄여가면서 학습
 
 고해상도
+
+## 생성자 & 판별자의 기본 작동 구조
+![[Pasted image 20241105124130.png]]
