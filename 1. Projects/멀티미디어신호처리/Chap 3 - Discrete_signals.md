@@ -11,7 +11,7 @@ week: 9W
 	- 디지털 신호: 이산-이산
 	- 수업에서 다루는 신호: 이산-연속(discrete signals라고 부른다.)
 - Signal measure
-	- 
+	- signal energy(신호 에너지)
 - Digital signal operations
  ![[DSPChap3_Discrete_Signals_page-0001.jpg]]
 
