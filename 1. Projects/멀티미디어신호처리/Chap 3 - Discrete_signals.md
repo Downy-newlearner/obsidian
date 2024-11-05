@@ -10,9 +10,14 @@ week: 9W
 신호 분류
 x축과 y축이 각각 연속적 / 이산적인지 여부에 따라 4가지로 구분할 수 있다.(a~d)
 
+PCA
+	Sampling & Quantization
+	a -> c -> d 과정이 PCA이다.
+
 ![[DSPChap3_Discrete_Signals_page-0004.jpg]]
 
 ![[DSPChap3_Discrete_Signals_page-0005.jpg]]
+
 
 ![[DSPChap3_Discrete_Signals_page-0006.jpg]]
 
