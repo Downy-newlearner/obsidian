@@ -42,11 +42,11 @@ time delay
 ![[DSPChap3_Discrete_Signals_page-0012.jpg]]
 time reversal(mirror image)
 ![[DSPChap3_Discrete_Signals_page-0013.jpg]]
-
+time delayed and time reversal
 ![[DSPChap3_Discrete_Signals_page-0014.jpg]]
 
 ![[DSPChap3_Discrete_Signals_page-0015.jpg]]
-
+기본 이산 시그널 연산2: time scaling
 ![[DSPChap3_Discrete_Signals_page-0016.jpg]]
 
 ![[DSPChap3_Discrete_Signals_page-0017.jpg]]
