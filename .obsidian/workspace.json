@@ -121,14 +121,17 @@
             "id": "08cf6b88afcb257d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "1. Projects/AI 아이디어 경진대회/아이디에이션.md",
-                "mode": "source",
-                "source": false
+                "file": "헬스케어 공모전.canvas",
+                "viewState": {
+                  "x": 1090,
+                  "y": 213,
+                  "zoom": -0.8019566181317732
+                }
               },
-              "icon": "lucide-file",
-              "title": "아이디에이션"
+              "icon": "lucide-layout-dashboard",
+              "title": "헬스케어 공모전"
             }
           }
         ],
@@ -287,12 +290,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/AI 아이디어 경진대회/아이디에이션.md",
+                "file": "헬스케어 공모전.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "아이디에이션의 나가는 링크"
+              "title": "헬스케어 공모전의 나가는 링크"
             }
           }
         ]
@@ -308,10 +311,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/AI 아이디어 경진대회/아이디에이션.md"
+                "file": "헬스케어 공모전.canvas"
               },
               "icon": "lucide-list",
-              "title": "아이디에이션 개요"
+              "title": "헬스케어 공모전 개요"
             }
           }
         ]
@@ -338,8 +341,8 @@
   },
   "active": "08cf6b88afcb257d",
   "lastOpenFiles": [
-    "+/무제 파일 2.md",
     "1. Projects/AI 아이디어 경진대회/아이디에이션.md",
+    "+/무제 파일 2.md",
     "+/StyleGAN.md",
     "1. Projects/AI 아이디어 경진대회",
     "Source/Pasted image 20241105125523.png",
