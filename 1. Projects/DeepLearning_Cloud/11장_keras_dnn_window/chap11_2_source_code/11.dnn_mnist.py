@@ -26,7 +26,6 @@ x_train, x_test = x_train / 255.0, x_test / 255.0
 y_train = to_categorical(y_train) 
 y_test = to_categorical(y_test)
 
-################################################################
 # define model (DNN structure)
 epochs = 20
 batch_size = 128
