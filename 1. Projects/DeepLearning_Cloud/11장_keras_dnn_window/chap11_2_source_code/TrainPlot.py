@@ -3,6 +3,7 @@ import keras
 import numpy as np
 import matplotlib.pyplot as plt
 from IPython.display import clear_output
+import os  # os 모듈 추가
 
 class TrainingPlot(keras.callbacks.Callback):
     
@@ -33,19 +34,20 @@ class TrainingPlot(keras.callbacks.Callback):
             N = np.arange(0, len(self.losses))
             
             # You can choose the style of your preference
-            # print(plt.style.available) to see the available options
             plt.style.use("ggplot")  # 변경된 스타일
             
             # Plot train loss, train acc, val loss and val acc against epochs passed
             plt.figure()
-            # plt.plot(N, self.losses, label = "train_loss")
-            plt.plot(N, self.acc, label = "train_acc")
-            # plt.plot(N, self.val_losses, label = "val_loss")
-            plt.plot(N, self.val_acc, label = "val_acc")
+            plt.plot(N, self.acc, label="train_acc")
+            plt.plot(N, self.val_acc, label="val_acc")
             plt.title("Training Loss and Accuracy [Epoch {}]".format(epoch))
             plt.xlabel("Epoch #")
             plt.ylabel("Loss/Accuracy")
             plt.legend()
-            plt.show()
 
-# plot_losses = TrainingPlot()
+            # Save the figure
+            save_path = "C:/Obsidian/obsidian/1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/chap11_2_source_code/dnn_mnist_performance_result"
+            if not os.path.exists(save_path):
+                os.makedirs(save_path)  # 디렉토리 생성
+            plt.savefig(os.path.join(save_path, f'training_performance_epoch_{epoch}.png'))
+            plt.show()
