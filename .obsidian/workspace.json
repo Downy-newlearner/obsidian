@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
+                "file": "2024-11-06.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chap 3 - Discrete_signals"
+              "title": "2024-11-06"
             }
           }
         ],
@@ -138,8 +138,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
-    "collapsed": true
+    "width": 268.5
   },
   "right": {
     "id": "3a838d33f5dd2229",
@@ -220,12 +219,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
+                "file": "2024-11-06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Chap 3 - Discrete_signals의 나가는 링크"
+              "title": "2024-11-06의 나가는 링크"
             }
           }
         ]
@@ -241,10 +240,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md"
+                "file": "2024-11-06.md"
               },
               "icon": "lucide-list",
-              "title": "Chap 3 - Discrete_signals 개요"
+              "title": "2024-11-06 개요"
             }
           }
         ]
@@ -271,8 +270,10 @@
   },
   "active": "5db054f86722cd1d",
   "lastOpenFiles": [
-    "+/WGAN-GP.md",
+    "2024-11-05.md",
+    "2024-11-06.md",
     "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
+    "+/WGAN-GP.md",
     "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
     "+/StyleGAN.md",
     "+/무제 파일 2.md",
@@ -291,7 +292,6 @@
     "Source/DSPChap3_Discrete_Signals_page-0036.jpg",
     "Source/DSPChap3_Discrete_Signals_page-0035.jpg",
     "Source/DSPChap3_Discrete_Signals_page-0034.jpg",
-    "2024-11-05.md",
     "3. Resource/Calender Archive/2024-11-04.md",
     "헬스케어 공모전.canvas",
     "1. Projects/AI 아이디어 경진대회/아이디에이션.md",
@@ -317,7 +317,6 @@
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/otbench/data/usna_cn2_lg/citation.md",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/otbench/data/usna_cn2_lg/README.md",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/otbench/data/usna_cn2_full/README.md",
-    "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/otbench/data/usna_cn2_full/citation.md",
     "무제 파일.canvas"
   ]
 }
