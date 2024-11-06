@@ -50,4 +50,4 @@ class TrainingPlot(keras.callbacks.Callback):
             if not os.path.exists(save_path):
                 os.makedirs(save_path)  # 디렉토리 생성
             plt.savefig(os.path.join(save_path, f'training_performance_epoch_{epoch}.png'))
-            plt.show()
+            plt.close()  # 현재 플롯 닫기
