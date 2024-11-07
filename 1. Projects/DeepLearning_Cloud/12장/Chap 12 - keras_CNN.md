@@ -79,7 +79,8 @@ Dense는 DNN에서 배웠다.
 ![[chap12_keras_CNN_page-0037.jpg]]
 
 ![[chap12_keras_CNN_page-0038.jpg]]
-
+==이게 어떤 원리로 성능이 좋아지는거야?==
+	이 질문에 답변하기(11.07 9:48) 
 ![[chap12_keras_CNN_page-0039.jpg]]
 
 ![[chap12_keras_CNN_page-0040.jpg]]
