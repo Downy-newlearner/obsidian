@@ -138,7 +138,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 268.5,
+    "collapsed": true
   },
   "right": {
     "id": "3a838d33f5dd2229",
@@ -250,7 +251,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228.5
+    "width": 228.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -269,6 +271,9 @@
   },
   "active": "5db054f86722cd1d",
   "lastOpenFiles": [
+    "1. Projects/DeepLearning_Cloud/12장/chap12_source_code/image_filter.ipynb",
+    "1. Projects/DeepLearning_Cloud/12장/apple.jpeg",
+    "1. Projects/DeepLearning_Cloud/12장/apple.jpeg.crdownload",
     "2024-11-06.md",
     "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/chap11_2_source_code/dnn_mnist_performance_result/model_loss.png",
     "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/chap11_2_source_code/dnn_mnist_performance_result/model_accuracy.png",
@@ -279,7 +284,6 @@
     "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/chap11_2_source_code/dnn_mnist_performance_result/training_performance_epoch_15.png",
     "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/chap11_2_source_code/dnn_mnist_performance_result/training_performance_epoch_14.png",
     "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/chap11_2_source_code/dnn_mnist_performance_result/training_performance_epoch_13.png",
-    "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/chap11_2_source_code/dnn_mnist_performance_result/training_performance_epoch_12.png",
     "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/chap11_2_source_code/dnn_mnist_performance_result",
     "2024-11-05.md",
     "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
@@ -309,7 +313,6 @@
     "1. Projects/DeepLearning_Cloud/12장",
     "3. Resource/Calender Archive/2024-W45.md",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench_env/Lib/site-packages/_distutils_hack/__pycache__/__init__.cpython-310.pyc",
-    "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench_env/Lib/site-packages/_distutils_hack/__pycache__/override.cpython-310.pyc",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench_env/Lib/site-packages/numpy/random/LICENSE.md",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/otbench/data/usna_cn2_sm/README.md",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/otbench/data/usna_cn2_sm/citation.md",

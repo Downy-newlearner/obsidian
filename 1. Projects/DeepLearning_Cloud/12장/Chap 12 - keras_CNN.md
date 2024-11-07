@@ -25,7 +25,7 @@ jupyter notebook을 쓰는 사람들이 이미지를 출력하기 위해서 scik
 ![[chap12_keras_CNN_page-0011.jpg]]
 
 ![[chap12_keras_CNN_page-0012.jpg]]
-
+flip은 좌우반전, rotate는 회전이다.
 ![[chap12_keras_CNN_page-0013.jpg]]
 
 ![[chap12_keras_CNN_page-0014.jpg]]
