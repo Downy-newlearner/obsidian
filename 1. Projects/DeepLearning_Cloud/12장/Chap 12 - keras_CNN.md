@@ -42,7 +42,7 @@ flip은 좌우반전, rotate는 회전이다.
 ![[chap12_keras_CNN_page-0019.jpg]]
 
 ![[chap12_keras_CNN_page-0020.jpg]]
-
+원시적인 특징을 추출할 수 있는 low-level feature filter부터 복잡한 특징을 추출할 수 있는 middle, top level feature filter까지 사용한다.
 ![[chap12_keras_CNN_page-0021.jpg]]
 
 ![[chap12_keras_CNN_page-0022.jpg]]
