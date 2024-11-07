@@ -48,9 +48,9 @@ flip은 좌우반전, rotate는 회전이다.
 ![[chap12_keras_CNN_page-0022.jpg]]
 [[stride]]
 ![[chap12_keras_CNN_page-0023.jpg]]
-
+padding은 convolution연산을 하더라도 원본 이미지의 사이즈를 유지하기 위한 단계이다.
 ![[chap12_keras_CNN_page-0024.jpg]]
-
+pooling은 padding과 바
 ![[chap12_keras_CNN_page-0025.jpg]]
 
 ![[chap12_keras_CNN_page-0026.jpg]]
@@ -89,4 +89,4 @@ flip은 좌우반전, rotate는 회전이다.
 
 ![[chap12_keras_CNN_page-0043.jpg]]
 
-![[chap12_keras_CNN_page-0044.jpg]]
+![[chap12_keras_CNN_p
