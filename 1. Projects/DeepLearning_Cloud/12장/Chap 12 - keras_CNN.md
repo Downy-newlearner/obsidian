@@ -92,3 +92,5 @@ Dense는 DNN에서 배웠다.
 ![[chap12_keras_CNN_page-0043.jpg]]
 
 ![[chap12_keras_CNN_page-0044.jpg]]
+
+이미지 사이즈가 적당히 작은 것, 총 용량이 적당히 적은 거
