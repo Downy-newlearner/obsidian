@@ -18,6 +18,7 @@ jupyter notebook을 쓰는 사람들이 이미지를 출력하기 위해서 scik
 ![[chap12_keras_CNN_page-0008.jpg]]
 
 ![[chap12_keras_CNN_page-0009.jpg]]
+인덱싱으로 픽셀값을 알아볼 수 있다.
 
 ![[chap12_keras_CNN_page-0010.jpg]]
 
