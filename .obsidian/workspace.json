@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/DeepLearning_Cloud/12장/Chap 12 - keras_CNN.md",
+                "file": "1. Projects/AI 아이디어 경진대회/아이디에이션.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chap 12 - keras_CNN"
+              "title": "아이디에이션"
             }
           },
           {
@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Resource/Calender Archive/2024-11-04.md",
+                "file": "2024-11-07.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-04"
+              "title": "2024-11-07"
             }
           },
           {
@@ -89,8 +89,7 @@
               "title": "stride"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -245,12 +244,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Resource/Calender Archive/2024-11-04.md",
+                "file": "1. Projects/AI 아이디어 경진대회/아이디에이션.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "2024-11-04의 나가는 링크"
+              "title": "아이디에이션의 나가는 링크"
             }
           }
         ]
@@ -266,10 +265,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. Resource/Calender Archive/2024-11-04.md"
+                "file": "1. Projects/AI 아이디어 경진대회/아이디에이션.md"
               },
               "icon": "lucide-list",
-              "title": "2024-11-04 개요"
+              "title": "아이디에이션 개요"
             }
           }
         ]
@@ -294,12 +293,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5db054f86722cd1d",
+  "active": "1aceeaca7a953a5e",
   "lastOpenFiles": [
+    "1. Projects/DeepLearning_Cloud/12장/Chap 12 - keras_CNN.md",
     "2024-11-07.md",
     "2024-11-06.md",
     "2024-11-05.md",
-    "1. Projects/DeepLearning_Cloud/12장/Chap 12 - keras_CNN.md",
+    "3. Resource/Calender Archive/2024-11-04.md",
     "1. Projects/DeepLearning_Cloud/12장/chap12_source_code/cnn_workshop.ipynb",
     "Source/chap12_keras_CNN_page-0026.jpg",
     "+/stride.md",
@@ -324,7 +324,6 @@
     "+/Aliasing.md",
     "+/베셔슈타인 거리.md",
     "1. Projects/프로메테우스 Memoji Project/프로메테우스 Memoji Project.md",
-    "3. Resource/Calender Archive/2024-11-04.md",
     "헬스케어 공모전.canvas",
     "1. Projects/AI 아이디어 경진대회/아이디에이션.md",
     "1. Projects/AI 아이디어 경진대회",
