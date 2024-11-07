@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -234,12 +234,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/stride.md",
+                "file": "1. Projects/DeepLearning_Cloud/12장/Chap 12 - keras_CNN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "stride의 나가는 링크"
+              "title": "Chap 12 - keras_CNN의 나가는 링크"
             }
           }
         ]
@@ -255,10 +255,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/stride.md"
+                "file": "1. Projects/DeepLearning_Cloud/12장/Chap 12 - keras_CNN.md"
               },
               "icon": "lucide-list",
-              "title": "stride 개요"
+              "title": "Chap 12 - keras_CNN 개요"
             }
           }
         ]
@@ -282,7 +282,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2f22694cfef360e8",
+  "active": "5db054f86722cd1d",
   "lastOpenFiles": [
     "+/stride.md",
     "1. Projects/DeepLearning_Cloud/12장/Chap 12 - keras_CNN.md",
