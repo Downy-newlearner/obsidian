@@ -46,7 +46,7 @@ flip은 좌우반전, rotate는 회전이다.
 ![[chap12_keras_CNN_page-0021.jpg]]
 
 ![[chap12_keras_CNN_page-0022.jpg]]
-
+[[stride]]
 ![[chap12_keras_CNN_page-0023.jpg]]
 
 ![[chap12_keras_CNN_page-0024.jpg]]
