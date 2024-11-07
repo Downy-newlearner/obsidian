@@ -64,6 +64,18 @@
             }
           },
           {
+            "id": "0d941a19600229af",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Source/chap12_keras_CNN_page-0026.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "chap12_keras_CNN_page-0026"
+            }
+          },
+          {
             "id": "2f22694cfef360e8",
             "type": "leaf",
             "state": {
@@ -152,8 +164,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
-    "collapsed": true
+    "width": 268.5
   },
   "right": {
     "id": "3a838d33f5dd2229",
@@ -265,7 +276,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228.5
+    "width": 228.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -284,8 +296,9 @@
   },
   "active": "5db054f86722cd1d",
   "lastOpenFiles": [
-    "+/stride.md",
+    "Source/chap12_keras_CNN_page-0026.jpg",
     "1. Projects/DeepLearning_Cloud/12장/Chap 12 - keras_CNN.md",
+    "+/stride.md",
     "1. Projects/DeepLearning_Cloud/12장/chap12_source_code/image_filter.ipynb",
     "1. Projects/DeepLearning_Cloud/12장/apple.jpeg",
     "1. Projects/DeepLearning_Cloud/12장/apple.jpeg.crdownload",
@@ -330,7 +343,6 @@
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/otbench/data/usna_cn2_sm/README.md",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/otbench/data/usna_cn2_sm/citation.md",
     "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/otbench/data/usna_cn2_lg/citation.md",
-    "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/otbench/data/usna_cn2_lg/README.md",
     "무제 파일.canvas"
   ]
 }
