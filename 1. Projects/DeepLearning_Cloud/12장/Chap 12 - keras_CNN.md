@@ -37,6 +37,7 @@ flip은 좌우반전, rotate는 회전이다.
 ![[chap12_keras_CNN_page-0017.jpg]]
 
 ![[chap12_keras_CNN_page-0018.jpg]]
+이미지의 특징을 뽑아내기 위해서 convolution 연산을 한다.
 
 ![[chap12_keras_CNN_page-0019.jpg]]
 

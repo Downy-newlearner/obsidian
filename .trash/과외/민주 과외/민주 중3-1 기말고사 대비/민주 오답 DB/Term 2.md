@@ -1,5 +1,0 @@
-![[IMG_0392.jpeg]]
-![[IMG_0393.jpeg]]
-![[IMG_0391.jpeg]]
-![[IMG_0599.jpg]]
-![[IMG_0600.jpg]]
