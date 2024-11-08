@@ -1,6 +1,6 @@
 a.internal-link {
   color: #00bfa5 !important;
-  text-decoration: none;
+  text-decoration: none !important;
   text-decoration-thickness: 2px !important;
 }
 a.internal-link:hover {
