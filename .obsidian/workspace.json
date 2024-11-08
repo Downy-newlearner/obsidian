@@ -4,81 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "1b33d4c3ee97efb0",
+        "id": "4cab60c6aa6ffcba",
         "type": "tabs",
         "children": [
           {
-            "id": "1aceeaca7a953a5e",
+            "id": "b1e7d281113f5fe1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/AI 아이디어 경진대회/아이디에이션.md",
+                "file": "2. Area/Work Out/벌크업 식단.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "아이디에이션"
-            }
-          },
-          {
-            "id": "6a6cb72dc19bea68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/GAN.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GAN"
-            }
-          },
-          {
-            "id": "7ac99a6c6d9e9257",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/CGAN.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CGAN"
-            }
-          },
-          {
-            "id": "5db054f86722cd1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-11-07.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024-11-07"
-            }
-          },
-          {
-            "id": "2f22694cfef360e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/stride.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "stride"
+              "title": "벌크업 식단"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +33,7 @@
       {
         "id": "4239d6fa4f885e04",
         "type": "tabs",
-        "dimension": 45.019404915912034,
+        "dimension": 28.338762214983714,
         "children": [
           {
             "id": "7b5a003ac4c2c94d",
@@ -105,39 +48,10 @@
         ]
       },
       {
-        "id": "404d0b8bacd725a9",
+        "id": "89d5aa11bc447c94",
         "type": "tabs",
-        "dimension": 54.980595084087966,
+        "dimension": 16.286644951140065,
         "children": [
-          {
-            "id": "f8f40c1f0fe0b281",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "파일 탐색기"
-            }
-          },
-          {
-            "id": "7910870f809ef780",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "검색"
-            }
-          },
           {
             "id": "e26cc7c8fe8fdf3a",
             "type": "leaf",
@@ -149,10 +63,46 @@
             }
           }
         ]
+      },
+      {
+        "id": "404d0b8bacd725a9",
+        "type": "tabs",
+        "dimension": 55.37459283387622,
+        "children": [
+          {
+            "id": "f8f40c1f0fe0b281",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7910870f809ef780",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"설명\"]",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 300
   },
   "right": {
     "id": "3a838d33f5dd2229",
@@ -161,7 +111,7 @@
       {
         "id": "3df5e72e1cbb4fbb",
         "type": "tabs",
-        "dimension": 44.97549019607843,
+        "dimension": 22.83464566929134,
         "children": [
           {
             "id": "9c111b5fe45d9571",
@@ -169,7 +119,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Area/Book/왜 나는 너를 사랑하는가.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +128,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 왜 나는 너를 사랑하는가"
+              "title": "Backlinks"
             }
           },
           {
@@ -225,7 +174,7 @@
       {
         "id": "08cee372e46bda89",
         "type": "tabs",
-        "dimension": 25.49019607843137,
+        "dimension": 47.63779527559055,
         "children": [
           {
             "id": "ff2bc35e0f6ecd58",
@@ -233,12 +182,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/AI 아이디어 경진대회/아이디에이션.md",
+                "file": "2. Area/Work Out/벌크업 식단.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "아이디에이션의 나가는 링크"
+              "title": "Outgoing links from 벌크업 식단"
             }
           }
         ]
@@ -246,7 +195,7 @@
       {
         "id": "5afc8d646a143946",
         "type": "tabs",
-        "dimension": 29.534313725490197,
+        "dimension": 29.527559055118108,
         "children": [
           {
             "id": "bc2f4e3e68198577",
@@ -254,83 +203,81 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-11-07.md"
+                "file": "2. Area/Work Out/벌크업 식단.md"
               },
               "icon": "lucide-list",
-              "title": "2024-11-07 개요"
+              "title": "Outline of 벌크업 식단"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 228.5,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-importer:Open Importer": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "kr-book-info-plugin:Add Book Info": false,
-      "omnisearch:Omnisearch": false
+      "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "5db054f86722cd1d",
+  "active": "b1e7d281113f5fe1",
   "lastOpenFiles": [
-    "1. Projects/AI 아이디어 경진대회/아이디에이션.md",
-    "2024-11-07.md",
-    "3. Resource/Calender Archive/2024-W45.md",
-    "2024-11-06.md",
+    "Source/chap12_keras_CNN_page-0044.jpg",
+    "Source/chap12_keras_CNN_page-0043.jpg",
+    "Source/chap12_keras_CNN_page-0042.jpg",
+    "Source/chap12_keras_CNN_page-0041.jpg",
+    "Source/chap12_keras_CNN_page-0040.jpg",
+    "Source/chap12_keras_CNN_page-0039.jpg",
+    "Source/chap12_keras_CNN_page-0038.jpg",
+    "Source/chap12_keras_CNN_page-0037.jpg",
+    "Source/chap12_keras_CNN_page-0036.jpg",
+    "Source/chap12_keras_CNN_page-0035.jpg",
+    "Source/chap12_keras_CNN_page-0034.jpg",
     "2024-11-08.md",
-    "2. Area/Work Out/벌크업 식단.md",
-    "Source/chap12_keras_CNN_page-0026.jpg",
-    "1. Projects/DeepLearning_Cloud/12장/Chap 12 - keras_CNN.md",
+    "2024-11-07.md",
+    "2024-11-06.md",
     "2024-11-05.md",
-    "3. Resource/Calender Archive/2024-11-04.md",
-    "1. Projects/DeepLearning_Cloud/12장/chap12_source_code/cnn_workshop.ipynb",
-    "+/stride.md",
-    "1. Projects/DeepLearning_Cloud/12장/chap12_source_code/image_filter.ipynb",
-    "1. Projects/DeepLearning_Cloud/12장/apple.jpeg",
-    "1. Projects/DeepLearning_Cloud/12장/apple.jpeg.crdownload",
-    "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/chap11_2_source_code/dnn_mnist_performance_result/model_loss.png",
-    "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/chap11_2_source_code/dnn_mnist_performance_result/model_accuracy.png",
-    "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/chap11_2_source_code/dnn_mnist_performance_result/training_performance_epoch_19.png",
-    "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/chap11_2_source_code/dnn_mnist_performance_result/training_performance_epoch_18.png",
-    "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/chap11_2_source_code/dnn_mnist_performance_result/training_performance_epoch_17.png",
-    "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/chap11_2_source_code/dnn_mnist_performance_result/training_performance_epoch_16.png",
-    "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/chap11_2_source_code/dnn_mnist_performance_result/training_performance_epoch_15.png",
-    "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/chap11_2_source_code/dnn_mnist_performance_result/training_performance_epoch_14.png",
-    "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/chap11_2_source_code/dnn_mnist_performance_result",
-    "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
-    "+/WGAN-GP.md",
-    "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
-    "+/StyleGAN.md",
-    "+/무제 파일 2.md",
-    "+/무제 파일 1.md",
-    "+/Aliasing.md",
+    "1. Projects/DeepLearning_Cloud/자료/chap12_keras_CNN_self_workshop.pdf",
+    "1. Projects/DeepLearning_Cloud/자료/chap12_keras_CNN.pdf",
+    "1. Projects/DeepLearning_Cloud/자료/chap11_keras_dnn_window.pdf",
+    "1. Projects/DeepLearning_Cloud/자료/chap11_keras_dnn_2.pdf",
+    "1. Projects/DeepLearning_Cloud/자료/chap10_terms_of_dnn.pdf",
+    "1. Projects/DeepLearning_Cloud/자료/chap09_신경망학습.pdf",
+    "1. Projects/DeepLearning_Cloud/자료/chap07_FS_stacking_update.pdf",
+    "1. Projects/DeepLearning_Cloud/자료/chap08_인공신경망개요.pdf",
+    "1. Projects/DeepLearning_Cloud/자료/chap07_FS_stacking.pdf",
+    "1. Projects/DeepLearning_Cloud/자료/chap04_regression.pdf",
+    "1. Projects/DeepLearning_Cloud/12장/Chap 12 - keras_CNN.md",
+    "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/Chap 11 - keras_dnn.md",
+    "1. Projects/AI 아이디어 경진대회/아이디에이션.md",
     "+/베셔슈타인 거리.md",
-    "1. Projects/프로메테우스 Memoji Project/프로메테우스 Memoji Project.md",
-    "헬스케어 공모전.canvas",
-    "1. Projects/AI 아이디어 경진대회",
+    "+/stride.md",
+    "+/WGAN-GP.md",
+    "+/StyleGAN.md",
     "+/ProGAN.md",
-    "+/CGAN.md",
     "+/LS 발산.md",
     "+/GAN.md",
-    "1. Projects/DeepLearning_Cloud/12장/chap12_source_code/12.image_processing.py",
-    "1. Projects/DeepLearning_Cloud/12장/chap12_source_code/12.cnn_mnist_load_images.py",
-    "1. Projects/DeepLearning_Cloud/12장/chap12_source_code/12.cnn_mnist.py",
-    "1. Projects/DeepLearning_Cloud/12장/chap12_source_code",
-    "1. Projects/DeepLearning_Cloud/12장/chap12_source_code.zip",
-    "1. Projects/DeepLearning_Cloud/11장_keras_dnn_window/Chap 11 - keras_dnn.md",
-    "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench_env/Lib/site-packages/numpy/random/LICENSE.md",
-    "1. Projects/딥러닝클라우드/DeepLearning_Cloud/midterm_project/otbench/otbench/data/usna_cn2_sm/README.md",
+    "+/CGAN.md",
+    "+/Aliasing.md",
+    "+/1.md",
+    "2. Area/Work Out/벌크업 식단.md",
+    "4. Arichive/Notion/HUB/포트폴리오/환경부 데이터분석 공모전/2024 환경부 데이터분석 공모전 DB (1)/3차 데이터 분석/정다훈/1.md",
+    "2. Area/Book/왜 나는 너를 사랑하는가.md",
+    "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
+    "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
+    "3. Resource/Calender Archive/2024-11-04.md",
+    "3. Resource/Calender Archive/2024-W45.md",
+    "conflict-files-obsidian-git.md",
+    "헬스케어 공모전.canvas",
     "무제 파일.canvas"
   ]
 }
