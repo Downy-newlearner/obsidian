@@ -5,6 +5,7 @@ tags:
 aliases:
   - Linear time-invariant
   - Linear time invariant
+  - LTI 시스템
 ---
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0008.jpg]]
 
