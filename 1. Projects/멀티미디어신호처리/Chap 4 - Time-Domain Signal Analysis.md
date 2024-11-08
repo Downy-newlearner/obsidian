@@ -13,12 +13,15 @@ Quantization error and [[SNR]]
 
 
 	$SNG(dB) = 6.02N + 1.76 dB ~= 6N$
-	**예시**
-	![[Pasted image 20241104152823.png|300]]
+	
+**예시**
+![[Pasted image 20241104152823.png|300]]
 
 DA converter
 	anti imaging filter는 LPF이다.
 	간단히 읽어만 보면 된다.
+
+
 
 ## 1차시
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0001.jpg]]
