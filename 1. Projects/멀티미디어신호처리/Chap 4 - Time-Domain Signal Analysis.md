@@ -38,9 +38,10 @@ Discrete time system은 Linear Operation이다.
 Time-invariance(십시 불변성)
 $x[n] -> y[n]$인 시스템에서 n을 $n_0$만큼 딜레이 시켰을 때 y에서도 $n_0$만큼 딜레이된다면 time invariance하다고 한다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0007.jpg]]
-태블리
+태블릿 필가 참고
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0008.jpg]]
-
+이번학기에서는 시스템을 LTI를 가정한다.(그래야 간단히 계산할 수 있다.)
+이렇게 가정한다면 $y[n] = x[n]*h[n]$으로 구할 수 있다.()
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0009.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0010.jpg]]
