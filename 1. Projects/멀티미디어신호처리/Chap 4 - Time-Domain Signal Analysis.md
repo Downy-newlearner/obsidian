@@ -70,7 +70,7 @@ causality를 따르는 시스템만이 구현이 가능하다.
 
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0013.jpg]]
-[[LTI|LTI 시스템]]은 임펄스 응답과 차분 방정식으로 표현하여 시스템 동작을 수학적으로 모델링할 수 있습니다.
+[[LTI|LTI 시스템]]은 임펄스 응답과 [[차분 방정식]]으로 표현하여 시스템 동작을 수학적으로 모델링할 수 있습니다.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0014.jpg]]
 IIR 시스템은 출력이 과거 출력에 의존하고, FIR 시스템은 입력에만 의존합니다.
