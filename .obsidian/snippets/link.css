@@ -1,19 +1,23 @@
 a.internal-link {
   color: #00ff00 !important;
-  text-decoration: underline !important;
+  text-decoration: none;
+  text-decoration-thickness: 2px !important;
 }
 a.internal-link:hover {
   color: #00cc00 !important;
-  text-decoration: underline !important;
+  text-decoration: none;
+  text-decoration-thickness: 2px !important;
 }
 
 a.external-link {
   color: #00ff00 !important;
-  text-decoration: underline !important;
+  text-decoration: none;
+  text-decoration-thickness: 2px !important;
 }
 a.external-link:hover {
   color: #00cc00 !important;
-  text-decoration: underline !important;
+  text-decoration: none;
+  text-decoration-thickness: 2px !important;
 }
 
 a.unresolved-link {
