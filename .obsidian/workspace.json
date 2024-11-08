@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/ChatGPT 용어 Instruction.md",
+                "file": "ChatGPT 용어 Instruction.md",
                 "mode": "source",
                 "source": false
               },
@@ -259,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/ChatGPT 용어 Instruction.md",
+                "file": "ChatGPT 용어 Instruction.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
@@ -280,7 +280,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/ChatGPT 용어 Instruction.md"
+                "file": "ChatGPT 용어 Instruction.md"
               },
               "icon": "lucide-list",
               "title": "Outline of ChatGPT 용어 Instruction"
@@ -308,10 +308,10 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "59b88d2f8157e23f",
+  "active": "f8f40c1f0fe0b281",
   "lastOpenFiles": [
     "+/차분 방정식.md",
-    "+/ChatGPT 용어 Instruction.md",
+    "ChatGPT 용어 Instruction.md",
     "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
     "+/LTI.md",
     "3. Resource/Calender Archive/2024-11-08.md",
