@@ -48,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,11 +209,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "+/Aliasing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Aliasing"
             }
           }
         ]
@@ -228,9 +229,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "+/Aliasing.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Aliasing"
             }
           }
         ]
@@ -254,7 +257,7 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "4ec96a75a69c7021",
+  "active": "a8db64c5607bf701",
   "lastOpenFiles": [
     "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
     "+/Aliasing.md",
