@@ -4,7 +4,7 @@ week: 9W
 ---
 
 # 1차시
-**수업 [[웹프로그래밍 내용 정리]]**
+**수업 내용 정리**
 - Signal Classification and discrete signals
 	- 시그널은 연속-연속, 연속-이산, 이산-연속, 이산-이산(x축-y축)
 	- 아날로그 신호: 연속-연속
