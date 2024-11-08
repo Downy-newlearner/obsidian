@@ -18,6 +18,7 @@ DA converter
 	anti imaging filter는 LPF이다.
 	간단히 읽어만 보면 된다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0001.jpg]]
+신호를 분석하는 것을 frequency domain에서 수행한다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0002.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0003.jpg]]
