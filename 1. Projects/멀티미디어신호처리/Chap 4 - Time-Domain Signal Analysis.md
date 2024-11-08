@@ -24,7 +24,8 @@ DA converter
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0003.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0004.jpg]]
-
+**Discrete time system의 속성 1**
+Addid
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0005.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0006.jpg]]
