@@ -25,9 +25,14 @@ DA converter
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0004.jpg]]
 **Discrete time system의 속성 1**
-Addid
-![[DSPChap4_Time_Domain_Signal_Analysis_page-0005.jpg]]
+Additivity
 
+![[DSPChap4_Time_Domain_Signal_Analysis_page-0005.jpg]]
+**Discrete time system의 속성 2**
+Homogeneity
+Linearity
+
+Discrete time system은 Linear Operation이다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0006.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0007.jpg]]
