@@ -62,21 +62,9 @@
               "icon": "lucide-file",
               "title": "Aliasing"
             }
-          },
-          {
-            "id": "4ec96a75a69c7021",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.5"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.5"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -237,11 +225,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "+/나이퀴스트 샤논 샘플링 이론.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from 나이퀴스트 샤논 샘플링 이론"
             }
           }
         ]
@@ -256,9 +245,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "+/나이퀴스트 샤논 샘플링 이론.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 나이퀴스트 샤논 샘플링 이론"
             }
           }
         ]
@@ -282,15 +273,15 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "4ec96a75a69c7021",
+  "active": "8359899054fe3c08",
   "lastOpenFiles": [
+    "+/Aliasing.md",
     "+/나이퀴스트 샤논 샘플링 이론.md",
     "+/스킵 연결.md",
     "+/잔차 연결.md",
     "+/베셔슈타인 거리.md",
     "+/LS 발산.md",
     "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
-    "+/Aliasing.md",
     "2. Area/Work Out/벌크업 식단.md",
     "Source/chap12_keras_CNN_page-0044.jpg",
     "Source/chap12_keras_CNN_page-0043.jpg",
