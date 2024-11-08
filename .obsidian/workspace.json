@@ -34,6 +34,20 @@
               "icon": "lucide-file",
               "title": "Chap 3 - Discrete_signals"
             }
+          },
+          {
+            "id": "76341c119caf14f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4. Arichive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/멀티미디어신호처리/멀티미디어신호처리 용어/주파수.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "주파수"
+            }
           }
         ],
         "currentTab": 1
@@ -247,6 +261,8 @@
   },
   "active": "8359899054fe3c08",
   "lastOpenFiles": [
+    "4. Arichive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/멀티미디어신호처리/멀티미디어신호처리 용어/주파수.md",
+    "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
     "3. Resource/Calender Archive/2024-11-08.md",
     "3. Resource/Calender Archive/2024-11-07.md",
     "3. Resource/Calender Archive/2024-11-05.md",
@@ -254,7 +270,6 @@
     "+/나이퀴스트 샤논 샘플링 이론.md",
     "+/안티앨리어싱 필터.md",
     "+/LS 발산.md",
-    "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
     "4. Arichive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/AI 헬스케어를 위한 컴퓨터 비전/4차시/정리.md",
     "4. Arichive/Notion/DK 학사 과정/단국대 학사 과정/2학년 2학기/웹 프로그래밍/웹프로그래밍 내용 정리.md",
     "4. Arichive/Notion/DK 학사 과정/단국대 학사 과정/2학년 2학기/컴퓨터 구조/2....md",
@@ -292,7 +307,6 @@
     "+/WGAN-GP.md",
     "+/StyleGAN.md",
     "+/ProGAN.md",
-    "+/GAN.md",
     "헬스케어 공모전.canvas",
     "무제 파일.canvas"
   ]
