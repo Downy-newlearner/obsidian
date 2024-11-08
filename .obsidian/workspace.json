@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Area/Work Out/벌크업 식단.md",
+                "file": "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "벌크업 식단"
+              "title": "Chap 3 - Discrete_signals"
             }
           },
           {
@@ -194,12 +194,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Area/Work Out/벌크업 식단.md",
+                "file": "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 벌크업 식단"
+              "title": "Outgoing links from Chap 3 - Discrete_signals"
             }
           }
         ]
@@ -215,10 +215,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Area/Work Out/벌크업 식단.md"
+                "file": "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 벌크업 식단"
+              "title": "Outline of Chap 3 - Discrete_signals"
             }
           }
         ]
@@ -244,6 +244,7 @@
   },
   "active": "b1e7d281113f5fe1",
   "lastOpenFiles": [
+    "2. Area/Work Out/벌크업 식단.md",
     "Source/chap12_keras_CNN_page-0044.jpg",
     "Source/chap12_keras_CNN_page-0043.jpg",
     "Source/chap12_keras_CNN_page-0042.jpg",
@@ -254,7 +255,6 @@
     "Source/chap12_keras_CNN_page-0037.jpg",
     "Source/chap12_keras_CNN_page-0036.jpg",
     "Source/chap12_keras_CNN_page-0035.jpg",
-    "Source/chap12_keras_CNN_page-0034.jpg",
     "2024-11-08.md",
     "2024-11-07.md",
     "2024-11-06.md",
@@ -282,7 +282,6 @@
     "+/CGAN.md",
     "+/Aliasing.md",
     "+/1.md",
-    "2. Area/Work Out/벌크업 식단.md",
     "4. Arichive/Notion/HUB/포트폴리오/환경부 데이터분석 공모전/2024 환경부 데이터분석 공모전 DB (1)/3차 데이터 분석/정다훈/1.md",
     "2. Area/Book/왜 나는 너를 사랑하는가.md",
     "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
