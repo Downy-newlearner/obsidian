@@ -4,7 +4,7 @@ week: 9W
 ---
 
 # 1차시
-**수업 내용 정리**
+**수업 [[웹프로그래밍 내용 정리]]**
 - Signal Classification and discrete signals
 	- 시그널은 연속-연속, 연속-이산, 이산-연속, 이산-이산(x축-y축)
 	- 아날로그 신호: 연속-연속
@@ -23,7 +23,7 @@ week: 9W
 		$x[n] -> x[n+k]$
 	2. Time reverse
 		$x[n] -> x[-n]$
-	3. Time delayed time reversal(1,[[2]]번 연산 둘 다 함)
+	3. Time delayed time reversal(1,2번 연산 둘 다 함)
 		$y[n]=x[-n-a]$
 
 	4. Time scaling
@@ -73,7 +73,7 @@ time delayed and time reversal
 ![[DSPChap3_Discrete_Signals_page-0014.jpg]]
 
 ![[DSPChap3_Discrete_Signals_page-0015.jpg]]
-기본 이산 시그널 연산[[2]]: time scaling
+기본 이산 시그널 연산[[2...]]: time scaling
 1. Compress
 	compress는 $\alpha$가 짝수면 $X[n]$에서 n이 홀수일 때, 홀수면 n이 짝수일 때를 버려버린다.
 
