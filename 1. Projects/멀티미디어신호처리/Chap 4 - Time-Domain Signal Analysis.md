@@ -12,7 +12,7 @@ Quantization error and [[SNR]]
 	[[SNR|Signal to Noise Ratio]](SNR)로 [[Quantization]]의 성능을 표현한다.
 
 
-	$$SNG(dB) = 6.02N + 1.76 dB ~= 6N$$
+	$SNG(dB) = 6.02N + 1.76 dB ~= 6N$
 	**예시**
 	![[Pasted image 20241104152823.png|300]]
 
