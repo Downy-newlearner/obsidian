@@ -36,7 +36,8 @@ Discrete time system은 Linear Operation이다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0006.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0007.jpg]]
-
+1. $x[n] = x[n-1]$ 
+2. $x[n-1] -> y[n]$
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0008.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0009.jpg]]
