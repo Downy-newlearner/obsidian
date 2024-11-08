@@ -6,7 +6,7 @@ week: 10W
 anti 앨리어싱 필터
 sample rate >= 2 B(만족하지 못하면 앨리어싱 에러가 발생한다.)
 
-Quantization error and SNR
+Quantization error and [[SNR]]
 	컴퓨터가 표현할 수 있는 값에 제한이 있어서 truncation하는 중에 발생하는 에러
 	비트 수를 늘리면 에러가 줄지만 자원이 많이 든다는 trade-off가 있다.
 	Signal to Noise Ratio(SNR)로 Quantization의 성능을 표현한다.
