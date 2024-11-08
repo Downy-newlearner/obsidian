@@ -36,7 +36,7 @@ Discrete time system은 Linear Operation이다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0006.jpg]]
 **Discrete time system의 속성 4**
 Time-invariance(십시 불변성)
-$x[n] -> y[n]$인 시스템에서 n을 $n_0$만큼 딜레이 시켰을 때 y에서도 
+$x[n] -> y[n]$인 시스템에서 n을 $n_0$만큼 딜레이 시켰을 때 y에서도 $n_0$만큼 딜레이된다면 time invariance하다고 한다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0007.jpg]]
 1. $x[n] = x[n-1]$ 
 2. $x[n-1] -> y[n]$
