@@ -53,7 +53,7 @@ discrete time signal의 수학적 특성을 나타낸 것을 $h[n]$이라고 한
 causality를 따르는 시스템만이 구현이 가능하다.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0010.jpg]]
-
+## 2차시
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0011.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0012.jpg]]
