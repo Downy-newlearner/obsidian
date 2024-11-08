@@ -64,8 +64,7 @@
               "title": "2024-11-08"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "c7f5b78c8719518a",
@@ -261,12 +260,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/유한 합.md",
+                "file": "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 유한 합"
+              "title": "Outgoing links from Chap 4 - Time-Domain Signal Analysis"
             }
           }
         ]
@@ -282,10 +281,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/유한 합.md"
+                "file": "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 유한 합"
+              "title": "Outline of Chap 4 - Time-Domain Signal Analysis"
             }
           }
         ]
@@ -309,10 +308,10 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "f2b9c1ad65c6fc73",
+  "active": "b1e7d281113f5fe1",
   "lastOpenFiles": [
-    "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
     "+/유한 합.md",
+    "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
     "2. Area/Work Out/벌크업 식단.md",
     "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
     "3. Resource/Calender Archive/2024-11-08.md",
