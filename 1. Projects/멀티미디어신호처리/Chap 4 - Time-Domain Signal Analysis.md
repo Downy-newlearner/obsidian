@@ -66,11 +66,14 @@ causality를 따르는 시스템만이 구현이 가능하다.
 - **LTI 시스템에서의 조건**: 임펄스 응답의 절대 합이 유한하면 BIBO 안정성이 유지됨.
 - **안정성 수식**: $\sum_{k=-\infty}^{\infty} |h[k]| < \infty$이면 안정성 확보
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0012.jpg]]
-임펄스 응답이 h[n]=anu[n]h[n] = a^n u[n]h[n]=anu[n]인 경우, 안정성을 확인하기 위해 절대 합이 유한한지를 판단합니다. 이 경우 ∣a∣<1|a| < 1∣a∣<1이면 절대 수렴하여 안정성을 갖습니다. 절대 합이 무한하면 시스템은 불안정합니다.
+임펄스 응답이 $h[n] = a^n u[n]$일 때, 시스템은 \( |a| < 1일 경우에 안정적입니다.
+
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0013.jpg]]
+LTI 시스템은 임펄스 응답과 차분 방정식으로 표현하여 시스템 동작을 수학적으로 모델링할 수 있습니다.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0014.jpg]]
+IIR 시스템은 출력이 과거 출력에 의존하고, FIR 시스템은 입력에만 의존합니다.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0015.jpg]]
 
