@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Area/Work Out/벌크업 식단.md",
+                "file": "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "벌크업 식단"
+              "title": "Chap 4 - Time-Domain Signal Analysis"
             }
           },
           {
@@ -245,12 +245,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Area/Work Out/벌크업 식단.md",
+                "file": "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 벌크업 식단"
+              "title": "Outgoing links from Chap 4 - Time-Domain Signal Analysis"
             }
           }
         ]
@@ -266,10 +266,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Area/Work Out/벌크업 식단.md"
+                "file": "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 벌크업 식단"
+              "title": "Outline of Chap 4 - Time-Domain Signal Analysis"
             }
           }
         ]
@@ -295,8 +295,8 @@
   },
   "active": "b1e7d281113f5fe1",
   "lastOpenFiles": [
-    "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
     "2. Area/Work Out/벌크업 식단.md",
+    "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
     "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
     "3. Resource/Calender Archive/2024-11-08.md",
     "3. Resource/Calender Archive/2024-11-07.md",
