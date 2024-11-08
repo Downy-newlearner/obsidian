@@ -8,7 +8,7 @@ aliases:
 ---
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0008.jpg]]
 
-이 이미지에서는 선형 시불변 시스템(Linear Time-Invariant, LTI system)에 대해 설명하고 있습니다.
+이 이미지에서는 **선형 시불변 시스템(Linear Time-Invariant, LTI system)** 에 대해 설명하고 있습니다.
 
 ### 3줄 요약
 LTI 시스템은 선형성과 시불변성(시간 불변성) 특성을 모두 만족하는 시스템입니다. LTI 시스템에서는 입력 신호와 시스템의 임펄스 응답의 **컨볼루션**을 통해 출력 신호를 얻을 수 있습니다. 여기서 컨볼루션 연산은 입력 신호 \(x[n]\)과 임펄스 응답 \(h[n]\)의 결합을 통해 출력 \(y[n]\)을 계산합니다.

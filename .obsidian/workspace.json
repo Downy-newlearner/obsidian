@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "fd925a00aa6a7f5c",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Source/DSPChap4_Time_Domain_Signal_Analysis_page-0010.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "DSPChap4_Time_Domain_Signal_Analysis_page-0010"
+            }
+          },
+          {
             "id": "8359899054fe3c08",
             "type": "leaf",
             "state": {
@@ -63,7 +75,8 @@
               "title": "주파수"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "c7f5b78c8719518a",
@@ -244,12 +257,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/LTI.md",
+                "file": "Source/DSPChap4_Time_Domain_Signal_Analysis_page-0010.jpg",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from LTI"
+              "title": "Outgoing links from DSPChap4_Time_Domain_Signal_Analysis_page-0010"
             }
           }
         ]
@@ -265,10 +278,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/LTI.md"
+                "file": "Source/DSPChap4_Time_Domain_Signal_Analysis_page-0010.jpg"
               },
               "icon": "lucide-list",
-              "title": "Outline of LTI"
+              "title": "Outline of DSPChap4_Time_Domain_Signal_Analysis_page-0010"
             }
           }
         ]
@@ -293,7 +306,7 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "7ac31b4d3c2af03a",
+  "active": "fd925a00aa6a7f5c",
   "lastOpenFiles": [
     "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
     "+/LTI.md",
