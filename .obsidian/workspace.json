@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "c7f5b78c8719518a",
@@ -245,12 +245,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ChatGPT 용어 Instruction.md",
+                "file": "+/차분 방정식.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ChatGPT 용어 Instruction"
+              "title": "Outgoing links from 차분 방정식"
             }
           }
         ]
@@ -266,10 +266,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ChatGPT 용어 Instruction.md"
+                "file": "+/차분 방정식.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of ChatGPT 용어 Instruction"
+              "title": "Outline of 차분 방정식"
             }
           }
         ]
@@ -294,12 +294,12 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "837b13a6374c0db4",
+  "active": "500be1942cfa100b",
   "lastOpenFiles": [
+    "ChatGPT 용어 Instruction.md",
     "+/차분 방정식.md",
     "+/LTI.md",
     "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
-    "ChatGPT 용어 Instruction.md",
     "3. Resource/Calender Archive/2024-11-08.md",
     "4. Arichive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/멀티미디어신호처리/멀티미디어신호처리 용어/주파수.md",
     "+/SNR.md",
