@@ -116,7 +116,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"설명\"]",
+                "query": "tag:#obsidian",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -124,10 +124,11 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "검색"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -259,7 +260,7 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "f2b9c1ad65c6fc73",
+  "active": "7910870f809ef780",
   "lastOpenFiles": [
     "+/유한 합.md",
     "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
