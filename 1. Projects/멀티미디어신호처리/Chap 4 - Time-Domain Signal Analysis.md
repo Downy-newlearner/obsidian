@@ -58,7 +58,13 @@ causality를 따르는 시스템만이 구현이 가능하다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0010.jpg]]
 ## 2차시
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0011.jpg]]
+**BIBO**: 입력이 유한하면 출력이 유한하게 유지되는 시스템의 특성
 
+**핵심 디테일**
+
+- **BIBO 안정성 정의**: 유한한 입력은 유한한 출력을 보장해야 함.
+- **LTI 시스템에서의 조건**: 임펄스 응답의 절대 합이 유한하면 BIBO 안정성이 유지됨.
+- **안정성 수식**: $∑k=−∞∞∣h[k]∣<∞\sum_{k=-\infty}^{\infty} |h[k]| < \infty∑k=−∞∞​∣h[k]∣<∞$ 이면 BIBO 안정성 확보
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0012.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0013.jpg]]
