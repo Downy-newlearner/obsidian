@@ -5,5 +5,8 @@
   "attachmentFolderPath": "Source",
   "spellcheck": false,
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "4. Arichive/Notion/"
+  ]
 }
