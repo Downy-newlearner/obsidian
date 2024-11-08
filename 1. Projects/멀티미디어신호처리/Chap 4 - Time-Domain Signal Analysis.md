@@ -50,6 +50,7 @@ discrete time signal의 수학적 특성을 나타낸 것을 $h[n]$이라고 한
 2. Stability
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0009.jpg]]
 어떤 시점의 출력은 과거에 의존한다.(미래에 의존하지 않는다.)
+causality를 따르는 시스템만이 구현이 가능하다.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0010.jpg]]
 
