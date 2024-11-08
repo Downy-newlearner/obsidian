@@ -28,7 +28,7 @@ DA converter
 Additivity
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0005.jpg]]
-**Discrete time system의 속성 2**
+**Discrete time system의 속성 2, 3**
 Homogeneity
 Linearity
 
