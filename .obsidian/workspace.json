@@ -26,15 +26,10 @@
             "id": "05af541fe31809fa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Chap 4 - Time-Domain Signal Analysis"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
             }
           },
           {
@@ -78,42 +73,6 @@
               },
               "icon": "lucide-file",
               "title": "2024-11-08"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "c7f5b78c8719518a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7ac31b4d3c2af03a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/LTI.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "LTI"
-            }
-          },
-          {
-            "id": "500be1942cfa100b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "+/차분 방정식.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "차분 방정식"
             }
           }
         ],
@@ -278,12 +237,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Chap 4 - Time-Domain Signal Analysis의 나가는 링크"
+              "title": "나가는 링크"
             }
           }
         ]
@@ -298,11 +256,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Chap 4 - Time-Domain Signal Analysis 개요"
+              "title": "개요"
             }
           }
         ]
@@ -326,10 +282,11 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "ff2bc35e0f6ecd58",
+  "active": "05af541fe31809fa",
   "lastOpenFiles": [
-    "+/유한 합.md",
+    "4. Archive/Notion/HUB/포트폴리오/환경부 데이터분석 공모전/2024 환경부 데이터분석 공모전 DB (1)/1차 데이터 분석 결과/하재경.md",
     "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
+    "+/유한 합.md",
     "2. Area/Work Out/벌크업 식단.md",
     "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
     "3. Resource/Calender Archive/2024-11-08.md",
@@ -373,7 +330,6 @@
     "1. Projects/DeepLearning_Cloud/자료/chap08_인공신경망개요.pdf",
     "1. Projects/DeepLearning_Cloud/자료/chap07_FS_stacking.pdf",
     "1. Projects/DeepLearning_Cloud/자료/chap04_regression.pdf",
-    "1. Projects/DeepLearning_Cloud/12장/Chap 12 - keras_CNN.md",
     "헬스케어 공모전.canvas",
     "무제 파일.canvas"
   ]
