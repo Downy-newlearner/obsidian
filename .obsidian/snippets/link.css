@@ -1,15 +1,25 @@
 /* 내부 링크 색상 */
---link-color: #00ff00; /* 초록색 */
---link-color-hover: #00cc00; /* 초록색보다 조금 어두운 초록 */
-
-/* 내부 링크 장식 */
---link-decoration: underline;
---link-decoration-hover: underline;
+a.internal-link {
+  color: #00ff00; /* 초록색 */
+  text-decoration: underline;
+}
+a.internal-link:hover {
+  color: #00cc00; /* 초록색보다 조금 어두운 초록 */
+  text-decoration: underline;
+}
 
 /* 외부 링크 색상 */
---link-external-color: #00ff00; /* 외부 링크도 초록색 */
---link-external-color-hover: #00cc00; /* 외부 링크 호버 시 조금 어두운 초록 */
+a.external-link {
+  color: #00ff00; /* 외부 링크도 초록색 */
+  text-decoration: underline;
+}
+a.external-link:hover {
+  color: #00cc00; /* 외부 링크 호버 시 조금 어두운 초록 */
+  text-decoration: underline;
+}
 
 /* 해결되지 않은 링크 색상 */
---link-unresolved-color: #ff0000; /* 해결되지 않은 링크는 빨간색으로 표시 */
---link-unresolved-decoration: line-through; /* 해결되지 않은 링크는 취소선 */
+a.unresolved-link {
+  color: #ff0000; /* 해결되지 않은 링크는 빨간색으로 표시 */
+  text-decoration: line-through; /* 해결되지 않은 링크는 취소선 */
+}
