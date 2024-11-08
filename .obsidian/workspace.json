@@ -8,26 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b1e7d281113f5fe1",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
-            }
-          },
-          {
-            "id": "05af541fe31809fa",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
-            }
-          },
-          {
             "id": "f2b9c1ad65c6fc73",
             "type": "leaf",
             "state": {
@@ -231,11 +211,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "+/유한 합.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "나가는 링크"
+              "title": "유한 합의 나가는 링크"
             }
           }
         ]
@@ -250,9 +231,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "+/유한 합.md"
+              },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "유한 합 개요"
             }
           }
         ]
@@ -276,7 +259,7 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "b1e7d281113f5fe1",
+  "active": "f2b9c1ad65c6fc73",
   "lastOpenFiles": [
     "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
     "4. Archive/Notion/HUB/포트폴리오/환경부 데이터분석 공모전/2024 환경부 데이터분석 공모전 DB (1)/1차 데이터 분석 결과/하재경.md",
