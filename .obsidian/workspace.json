@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Resource/Calender Archive/2024-11-08.md",
+                "file": "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-08"
+              "title": "Chap 3 - Discrete_signals"
             }
           },
           {
@@ -63,8 +63,7 @@
               "title": "주파수"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -225,12 +224,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/SNR.md",
+                "file": "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from SNR"
+              "title": "Outgoing links from Chap 3 - Discrete_signals"
             }
           }
         ]
@@ -246,10 +245,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/SNR.md"
+                "file": "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of SNR"
+              "title": "Outline of Chap 3 - Discrete_signals"
             }
           }
         ]
@@ -273,15 +272,15 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "ffa6696905520e4c",
+  "active": "b1e7d281113f5fe1",
   "lastOpenFiles": [
+    "3. Resource/Calender Archive/2024-11-08.md",
+    "3. Resource/Calender Archive/2024-11-07.md",
     "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
     "+/SNR.md",
     "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
     "+/안티 앨리어싱 필터.md",
     "4. Arichive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/멀티미디어신호처리/멀티미디어신호처리 용어/주파수.md",
-    "3. Resource/Calender Archive/2024-11-08.md",
-    "3. Resource/Calender Archive/2024-11-07.md",
     "3. Resource/Calender Archive/2024-11-05.md",
     "3. Resource/Calender Archive/2024-11-06.md",
     "+/나이퀴스트 샤논 샘플링 이론.md",
