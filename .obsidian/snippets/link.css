@@ -4,19 +4,8 @@ a.internal-link {
   text-decoration-thickness: 2px !important;
 }
 a.internal-link:hover {
-  color: #00cc00 !important;
-  text-decoration: none;
-  text-decoration-thickness: 2px !important;
-}
-
-a.external-link {
-  color: #00ff00 !important;
-  text-decoration: none;
-  text-decoration-thickness: 2px !important;
-}
-a.external-link:hover {
-  color: #00cc00 !important;
-  text-decoration: none;
+  color: #8ef6e4 !important;
+  text-decoration: none !important;
   text-decoration-thickness: 2px !important;
 }
 
