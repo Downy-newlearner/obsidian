@@ -1,25 +1,22 @@
-/* 내부 링크 색상 */
 a.internal-link {
-  color: #00ff00; /* 초록색 */
-  text-decoration: underline;
+  color: #00ff00 !important;
+  text-decoration: underline !important;
 }
 a.internal-link:hover {
-  color: #00cc00; /* 초록색보다 조금 어두운 초록 */
-  text-decoration: underline;
+  color: #00cc00 !important;
+  text-decoration: underline !important;
 }
 
-/* 외부 링크 색상 */
 a.external-link {
-  color: #00ff00; /* 외부 링크도 초록색 */
-  text-decoration: underline;
+  color: #00ff00 !important;
+  text-decoration: underline !important;
 }
 a.external-link:hover {
-  color: #00cc00; /* 외부 링크 호버 시 조금 어두운 초록 */
-  text-decoration: underline;
+  color: #00cc00 !important;
+  text-decoration: underline !important;
 }
 
-/* 해결되지 않은 링크 색상 */
 a.unresolved-link {
-  color: #ff0000; /* 해결되지 않은 링크는 빨간색으로 표시 */
-  text-decoration: line-through; /* 해결되지 않은 링크는 취소선 */
+  color: #ff0000 !important;
+  text-decoration: line-through !important;
 }
