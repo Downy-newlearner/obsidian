@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
+                "file": "ChatGPT 용어 Instruction.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chap 4 - Time-Domain Signal Analysis"
+              "title": "ChatGPT 용어 Instruction"
             }
           },
           {
@@ -127,8 +127,7 @@
               "title": "검색"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -212,12 +211,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
+                "file": "ChatGPT 용어 Instruction.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Chap 4 - Time-Domain Signal Analysis의 나가는 링크"
+              "title": "ChatGPT 용어 Instruction의 나가는 링크"
             }
           }
         ]
@@ -233,10 +232,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md"
+                "file": "ChatGPT 용어 Instruction.md"
               },
               "icon": "lucide-list",
-              "title": "Chap 4 - Time-Domain Signal Analysis 개요"
+              "title": "ChatGPT 용어 Instruction 개요"
             }
           }
         ]
@@ -260,10 +259,10 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "7910870f809ef780",
+  "active": "f2b9c1ad65c6fc73",
   "lastOpenFiles": [
-    "+/유한 합.md",
     "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
+    "+/유한 합.md",
     "4. Archive/Notion/HUB/포트폴리오/환경부 데이터분석 공모전/2024 환경부 데이터분석 공모전 DB (1)/1차 데이터 분석 결과/하재경.md",
     "2. Area/Work Out/벌크업 식단.md",
     "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
