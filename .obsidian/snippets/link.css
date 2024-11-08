@@ -6,7 +6,7 @@ a.internal-link {
   text-decoration-thickness: 5px !important;
   border: none !important;
   border-radius: 14px !important;
-  padding: 2px 8px; /* 텍스트와 배경 간 여백 추가 */
+  padding: 0.1px 5px; /* 텍스트와 배경 간 여백 추가 */
 }
 
 a.internal-link:hover {
