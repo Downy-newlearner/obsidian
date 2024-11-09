@@ -39,18 +39,6 @@
             }
           },
           {
-            "id": "40058f5994ea4e0b",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Source/베이지안결정론_page-0024.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "베이지안결정론_page-0024"
-            }
-          },
-          {
             "id": "5775e7acd8f85487",
             "type": "leaf",
             "state": {
@@ -96,7 +84,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -251,12 +239,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Source/베이지안결정론_page-0024.jpg",
+                "file": "1. Projects/패턴인식/베이지안결정론.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "베이지안결정론_page-0024의 나가는 링크"
+              "title": "베이지안결정론의 나가는 링크"
             }
           }
         ]
@@ -272,10 +260,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Source/베이지안결정론_page-0024.jpg"
+                "file": "1. Projects/패턴인식/베이지안결정론.md"
               },
               "icon": "lucide-list",
-              "title": "베이지안결정론_page-0024 개요"
+              "title": "베이지안결정론 개요"
             }
           }
         ]
@@ -300,8 +288,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "40058f5994ea4e0b",
+  "active": "9c6364654be034d1",
   "lastOpenFiles": [
+    "Source/베이지안결정론_page-0024.jpg",
     "1. Projects/패턴인식/베이지안결정론.md",
     "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
     "2024-11-09.md",
@@ -338,7 +327,6 @@
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/2학년 2학기/자료구조/연습문제/6장 스택.md",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/2학년 2학기/자료구조/빅 오, 빅 오메가, 빅 세타.md",
     "1. Projects/AI 아이디어 경진대회/아이디에이션.md",
-    "+/CGAN.md",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/교양/의학사속의대발견/기말고사 준비/의학사 총정리/10장/의학사 인물",
     "4. Archive/Notion/HUB/포트폴리오/환경부 데이터분석 공모전/2024 환경부 데이터분석 공모전 DB (1)/1차 데이터 분석 결과/정다훈/환경공모전_데이터분석",
     "4. Archive/Notion/HUB/HUB/공부/공부/Stable Diffusion/Error Summary/해결",
