@@ -29,13 +29,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/패턴인식/베이지안결정론.md",
+                "file": "2024-11-09.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "베이지안결정론"
+              "title": "2024-11-09"
             }
           },
           {
@@ -239,12 +239,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/패턴인식/베이지안결정론.md",
+                "file": "2024-11-09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "베이지안결정론의 나가는 링크"
+              "title": "2024-11-09의 나가는 링크"
             }
           }
         ]
@@ -260,10 +260,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/패턴인식/베이지안결정론.md"
+                "file": "2024-11-09.md"
               },
               "icon": "lucide-list",
-              "title": "베이지안결정론 개요"
+              "title": "2024-11-09 개요"
             }
           }
         ]
@@ -287,10 +287,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9c6364654be034d1",
+  "active": "7b5a003ac4c2c94d",
   "lastOpenFiles": [
-    "1. Projects/패턴인식/확률 랜덤변수.md",
     "1. Projects/패턴인식/베이지안결정론.md",
+    "1. Projects/패턴인식/확률 랜덤변수.md",
     "2024-11-09.md",
     "+/Likelihood ratio R.md",
     "+/LTI.md",
