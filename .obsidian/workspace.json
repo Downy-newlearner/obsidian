@@ -69,7 +69,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,12 +216,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/d 차원 벡터.md",
+                "file": "1. Projects/패턴인식/베이지안결정론.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "d 차원 벡터의 나가는 링크"
+              "title": "베이지안결정론의 나가는 링크"
             }
           }
         ]
@@ -237,10 +237,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/d 차원 벡터.md"
+                "file": "1. Projects/패턴인식/베이지안결정론.md"
               },
               "icon": "lucide-list",
-              "title": "d 차원 벡터 개요"
+              "title": "베이지안결정론 개요"
             }
           }
         ]
@@ -265,11 +265,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "483efac8b5ab761c",
+  "active": "9c6364654be034d1",
   "lastOpenFiles": [
-    "1. Projects/패턴인식/베이지안결정론.md",
     "+/d 차원 벡터.md",
     "ChatGPT 용어 Instruction.md",
+    "1. Projects/패턴인식/베이지안결정론.md",
     "Source/베이지안결정론_page-0014.jpg",
     "+/GAN.md",
     "1. Projects/패턴인식/확률 랜덤변수.md",
