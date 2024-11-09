@@ -14,13 +14,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/패턴인식/10월9일 강의영상.md",
+                "file": "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10월9일 강의영상"
+              "title": "Chap 4 - Time-Domain Signal Analysis"
             }
           },
           {
@@ -83,8 +83,7 @@
               "title": "ChatGPT 용어 Instruction"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +93,26 @@
     "type": "split",
     "children": [
       {
+        "id": "5b581405571bab2c",
+        "type": "tabs",
+        "dimension": 40.95607235142119,
+        "children": [
+          {
+            "id": "7b5a003ac4c2c94d",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      },
+      {
         "id": "404d0b8bacd725a9",
         "type": "tabs",
+        "dimension": 59.04392764857881,
         "children": [
           {
             "id": "f8f40c1f0fe0b281",
@@ -135,23 +152,12 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "7b5a003ac4c2c94d",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 270.5
   },
   "right": {
     "id": "3a838d33f5dd2229",
@@ -232,12 +238,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/패턴인식/베이지안결정론.md",
+                "file": "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "베이지안결정론의 나가는 링크"
+              "title": "Chap 4 - Time-Domain Signal Analysis의 나가는 링크"
             }
           }
         ]
@@ -253,10 +259,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/패턴인식/베이지안결정론.md"
+                "file": "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md"
               },
               "icon": "lucide-list",
-              "title": "베이지안결정론 개요"
+              "title": "Chap 4 - Time-Domain Signal Analysis 개요"
             }
           }
         ]
@@ -281,10 +287,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9c6364654be034d1",
+  "active": "1aceeaca7a953a5e",
   "lastOpenFiles": [
-    "1. Projects/패턴인식/확률 랜덤변수.md",
+    "2024-11-09.md",
+    "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
+    "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/패턴인식/10월9일 강의영상.md",
     "1. Projects/패턴인식/베이지안결정론.md",
+    "1. Projects/패턴인식/확률 랜덤변수.md",
     "+/Likelihood ratio R.md",
     "Source/Pasted image 20241109152440.png",
     "+/d 차원 벡터.md",
@@ -302,7 +311,6 @@
     "+/빈도주의 접근법.md",
     "+/주관적 접근법.md",
     "+/무제 파일.md",
-    "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/패턴인식/10월9일 강의영상.md",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/패턴인식/10월 14일 대면강의.md",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/패턴인식/10월 7일 강의영상.md",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/패턴인식/강의노트교과목개요_기계학습_패턴인식(녹화1).md",
@@ -311,7 +319,6 @@
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/패턴인식/Template.md",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/패턴인식/9월30일,10월2일 강의영상.md",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/패턴인식/9.23 대면 수업.md",
-    "2024-11-09.md",
     "1. Projects/패턴인식",
     "3. Resource/Calender Archive/2024-11-08.md",
     "3. Resource/Calender Archive/2024-11-07.md",
@@ -319,7 +326,6 @@
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/2학년 2학기/자료구조/빅 오, 빅 오메가, 빅 세타.md",
     "1. Projects/AI 아이디어 경진대회/아이디에이션.md",
     "+/CGAN.md",
-    "2024-11-08.md",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/교양/의학사속의대발견/기말고사 준비/의학사 총정리/10장/의학사 인물",
     "4. Archive/Notion/HUB/포트폴리오/환경부 데이터분석 공모전/2024 환경부 데이터분석 공모전 DB (1)/1차 데이터 분석 결과/정다훈/환경공모전_데이터분석",
     "4. Archive/Notion/HUB/HUB/공부/공부/Stable Diffusion/Error Summary/해결",
