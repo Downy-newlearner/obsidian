@@ -84,7 +84,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -232,12 +232,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/Likelihood ratio R.md",
+                "file": "1. Projects/패턴인식/베이지안결정론.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Likelihood ratio R의 나가는 링크"
+              "title": "베이지안결정론의 나가는 링크"
             }
           }
         ]
@@ -253,10 +253,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/Likelihood ratio R.md"
+                "file": "1. Projects/패턴인식/베이지안결정론.md"
               },
               "icon": "lucide-list",
-              "title": "Likelihood ratio R 개요"
+              "title": "베이지안결정론 개요"
             }
           }
         ]
@@ -281,10 +281,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5775e7acd8f85487",
+  "active": "9c6364654be034d1",
   "lastOpenFiles": [
-    "1. Projects/패턴인식/베이지안결정론.md",
     "+/Likelihood ratio R.md",
+    "1. Projects/패턴인식/베이지안결정론.md",
     "Source/Pasted image 20241109152440.png",
     "+/d 차원 벡터.md",
     "ChatGPT 용어 Instruction.md",
