@@ -29,13 +29,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/패턴인식/베이지안결정론.md",
+                "file": "1. Projects/패턴인식/확률 랜덤변수.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "베이지안결정론"
+              "title": "확률 랜덤변수"
             }
           },
           {
@@ -214,12 +214,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/패턴인식/베이지안결정론.md",
+                "file": "1. Projects/패턴인식/확률 랜덤변수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "베이지안결정론의 나가는 링크"
+              "title": "확률 랜덤변수의 나가는 링크"
             }
           }
         ]
@@ -235,10 +235,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/패턴인식/베이지안결정론.md"
+                "file": "1. Projects/패턴인식/확률 랜덤변수.md"
               },
               "icon": "lucide-list",
-              "title": "베이지안결정론 개요"
+              "title": "확률 랜덤변수 개요"
             }
           }
         ]
@@ -265,19 +265,21 @@
   },
   "active": "9c6364654be034d1",
   "lastOpenFiles": [
+    "Source/패턴인식_확률_랜덤변수(1)-이미지-113.jpg",
+    "Source/패턴인식_확률_랜덤변수(1)-이미지-112.jpg",
+    "Source/패턴인식_확률_랜덤변수(1)-이미지-111.jpg",
+    "Source/패턴인식_확률_랜덤변수(1)-이미지-110.jpg",
+    "Source/패턴인식_확률_랜덤변수(1)-이미지-109.jpg",
+    "Source/패턴인식_확률_랜덤변수(1)-이미지-108.jpg",
+    "Source/패턴인식_확률_랜덤변수(1)-이미지-107.jpg",
+    "Source/패턴인식_확률_랜덤변수(1)-이미지-106.jpg",
+    "Source/패턴인식_확률_랜덤변수(1)-이미지-105.jpg",
+    "Source/패턴인식_확률_랜덤변수(1)-이미지-104.jpg",
+    "Source/패턴인식_확률_랜덤변수(1)-이미지-103.jpg",
+    "1. Projects/패턴인식/베이지안결정론.md",
+    "1. Projects/패턴인식/확률 랜덤변수.md",
     "+/빈도주의 접근법.md",
     "+/주관적 접근법.md",
-    "1. Projects/패턴인식/베이지안결정론.md",
-    "Source/베이지안결정론_page-0052.jpg",
-    "Source/베이지안결정론_page-0051.jpg",
-    "Source/베이지안결정론_page-0050.jpg",
-    "Source/베이지안결정론_page-0049.jpg",
-    "Source/베이지안결정론_page-0048.jpg",
-    "Source/베이지안결정론_page-0047.jpg",
-    "Source/베이지안결정론_page-0046.jpg",
-    "Source/베이지안결정론_page-0045.jpg",
-    "Source/베이지안결정론_page-0044.jpg",
-    "Source/베이지안결정론_page-0043.jpg",
     "+/무제 파일.md",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/패턴인식/10월9일 강의영상.md",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/패턴인식/10월 14일 대면강의.md",
@@ -300,8 +302,6 @@
     "ChatGPT 용어 Instruction.md",
     "2024-11-08.md",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/교양/의학사속의대발견/기말고사 준비/의학사 총정리/10장/의학사 인물/호라스 웰스.md",
-    "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/교양/의학사속의대발견/기말고사 준비/의학사 총정리/10장/의학사 인물/헨리에타 랙스.md",
-    "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/교양/의학사속의대발견/기말고사 준비/의학사 총정리/10장/의학사 인물/험프리 데이비.md",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/교양/의학사속의대발견/기말고사 준비/의학사 총정리/10장/의학사 인물",
     "4. Archive/Notion/HUB/포트폴리오/환경부 데이터분석 공모전/2024 환경부 데이터분석 공모전 DB (1)/1차 데이터 분석 결과/정다훈/환경공모전_데이터분석",
     "4. Archive/Notion/HUB/HUB/공부/공부/Stable Diffusion/Error Summary/해결",
