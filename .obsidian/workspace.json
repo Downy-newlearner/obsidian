@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/AI 아이디어 경진대회/아이디에이션.md",
+                "file": "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/2학년 2학기/자료구조/빅 오, 빅 오메가, 빅 세타.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "아이디에이션"
+              "title": "빅 오, 빅 오메가, 빅 세타"
             }
           },
           {
@@ -205,12 +205,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/AI 아이디어 경진대회/아이디에이션.md",
+                "file": "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/2학년 2학기/자료구조/빅 오, 빅 오메가, 빅 세타.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "아이디에이션의 나가는 링크"
+              "title": "빅 오, 빅 오메가, 빅 세타의 나가는 링크"
             }
           }
         ]
@@ -226,18 +226,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/AI 아이디어 경진대회/아이디에이션.md"
+                "file": "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/2학년 2학기/자료구조/빅 오, 빅 오메가, 빅 세타.md"
               },
               "icon": "lucide-list",
-              "title": "아이디에이션 개요"
+              "title": "빅 오, 빅 오메가, 빅 세타 개요"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 228.5,
-    "collapsed": true
+    "width": 228.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -256,6 +255,7 @@
   },
   "active": "1aceeaca7a953a5e",
   "lastOpenFiles": [
+    "1. Projects/AI 아이디어 경진대회/아이디에이션.md",
     "+/CGAN.md",
     "+/GAN.md",
     "ChatGPT 용어 Instruction.md",
@@ -281,7 +281,6 @@
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/교양/의학사속의대발견/기말고사 준비/의학사 총정리/10장/의학사 인물/칼 에버르트.md",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/교양/의학사속의대발견/기말고사 준비/의학사 총정리/10장/의학사 인물/칼 란드슈타이너.md",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/교양/의학사속의대발견/기말고사 준비/의학사 총정리/10장/의학사 인물/칼 란드슈타이너 2.md",
-    "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/교양/의학사속의대발견/기말고사 준비/의학사 총정리/10장/의학사 인물/존 스노우.md",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/교양/의학사속의대발견/기말고사 준비/의학사 총정리/10장/의학사 인물",
     "4. Archive/Notion/HUB/포트폴리오/환경부 데이터분석 공모전/2024 환경부 데이터분석 공모전 DB (1)/1차 데이터 분석 결과/정다훈/환경공모전_데이터분석",
     "4. Archive/Notion/HUB/HUB/공부/공부/Stable Diffusion/Error Summary/해결",
