@@ -39,6 +39,18 @@
             }
           },
           {
+            "id": "40058f5994ea4e0b",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Source/베이지안결정론_page-0024.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "베이지안결정론_page-0024"
+            }
+          },
+          {
             "id": "5775e7acd8f85487",
             "type": "leaf",
             "state": {
@@ -83,7 +95,8 @@
               "title": "ChatGPT 용어 Instruction"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -238,12 +251,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
+                "file": "Source/베이지안결정론_page-0024.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Chap 4 - Time-Domain Signal Analysis의 나가는 링크"
+              "title": "베이지안결정론_page-0024의 나가는 링크"
             }
           }
         ]
@@ -259,10 +272,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md"
+                "file": "Source/베이지안결정론_page-0024.jpg"
               },
               "icon": "lucide-list",
-              "title": "Chap 4 - Time-Domain Signal Analysis 개요"
+              "title": "베이지안결정론_page-0024 개요"
             }
           }
         ]
@@ -287,7 +300,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1aceeaca7a953a5e",
+  "active": "40058f5994ea4e0b",
   "lastOpenFiles": [
     "1. Projects/패턴인식/베이지안결정론.md",
     "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
