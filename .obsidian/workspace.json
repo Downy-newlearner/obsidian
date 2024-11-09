@@ -86,8 +86,24 @@
               "icon": "lucide-file",
               "title": "빈도주의 접근법"
             }
+          },
+          {
+            "id": "8c97ebf3a8e36bae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/주관적 접근법.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "주관적 접근법"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -234,12 +250,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/빈도주의 접근법.md",
+                "file": "+/주관적 접근법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "빈도주의 접근법의 나가는 링크"
+              "title": "주관적 접근법의 나가는 링크"
             }
           }
         ]
@@ -255,10 +271,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/빈도주의 접근법.md"
+                "file": "+/주관적 접근법.md"
               },
               "icon": "lucide-list",
-              "title": "빈도주의 접근법 개요"
+              "title": "주관적 접근법 개요"
             }
           }
         ]
@@ -283,10 +299,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ffed4b11e5e8d3e9",
+  "active": "8c97ebf3a8e36bae",
   "lastOpenFiles": [
-    "1. Projects/패턴인식/베이지안결정론.md",
     "+/빈도주의 접근법.md",
+    "+/주관적 접근법.md",
+    "1. Projects/패턴인식/베이지안결정론.md",
     "Source/베이지안결정론_page-0052.jpg",
     "Source/베이지안결정론_page-0051.jpg",
     "Source/베이지안결정론_page-0050.jpg",
@@ -321,7 +338,6 @@
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/교양/의학사속의대발견/기말고사 준비/의학사 총정리/10장/의학사 인물/호라스 웰스.md",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/교양/의학사속의대발견/기말고사 준비/의학사 총정리/10장/의학사 인물/헨리에타 랙스.md",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/교양/의학사속의대발견/기말고사 준비/의학사 총정리/10장/의학사 인물/험프리 데이비.md",
-    "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/교양/의학사속의대발견/기말고사 준비/의학사 총정리/10장/의학사 인물/하워드 플로리.md",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/교양/의학사속의대발견/기말고사 준비/의학사 총정리/10장/의학사 인물",
     "4. Archive/Notion/HUB/포트폴리오/환경부 데이터분석 공모전/2024 환경부 데이터분석 공모전 DB (1)/1차 데이터 분석 결과/정다훈/환경공모전_데이터분석",
     "4. Archive/Notion/HUB/HUB/공부/공부/Stable Diffusion/Error Summary/해결",
