@@ -37,7 +37,7 @@ aliases:
 
 ## Experiment
 ![[Pasted image 20241111143443.png]]
-**AP (Average Precision)**:  
+**[[AP]] (Average Precision)**:  
 객체 탐지 모델의 정확도를 평가하는 지표로, 다양한 임계값에서의 **Precision-Recall 곡선** 아래의 면적을 계산하여 평균을 낸 값이다. 
 
 **핵심 디테일**:  
