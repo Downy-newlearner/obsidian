@@ -53,7 +53,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,12 +214,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/SNR.md",
+                "file": "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "SNR의 나가는 링크"
+              "title": "Chap 3 - Discrete_signals의 나가는 링크"
             }
           }
         ]
@@ -235,10 +235,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/SNR.md"
+                "file": "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md"
               },
               "icon": "lucide-list",
-              "title": "SNR 개요"
+              "title": "Chap 3 - Discrete_signals 개요"
             }
           }
         ]
@@ -262,8 +262,9 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "fd925a00aa6a7f5c",
+  "active": "65401b3ed8bb08ad",
   "lastOpenFiles": [
+    "+/SNR.md",
     "3. Resource/Calender Archive/2024-W45.md",
     "3. Resource/Calender Archive/2024-W46.md",
     "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
@@ -300,7 +301,6 @@
     "+/IoU.md",
     "+/GIoU.md",
     "+/AP.md",
-    "3. Resource/Calender Archive/2024-11-07.md",
     "1. Projects/DeepLearning_Cloud/자료/chap12_keras_CNN_self_workshop.pdf",
     "1. Projects/DeepLearning_Cloud/자료/chap12_keras_CNN.pdf",
     "1. Projects/DeepLearning_Cloud/자료/chap11_keras_dnn_window.pdf",
