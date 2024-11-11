@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/IoU.md",
+                "file": "3. Resource/Image, Video/DETR.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IoU"
+              "title": "DETR"
             }
           },
           {
@@ -207,12 +207,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/IoU.md",
+                "file": "3. Resource/Image, Video/DETR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "IoU의 나가는 링크"
+              "title": "DETR의 나가는 링크"
             }
           }
         ]
@@ -228,10 +228,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/IoU.md"
+                "file": "3. Resource/Image, Video/DETR.md"
               },
               "icon": "lucide-list",
-              "title": "IoU 개요"
+              "title": "DETR 개요"
             }
           }
         ]
@@ -258,12 +258,13 @@
   },
   "active": "c6d213e87923a9e9",
   "lastOpenFiles": [
+    "Source/Pasted image 20241111143443.png",
+    "+/IoU.md",
     "2024-11-11.md",
     "2024-11-09.md",
     "3. Resource/Image, Video/DETR.md",
     "Source/Pasted image 20241111141923.png",
     "+/엔드-투-엔드 방식.md",
-    "+/IoU.md",
     "+/앵커.md",
     "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/멀티미디어신호처리/11차시.md",
@@ -293,7 +294,6 @@
     "Source/베이지안결정론_page-0024.jpg",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/패턴인식/10월9일 강의영상.md",
     "Source/Pasted image 20241109152440.png",
-    "ChatGPT 용어 Instruction.md",
     "1. Projects/패턴인식",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/교양/의학사속의대발견/기말고사 준비/의학사 총정리/10장/의학사 인물",
     "4. Archive/Notion/HUB/포트폴리오/환경부 데이터분석 공모전/2024 환경부 데이터분석 공모전 DB (1)/1차 데이터 분석 결과/정다훈/환경공모전_데이터분석",
