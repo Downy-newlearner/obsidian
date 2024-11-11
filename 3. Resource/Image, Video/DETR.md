@@ -21,4 +21,4 @@ aliases:
 ![[Pasted image 20241111140252.png]]
 - 일반적인 detector에서의 bounding box loss는 예측과 ground truth 간의 _상대적인 좌표 및 크기_ 를 이용하여 정의한다.
 	- Anchor에서 정의된 box를 얼마나 움직이고, 얼마나 키워야 ground truth에 가까워지는지를 확인한다.
-- 반면 DETR의 경우 절대적인 bounding box의 좌표 및 크기를 direct 하게 예측하므로 loss를 계산 시 일반적인 L1 loss 외에 scale 보정이 필요함 -> GIoU 사용
+- 반면 DETR의 경우 절대적인 bounding box의 좌표 및 크기를 direct 하게 예측하므로 loss를 계산 시 일반적인 L1 loss 외에 scale 보정이 필요함 -> [[GIoU]] 사용
