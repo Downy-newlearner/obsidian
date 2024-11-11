@@ -6,7 +6,6 @@
       {
         "id": "1b33d4c3ee97efb0",
         "type": "tabs",
-        "dimension": 99.99999999999999,
         "children": [
           {
             "id": "1aceeaca7a953a5e",
@@ -82,9 +81,24 @@
               "icon": "lucide-file",
               "title": "ChatGPT 용어 Instruction"
             }
+          },
+          {
+            "id": "bdbd2d72476d3669",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+/NMS.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "NMS"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -158,7 +172,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270.5
+    "width": 270.5,
+    "collapsed": true
   },
   "right": {
     "id": "3a838d33f5dd2229",
@@ -239,12 +254,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/멀티미디어신호처리/11차시.md",
+                "file": "+/NMS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "11차시의 나가는 링크"
+              "title": "NMS의 나가는 링크"
             }
           }
         ]
@@ -260,17 +275,18 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/멀티미디어신호처리/11차시.md"
+                "file": "+/NMS.md"
               },
               "icon": "lucide-list",
-              "title": "11차시 개요"
+              "title": "NMS 개요"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 228.5
+    "width": 228.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -287,10 +303,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9c6364654be034d1",
+  "active": "bdbd2d72476d3669",
   "lastOpenFiles": [
-    "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/멀티미디어신호처리/멀티미디어신호처리 용어/푸리에 변환.md",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/멀티미디어신호처리/11차시.md",
+    "+/NMS.md",
+    "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/멀티미디어신호처리/멀티미디어신호처리 용어/푸리에 변환.md",
     "2024-11-09.md",
     "1. Projects/패턴인식/베이지안결정론.md",
     "1. Projects/패턴인식/확률 랜덤변수.md",
@@ -325,7 +342,6 @@
     "1. Projects/패턴인식",
     "3. Resource/Calender Archive/2024-11-08.md",
     "3. Resource/Calender Archive/2024-11-07.md",
-    "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/2학년 2학기/자료구조/연습문제/6장 스택.md",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/교양/의학사속의대발견/기말고사 준비/의학사 총정리/10장/의학사 인물",
     "4. Archive/Notion/HUB/포트폴리오/환경부 데이터분석 공모전/2024 환경부 데이터분석 공모전 DB (1)/1차 데이터 분석 결과/정다훈/환경공모전_데이터분석",
     "4. Archive/Notion/HUB/HUB/공부/공부/Stable Diffusion/Error Summary/해결",
