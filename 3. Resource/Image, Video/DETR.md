@@ -16,3 +16,6 @@ aliases:
 ![[Pasted image 20241111135825.png]]
 **DETR**
 오로지 DETR만을 사용하여 디텍션을 진행한다.
+
+## Loss: Bounding Box Loss
+![[Pasted image 20241111140229.png]]
