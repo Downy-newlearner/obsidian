@@ -207,9 +207,19 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "260eca0dbaeeb177",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "08cee372e46bda89",
@@ -253,8 +263,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228.5,
-    "collapsed": true
+    "width": 228.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -271,7 +280,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c6d213e87923a9e9",
+  "active": "260eca0dbaeeb177",
   "lastOpenFiles": [
     "3. Resource/Image, Video/DETR.md",
     "2024-11-11.md",
