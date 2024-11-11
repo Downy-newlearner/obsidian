@@ -88,28 +88,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "+/GIoU.md",
+                "file": "+/베셔슈타인 거리.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GIoU"
-            }
-          },
-          {
-            "id": "07998a97340586e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. Resource/Image, Video/DETR.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DETR"
+              "title": "베셔슈타인 거리"
             }
           },
           {
@@ -158,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -232,8 +217,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270.5,
-    "collapsed": true
+    "width": 270.5
   },
   "right": {
     "id": "3a838d33f5dd2229",
@@ -314,12 +298,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Resource/Image, Video/DETR.md",
+                "file": "+/베셔슈타인 거리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "DETR의 나가는 링크"
+              "title": "베셔슈타인 거리의 나가는 링크"
             }
           }
         ]
@@ -335,10 +319,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. Resource/Image, Video/DETR.md"
+                "file": "+/베셔슈타인 거리.md"
               },
               "icon": "lucide-list",
-              "title": "DETR 개요"
+              "title": "베셔슈타인 거리 개요"
             }
           }
         ]
@@ -363,11 +347,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "07998a97340586e8",
+  "active": "aa9aa1f23add5799",
   "lastOpenFiles": [
+    "+/빈도주의 접근법.md",
+    "+/스킵 연결.md",
+    "3. Resource/Terminology/Template.md",
     "+/GIoU.md",
-    "+/IoU.md",
+    "+/2024-11-04.md",
     "3. Resource/Image, Video/DETR.md",
+    "+/IoU.md",
     "Source/Pasted image 20241111140252.png",
     "Source/Pasted image 20241111140229.png",
     "Source/Pasted image 20241111135825.png",
@@ -396,11 +384,7 @@
     "ChatGPT 용어 Instruction.md",
     "Source/베이지안결정론_page-0014.jpg",
     "+/GAN.md",
-    "+/빈도주의 접근법.md",
     "+/주관적 접근법.md",
-    "+/무제 파일.md",
-    "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/패턴인식/10월 14일 대면강의.md",
-    "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/패턴인식/10월 7일 강의영상.md",
     "1. Projects/패턴인식",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/교양/의학사속의대발견/기말고사 준비/의학사 총정리/10장/의학사 인물",
     "4. Archive/Notion/HUB/포트폴리오/환경부 데이터분석 공모전/2024 환경부 데이터분석 공모전 DB (1)/1차 데이터 분석 결과/정다훈/환경공모전_데이터분석",
