@@ -1,6 +1,7 @@
 ---
 created: 2024-11-04 00:57
-tags: 
+tags:
+  - Object_Detection
 aliases:
   - Intersection over Union
 ---
