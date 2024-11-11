@@ -52,8 +52,7 @@
               "title": "앵커"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,12 +207,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-11-11.md",
+                "file": "+/IoU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "2024-11-11의 나가는 링크"
+              "title": "IoU의 나가는 링크"
             }
           }
         ]
@@ -229,10 +228,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-11-11.md"
+                "file": "+/IoU.md"
               },
               "icon": "lucide-list",
-              "title": "2024-11-11 개요"
+              "title": "IoU 개요"
             }
           }
         ]
@@ -257,10 +256,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c485bc18e3f4928d",
+  "active": "c6d213e87923a9e9",
   "lastOpenFiles": [
-    "2024-11-09.md",
     "2024-11-11.md",
+    "2024-11-09.md",
     "3. Resource/Image, Video/DETR.md",
     "Source/Pasted image 20241111141923.png",
     "+/엔드-투-엔드 방식.md",
