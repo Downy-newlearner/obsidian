@@ -52,8 +52,7 @@
               "title": "2024-W45"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -214,12 +213,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
+                "file": "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Chap 3 - Discrete_signals의 나가는 링크"
+              "title": "Chap 4 - Time-Domain Signal Analysis의 나가는 링크"
             }
           }
         ]
@@ -235,10 +234,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md"
+                "file": "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md"
               },
               "icon": "lucide-list",
-              "title": "Chap 3 - Discrete_signals 개요"
+              "title": "Chap 4 - Time-Domain Signal Analysis 개요"
             }
           }
         ]
@@ -262,10 +261,10 @@
       "kr-book-info-plugin:Add Book Info": false
     }
   },
-  "active": "65401b3ed8bb08ad",
+  "active": "f2b9c1ad65c6fc73",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "1. Projects/멀티미디어신호처리/Chap 3 - Discrete_signals.md",
+    "conflict-files-obsidian-git.md",
     "3. Resource/Calender Archive/2024-W45.md",
     "3. Resource/Calender Archive/2024-11-08.md",
     "3. Resource/Calender Archive/2024-W46.md",
