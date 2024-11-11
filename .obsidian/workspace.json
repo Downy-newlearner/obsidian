@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -284,12 +284,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "+/앵커.md",
+                "file": "3. Resource/Image, Video/DETR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "앵커의 나가는 링크"
+              "title": "DETR의 나가는 링크"
             }
           }
         ]
@@ -305,10 +305,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "+/앵커.md"
+                "file": "3. Resource/Image, Video/DETR.md"
               },
               "icon": "lucide-list",
-              "title": "앵커 개요"
+              "title": "DETR 개요"
             }
           }
         ]
@@ -333,8 +333,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "68ed30dd26216f37",
+  "active": "07998a97340586e8",
   "lastOpenFiles": [
+    "Source/Pasted image 20241111135825.png",
+    "+/앵커.md",
     "Source/Pasted image 20241111135713.png",
     "3. Resource/Image, Video/DETR.md",
     "+/Non-Maximum Suppression.md",
@@ -342,7 +344,6 @@
     "3. Resource/Image, Video/딥페이크 디텍터- ResNet50.md",
     "3. Resource/Image, Video/ResNet.md",
     "+/DETR.md",
-    "+/앵커.md",
     "Source/Pasted image 20241111134721.png",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/멀티미디어신호처리/11차시.md",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/멀티미디어신호처리/멀티미디어신호처리 용어/푸리에 변환.md",
@@ -364,7 +365,6 @@
     "Source/패턴인식_확률_랜덤변수(1)-이미지-113.jpg",
     "Source/패턴인식_확률_랜덤변수(1)-이미지-112.jpg",
     "Source/패턴인식_확률_랜덤변수(1)-이미지-111.jpg",
-    "Source/패턴인식_확률_랜덤변수(1)-이미지-110.jpg",
     "+/빈도주의 접근법.md",
     "+/주관적 접근법.md",
     "+/무제 파일.md",
