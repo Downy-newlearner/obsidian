@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Resource/Image, Video/DETR.md",
+                "file": "3. Resource/Calender Archive/2024-W46.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DETR"
+              "title": "2024-W46"
             }
           },
           {
@@ -67,8 +67,7 @@
               "title": "앵커"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -142,7 +141,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 516.5
+    "width": 297.5
   },
   "right": {
     "id": "3a838d33f5dd2229",
@@ -223,12 +222,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-11-11.md",
+                "file": "3. Resource/Calender Archive/2024-W46.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "2024-11-11의 나가는 링크"
+              "title": "2024-W46의 나가는 링크"
             }
           }
         ]
@@ -244,10 +243,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-11-11.md"
+                "file": "3. Resource/Calender Archive/2024-W46.md"
               },
               "icon": "lucide-list",
-              "title": "2024-11-11 개요"
+              "title": "2024-W46 개요"
             }
           }
         ]
@@ -272,16 +271,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "acf6e243f265356f",
+  "active": "c6d213e87923a9e9",
   "lastOpenFiles": [
+    "3. Resource/Image, Video/DETR.md",
+    "2024-11-11.md",
     "2024-11-09.md",
     "3. Resource/Calender Archive/2024-11-04.md",
     "3. Resource/Calender Archive/2024-W46.md",
     "+/2024-11-04.md",
-    "2024-11-11.md",
     "3. Resource/Calender Archive/2024-W45.md",
     "+/AP.md",
-    "3. Resource/Image, Video/DETR.md",
     "Source/Pasted image 20241111143443.png",
     "+/IoU.md",
     "Source/Pasted image 20241111141923.png",
