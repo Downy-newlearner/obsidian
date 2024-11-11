@@ -2,7 +2,7 @@
 created: 2024-11-04 00:57
 tags: 
 aliases:
-  - Non-Maximum Suppression
+  - NMS
 ---
 **NMS (Non-Maximum Suppression)**:  
 객체 탐지 모델에서 중복된 예측 상자(bounding box)를 제거하여 하나의 객체를 단일 상자로 표현하는 알고리즘이다.
