@@ -20,6 +20,8 @@ aliases:
 
 ## Loss: Bounding Box Loss
 ![[Pasted image 20241111141923.png]]
+### 1. 클래스 예측: $\hat{p_\sigma}
+### 2. 박스 좌표 예측 $L_{box}$
 ![[Pasted image 20241111140252.png]]
 - 일반적인 detector에서의 bounding box loss는 예측과 ground truth 간의 _상대적인 좌표 및 크기_ 를 이용하여 정의한다.
 	- Anchor에서 정의된 box를 얼마나 움직이고, 얼마나 키워야 ground truth에 가까워지는지를 확인한다.
