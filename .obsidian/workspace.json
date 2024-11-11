@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -202,7 +202,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270.5
+    "width": 270.5,
+    "collapsed": true
   },
   "right": {
     "id": "3a838d33f5dd2229",
@@ -283,12 +284,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Resource/Image, Video/DETR.md",
+                "file": "+/앵커.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "DETR의 나가는 링크"
+              "title": "앵커의 나가는 링크"
             }
           }
         ]
@@ -304,10 +305,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. Resource/Image, Video/DETR.md"
+                "file": "+/앵커.md"
               },
               "icon": "lucide-list",
-              "title": "DETR 개요"
+              "title": "앵커 개요"
             }
           }
         ]
@@ -332,10 +333,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "07998a97340586e8",
+  "active": "68ed30dd26216f37",
   "lastOpenFiles": [
-    "+/Non-Maximum Suppression.md",
+    "Source/Pasted image 20241111135713.png",
     "3. Resource/Image, Video/DETR.md",
+    "+/Non-Maximum Suppression.md",
     "+/엔드-투-엔드 방식.md",
     "3. Resource/Image, Video/딥페이크 디텍터- ResNet50.md",
     "3. Resource/Image, Video/ResNet.md",
@@ -369,7 +371,6 @@
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/패턴인식/10월 14일 대면강의.md",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/패턴인식/10월 7일 강의영상.md",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/패턴인식/강의노트교과목개요_기계학습_패턴인식(녹화1).md",
-    "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/패턴인식/Chapter 2 - 9월11,16,18일 강의(1).md",
     "1. Projects/패턴인식",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/교양/의학사속의대발견/기말고사 준비/의학사 총정리/10장/의학사 인물",
     "4. Archive/Notion/HUB/포트폴리오/환경부 데이터분석 공모전/2024 환경부 데이터분석 공모전 DB (1)/1차 데이터 분석 결과/정다훈/환경공모전_데이터분석",
