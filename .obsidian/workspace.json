@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Resource/Calender Archive/2024-W46.md",
+                "file": "2024-11-11.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-W46"
+              "title": "2024-11-11"
             }
           },
           {
@@ -142,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270.5
+    "width": 516.5
   },
   "right": {
     "id": "3a838d33f5dd2229",
@@ -223,12 +223,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Resource/Calender Archive/2024-W46.md",
+                "file": "2024-11-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "2024-W46의 나가는 링크"
+              "title": "2024-11-11의 나가는 링크"
             }
           }
         ]
@@ -244,10 +244,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. Resource/Calender Archive/2024-W46.md"
+                "file": "2024-11-11.md"
               },
               "icon": "lucide-list",
-              "title": "2024-W46 개요"
+              "title": "2024-11-11 개요"
             }
           }
         ]
@@ -274,14 +274,16 @@
   },
   "active": "acf6e243f265356f",
   "lastOpenFiles": [
-    "2024-11-11.md",
+    "2024-11-09.md",
+    "3. Resource/Calender Archive/2024-11-04.md",
     "3. Resource/Calender Archive/2024-W46.md",
+    "+/2024-11-04.md",
+    "2024-11-11.md",
     "3. Resource/Calender Archive/2024-W45.md",
     "+/AP.md",
     "3. Resource/Image, Video/DETR.md",
     "Source/Pasted image 20241111143443.png",
     "+/IoU.md",
-    "2024-11-09.md",
     "Source/Pasted image 20241111141923.png",
     "+/엔드-투-엔드 방식.md",
     "+/앵커.md",
@@ -295,7 +297,6 @@
     "+/스킵 연결.md",
     "3. Resource/Terminology/Template.md",
     "+/GIoU.md",
-    "+/2024-11-04.md",
     "Source/Pasted image 20241111140252.png",
     "Source/Pasted image 20241111140229.png",
     "Source/Pasted image 20241111135825.png",
@@ -306,7 +307,6 @@
     "Source/Pasted image 20241111134721.png",
     "4. Archive/Notion/DK 학사 과정/단국대 학사 과정/3학년 2학기/멀티미디어신호처리/멀티미디어신호처리 용어/푸리에 변환.md",
     "1. Projects/패턴인식/베이지안결정론.md",
-    "1. Projects/패턴인식/확률 랜덤변수.md",
     "Source/Pasted image 20241109172054.png",
     "Source/Pasted image 20241109172052.png",
     "Source/베이지안결정론_page-0024.jpg",
