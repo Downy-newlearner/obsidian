@@ -3,7 +3,8 @@
 ![[chap13_keras_CNN_augmentation_page-0002.jpg]]
 
 ![[chap13_keras_CNN_augmentation_page-0003.jpg]]
-우리 입장에서는 똑같은 이미지같지만, 모델 입장에서는 모두 다른 이미지
+우리 입장에서는 똑같은 이미지같지만, 모델 입장에서는 모두 다른 이미지이다.
+
 ![[chap13_keras_CNN_augmentation_page-0004.jpg]]
 
 ![[chap13_keras_CNN_augmentation_page-0005.jpg]]
