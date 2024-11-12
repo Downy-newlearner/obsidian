@@ -137,17 +137,10 @@ inpulse function은 singularity function이다.
 FIR 시스템의 임펄스 응답은 유한 길이를 가지며 그래프에서 유한한 범위 내에서만 값이 존재한다.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0019.jpg]]
-**3줄 요약**  
-==IIR 시스템에서는 현재 출력이 이전 출력과 입력의 조합으로 계산되며==, 무한 길이의 응답을 생성한다. 입력 $x[n] = \delta[n]$으로 대체하여 임펄스 응답 $h[n]$을 계산하면 값이 계속 이어진다. 이는 IIR 시스템의 특징인 무한 응답을 나타낸다.
+이 시스템은 출력이 과거에 의존한다.
 
-**핵심 디테일**
+마찬가지로 입력에 Inpulse function을 넣어서 확인해보니 위와 같다.
 
-- $y[n] - 0.4y[n-1] = x[n] - x[n-1]$에서 $x[n] = \delta[n]$으로 대체하여 $h[n]$을 구한다.
-- $h[n]$은 무한 길이로 계속 이어지며, 이는 IIR 시스템의 특성이다.
-- IIR 시스템은 이전 출력에 의존하므로 응답이 끝없이 이어진다.
-
-**1줄 요약**  
-IIR 시스템의 임펄스 응답은 무한 길이로 계속 이어진다.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0020.jpg]]
 
