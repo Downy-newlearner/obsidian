@@ -42,7 +42,7 @@
 ![[chap14_keras_transfer_learning_page-0020 1.jpg]]
 
 ![[chap14_keras_transfer_learning_page-0021 1.jpg]]
-
+convolution layer는 유지하고 DNN layer를 제거해서 내가 만드려고 하는 것이다.
 ![[chap14_keras_transfer_learning_page-0022 1.jpg]]
 
 ![[chap14_keras_transfer_learning_page-0023 1.jpg]]
