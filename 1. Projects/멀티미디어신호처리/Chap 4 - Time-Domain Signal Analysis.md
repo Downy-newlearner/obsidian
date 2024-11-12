@@ -103,6 +103,10 @@ Impulse response
 	어떤 unknown 시스템이 있다고 하자.
 	그 시스템에 impulse function을 입력하고 출력을 측정하면 이것이 inpulse response이다.
 
+inpulse function은 singularity function이다. 
+이것은 인공적으로 만들어낸 함수이다.(순간 확 튀는 함수는 존재하지 않음)
+그러므로 적당히 inpulse function에 유사한 함수를 
+
 | 특징            | FIR (Finite Impulse Response) | IIR (Infinite Impulse Response) |
 | ------------- | ----------------------------- | ------------------------------- |
 | **임펄스 응답 길이** | 유한 (finite)                   | 무한 (infinite)                   |
