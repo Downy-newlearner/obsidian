@@ -68,6 +68,7 @@ causality를 따르는 시스템만이 구현이 가능하다.
 		- non causal system은 구현이 불가능하다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0011.jpg]]
 **BIBO**: 입력이 유한하면 출력이 유한하게 유지되는 시스템의 특성
+	- Input이 한정되어있으면, Output도 한정된 값 안에서 나와야한다.
 
 **핵심 디테일**
 
