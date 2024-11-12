@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Resource/Calender Archive/2024-W46.md",
+                "file": "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/chap14_keras_transfer_learning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-W46"
+              "title": "chap14_keras_transfer_learning"
             }
           },
           {
@@ -253,10 +253,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. Resource/Calender Archive/2024-W46.md"
+                "file": "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/chap14_keras_transfer_learning.md"
               },
               "icon": "lucide-list",
-              "title": "2024-W46 개요"
+              "title": "chap14_keras_transfer_learning 개요"
             }
           }
         ]
@@ -283,6 +283,7 @@
   },
   "active": "c6d213e87923a9e9",
   "lastOpenFiles": [
+    "3. Resource/Calender Archive/2024-W46.md",
     "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/chap14_keras_transfer_learning.md",
     "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/whatisit.jpeg",
     "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/whatisitjpeg.jpeg",
@@ -305,7 +306,6 @@
     "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/새 폴더",
     "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/13_14_source_code/13_augmentation_example.py",
     "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/dog_augmentation/efc9bc3c-c43f-4edc-aa0d-f2e55cd286f5",
-    "3. Resource/Calender Archive/2024-W46.md",
     "2024-11-12.md",
     "3. Resource/Image, Video/DETR.md",
     "2024-11-11.md",
