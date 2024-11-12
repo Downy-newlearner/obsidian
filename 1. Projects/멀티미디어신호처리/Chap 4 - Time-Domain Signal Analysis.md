@@ -124,6 +124,8 @@ inpulse function은 singularity function이다.
 이 시스템은 non recursive 시스템이다.
 	왜냐하면 이 함수는 입력에만 의존하기 때문이다.
 
+입력 $x[n]$, 그리고 출력 $y[n]$를 
+
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0018.jpg]]
 FIR 시스템의 임펄스 응답은 유한 길이를 가지며 그래프에서 유한한 범위 내에서만 값이 존재한다.
 
