@@ -80,9 +80,7 @@ causality를 따르는 시스템만이 구현이 가능하다.
 
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0013.jpg]]
-[[LTI|LTI 시스템]]은 임펄스 응답과 [[차분 방정식]]으로 표현하여 시스템 동작을 수학적으로 모델링할 수 있습니다.
-
-시스템을 Impulse response로 표현하느냐, Difference equation(입력과 출력의 관계식)으로 표현하냐에 따라서 분석하는 방법이 달라진다.
+시스템을 Impulse response로 표현하느냐, Difference equation(입력과 출력의 관계식)으로 표현하냐에 따라서 분석하는 방법이 달라진다.(분석이 다를 수 있 동일한 시스템을 이야기하는 것이다.)
 두 번째 방법을 확인해보자
 	recursive / non recursive를 구분하는 것이 중요하다.
 
@@ -105,7 +103,7 @@ Impulse response
 
 inpulse function은 singularity function이다. 
 이것은 인공적으로 만들어낸 함수이다.(순간 확 튀는 함수는 존재하지 않음)
-그러므로 적당히 inpulse function에 유사한 함수를 
+그러므로 적당히 inpulse function에 유사한 함수를 unknown 시스템에 입력해서 그 시스템을 추측한다.
 
 | 특징            | FIR (Finite Impulse Response) | IIR (Infinite Impulse Response) |
 | ------------- | ----------------------------- | ------------------------------- |
@@ -123,19 +121,7 @@ inpulse function은 singularity function이다.
 
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0017.jpg]]
-**3줄 요약**  
-==FIR 시스템에서는 현재 출력이 과거 입력의 [[유한 합]]으로 표현된다.== 입력 $x[n]$을 단위 임펄스 $\delta[n]$으로 대체하여, FIR 시스템의 임펄스 응답 $h[n]$을 계산한다. 결과적으로 유한 길이의 응답이 나타난다.
 
-**핵심 디테일**
-
-- 주어진 $y[n] = 0.25(x[n] + x[n-1] + x[n-2] + x[n-3])$에서 $x[n] = \delta[n]$으로 대체하면 $h[n]$을 구할 수 있다.
-- $h[n]$은 ${0.25, 0.25, 0.25, 0.25}$로 유한 길이를 가진다.
-- FIR 시스템은 항상 유한 길이의 응답을 갖는다.
-
-
-
-**1줄 요약**  
-FIR 시스템의 임펄스 응답은 유한한 길이를 가지며 과거 입력의 [[유한 합]]으로 구성된다.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0018.jpg]]
 FIR 시스템의 임펄스 응답은 유한 길이를 가지며 그래프에서 유한한 범위 내에서만 값이 존재한다.
