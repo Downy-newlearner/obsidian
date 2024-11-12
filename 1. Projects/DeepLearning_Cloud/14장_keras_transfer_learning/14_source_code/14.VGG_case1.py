@@ -10,7 +10,7 @@ from keras.applications.vgg16 import VGG16
 model = VGG16()       # take a long time 
 
 # load an image from file
-image = load_img("C:/Obsidian/obsidian/1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/dog_original.jpg", target_size=(224, 224))
+image = load_img("C:\Obsidian\obsidian\1. Projects\DeepLearning_Cloud\14장_keras_transfer_learning\whatisit.jpeg", target_size=(224, 224))
 
 # convert the image pixels to a numpy array
 image = img_to_array(image)
