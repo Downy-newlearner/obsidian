@@ -140,9 +140,9 @@ FIR 시스템의 임펄스 응답은 유한 길이를 가지며 그래프에서 
 이 시스템은 출력이 과거에 의존한다.
 
 마찬가지로 입력에 Inpulse function을 넣어서 확인해보니 위와 같다.
-	$h[0] = 0.4h[-1] + \delta[0] - \delta[-1] = 0 + 1 - 0 = 1$
-	$h[1] = 0.4h[0] + \delta[1] - \delta[0] = 0.4 + 0 - 1$
-	
+	$h[0] = 0.4h[-1] + \delta[0] - \delta[-1] = 0 + 1 - 0 = 1 (\because h[-1] = 0)$
+	$h[1] = 0.4h[0] + \delta[1] - \delta[0] = 0.4 + 0 - 1 = -0.6$
+$0.4h[n-1]$이라는 피드백이 존재하므로 Infinite Impuls
 
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0020.jpg]]
