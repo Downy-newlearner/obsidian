@@ -141,7 +141,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 297.5,
+    "collapsed": true
   },
   "right": {
     "id": "3a838d33f5dd2229",
@@ -263,7 +264,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228.5
+    "width": 228.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -282,6 +284,7 @@
   },
   "active": "c6d213e87923a9e9",
   "lastOpenFiles": [
+    "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/dog_original.jpg",
     "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/Golden+Retrievers+dans+pet+care.jpg",
     "Source/chap13_keras_CNN_augmentation_page-0017.jpg",
     "Source/chap13_keras_CNN_augmentation_page-0016.jpg",
@@ -292,7 +295,6 @@
     "Source/chap13_keras_CNN_augmentation_page-0011.jpg",
     "Source/chap13_keras_CNN_augmentation_page-0010.jpg",
     "Source/chap13_keras_CNN_augmentation_page-0009.jpg",
-    "Source/chap13_keras_CNN_augmentation_page-0008.jpg",
     "3. Resource/Calender Archive/2024-W46.md",
     "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/chap13_keras_CNN_augmentation.md",
     "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning",
