@@ -127,6 +127,8 @@ inpulse function은 singularity function이다.
 입력 $x[n]$, 그리고 출력 $y[n]$를 알기 위해서는 시스템에 대해서 알아야한다.
 그래서 입력에 Inpulse function을 넣어 시스템을 추측한다.
 	$x[n] = \delta[n]$
+	결과를 확인해보니 결과는 finite impulse response이다.
+	그러므로 이 시스템은 FIR system이다.
 	
 이 시스템은 causal 시스템이다.
 	$h[n] = 0 (n<0)$
