@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/chap.md",
+                "file": "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/chap14_keras_transfer_learning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "chap"
+              "title": "chap14_keras_transfer_learning"
             }
           },
           {
@@ -253,10 +253,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/chap.md"
+                "file": "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/chap14_keras_transfer_learning.md"
               },
               "icon": "lucide-list",
-              "title": "chap 개요"
+              "title": "chap14_keras_transfer_learning 개요"
             }
           }
         ]
@@ -296,7 +296,7 @@
     "Source/chap14_keras_transfer_learning_page-0043 1.jpg",
     "Source/chap14_keras_transfer_learning_page-0042 1.jpg",
     "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/chap13_keras_CNN_augmentation.md",
-    "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/chap.md",
+    "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/chap14_keras_transfer_learning.md",
     "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/14_source_code/14.VMobileNetV3_cifar.py",
     "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/14_source_code/14.VGG_case1.py",
     "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/14_source_code/14.keras_regression.py",
