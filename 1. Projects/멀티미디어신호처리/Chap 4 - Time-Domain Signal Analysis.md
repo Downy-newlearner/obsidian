@@ -99,9 +99,9 @@ FIR과 IIR 시스템의 구분은 임펄스 응답의 길이에 따라 결정된
 	- FIR은 유한 길이의 임펄스 응답을 가짐
 	- IIR은 무한 길이의 임펄스 응답을 가짐
 
-- FIR, IIR 차이
-
-Impulse re
+Impulse response
+	어떤 모르는 시스템이 있다고 하자.
+	그 시스템에 impulse function을 입력하고 출력을 측정하면 이것이 inpulse response이다.
 
 | 특징            | FIR (Finite Impulse Response) | IIR (Infinite Impulse Response) |
 | ------------- | ----------------------------- | ------------------------------- |
