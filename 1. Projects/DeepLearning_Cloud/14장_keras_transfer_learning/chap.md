@@ -3,9 +3,18 @@
 ![[chap14_keras_transfer_learning_page-0002.jpg]]
 
 ![[chap14_keras_transfer_learning_page-0003.jpg]]
+남이 만들어놓은 모델을 이용해서 내 문제를 풀겠다는 것이 전이학습이다.
+	1. 아키텍처만 이용하기
+	2. 아키텍처 + weight 모두 이용하기
+
+
 ![[chap14_keras_transfer_learning_page-0021.jpg]]
 
 ![[chap14_keras_transfer_learning_page-0022.jpg]]
+
+
+
+
 ![[chap14_keras_transfer_learning_page-0037.jpg]]
 
 ![[chap14_keras_transfer_learning_page-0038.jpg]]
