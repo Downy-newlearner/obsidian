@@ -140,6 +140,7 @@ FIR 시스템의 임펄스 응답은 유한 길이를 가지며 그래프에서 
 이 시스템은 출력이 과거에 의존한다.
 
 마찬가지로 입력에 Inpulse function을 넣어서 확인해보니 위와 같다.
+	$h[n] = 0.4h[n] + \delta[0] - \de
 
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0020.jpg]]
