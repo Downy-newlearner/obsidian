@@ -86,10 +86,11 @@ causality를 따르는 시스템만이 구현이 가능하다.
 두 번째 방법을 확인해보자
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0014.jpg]]
-IIR 시스템은 출력이 과거 출력에 의존하고, FIR 시스템은 입력에만 의존합니다.
+출력 y는 입력 뿐만 아니라 과거의 출력에도 의존한다. 
+	이를 Recursive system(재귀 시스템), IIR이라고 부른다.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0015.jpg]]
-
+non recursive s
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0016.jpg]]
 임펄스 응답은 시스템이 단위 임펄스 입력에 반응하여 생성하는 출력이다.
 FIR과 IIR 시스템의 구분은 임펄스 응답의 길이에 따라 결정된다.
