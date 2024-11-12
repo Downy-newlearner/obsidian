@@ -84,13 +84,15 @@ causality를 따르는 시스템만이 구현이 가능하다.
 
 시스템을 Impulse response로 표현하느냐, Difference equation(입력과 출력의 관계식)으로 표현하냐에 따라서 분석하는 방법이 달라진다.
 두 번째 방법을 확인해보자
+	recursive / non recursive를 구분하는 것이 중요하다.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0014.jpg]]
 출력 y는 입력 뿐만 아니라 과거의 출력에도 의존한다. 
 	이를 Recursive system(재귀 시스템), IIR이라고 부른다.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0015.jpg]]
-non recursive s
+non recursive system을 FIR이라고 부른다.
+
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0016.jpg]]
 임펄스 응답은 시스템이 단위 임펄스 입력에 반응하여 생성하는 출력이다.
 FIR과 IIR 시스템의 구분은 임펄스 응답의 길이에 따라 결정된다.
@@ -98,6 +100,8 @@ FIR과 IIR 시스템의 구분은 임펄스 응답의 길이에 따라 결정된
 	- IIR은 무한 길이의 임펄스 응답을 가짐
 
 - FIR, IIR 차이
+
+Impulse re
 
 | 특징            | FIR (Finite Impulse Response) | IIR (Infinite Impulse Response) |
 | ------------- | ----------------------------- | ------------------------------- |
