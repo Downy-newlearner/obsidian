@@ -11,15 +11,17 @@
             "id": "c6d213e87923a9e9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "2024-11-12.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "헬스케어 공모전.canvas",
+                "viewState": {
+                  "x": 1090,
+                  "y": 213,
+                  "zoom": -0.8365495579563139
+                }
               },
-              "icon": "lucide-file",
-              "title": "2024-11-12"
+              "icon": "lucide-layout-dashboard",
+              "title": "헬스케어 공모전"
             }
           }
         ]
@@ -187,12 +189,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-11-12.md",
+                "file": "헬스케어 공모전.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "2024-11-12의 나가는 링크"
+              "title": "헬스케어 공모전의 나가는 링크"
             }
           }
         ]
@@ -208,10 +210,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-11-12.md"
+                "file": "헬스케어 공모전.canvas"
               },
               "icon": "lucide-list",
-              "title": "2024-11-12 개요"
+              "title": "헬스케어 공모전 개요"
             }
           }
         ]
@@ -238,8 +240,8 @@
   },
   "active": "c6d213e87923a9e9",
   "lastOpenFiles": [
-    "2024-11-11.md",
     "2024-11-12.md",
+    "2024-11-11.md",
     "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
     "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/chap14_keras_transfer_learning.md",
     "3. Resource/Calender Archive/2024-W46.md",
