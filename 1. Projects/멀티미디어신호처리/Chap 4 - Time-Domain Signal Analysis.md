@@ -80,7 +80,7 @@ causality를 따르는 시스템만이 구현이 가능하다.
 
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0013.jpg]]
-시스템을 Impulse response로 표현하느냐, Difference equation(입력과 출력의 관계식)으로 표현하냐에 따라서 분석하는 방법이 달라진다.(분석이 다를 수 있 동일한 시스템을 이야기하는 것이다.)
+시스템을 Impulse response로 표현하느냐, Difference equation(입력과 출력의 관계식)으로 표현하냐에 따라서 분석하는 방법이 달라진다.(분석이 다를 수 있지만 동일한 시스템을 이야기하는 것이다.)
 두 번째 방법을 확인해보자
 	recursive / non recursive를 구분하는 것이 중요하다.
 
@@ -121,7 +121,8 @@ inpulse function은 singularity function이다.
 
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0017.jpg]]
-
+이 시스템은 non recursive 시스템이다.
+	왜냐하면 이 함수는 입력에만 
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0018.jpg]]
 FIR 시스템의 임펄스 응답은 유한 길이를 가지며 그래프에서 유한한 범위 내에서만 값이 존재한다.
