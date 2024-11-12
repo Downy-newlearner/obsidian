@@ -11,17 +11,15 @@
             "id": "c6d213e87923a9e9",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "헬스케어 공모전.canvas",
-                "viewState": {
-                  "x": 1090,
-                  "y": 213,
-                  "zoom": -0.8365495579563139
-                }
+                "file": "1. Projects/AI 아이디어 경진대회/아이디에이션.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "헬스케어 공모전"
+              "icon": "lucide-file",
+              "title": "아이디에이션"
             }
           }
         ]
@@ -189,12 +187,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "헬스케어 공모전.canvas",
+                "file": "1. Projects/AI 아이디어 경진대회/아이디에이션.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "헬스케어 공모전의 나가는 링크"
+              "title": "아이디에이션의 나가는 링크"
             }
           }
         ]
@@ -210,10 +208,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "헬스케어 공모전.canvas"
+                "file": "1. Projects/AI 아이디어 경진대회/아이디에이션.md"
               },
               "icon": "lucide-list",
-              "title": "헬스케어 공모전 개요"
+              "title": "아이디에이션 개요"
             }
           }
         ]
@@ -238,11 +236,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c6d213e87923a9e9",
+  "active": "f8f40c1f0fe0b281",
   "lastOpenFiles": [
+    "2024-11-12.md",
+    "헬스케어 공모전.canvas",
     "1. Projects/AI 아이디어 공모전/diagram.ipynb",
     "1. Projects/AI 아이디어 공모전",
-    "2024-11-12.md",
     "2024-11-11.md",
     "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
     "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/chap14_keras_transfer_learning.md",
@@ -266,7 +265,6 @@
     "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/14_source_code/14_efficientnet_cifar.py",
     "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/14_source_code",
     "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/새 폴더",
-    "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/13_14_source_code/13_augmentation_example.py",
     "3. Resource/Image, Video/DETR.md",
     "2024-11-09.md",
     "3. Resource/Calender Archive/2024-11-04.md",
@@ -286,7 +284,6 @@
     "3. Resource/Terminology/Template.md",
     "+/GIoU.md",
     "3. Resource/Image, Video/딥페이크 디텍터- ResNet50.md",
-    "헬스케어 공모전.canvas",
     "무제 파일.canvas"
   ]
 }
