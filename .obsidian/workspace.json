@@ -11,15 +11,12 @@
             "id": "c6d213e87923a9e9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "1. Projects/AI 아이디어 경진대회/아이디에이션.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "1. Projects/DeepLearning_Cloud/pdf 자료/chap12_keras_CNN_self_workshop.pdf"
               },
-              "icon": "lucide-file",
-              "title": "아이디에이션"
+              "icon": "lucide-file-text",
+              "title": "chap12_keras_CNN_self_workshop"
             }
           }
         ]
@@ -187,12 +184,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/AI 아이디어 경진대회/아이디에이션.md",
+                "file": "1. Projects/DeepLearning_Cloud/pdf 자료/chap12_keras_CNN_self_workshop.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "아이디에이션의 나가는 링크"
+              "title": "chap12_keras_CNN_self_workshop의 나가는 링크"
             }
           }
         ]
@@ -208,10 +205,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/AI 아이디어 경진대회/아이디에이션.md"
+                "file": "1. Projects/DeepLearning_Cloud/pdf 자료/chap12_keras_CNN_self_workshop.pdf"
               },
               "icon": "lucide-list",
-              "title": "아이디에이션 개요"
+              "title": "chap12_keras_CNN_self_workshop 개요"
             }
           }
         ]
@@ -236,8 +233,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f8f40c1f0fe0b281",
+  "active": "c6d213e87923a9e9",
   "lastOpenFiles": [
+    "1. Projects/AI 아이디어 경진대회/아이디에이션.md",
     "1. Projects/DeepLearning_Cloud/homework/12장 workshop/archive/test/test/0976.jpg",
     "1. Projects/DeepLearning_Cloud/homework/12장 workshop/archive/test/test/0975.jpg",
     "1. Projects/DeepLearning_Cloud/homework/12장 workshop/archive/test/test/0974.jpg",
@@ -248,14 +246,12 @@
     "1. Projects/DeepLearning_Cloud/homework/12장 workshop/archive/test/test/0969.jpg",
     "1. Projects/DeepLearning_Cloud/homework/12장 workshop/archive/test/test/0968.jpg",
     "1. Projects/DeepLearning_Cloud/homework/12장 workshop/archive/test/test/0967.jpg",
-    "1. Projects/DeepLearning_Cloud/homework/12장 workshop/archive/test/test/0966.jpg",
     "1. Projects/DeepLearning_Cloud/homework/12장 workshop/archive/test/test",
     "1. Projects/DeepLearning_Cloud/homework/12장 workshop/archive/test",
     "1. Projects/DeepLearning_Cloud/homework/12장 workshop/archive/sampleSubmission.csv",
     "1. Projects/DeepLearning_Cloud/homework/12장 workshop/archive",
     "1. Projects/DeepLearning_Cloud/homework/12장 workshop/archive.zip",
     "1. Projects/DeepLearning_Cloud/homework/12장 workshop",
-    "1. Projects/AI 아이디어 경진대회/아이디에이션.md",
     "1. Projects/DeepLearning_Cloud/강의 노트/11장_keras_dnn_window/chap11_2_source_code/__pycache__/TrainPlot.cpython-310.pyc",
     "1. Projects/DeepLearning_Cloud/강의 노트/12장/chap12_source_code/cnn_workshop.ipynb",
     "1. Projects/DeepLearning_Cloud/강의 노트/12장/chap12_source_code/12.image_processing.py",
