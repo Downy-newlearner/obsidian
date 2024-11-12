@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/chap13_keras_CNN_augmentation.md",
+                "file": "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/무제 파일.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "chap13_keras_CNN_augmentation"
+              "title": "무제 파일"
             }
           },
           {
@@ -253,10 +253,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/chap13_keras_CNN_augmentation.md"
+                "file": "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/무제 파일.md"
               },
               "icon": "lucide-list",
-              "title": "chap13_keras_CNN_augmentation 개요"
+              "title": "무제 파일 개요"
             }
           }
         ]
@@ -283,17 +283,18 @@
   },
   "active": "c6d213e87923a9e9",
   "lastOpenFiles": [
+    "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/chap13_keras_CNN_augmentation.md",
+    "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/무제 파일.md",
+    "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/14_source_code/14.VMobileNetV3_cifar.py",
+    "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/14_source_code/14.VGG_case1.py",
+    "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/14_source_code/14.keras_regression.py",
+    "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/14_source_code/14.EfficientNet.py",
+    "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/14_source_code/14_efficientnet_cifar.py",
+    "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/14_source_code",
+    "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/새 폴더",
     "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/13_14_source_code/13_augmentation_example.py",
     "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/dog_augmentation/efc9bc3c-c43f-4edc-aa0d-f2e55cd286f5",
     "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/dog_augmentation/f67a07fe-d70a-4651-b908-7d6328414908",
-    "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/dog_augmentation/35062bbd-d9a6-4419-84a4-04eb88dab976",
-    "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/dog_augmentation/9273f3bf-33f1-4653-b2ba-ac54cd6af229",
-    "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/dog_augmentation/b479ea07-4ae0-4b5d-b287-a68056c02bb6",
-    "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/dog_augmentation/eb9c4d75-abcb-4f88-9cdf-260afd21ef9b",
-    "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/dog_augmentation/afc0478f-791e-455a-9fa7-8523bfbeb31b",
-    "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/dog_augmentation/70bb6bf0-28a5-454a-a404-f6d8c48bd26d",
-    "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/dog_augmentation/1c391f84-8363-49b4-8092-9ac9b4e676bb",
-    "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/dog_augmentation/62a40968-3c1f-4673-bd86-cf0bdd901dcc",
     "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/dog_augmentation/dog_0_3379.jpeg",
     "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/dog_augmentation/dog_0_1492.jpeg",
     "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/dog_augmentation/dog_0_9233.jpeg",
@@ -305,7 +306,6 @@
     "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/dog_augmentation/dog_0_4603.jpeg",
     "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/dog_augmentation/dog_0_5178.jpeg",
     "3. Resource/Calender Archive/2024-W46.md",
-    "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/chap13_keras_CNN_augmentation.md",
     "2024-11-12.md",
     "3. Resource/Image, Video/DETR.md",
     "2024-11-11.md",
