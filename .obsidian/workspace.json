@@ -116,7 +116,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Object_Detection",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Area/Book/왜 나는 너를 사랑하는가.md",
+                "file": "1. Projects/DeepLearning_Cloud/13장_keras_CNN_augmentation/chap13_keras_CNN_augmentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 왜 나는 너를 사랑하는가"
+              "title": "chap13_keras_CNN_augmentation의 백링크"
             }
           },
           {
@@ -219,7 +219,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "08cee372e46bda89",
@@ -280,7 +280,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c6d213e87923a9e9",
+  "active": "f8f40c1f0fe0b281",
   "lastOpenFiles": [
     "Source/chap13_keras_CNN_augmentation_page-0017.jpg",
     "Source/chap13_keras_CNN_augmentation_page-0016.jpg",
