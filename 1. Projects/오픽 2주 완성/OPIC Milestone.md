@@ -12,6 +12,9 @@ dead line: 2024-11-30
 3. 모의고사 5회분 풀이
 
 - [ ] 모의고사 1회분 풀기
-- [ ] https://www.youtube.com/playlist?list=PL9Ieg7fw1BJKHSwaXdmAiRYj5uArfbrkw|이이
-- [ ] 
+- [ ] [오픽노잼 AL 시리즈](https://www.youtube.com/playlist?list=PL9Ieg7fw1BJKHSwaXdmAiRYj5uArfbrkw)
+	- [ ] ~4강
+	- [ ] ~8강
+	- [ ] ~12강
+	- [ ] ~15강
 - [ ] 
