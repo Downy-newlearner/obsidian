@@ -62,8 +62,13 @@ causality를 따르는 시스템만이 구현이 가능하다.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0010.jpg]]
 ## 2차시
+**복습**
+- LTI 시스템
+	- Causality: 미래가 아닌 과거를 기반으로 결과를 도출해야한다.
+		- non causal system은 구현이 불가능하다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0011.jpg]]
 **BIBO**: 입력이 유한하면 출력이 유한하게 유지되는 시스템의 특성
+	- Input이 한정되어있으면, Output도 한정된 값 안에서 나와야한다.
 
 **핵심 디테일**
 
@@ -75,12 +80,17 @@ causality를 따르는 시스템만이 구현이 가능하다.
 
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0013.jpg]]
-[[LTI|LTI 시스템]]은 임펄스 응답과 [[차분 방정식]]으로 표현하여 시스템 동작을 수학적으로 모델링할 수 있습니다.
+시스템을 Impulse response로 표현하느냐, Difference equation(입력과 출력의 관계식)으로 표현하냐에 따라서 분석하는 방법이 달라진다.(분석이 다를 수 있지만 동일한 시스템을 이야기하는 것이다.)
+
+두 번째 방법을 확인해보자
+	recursive / non recursive를 구분하는 것이 중요하다. -> FIR / IIR 시스템
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0014.jpg]]
-IIR 시스템은 출력이 과거 출력에 의존하고, FIR 시스템은 입력에만 의존합니다.
+출력 y는 입력 뿐만 아니라 과거의 출력에도 의존한다. 
+	이를 Recursive system(재귀 시스템), IIR이라고 부른다.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0015.jpg]]
+non recursive system을 FIR이라고 부른다.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0016.jpg]]
 임펄스 응답은 시스템이 단위 임펄스 입력에 반응하여 생성하는 출력이다.
@@ -88,7 +98,13 @@ FIR과 IIR 시스템의 구분은 임펄스 응답의 길이에 따라 결정된
 	- FIR은 유한 길이의 임펄스 응답을 가짐
 	- IIR은 무한 길이의 임펄스 응답을 가짐
 
-- FIR, IIR 차이
+Impulse response
+	어떤 unknown 시스템이 있다고 하자.
+	그 시스템에 impulse function을 입력하고 출력을 측정하면 이것이 inpulse response이다.
+
+inpulse function은 singularity function이다. 
+이것은 인공적으로 만들어낸 함수이다.(순간 확 튀는 함수는 존재하지 않음)
+그러므로 적당히 inpulse function에 유사한 함수를 unknown 시스템에 입력해서 그 시스템을 추측한다.
 
 | 특징            | FIR (Finite Impulse Response) | IIR (Infinite Impulse Response) |
 | ------------- | ----------------------------- | ------------------------------- |
@@ -106,39 +122,51 @@ FIR과 IIR 시스템의 구분은 임펄스 응답의 길이에 따라 결정된
 
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0017.jpg]]
-**3줄 요약**  
-==FIR 시스템에서는 현재 출력이 과거 입력의 [[유한 합]]으로 표현된다.== 입력 $x[n]$을 단위 임펄스 $\delta[n]$으로 대체하여, FIR 시스템의 임펄스 응답 $h[n]$을 계산한다. 결과적으로 유한 길이의 응답이 나타난다.
+이 시스템은 non recursive 시스템이다.
+	왜냐하면 이 함수는 입력에만 의존하기 때문이다.
 
-**핵심 디테일**
-
-- 주어진 $y[n] = 0.25(x[n] + x[n-1] + x[n-2] + x[n-3])$에서 $x[n] = \delta[n]$으로 대체하면 $h[n]$을 구할 수 있다.
-- $h[n]$은 ${0.25, 0.25, 0.25, 0.25}$로 유한 길이를 가진다.
-- FIR 시스템은 항상 유한 길이의 응답을 갖는다.
-
-
-
-**1줄 요약**  
-FIR 시스템의 임펄스 응답은 유한한 길이를 가지며 과거 입력의 [[유한 합]]으로 구성된다.
-
+입력 $x[n]$, 그리고 출력 $y[n]$를 알기 위해서는 시스템에 대해서 알아야한다.
+그래서 입력에 Inpulse function을 넣어 시스템을 추측한다.
+	$x[n] = \delta[n]$
+	결과를 확인해보니 결과는 finite impulse response이다.
+	그러므로 이 시스템은 FIR system이다.
+	
+이 시스템은 causal 시스템이다.
+	$h[n] = 0 (n<0)$
+	
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0018.jpg]]
 FIR 시스템의 임펄스 응답은 유한 길이를 가지며 그래프에서 유한한 범위 내에서만 값이 존재한다.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0019.jpg]]
-**3줄 요약**  
-==IIR 시스템에서는 현재 출력이 이전 출력과 입력의 조합으로 계산되며==, 무한 길이의 응답을 생성한다. 입력 $x[n] = \delta[n]$으로 대체하여 임펄스 응답 $h[n]$을 계산하면 값이 계속 이어진다. 이는 IIR 시스템의 특징인 무한 응답을 나타낸다.
+이 시스템은 출력이 과거에 의존한다.
 
-**핵심 디테일**
+마찬가지로 입력에 Inpulse function을 넣어서 확인해보니 위와 같다.
+	$h[0] = 0.4h[-1] + \delta[0] - \delta[-1] = 0 + 1 - 0 = 1 (\because h[-1] = 0)$
+	$h[1] = 0.4h[0] + \delta[1] - \delta[0] = 0.4 + 0 - 1 = -0.6$
+$0.4h[n-1]$이라는 피드백이 존재하므로 Infinite Impulse response이다.
 
-- $y[n] - 0.4y[n-1] = x[n] - x[n-1]$에서 $x[n] = \delta[n]$으로 대체하여 $h[n]$을 구한다.
-- $h[n]$은 무한 길이로 계속 이어지며, 이는 IIR 시스템의 특성이다.
-- IIR 시스템은 이전 출력에 의존하므로 응답이 끝없이 이어진다.
-
-**1줄 요약**  
-IIR 시스템의 임펄스 응답은 무한 길이로 계속 이어진다.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0020.jpg]]
-
+이 시스템은 출력이 과거의 출력과 입력에 의존하므로 recursive system이다. (IIR)
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0021.jpg]]
+*1번째 시스템*
+finite duration을 가지고 있고, 다 더해봤을 때 한정된 값이 나오므로 FIR이다.
+하지만 $n<0$일 때, $h[n]=0$이 아니므로 causal하지 않다.(이 시스템은 구현 불가능하다.)
+
+*2번째 시스템: $h[n] = (-0.5)^n u[n]$*
+오타: $\frac{1}{1+0.5}$이다.
+- $n<0$일 때, $h[n] = 0$이므로 Causal하다.
+- 무한대로 줄어드는 함수로, IIR이다.
+- 다 더했을 때 한정된 값으로 나오므로, Stable하다.
+
+시스템을 평가하는 방법
+1. IIR / FIR
+2. Causal?
+3. Stable?
+
+### 정리
+FIR은 항상 Stable하기 때문에 선호되지만, 구현 비용이 비싸다.
+IIR은 Stability를 보장할 수 없지만 구현 비용이 저렴하다.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0022.jpg]]
 
