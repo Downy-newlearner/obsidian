@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/오픽 2주 완성/OPIC Milestone.md",
+                "file": "1. Projects/오픽 2주 완성/무제 파일.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OPIC Milestone"
+              "title": "무제 파일"
             }
           },
           {
@@ -108,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5,
-    "collapsed": true
+    "width": 297.5
   },
   "right": {
     "id": "3a838d33f5dd2229",
@@ -200,12 +199,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/오픽 2주 완성/OPIC Milestone.md",
+                "file": "1. Projects/오픽 2주 완성/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "OPIC Milestone의 나가는 링크"
+              "title": "무제 파일의 나가는 링크"
             }
           }
         ]
@@ -221,10 +220,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/오픽 2주 완성/OPIC Milestone.md"
+                "file": "1. Projects/오픽 2주 완성/무제 파일.md"
               },
               "icon": "lucide-list",
-              "title": "OPIC Milestone 개요"
+              "title": "무제 파일 개요"
             }
           }
         ]
@@ -251,9 +250,10 @@
   },
   "active": "c6d213e87923a9e9",
   "lastOpenFiles": [
+    "1. Projects/오픽 2주 완성/OPIC Milestone.md",
+    "1. Projects/오픽 2주 완성/무제 파일.md",
     "2024-11-13.md",
     "+/2024-11-29.md",
-    "1. Projects/오픽 2주 완성/OPIC Milestone.md",
     "3. Resource/Calender Archive/2024-W46.md",
     "1. Projects/오픽 2주 완성",
     "2024-11-12.md",
@@ -297,7 +297,6 @@
     "2024-11-09.md",
     "3. Resource/Calender Archive/2024-11-04.md",
     "+/2024-11-04.md",
-    "3. Resource/Calender Archive/2024-W45.md",
     "무제 파일.canvas"
   ]
 }
