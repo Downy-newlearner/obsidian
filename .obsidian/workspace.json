@@ -23,6 +23,18 @@
             }
           },
           {
+            "id": "5d4faa50cf4dbedc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.6"
+            }
+          },
+          {
             "id": "8c76850d996136be",
             "type": "leaf",
             "state": {
@@ -34,7 +46,8 @@
               "title": "chap12_keras_CNN_self_workshop"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -219,11 +232,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2. Area/Work Out/벌크업 식단.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "벌크업 식단 개요"
+              "title": "개요"
             }
           }
         ]
@@ -248,7 +259,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c6d213e87923a9e9",
+  "active": "5d4faa50cf4dbedc",
   "lastOpenFiles": [
     "ChatGPT 용어 Instruction.md",
     "1. Projects/2025 1월 일본여행/예상 예산.md",
