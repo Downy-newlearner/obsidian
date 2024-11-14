@@ -172,7 +172,12 @@ IIR은 Stability를 보장할 수 없지만 구현 비용이 저렴하다.
 ## 3차시
 
 **복습**
-- 우리가 다르는 d
+- 우리가 다르는 DSP 시스템은 LTI 시스템을 가정한다.
+	- 이 때 우리가 convolution을 이용해서 출력 y[n]을 구할 수 있다.
+	- 이를 만족하지 못하면 구현 불가
+	- *Causality*
+		- 아직 들어오지 않은 인풋에 의존할 수 없다는 것이다.
+		- 이를 만족해야 구현이 가능한 시스템이다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0022.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0023.jpg]]
