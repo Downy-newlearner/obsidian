@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/수종 선배 TBI/설명.md",
+                "file": "2024-11-14.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "설명"
+              "title": "2024-11-14"
             }
           },
           {
@@ -108,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "3a838d33f5dd2229",
@@ -200,12 +199,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/수종 선배 TBI/설명.md",
+                "file": "2024-11-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "설명의 나가는 링크"
+              "title": "2024-11-14의 나가는 링크"
             }
           }
         ]
@@ -221,10 +220,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/수종 선배 TBI/설명.md"
+                "file": "2024-11-14.md"
               },
               "icon": "lucide-list",
-              "title": "설명 개요"
+              "title": "2024-11-14 개요"
             }
           }
         ]
@@ -251,10 +250,10 @@
   },
   "active": "c6d213e87923a9e9",
   "lastOpenFiles": [
+    "1. Projects/수종 선배 TBI/설명.md",
     "Source/Pasted image 20241114105010.png",
     "Source/Pasted image 20241114104155.png",
     "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/chap14_keras_transfer_learning.md",
-    "1. Projects/수종 선배 TBI/설명.md",
     "1. Projects/수종 선배 TBI",
     "1. Projects/무제 파일.md",
     "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/prac1/prac_v2.py",
@@ -295,7 +294,6 @@
     "1. Projects/DeepLearning_Cloud/homework/12장 workshop/archive/test/test/0972.jpg",
     "1. Projects/DeepLearning_Cloud/homework/12장 workshop/archive/test/test/0971.jpg",
     "1. Projects/DeepLearning_Cloud/homework/12장 workshop/archive/test/test/0970.jpg",
-    "1. Projects/DeepLearning_Cloud/homework/12장 workshop/archive/test/test/0969.jpg",
     "1. Projects/DeepLearning_Cloud/강의 노트/11장_keras_dnn_window/Chap 11 - keras_dnn.md",
     "1. Projects/DeepLearning_Cloud/강의 노트/13장_keras_CNN_augmentation/chap13_keras_CNN_augmentation.md",
     "헬스케어 공모전.canvas"
