@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/실습1.md",
+                "file": "+/[.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "실습1"
+              "title": "["
             }
           },
           {
@@ -215,12 +215,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/실습1.md",
+                "file": "+/[.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "실습1의 나가는 링크"
+              "title": "[의 나가는 링크"
             }
           }
         ]
@@ -236,10 +236,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/실습1.md"
+                "file": "+/[.md"
               },
               "icon": "lucide-list",
-              "title": "실습1 개요"
+              "title": "[ 개요"
             }
           }
         ]
@@ -265,8 +265,9 @@
   },
   "active": "cf139ec72b1b8615",
   "lastOpenFiles": [
-    "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/chap14_keras_transfer_learning.md",
     "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/실습1.md",
+    "+/[.md",
+    "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/chap14_keras_transfer_learning.md",
     "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/whatisit.jpeg",
     "2. Area/Work Out/벌크업 식단.md",
     "새 텍스트 문서.txt",
@@ -311,7 +312,6 @@
     "1. Projects/DeepLearning_Cloud/강의 자료/14장_keras_transfer_learning/chap14_keras_transfer_learning.md",
     "헬스케어 공모전.canvas",
     "2024-11-11.md",
-    "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
-    "1. Projects/DeepLearning_Cloud/14장_keras_transfer_learning/chap14_keras_transfer_learning.md"
+    "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md"
   ]
 }
