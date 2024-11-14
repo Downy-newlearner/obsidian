@@ -1,20 +1,26 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QLabel, QMainWindow
+from PyQt5.QtWidgets import QApplication, QPushButton, QMainWindow, QMessageBox
 
-# 애플리케이션 객체 생성
-app = QApplication(sys.argv)
+# 슬롯 함수 정의
+def on_button_click():
+    msg = QMessageBox()
+    msg.setText("버튼이 클릭되었습니다!")
+    msg.exec_()
 
-# 메인 윈도우 생성
-window = QMainWindow()
-window.setWindowTitle('PyQt5 예제')
-window.setGeometry(100, 100, 600, 400)
+# 메인 윈도우 클래스 정의
+class MainWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle("시그널과 슬롯 예제")
+        self.setGeometry(100, 100, 300, 200)
 
-# 라벨 추가
-label = QLabel('안녕하세요, PyQt5!', window)
-label.move(200, 200)
-
-# 윈도우 표시
-window.show()
+        # 버튼 생성 및 설정
+        button = QPushButton("클릭하세요", self)
+        button.clicked.connect(on_button_click)  # 버튼 클릭 시 on_button_click 함수 호출
+        button.move(100, 80)
 
 # 애플리케이션 실행
+app = QApplication(sys.argv)
+window = MainWindow()
+window.show()
 sys.exit(app.exec_())
