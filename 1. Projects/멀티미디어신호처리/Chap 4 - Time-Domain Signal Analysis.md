@@ -178,6 +178,11 @@ IIR은 Stability를 보장할 수 없지만 구현 비용이 저렴하다.
 	- *Causality*
 		- 아직 들어오지 않은 인풋에 의존할 수 없다는 것이다.
 		- 이를 만족해야 구현이 가능한 시스템이다.
+		- $h[n] = 0, for n<0$
+	- *Stability*
+		- BIBO
+		- 시스템이 안정적으로 동작하냐에 대한 것이다.
+		- impulse response에 절댓값을 취하고 다 더하면 무한대보다 작아야한다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0022.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0023.jpg]]
