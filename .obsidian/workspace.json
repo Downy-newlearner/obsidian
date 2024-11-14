@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
+                "file": "2024-11-14.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chap 4 - Time-Domain Signal Analysis"
+              "title": "2024-11-14"
             }
           },
           {
@@ -108,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "3a838d33f5dd2229",
@@ -200,12 +199,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
+                "file": "2024-11-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Chap 4 - Time-Domain Signal Analysis의 나가는 링크"
+              "title": "2024-11-14의 나가는 링크"
             }
           }
         ]
@@ -221,10 +220,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md"
+                "file": "2024-11-14.md"
               },
               "icon": "lucide-list",
-              "title": "Chap 4 - Time-Domain Signal Analysis 개요"
+              "title": "2024-11-14 개요"
             }
           }
         ]
@@ -251,6 +250,7 @@
   },
   "active": "c6d213e87923a9e9",
   "lastOpenFiles": [
+    "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
     "2024-11-14.md",
     "1. Projects/수종 선배 TBI/설명.md",
     "Source/Pasted image 20241114105010.png",
