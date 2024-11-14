@@ -199,7 +199,7 @@ IIR은 Stability를 보장할 수 없지만 구현 비용이 저렴하다.
 		- 하나가 있다면 나머지 하나를 유도할 수 있다.
 		- 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0022.jpg]]
-
+filter 대신 system이라는 말을 사용할 수도 있다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0023.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0024.jpg]]
