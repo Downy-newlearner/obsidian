@@ -247,8 +247,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c6d213e87923a9e9",
+  "active": "f8f40c1f0fe0b281",
   "lastOpenFiles": [
+    "1. Projects/TBI",
+    "1. Projects/무제 파일.md",
+    "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/chap14_keras_transfer_learning.md",
     "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/prac1/prac_v2.py",
     "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/prac1/prac_code_dc.py",
     "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/prac1/__pycache__/code.cpython-310.pyc",
@@ -263,11 +266,9 @@
     "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/실습1.md",
     "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/실습1/실습1.md",
     "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/실습1",
-    "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/chap14_keras_transfer_learning.md",
     "+/[.md",
     "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/whatisit.jpeg",
     "2. Area/Work Out/벌크업 식단.md",
-    "새 텍스트 문서.txt",
     "ChatGPT 용어 Instruction.md",
     "1. Projects/2025 1월 일본여행/예상 예산.md",
     "무제 파일.canvas",
@@ -295,7 +296,6 @@
     "1. Projects/DeepLearning_Cloud/강의 노트/11장_keras_dnn_window/Chap 11 - keras_dnn.md",
     "1. Projects/DeepLearning_Cloud/강의 노트/13장_keras_CNN_augmentation/chap13_keras_CNN_augmentation.md",
     "1. Projects/DeepLearning_Cloud/강의 자료/13장_keras_CNN_augmentation/chap13_keras_CNN_augmentation.md",
-    "1. Projects/DeepLearning_Cloud/강의 자료/12장/Chap 12 - keras_CNN.md",
     "헬스케어 공모전.canvas"
   ]
 }
