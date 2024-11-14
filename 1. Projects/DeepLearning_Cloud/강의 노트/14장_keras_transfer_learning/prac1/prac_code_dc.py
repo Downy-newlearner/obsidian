@@ -3,8 +3,9 @@ import numpy as np
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QFileDialog, QLabel
 from PyQt5.QtGui import QPixmap
 from PIL import Image
-from tensorflow.keras.applications.efficientnet import EfficientNetB0
+from tensorflow.keras.applications import EfficientNetB0
 from tensorflow.keras.applications.efficientnet import preprocess_input, decode_predictions
+
 
 class ImageLoaderApp(QMainWindow):
     def __init__(self):
