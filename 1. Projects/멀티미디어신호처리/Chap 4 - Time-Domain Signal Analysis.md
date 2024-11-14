@@ -204,7 +204,8 @@ filter 대신 system이라는 말을 사용할 수도 있다.
 	마지막 수식을 보면 과거 결과를 같이 반영하면 값이 화악 튀지 않을 것이다. 이것이 MA 필터.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0023.jpg]]
 L을 더 증가시키면 더욱 부드러운 신호가 되지 않을까?
-	그렇지 않다. 너무 큰 L point는 
+	그렇지 않다. 너무 큰 L point는 왜곡을 유발한다.
+		위의 주기가 50인 주기 신호에 L = 50인 MA 필터를 적용하면 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0024.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0025.jpg]]
