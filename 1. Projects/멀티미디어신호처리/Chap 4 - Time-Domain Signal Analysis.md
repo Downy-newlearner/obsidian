@@ -183,6 +183,12 @@ IIR은 Stability를 보장할 수 없지만 구현 비용이 저렴하다.
 		- BIBO
 		- 시스템이 안정적으로 동작하냐에 대한 것이다.
 		- impulse response에 절댓값을 취하고 다 더하면 무한대보다 작아야한다.
+
+- 시스템을 표현하는 데에 두 가지 방법이 있다.
+	- *Impulse response*
+	- *Difference equation*
+	- 둘은 서로 호환된다.
+		- 하나가 있다면 나머지 하나를 유도할 수 있다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0022.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0023.jpg]]
