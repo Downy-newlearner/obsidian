@@ -173,7 +173,7 @@ IIR은 Stability를 보장할 수 없지만 구현 비용이 저렴하다.
 
 **복습**
 - 우리가 다르는 DSP 시스템은 LTI 시스템을 가정한다.
-	- 이 때 우리가 convolution을 이용해서 출력 y[n]을 구할 수 있다.
+	- 이 때 우리가 convolution을 이용해서 출력 $y[n]$을 구할 수 있다.
 	- 이를 만족하지 못하면 구현 불가
 	- *Causality*
 		- 아직 들어오지 않은 인풋에 의존할 수 없다는 것이다.
@@ -188,7 +188,7 @@ IIR은 Stability를 보장할 수 없지만 구현 비용이 저렴하다.
 	- *Impulse response*
 		- Discrete time system의 수학적 특징을 모델링하는 함수다.
 		- unknown system이 있을 때, 이 시스템의 수학적인 특징(Impulse response)을 알기 위해서 입력으로 Impulse function을 넣는다.
-			- 완벽한 Impulse function은 존재하지 않지만, 이와 유사하게 만들어서 사용해도 결
+			- 완벽한 Impulse function은 존재하지 않지만, 이와 유사하게 만들어서 사용해도 충분히 Impulse function을 사용하는 것과 비슷한 결과를 얻을 수 있다.
 	- *Difference equation*
 		- 형태에 따라서 시스템을 두 가지로 분류할 수 있다.
 		- FIR
