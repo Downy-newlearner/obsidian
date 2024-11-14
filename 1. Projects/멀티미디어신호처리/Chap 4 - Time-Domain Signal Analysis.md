@@ -226,7 +226,7 @@ time domain과 frequency domain에서 convolution하는 것을 확인한다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0029.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0030.jpg]]
-Convolution을 풀어내는 방법
+**Convolution을 풀어내는 방법**
 	Direct evaluation
 	Graphical approach
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0031.jpg]]
