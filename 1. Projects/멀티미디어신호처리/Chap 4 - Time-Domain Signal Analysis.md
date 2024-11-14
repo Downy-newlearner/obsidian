@@ -200,6 +200,8 @@ IIR은 Stability를 보장할 수 없지만 구현 비용이 저렴하다.
 		- 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0022.jpg]]
 filter 대신 system이라는 말을 사용할 수도 있다.
+튀는 현상, 잡음을 잡아줄 때 사용하는 필터이다.
+	마지막 수식을 보면 과거 결과를 같이 반영하면 값이 화악 튀지 않을 것이다. 이것이 MA 필터.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0023.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0024.jpg]]
