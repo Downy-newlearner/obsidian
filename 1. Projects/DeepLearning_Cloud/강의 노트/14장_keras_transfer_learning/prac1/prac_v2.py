@@ -25,11 +25,11 @@ class ImageLoaderApp(QMainWindow):
 
         # 이미지를 표시할 라벨 생성
         self.image_label = QLabel(self)
-        self.image_label.setGeometry(10, 50, 580, 300)  # 이미지 표시 영역 설정
+        self.image_label.setGeometry(10, 70, 580, 300)  # 이미지 표시 영역 설정
 
         # 이미지 classification result를 표시할 라벨 생성
         self.result_label = QLabel(self)
-        self.result_label.setGeometry(10, 360, 580, 120)  # 결과 표시 영역 설정
+        self.result_label.setGeometry(10, 380, 580, 120)  # 결과 표시 영역 설정
         self.result_label.setWordWrap(True)
 
         # 결과 라벨의 폰트 설정 및 가운데 정렬 설정
@@ -38,7 +38,7 @@ class ImageLoaderApp(QMainWindow):
         self.result_label.setAlignment(Qt.AlignCenter)  # 텍스트 가운데 정렬
 
         # 줄 간격 설정을 위한 스타일시트 적용
-        self.result_label.setStyleSheet("QLabel { line-height: 120%; }")
+        self.result_label.setStyleSheet("QLabel { line-height: 130%; }")
 
         # 미리 학습된 EfficientNet 모델 불러오기
         self.model = EfficientNetB0(weights="imagenet")
