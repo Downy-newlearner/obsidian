@@ -233,7 +233,9 @@ time domain과 frequency domain에서 convolution하는 것을 확인한다.
 $y
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0032.jpg]]
 2개의 시퀀스가 convolution될 때, 이 결과가 어떨지 예측할 수 있다.
-$x[n]$의 입려
+$x[n]$은 입력 범위가 0~2, $h[n]$은 입력 범위가 0~1이다.
+이 때, 결과인 $y[n]$의 입력 범위를 예측할 수 있다.
+
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0033.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0034.jpg]]
