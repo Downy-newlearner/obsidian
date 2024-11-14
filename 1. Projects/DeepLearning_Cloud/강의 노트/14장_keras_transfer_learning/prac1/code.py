@@ -17,11 +17,14 @@ class ImageLoaderApp(QMainWindow):
         self.image_label = QLabel(self)
         self.image_label.setGeometry(10, 50, 580, 330)  # 이미지 표시 영역 설정
 
+        # 이미지 classification result를 표시할 라벨 생성
+
     def load_image(self):
         # 파일 선택 대화 상자 열기
         file_name, _ = QFileDialog.getOpenFileName(self, "Open Image", "", "Image Files (*.png *.jpg *.bmp)")
         if file_name:  # 파일이 선택되었을 때
             pixmap = QPixmap(file_name)
+            # 여기에 이미지 Classification 코드 추가(모델은 미리 학습된 efficientnet 사용)
             self.image_label.setPixmap(pixmap.scaled(self.image_label.width(), self.image_label.height()))
 
 # 애플리케이션 실행
