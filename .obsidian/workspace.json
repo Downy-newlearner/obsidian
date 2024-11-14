@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/chap14_keras_transfer_learning.md",
+                "file": "1. Projects/수종 선배 TBI/설명.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "chap14_keras_transfer_learning"
+              "title": "설명"
             }
           },
           {
@@ -199,12 +199,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/chap14_keras_transfer_learning.md",
+                "file": "1. Projects/수종 선배 TBI/설명.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "chap14_keras_transfer_learning의 나가는 링크"
+              "title": "설명의 나가는 링크"
             }
           }
         ]
@@ -220,17 +220,18 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/chap14_keras_transfer_learning.md"
+                "file": "1. Projects/수종 선배 TBI/설명.md"
               },
               "icon": "lucide-list",
-              "title": "chap14_keras_transfer_learning 개요"
+              "title": "설명 개요"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 228.5
+    "width": 228.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,11 +248,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f8f40c1f0fe0b281",
+  "active": "c6d213e87923a9e9",
   "lastOpenFiles": [
-    "1. Projects/TBI",
-    "1. Projects/무제 파일.md",
     "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/chap14_keras_transfer_learning.md",
+    "1. Projects/수종 선배 TBI/설명.md",
+    "1. Projects/수종 선배 TBI",
+    "1. Projects/무제 파일.md",
     "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/prac1/prac_v2.py",
     "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/prac1/prac_code_dc.py",
     "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/prac1/__pycache__/code.cpython-310.pyc",
@@ -265,7 +267,6 @@
     "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/실습1/code.py",
     "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/실습1.md",
     "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/실습1/실습1.md",
-    "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/실습1",
     "+/[.md",
     "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/whatisit.jpeg",
     "2. Area/Work Out/벌크업 식단.md",
