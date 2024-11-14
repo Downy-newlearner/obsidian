@@ -235,7 +235,7 @@ $y
 2개의 시퀀스가 convolution될 때, 이 결과가 어떨지 예측할 수 있다.
 $x[n]$은 입력 범위가 0~2, $h[n]$은 입력 범위가 0~1이다.
 이 때, 결과인 $y[n]$의 입력 범위를 예측할 수 있다.
-
+	$x[n]'s\space starting \space index \space + \space h[n]'s starting \space index$ 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0033.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0034.jpg]]
