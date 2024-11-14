@@ -208,6 +208,8 @@ L을 더 증가시키면 더욱 부드러운 신호가 되지 않을까?
 		위의 주기가 50인 주기 신호에 L = 50인 MA 필터를 적용하면 0 근방에서 왜곡이 발생한다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0024.jpg]]
 
+
+## 4차시시
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0025.jpg]]
 FIR, IIR의 예시로 Echo와 Reverbeeration을 알아보자
 Echo를 Comb filter라고 한다. 빗 필터라는 이야기로 그래프를 보면 빗을 닮았다.
@@ -216,8 +218,10 @@ Echo를 Comb filter라고 한다. 빗 필터라는 이야기로 그래프를 보
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0027.jpg]]
 상당한 연산량이 필요
 time domain과 frequency domain에서 convolution하는 것을 확인한다.
-	frequency domain에서 계산하는 것이 훨씬 빠르기 때문에 이를 
+	frequency domain에서 계산하는 것이 훨씬 빠르기 때문에 이를 보통 사용한다.
+	오늘은 time domain에서 계산하는 것 먼저 공부한다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0028.jpg]]
+
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0029.jpg]]
 
