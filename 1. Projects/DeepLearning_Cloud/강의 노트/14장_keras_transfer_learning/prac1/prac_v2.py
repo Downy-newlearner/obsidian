@@ -9,7 +9,7 @@ from tensorflow.keras.applications.efficientnet import preprocess_input, decode_
 class ImageLoaderApp(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Image Loader")
+        self.setWindowTitle("AI Image Classifier")
         self.setGeometry(100, 100, 600, 500)
 
         # 'Load image' 버튼 생성 및 설정
@@ -21,7 +21,7 @@ class ImageLoaderApp(QMainWindow):
         button_font = QFont("Arial", 13)  # 폰트 이름과 크기를 설정
         self.load_button.setFont(button_font)
 
-        self.load_button.clicked.connect(self.load_image)
+        self.load_button.clicked.connect(self.load_image_and_classify)
 
         # 이미지를 표시할 라벨 생성
         self.image_label = QLabel(self)
@@ -43,7 +43,7 @@ class ImageLoaderApp(QMainWindow):
         # 미리 학습된 EfficientNet 모델 불러오기
         self.model = EfficientNetB0(weights="imagenet")
 
-    def load_image(self):
+    def load_image_and_classify(self):
         # 파일 선택 대화 상자 열기
         file_name, _ = QFileDialog.getOpenFileName(self, "Open Image", "", "Image Files (*.png *.jpg *.bmp)")
         if file_name:  # 파일이 선택되었을 때
