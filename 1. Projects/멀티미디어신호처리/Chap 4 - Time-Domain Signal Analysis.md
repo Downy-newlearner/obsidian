@@ -187,7 +187,8 @@ IIR은 Stability를 보장할 수 없지만 구현 비용이 저렴하다.
 - 시스템을 표현하는 데에 두 가지 방법이 있다.
 	- *Impulse response*
 		- Discrete time system의 수학적 특징을 모델링하는 함수다.
-		- unknown system이 있을 때, 이 시스템의 수학적인 특징(Impulse response)을 알기 위해서 입력으로 Impulse
+		- unknown system이 있을 때, 이 시스템의 수학적인 특징(Impulse response)을 알기 위해서 입력으로 Impulse function을 넣는다.
+			- 완벽한 Impulse function은 존재하지 않지만, 이와 유사하게 만들어서 사용해도 결
 	- *Difference equation*
 		- 형태에 따라서 시스템을 두 가지로 분류할 수 있다.
 		- FIR
