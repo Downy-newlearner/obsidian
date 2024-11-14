@@ -15,10 +15,10 @@ class ImageLoaderApp(QMainWindow):
         # 'Load image' 버튼 생성 및 설정
         self.load_button = QPushButton("Load image", self)
         self.load_button.move(10, 10)  # 윈도우 좌상단에 버튼 배치
-        self.load_button.setFixedSize(130, 40)  # 버튼의 크기 설정
+        self.load_button.setFixedSize(120, 40)  # 버튼의 크기 설정
 
         # 버튼의 폰트 설정
-        button_font = QFont("Arial", 13)  # 폰트 이름과 크기를 설정
+        button_font = QFont("Arial", 12)  # 폰트 이름과 크기를 설정
         self.load_button.setFont(button_font)
 
         self.load_button.clicked.connect(self.load_image_and_classify)
