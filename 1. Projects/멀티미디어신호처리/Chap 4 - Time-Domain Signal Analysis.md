@@ -187,8 +187,12 @@ IIR은 Stability를 보장할 수 없지만 구현 비용이 저렴하다.
 - 시스템을 표현하는 데에 두 가지 방법이 있다.
 	- *Impulse response*
 	- *Difference equation*
+		- 형태에 따라서 시스템을 두 가지로 분류할 수 있다.
+		- FIR
+		- IIR
 	- 둘은 서로 호환된다.
 		- 하나가 있다면 나머지 하나를 유도할 수 있다.
+		- 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0022.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0023.jpg]]
