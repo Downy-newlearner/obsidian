@@ -209,7 +209,7 @@ L을 더 증가시키면 더욱 부드러운 신호가 되지 않을까?
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0024.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0025.jpg]]
-
+FIR, IIR의 ㅇ
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0026.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0027.jpg]]
