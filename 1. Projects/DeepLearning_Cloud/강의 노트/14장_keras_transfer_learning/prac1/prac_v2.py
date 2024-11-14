@@ -23,6 +23,9 @@ class ImageLoaderApp(QMainWindow):
 
         self.load_button.clicked.connect(self.load_image)
 
+        # 버튼의 크기 조절
+        self.load_button.setFixedSize(120, 40)
+
         # 이미지를 표시할 라벨 생성
         self.image_label = QLabel(self)
         self.image_label.setGeometry(10, 50, 580, 300)  # 이미지 표시 영역 설정
@@ -33,7 +36,7 @@ class ImageLoaderApp(QMainWindow):
         self.result_label.setWordWrap(True)
 
         # 결과 라벨의 폰트 설정
-        result_font = QFont("Arial", 11)  # 추천 폰트 중 하나 선택 가능
+        result_font = QFont("Arial", 13)  # 추천 폰트 중 하나 선택 가능
         self.result_label.setFont(result_font)
 
         # 미리 학습된 EfficientNet 모델 불러오기
