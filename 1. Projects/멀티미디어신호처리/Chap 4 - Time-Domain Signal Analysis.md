@@ -230,7 +230,7 @@ time domain과 frequency domain에서 convolution하는 것을 확인한다.
 	Direct evaluation
 	Graphical approach
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0031.jpg]]
-
+$y
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0032.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0033.jpg]]
