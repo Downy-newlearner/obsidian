@@ -9,7 +9,7 @@ from tensorflow.keras.applications.efficientnet import preprocess_input, decode_
 class ImageLoaderApp(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Image Loader")
+        self.setWindowTitle("AI Image Classifier")
         self.setGeometry(100, 100, 600, 500)
 
         # 'Load image' 버튼 생성 및 설정
