@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Resource/Calender Archive/2024-W46.md",
+                "file": "1. Projects/수종 선배 TBI/설명.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-W46"
+              "title": "설명"
             }
           },
           {
@@ -220,10 +220,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. Resource/Calender Archive/2024-W46.md"
+                "file": "1. Projects/수종 선배 TBI/설명.md"
               },
               "icon": "lucide-list",
-              "title": "2024-W46 개요"
+              "title": "설명 개요"
             }
           }
         ]
@@ -250,6 +250,7 @@
   },
   "active": "c6d213e87923a9e9",
   "lastOpenFiles": [
+    "3. Resource/Calender Archive/2024-W46.md",
     "2024-11-14.md",
     "2024-11-13.md",
     "1. Projects/멀티미디어신호처리/Chap 4 - Time-Domain Signal Analysis.md",
@@ -278,7 +279,6 @@
     "ChatGPT 용어 Instruction.md",
     "1. Projects/2025 1월 일본여행/예상 예산.md",
     "무제 파일.canvas",
-    "3. Resource/Calender Archive/2024-W46.md",
     "1. Projects/오픽 2주 완성/OPIC Milestone.md",
     "1. Projects/오픽 2주 완성/무제.md",
     "+/2024-11-29.md",
