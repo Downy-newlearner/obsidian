@@ -18,7 +18,7 @@ class ImageLoaderApp(QMainWindow):
 
         # 여기서 버튼의 폰트를 설정합니다.
         # 추천 폰트: Arial, Verdana, Times New Roman, Courier New 중에서 선택해 주세요.
-        button_font = QFont("Arial", 12)  # 폰트 이름과 크기를 설정 (추천 폰트 중 하나 선택 가능)
+        button_font = QFont("Arial", 10)  # 폰트 이름과 크기를 설정 (추천 폰트 중 하나 선택 가능)
         self.load_button.setFont(button_font)
 
         self.load_button.clicked.connect(self.load_image)
