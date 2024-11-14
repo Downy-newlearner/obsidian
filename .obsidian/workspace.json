@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/chap14_keras_transfer_learning.md",
+                "file": "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/무제 파일.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "chap14_keras_transfer_learning"
+              "title": "무제 파일"
             }
           },
           {
@@ -199,12 +199,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/chap14_keras_transfer_learning.md",
+                "file": "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "chap14_keras_transfer_learning의 나가는 링크"
+              "title": "무제 파일의 나가는 링크"
             }
           }
         ]
@@ -220,10 +220,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/chap14_keras_transfer_learning.md"
+                "file": "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/무제 파일.md"
               },
               "icon": "lucide-list",
-              "title": "chap14_keras_transfer_learning 개요"
+              "title": "무제 파일 개요"
             }
           }
         ]
@@ -249,8 +249,9 @@
   },
   "active": "c6d213e87923a9e9",
   "lastOpenFiles": [
-    "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/whatisit.jpeg",
     "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/chap14_keras_transfer_learning.md",
+    "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/무제 파일.md",
+    "1. Projects/DeepLearning_Cloud/강의 노트/14장_keras_transfer_learning/whatisit.jpeg",
     "2. Area/Work Out/벌크업 식단.md",
     "새 텍스트 문서.txt",
     "ChatGPT 용어 Instruction.md",
@@ -281,7 +282,6 @@
     "1. Projects/DeepLearning_Cloud/homework/12장 workshop/archive/test/test/0970.jpg",
     "1. Projects/DeepLearning_Cloud/homework/12장 workshop/archive/test/test/0969.jpg",
     "1. Projects/DeepLearning_Cloud/homework/12장 workshop/archive/test/test/0968.jpg",
-    "1. Projects/DeepLearning_Cloud/homework/12장 workshop/archive/test/test/0967.jpg",
     "1. Projects/DeepLearning_Cloud/homework/12장 workshop/archive/test/test",
     "1. Projects/DeepLearning_Cloud/homework/12장 workshop/archive/test",
     "1. Projects/DeepLearning_Cloud/homework/12장 workshop/archive/sampleSubmission.csv",
