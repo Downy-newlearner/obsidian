@@ -1,5 +1,5 @@
 1. github에 코드 올리기
-2. img2img 오류 해결하기
+2. img2img 오류 해결하기 & 아웃풋 내보기
 	C:\Projects\memoji\stablediffusion\scripts\img2img.py:56: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. 
 	
 	It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). 
@@ -10,3 +10,4 @@
 3. ldm -> stablediffusion1 -> stablediffusion2 구조 이해하기
 4. Sweep & LoRA 적용하기
 	[LoRA](https://www.youtube.com/watch?v=e7r_xT-sM4o)
+	
