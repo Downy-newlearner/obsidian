@@ -8,3 +8,4 @@ aliases:
 ```
 git remote add origin "원격 저장소의 주소"
 ```
+
