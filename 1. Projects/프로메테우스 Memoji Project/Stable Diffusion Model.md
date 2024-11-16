@@ -1,6 +1,12 @@
+---
+created: 2024-11-16
+tags: 
+aliases:
+  - stablediffusion
+---
 ## 필요한 배경지식
-- Latent Diffusion Model
-	- [논문 링크: # High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752)
+- [[Latent Diffusion Model]]
+	- [논문 링크: High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752)
 - Text Encoder
 - UNet
 - VAE
