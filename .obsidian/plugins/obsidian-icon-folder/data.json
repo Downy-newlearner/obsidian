@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiGit",
       "LiDiamond",
       "SiNotion",
       "LiCalendarDays",
-      "LiLibraryBig",
-      "LiArchive"
+      "LiLibraryBig"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -37,5 +37,6 @@
   "2. Area": "LiMessageCircleHeart",
   "3. Resource": "LiDiamond",
   "3. Resource/Calender Archive": "LiCalendarDays",
-  "4. Archive": "LiArchive"
+  "4. Archive": "LiArchive",
+  "3. Resource/Git": "SiGit"
 }
