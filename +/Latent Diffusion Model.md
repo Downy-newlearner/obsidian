@@ -18,3 +18,6 @@ aliases:
 	- 텍스트 임베딩은 latent vector의 형태이다.
 
 - text embedding으로 변환하는 이 과정을 거쳐야 비로소 text가 이미지를 생성하는 Unet에 Conditioning을 할 수 있게 되기 때문이다. (Unet과 Conditioning에 대해서는 다음 섹션에서 설명한다.)
+
+### 2. Unet
+
