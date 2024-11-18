@@ -24,22 +24,7 @@ aliases:
 
 3. **행렬 표현**:
    - 변환은 $3 \times 3$ 행렬로 표현되며, 2D 점 $(x, y)$는 동차 좌표(homogeneous coordinate)를 사용:
-     $\begin{bmatrix}
-     x' \\
-     y' \\
-     1
-     \end{bmatrix}
-     =
-     \begin{bmatrix}
-     a & b & t_x \\
-     c & d & t_y \\
-     0 & 0 & 1
-     \end{bmatrix}
-     \begin{bmatrix}
-     x \\
-     y \\
-     1
-     \end{bmatrix}$
+     $\begin{bmatrix} x' \ y' \ 1 \end{bmatrix} = \begin{bmatrix} a & c & 0 \ b & d & 0 \ t_x & t_y & 1 \end{bmatrix} \begin{bmatrix} x \ y \ 1 \end{bmatrix}$
    - 여기서:
      - $a, b, c, d$: 선형 변환 요소.
      - $t_x, t_y$: 평행 이동 벡터.
