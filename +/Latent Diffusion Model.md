@@ -21,7 +21,7 @@ aliases:
 
 ### 2. Unet
 ![[Pasted image 20241118130813.png]]
-먼저 간략하게 설명하자면, Text Encoder에서 만들어진 embedding 은 U-net으로 전달된다. U-net 에서는 text embedding에 따라 [[조건화]](Conditioning)된 채로 random latent vector를 n번 반복하여 denoise 하는 과정을 거치게 된다. 바로 여기서 랜덤한 노이즈에서 이미지를 생성하는 부분이 초반부에 설명했던 Diffusion 모델의 원리이다. 
+먼저 간략하게 설명하자면, Text Encoder에서 만들어진 embedding 은 U-net으로 전달된다. U-net 에서는 text embedding에 따라 [[조건화(Conditioning)]]된 채로 random latent vector를 n번 반복하여 denoise 하는 과정을 거치게 된다. 바로 여기서 랜덤한 노이즈에서 이미지를 생성하는 부분이 초반부에 설명했던 Diffusion 모델의 원리이다. 
 
 그리고 이 모델은 text embedding에 의하여 조건화 되었기 때문에 텍스트로 우리가 원하는 내용을 입력하여 이미지를 출력할 수 있는 것이다. 이 조건화 과정은 attention 등의 방법을 사용하여 매우 복잡한 과정을 거쳐서 이루어진다.
 
