@@ -3,7 +3,7 @@ created: 2024-11-16
 tags: 
 aliases:
   - stablediffusion
-cover_url: https://pitas.tistory.com/9
+reference: https://pitas.tistory.com/9
 ---
 
 ## 필요한 배경지식
