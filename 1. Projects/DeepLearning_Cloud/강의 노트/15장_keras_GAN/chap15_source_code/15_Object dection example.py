@@ -20,7 +20,7 @@ pretrained_model = keras_cv.models.YOLOV8Detector.from_preset(
 )
 
 # Load an image from a URL or local path
-filepath = "C:/Users/DKU/Downloads/gCNcJJI.jpeg"
+filepath = "C:/Users/jdh25/Downloads/b&b.jpeg"
 image = keras.utils.load_img(filepath)
 image = np.array(image)
 
