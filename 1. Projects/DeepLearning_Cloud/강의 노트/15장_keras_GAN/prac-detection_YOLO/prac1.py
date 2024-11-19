@@ -77,7 +77,6 @@ class ObjectDetectionApp(QMainWindow):
         # Extract detections
         detections = []
         for bbox, class_id, confidence in zip(predictions["boxes"], predictions["classes"], predictions["confidence"]):
-            bbox = bbox.numpy()  # Bounding box in xywh format
             x, y, w, h = bbox
             x1, y1 = int(x - w / 2), int(y - h / 2)
             x2, y2 = int(x + w / 2), int(y + h / 2)
