@@ -10,7 +10,8 @@ aliases:
 
 
 랭체인에서 데이터를 가져오는 load함수,
-```# 뉴스기사 내용을 로드하고, 청크로 나누고, 인덱싱합니다.
+```
+# 뉴스기사 내용을 로드하고, 청크로 나누고, 인덱싱합니다.
 
 loader = WebBaseLoader(
 
@@ -39,5 +40,12 @@ print(f"문서의 수: {len(docs)}")
 docs
 ```
 
+docs = loader.load()
+
+print(f"문서의 수: {len(docs)}")
+
+docs
+
+이렇게 load()함수를 사용해서 어떤 형식의 파일이든 로드할 수 있다는 강력한 장점이 있다.
 
 ![[Pasted image 20241119112719.png]]
