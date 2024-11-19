@@ -1,10 +1,10 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QLabel, QFileDialog, QVBoxLayout, QWidget
+from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QLabel, QFileDialog
 from PyQt5.QtGui import QPixmap, QImage
-from ultralytics import YOLO
+import keras_cv
+import keras
 import cv2
 import numpy as np
-import keras_cv
 
 
 class ObjectDetectionApp(QMainWindow):
@@ -12,7 +12,7 @@ class ObjectDetectionApp(QMainWindow):
         super().__init__()
         self.initUI()
 
-        # Load a pretrained model
+        # Load a pretrained YOLOv8 model
         self.model = keras_cv.models.YOLOV8Detector.from_preset(
             "yolo_v8_m_pascalvoc", bounding_box_format="xywh"
         )
@@ -61,35 +61,45 @@ class ObjectDetectionApp(QMainWindow):
             self.display_detections(detections)
 
     def detect_objects(self, file_path):
-        # Load image and run YOLO model
-        image = cv2.imread(file_path)
-        image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-        results = self.model(image)
+        # Load image and preprocess
+        image = keras.utils.load_img(file_path)
+        image = np.array(image)
 
-        # Get bounding box and detection info
+        # Resize image for inference
+        inference_resizing = keras_cv.layers.Resizing(
+            640, 640, pad_to_aspect_ratio=True, bounding_box_format="xywh"
+        )
+        image_batch = inference_resizing([image])
+
+        # Run prediction
+        predictions = self.model.predict(image_batch)
+
+        # Extract detections
         detections = []
-        for result in results[0].boxes:
-            bbox = result.xyxy[0].numpy().astype(int)  # x1, y1, x2, y2
-            confidence = result.conf.numpy()
-            label = result.cls.numpy()
-            detections.append((bbox, confidence, label))
+        for bbox, class_id, confidence in zip(predictions["boxes"], predictions["classes"], predictions["confidence"]):
+            bbox = bbox.numpy()  # Bounding box in xywh format
+            x, y, w, h = bbox
+            x1, y1 = int(x - w / 2), int(y - h / 2)
+            x2, y2 = int(x + w / 2), int(y + h / 2)
+            detections.append(((x1, y1, x2, y2), confidence, class_id))
 
-        # Draw bounding boxes on the image
+        # Draw bounding boxes
         detection_image = self.draw_bounding_boxes(image, detections)
         return detection_image, detections
 
     def draw_bounding_boxes(self, image, detections):
-        for bbox, confidence, label in detections:
+        for bbox, confidence, class_id in detections:
             x1, y1, x2, y2 = bbox
-            conf = round(confidence[0], 2)
-            text = f"{self.model.names[int(label[0])]} {conf}"
+            conf = round(confidence, 2)
+            label_name = self.model.class_names[int(class_id)]  # Get class name
+            text = f"{label_name} {conf}"
 
             # Draw bounding box
             cv2.rectangle(image, (x1, y1), (x2, y2), (255, 0, 0), 2)
             # Put label and confidence
             cv2.putText(image, text, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2)
 
-        return image
+        return cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
 
     def display_result_image(self, detection_image):
         # Convert OpenCV image to QPixmap and display
@@ -102,12 +112,13 @@ class ObjectDetectionApp(QMainWindow):
     def display_detections(self, detections):
         # Format detection results for display
         results_text = "Detection Results:\n"
-        for bbox, confidence, label in detections:
-            conf = round(confidence[0], 2)
-            label_name = self.model.names[int(label[0])]
+        for bbox, confidence, class_id in detections:
+            conf = round(confidence, 2)
+            label_name = self.model.class_names[int(class_id)]
             results_text += f"Label: {label_name}, Confidence: {conf}\n"
 
         self.result_label.setText(results_text)
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
