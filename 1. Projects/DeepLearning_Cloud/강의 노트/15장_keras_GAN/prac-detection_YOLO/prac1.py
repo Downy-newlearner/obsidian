@@ -77,6 +77,7 @@ class ObjectDetectionApp(QMainWindow):
         # Extract detections
         detections = []
         for bbox, class_id, confidence in zip(predictions["boxes"], predictions["classes"], predictions["confidence"]):
+            print(f"BBox structure: {bbox}")
             # bbox is already a NumPy array; ensure it only contains 4 values
             bbox = bbox[:4]  # Use only x, y, w, h
             x, y, w, h = [b.item() for b in bbox]  # Convert to Python scalars
