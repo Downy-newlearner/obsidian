@@ -9,4 +9,35 @@ aliases:
 랭체인은 개발 속도를 향상시키는 역할을 한다.
 
 
+랭체인에서 데이터를 가져오는 load함수,
+```# 뉴스기사 내용을 로드하고, 청크로 나누고, 인덱싱합니다.
+
+loader = WebBaseLoader(
+
+    web_paths=("https://n.news.naver.com/article/437/0000378416",),
+
+    bs_kwargs=dict(
+
+        parse_only=bs4.SoupStrainer(
+
+            "div",
+
+            attrs={"class": ["newsct_article _article_body", "media_end_head_title"]},
+
+        )
+
+    ),
+
+)
+
+  
+
+docs = loader.load()
+
+print(f"문서의 수: {len(docs)}")
+
+docs
+```
+
+
 ![[Pasted image 20241119112719.png]]
