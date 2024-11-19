@@ -18,7 +18,8 @@ w, h: width & height
 class_ids는 이미지에서 detect하고자 하는 사물의 이름이다. (모델에 이미 9천개 정도 들어있는데 그 중 일부만 선택한 것이다.)
 	선택한 사물 중 이미지에 있는 것이 존재한다면 나타내달라는 명령을 하기 위해 특정한 것이다.
 ![[chap15_keras_GAN_page-0009.jpg]]
-
+y_pred를 출력한 것을 보면 boxes가 4개 존재한다.
+	이미지에서 박스를 4개 찾았다는 의미이고, 각 박스의 xy
 ![[chap15_keras_GAN_page-0010.jpg]]
 
 ![[chap15_keras_GAN_page-0011.jpg]]
