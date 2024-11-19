@@ -21,6 +21,8 @@ class_ids는 이미지에서 detect하고자 하는 사물의 이름이다. (모
 y_pred를 출력한 것을 보면 boxes가 4개 존재하고 confidence가 존재한다.
 	이미지에서 박스를 4개 찾았다는 의미이고, 각 박스의 xywh를 출력한 것이다.
 	confidence는 확신을 의미하며 detect한 물체가 정답일 확률이다.
+
+또한 classes는 11이 Dog, 15가 Potted plant를 의미한다.(이전 슬라이드의 인)
 ![[chap15_keras_GAN_page-0010.jpg]]
 
 ![[chap15_keras_GAN_page-0011.jpg]]
