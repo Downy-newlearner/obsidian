@@ -77,12 +77,13 @@ class ObjectDetectionApp(QMainWindow):
         # Extract detections
         detections = []
         for bbox, class_id, confidence in zip(predictions["boxes"], predictions["classes"], predictions["confidence"]):
-            x, y, w, h = bbox
+            # bbox is already a NumPy array
+            x, y, w, h = bbox  # Unpack values directly
             x1, y1 = int(x - w / 2), int(y - h / 2)
             x2, y2 = int(x + w / 2), int(y + h / 2)
             detections.append(((x1, y1, x2, y2), confidence, class_id))
 
-        # Draw bounding boxes
+        # Draw bounding boxes on the image
         detection_image = self.draw_bounding_boxes(image, detections)
         return detection_image, detections
 
