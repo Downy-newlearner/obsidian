@@ -76,18 +76,20 @@ class ObjectDetectionApp(QMainWindow):
 
         # Extract detections
         detections = []
-        for bbox_array, class_id, confidence in zip(predictions["boxes"], predictions["classes"], predictions["confidence"]):
-            # bbox_array is a 2D array; extract valid rows
-            for bbox in bbox_array:
-                # Ignore invalid bounding boxes
-                if np.all(bbox == -1):
+        for bbox_array, class_id_array, confidence_array in zip(predictions["boxes"], predictions["classes"], predictions["confidence"]):
+            # bbox_array and confidence_array are 2D arrays
+            for bbox, class_id, confidence in zip(bbox_array, class_id_array, confidence_array):
+                # Ignore invalid bounding boxes or confidence scores
+                if np.all(bbox == -1) or confidence == -1:
                     continue
                 
                 # Extract x, y, w, h from bbox
-                x, y, w, h = bbox[:4]  # Ensure only the first 4 values are used
+                x, y, w, h = bbox[:4]
                 x1, y1 = int(x - w / 2), int(y - h / 2)
                 x2, y2 = int(x + w / 2), int(y + h / 2)
-                detections.append(((x1, y1, x2, y2), confidence, class_id))
+
+                # Append valid detections
+                detections.append(((x1, y1, x2, y2), float(confidence), class_id))
 
         # Draw bounding boxes on the image
         detection_image = self.draw_bounding_boxes(image, detections)
@@ -95,12 +97,12 @@ class ObjectDetectionApp(QMainWindow):
 
 
 
+
     def draw_bounding_boxes(self, image, detections):
         for bbox, confidence, class_id in detections:
-
-            x1, y1, x2, y2 = bbox
             print("class_id structure: ", class_id)
-            conf = round(confidence.item(), 2)  # Convert NumPy array to scalar
+            x1, y1, x2, y2 = bbox
+            conf = round(confidence, 2)  # Confidence is already a scalar
             label_name = self.model.class_names[int(class_id)]  # Get class name
             text = f"{label_name} {conf}"
 
@@ -110,6 +112,7 @@ class ObjectDetectionApp(QMainWindow):
             cv2.putText(image, text, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2)
 
         return cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
+
 
 
     def display_result_image(self, detection_image):
