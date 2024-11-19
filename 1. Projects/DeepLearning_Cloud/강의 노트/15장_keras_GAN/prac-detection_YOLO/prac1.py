@@ -98,7 +98,7 @@ class ObjectDetectionApp(QMainWindow):
     def draw_bounding_boxes(self, image, detections):
         for bbox, confidence, class_id in detections:
             x1, y1, x2, y2 = bbox
-            conf = round(confidence, 2)
+            conf = round(confidence.item(), 2)  # Convert NumPy array to scalar
             label_name = self.model.class_names[int(class_id)]  # Get class name
             text = f"{label_name} {conf}"
 
@@ -108,6 +108,7 @@ class ObjectDetectionApp(QMainWindow):
             cv2.putText(image, text, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2)
 
         return cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
+
 
     def display_result_image(self, detection_image):
         # Convert OpenCV image to QPixmap and display
