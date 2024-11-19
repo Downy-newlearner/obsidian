@@ -6,6 +6,13 @@ import keras
 import cv2
 import numpy as np
 
+# Define PascalVOC classes
+PASCALVOC_CLASSES = [
+    "Aeroplane", "Bicycle", "Bird", "Boat", "Bottle",
+    "Bus", "Car", "Cat", "Chair", "Cow",
+    "Diningtable", "Dog", "Horse", "Motorbike", "Person",
+    "Pottedplant", "Sheep", "Sofa", "Train", "Tvmonitor"
+]
 
 class ObjectDetectionApp(QMainWindow):
     def __init__(self):
@@ -95,15 +102,11 @@ class ObjectDetectionApp(QMainWindow):
         detection_image = self.draw_bounding_boxes(image, detections)
         return detection_image, detections
 
-
-
-
     def draw_bounding_boxes(self, image, detections):
         for bbox, confidence, class_id in detections:
-            print("class_id structure: ", class_id)
             x1, y1, x2, y2 = bbox
             conf = round(confidence, 2)  # Confidence is already a scalar
-            label_name = self.model.class_names[int(class_id)]  # Get class name
+            label_name = PASCALVOC_CLASSES[int(class_id)]  # Get class name
             text = f"{label_name} {conf}"
 
             # Draw bounding box
@@ -112,8 +115,6 @@ class ObjectDetectionApp(QMainWindow):
             cv2.putText(image, text, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2)
 
         return cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
-
-
 
     def display_result_image(self, detection_image):
         # Convert OpenCV image to QPixmap and display
@@ -128,7 +129,7 @@ class ObjectDetectionApp(QMainWindow):
         results_text = "Detection Results:\n"
         for bbox, confidence, class_id in detections:
             conf = round(confidence, 2)
-            label_name = self.model.class_names[int(class_id)]
+            label_name = PASCALVOC_CLASSES[int(class_id)]
             results_text += f"Label: {label_name}, Confidence: {conf}\n"
 
         self.result_label.setText(results_text)
