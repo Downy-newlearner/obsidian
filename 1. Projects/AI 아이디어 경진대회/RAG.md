@@ -59,4 +59,7 @@ docs
 chunk size는 글자수
 chunk overlap은 문단을 자를 때 내용이 잘릴 수도 있어서 앞 청크와 어느정도 겹치게 오버랩해서 자른다.
 
+### 3. embedding
+- 
+
 ![[Pasted image 20241119112719.png]]
