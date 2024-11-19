@@ -4,14 +4,18 @@ from PyQt5.QtGui import QPixmap, QImage
 from ultralytics import YOLO
 import cv2
 import numpy as np
+import keras_cv
+
 
 class ObjectDetectionApp(QMainWindow):
     def __init__(self):
         super().__init__()
         self.initUI()
 
-        # Load YOLO model
-        self.model = YOLO('yolov8_m_pascalvoc.pt')  # Pretrained YOLOv8 model for PascalVOC
+        # Load a pretrained model
+        self.model = keras_cv.models.YOLOV8Detector.from_preset(
+            "yolo_v8_m_pascalvoc", bounding_box_format="xywh"
+        )
 
     def initUI(self):
         self.setWindowTitle('Object Detection with YOLOv8')
