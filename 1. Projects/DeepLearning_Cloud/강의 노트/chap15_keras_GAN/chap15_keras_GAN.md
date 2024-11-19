@@ -3,6 +3,8 @@
 ![[chap15_keras_GAN_page-0002.jpg]]
 
 ![[chap15_keras_GAN_page-0003.jpg]]
+x,y: 오브젝트의 시작 좌표점
+w, h: width & height
 
 ![[chap15_keras_GAN_page-0004.jpg]]
 
