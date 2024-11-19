@@ -99,7 +99,7 @@ class ObjectDetectionApp(QMainWindow):
         for bbox, confidence, class_id in detections:
 
             x1, y1, x2, y2 = bbox
-            print("confidence structure: ", confidence)
+            print("class_id structure: ", class_id)
             conf = round(confidence.item(), 2)  # Convert NumPy array to scalar
             label_name = self.model.class_names[int(class_id)]  # Get class name
             text = f"{label_name} {conf}"
