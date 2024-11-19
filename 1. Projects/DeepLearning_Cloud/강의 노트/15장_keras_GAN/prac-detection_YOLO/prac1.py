@@ -76,18 +76,23 @@ class ObjectDetectionApp(QMainWindow):
 
         # Extract detections
         detections = []
-        for bbox, class_id, confidence in zip(predictions["boxes"], predictions["classes"], predictions["confidence"]):
-            print(f"BBox structure: {bbox}")
-            # bbox is already a NumPy array; ensure it only contains 4 values
-            bbox = bbox[:4]  # Use only x, y, w, h
-            x, y, w, h = [b.item() for b in bbox]  # Convert to Python scalars
-            x1, y1 = int(x - w / 2), int(y - h / 2)
-            x2, y2 = int(x + w / 2), int(y + h / 2)
-            detections.append(((x1, y1, x2, y2), confidence, class_id))
+        for bbox_array, class_id, confidence in zip(predictions["boxes"], predictions["classes"], predictions["confidence"]):
+            # bbox_array is a 2D array; extract valid rows
+            for bbox in bbox_array:
+                # Ignore invalid bounding boxes
+                if np.all(bbox == -1):
+                    continue
+                
+                # Extract x, y, w, h from bbox
+                x, y, w, h = bbox[:4]  # Ensure only the first 4 values are used
+                x1, y1 = int(x - w / 2), int(y - h / 2)
+                x2, y2 = int(x + w / 2), int(y + h / 2)
+                detections.append(((x1, y1, x2, y2), confidence, class_id))
 
         # Draw bounding boxes on the image
         detection_image = self.draw_bounding_boxes(image, detections)
         return detection_image, detections
+
 
 
     def draw_bounding_boxes(self, image, detections):
