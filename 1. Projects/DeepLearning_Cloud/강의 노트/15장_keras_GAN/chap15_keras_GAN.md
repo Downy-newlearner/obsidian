@@ -15,7 +15,8 @@ w, h: width & height
 ![[chap15_keras_GAN_page-0007.jpg]]
 
 ![[chap15_keras_GAN_page-0008.jpg]]
-
+class_ids는 이미지에서 detect하고자 하는 사물의 이름이다. (모델에 이미 9천개 정도 들어있는데 그 중 일부만 선택한 것이다.)
+	선택하
 ![[chap15_keras_GAN_page-0009.jpg]]
 
 ![[chap15_keras_GAN_page-0010.jpg]]
