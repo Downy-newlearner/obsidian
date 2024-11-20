@@ -48,3 +48,4 @@ ChatPromptValue(messages=[SystemMessage(content='You are a helpful assistant', a
 
 
 ## MessagesPlaceholder
+이 프롬프트 템플릿은 메시지 리스트를 특정 위치에 추가하는 역할을 한다.
