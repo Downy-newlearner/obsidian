@@ -49,3 +49,20 @@ ChatPromptValue(messages=[SystemMessage(content='You are a helpful assistant', a
 
 ## MessagesPlaceholder
 이 프롬프트 템플릿은 메시지 리스트를 특정 위치에 추가하는 역할을 한다.
+
+```
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+from langchain_core.messages import HumanMessage
+
+prompt_template = ChatPromptTemplate([
+    ("system", "You are a helpful assistant"),
+    MessagesPlaceholder("msgs")
+])
+
+prompt_template.invoke({"msgs": [HumanMessage(content="hi!")]})
+```
+ChatPromptValue(messages=[SystemMessage(content='You are a helpful assistant', additional_kwargs={}, response_metadata={}), HumanMessage(content='hi!', additional_kwargs={}, response_metadata={})])
+
+이렇게 하면 첫 번째 메시지는 시스템 메시지이고 두 번째 메시지는 우리가 전달한 인간 메시지인 두 개의 메시지 목록이 생성됩니다. 
+
+5개의 메시지로 전달했다면 총 6개의 메시지(시스템 메시지와 전달한 5개를 더한 것)가 생성되었을 것입니다. 이는 메시지 목록을 특정 지점에 슬롯할 수 있도록 하는 데 유용합니다.
