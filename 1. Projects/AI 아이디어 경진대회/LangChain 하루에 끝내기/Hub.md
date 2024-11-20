@@ -21,6 +21,10 @@ LangChain에 대한 핵심 배경지식을 하루 동안 완성할 수 있도록
   - LangChain 공식 문서: [Get Started](https://docs.langchain.com/)
   - 예제 코드 따라 하기 (5~10줄짜리 체인 작성).
 
+## 시작
+https://python.langchain.com/docs/tutorials/llm_chain/
+	conda
+
 ---
 
 #### **2. Tools와 Agents의 이해 (1.5시간)**
