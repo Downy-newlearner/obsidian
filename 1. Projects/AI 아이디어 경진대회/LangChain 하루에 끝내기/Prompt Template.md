@@ -41,3 +41,6 @@ ChatPromptValue(messages=[SystemMessage(content='You are a helpful assistant', a
 *참고*
 `{topic}`같은 부분을 format이라고 부른다.
 
+위 예제 코드의 ChatPromptTemplate는 호출될 때 두 개의 메시지를 구조화한다.
+	하나는 format이 없는 시스템 메시지
+	나머지 하나는 format이 있는 HumanM
