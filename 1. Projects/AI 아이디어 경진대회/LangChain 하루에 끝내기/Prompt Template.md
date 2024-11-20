@@ -20,6 +20,7 @@ prompt_template = PromptTemplate.from_template("Tell me a joke about {topic}")
 
 prompt_template.invoke({"topic": "cats"})
 ```
-
+StringPromptValue(text='Tell me a joke about cats')
 
 ## ChatPromptTemplates
+Chat 프롬프트 템플릿은 메시지 배열을 포멧한다.
