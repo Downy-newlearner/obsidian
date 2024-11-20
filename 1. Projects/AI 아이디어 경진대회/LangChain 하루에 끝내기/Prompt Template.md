@@ -11,6 +11,15 @@ reference: https://python.langchain.com/docs/concepts/prompt_templates/
 Prompt Templates는 PromptValue를 출력합니다. 이 PromptValue는 LLM 또는 ChatModel에 전달될 수 있으며 문자열 또는 메시지 목록으로 캐스팅될 수도 있습니다. 이 PromptValue가 존재하는 이유는 문자열과 메시지 간을 쉽게 전환할 수 있게 하기 위해서입니다.
 
 ## String PromptTemplates
-String 프롬프트 템플릿은 단일 문자열을 포멧한다. 단순한
+String 프롬프트 템플릿은 단일 문자열을 포멧한다. 단순한 input에 사용되는 프롬프트 템플릿이다.
+
+```
+from langchain_core.prompts import PromptTemplate
+
+prompt_template = PromptTemplate.from_template("Tell me a joke about {topic}")
+
+prompt_template.invoke({"topic": "cats"})
+```
+
 
 ## ChatPromptTemplates
