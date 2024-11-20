@@ -1,6 +1,6 @@
 {
   "trashOption": "local",
-  "newFileLocation": "folder",
+  "newFileLocation": "current",
   "newFileFolderPath": "+",
   "attachmentFolderPath": "Source",
   "spellcheck": false,
