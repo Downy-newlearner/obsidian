@@ -23,4 +23,17 @@ prompt_template.invoke({"topic": "cats"})
 StringPromptValue(text='Tell me a joke about cats')
 
 ## ChatPromptTemplates
-Chat 프롬프트 템플릿은 메시지 배열을 포멧한다.
+Chat 프롬프트 템플릿은 메시지 리스트를 포멧한다.
+이 템플릿은 템플릿 자기 자신의 리스트로 구성된다.
+
+```
+from langchain_core.prompts import ChatPromptTemplate
+
+prompt_template = ChatPromptTemplate([
+    ("system", "You are a helpful assistant"),
+    ("user", "Tell me a joke about {topic}")
+])
+
+prompt_template.invoke({"topic": "cats"})
+```
+
