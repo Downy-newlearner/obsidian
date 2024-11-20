@@ -39,4 +39,5 @@ prompt_template.invoke({"topic": "cats"})
 ChatPromptValue(messages=[SystemMessage(content='You are a helpful assistant', additional_kwargs={}, response_metadata={}), HumanMessage(content='Tell me a joke about cats', additional_kwargs={}, response_metadata={})])
 
 *참고*
-{topic}
+`{topic}`같은 부분을 format이라고 부른다.
+
