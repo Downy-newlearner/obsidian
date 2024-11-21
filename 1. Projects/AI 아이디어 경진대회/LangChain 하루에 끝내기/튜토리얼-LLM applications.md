@@ -1,3 +1,9 @@
+---
+created: 2024-11-20
+tags: 
+aliases: 
+reference: https://python.langchain.com/docs/tutorials/llm_chain/
+---
 ## Using Language Model
 Let's first use the model directly. [ChatModels](https://python.langchain.com/docs/concepts/chat_models/) are instances of LangChain [Runnables](https://python.langchain.com/docs/concepts/runnables/), which means they expose a standard interface for interacting with them. To simply call the model, we can pass in a list of messages to the `.invoke` method.
 
