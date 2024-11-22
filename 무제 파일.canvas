@@ -12,7 +12,9 @@
 		{"id":"be182a2b19d0fa80","type":"file","file":"Source/Pasted image 20241122231349.png","x":-331,"y":-380,"width":254,"height":184},
 		{"id":"c5b4feba7e0fc0ce","type":"text","text":"ChatBot UI","x":-277,"y":196,"width":147,"height":59},
 		{"id":"281c157f947a1faa","type":"text","text":"Vector DB","x":-920,"y":-702,"width":250,"height":60},
-		{"id":"484c96638ad22b94","type":"text","text":"크롤링 & 제공받은 데이터를 벡","x":-920,"y":-393,"width":250,"height":52}
+		{"id":"484c96638ad22b94","type":"text","text":"크롤링 & 제공받은 데이터를 벡터화하여 저장한다.","x":-920,"y":-393,"width":250,"height":52},
+		{"id":"1ec03dcc8298ab60","x":0,"y":-547,"width":250,"height":60,"type":"text","text":"적절한 데이터를 LLM에게 공급한다."},
+		{"id":"6db52571a486c710","x":0,"y":-318,"width":250,"height":60,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"6c6219c662a569c5","fromNode":"1e4b5badaa9b2ea8","fromSide":"bottom","toNode":"be182a2b19d0fa80","toSide":"top","fromEnd":"arrow"},
