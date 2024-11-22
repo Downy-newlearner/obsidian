@@ -10,7 +10,7 @@
 		{"id":"281c157f947a1faa","type":"text","text":"Vector DB","x":-920,"y":-702,"width":250,"height":60},
 		{"id":"484c96638ad22b94","type":"text","text":"크롤링 & 제공받은 데이터를 벡터화하여 저장한다.","x":-920,"y":-393,"width":250,"height":52},
 		{"id":"1ec03dcc8298ab60","type":"text","text":"LangChain","x":0,"y":-547,"width":140,"height":60},
-		{"id":"6db52571a486c710","type":"text","text":"LLM","x":0,"y":-318,"width":100,"height":60},
+		{"id":"6db52571a486c710","type":"text","text":"LLM:  Llama 3","x":0,"y":-318,"width":140,"height":60},
 		{"id":"0e51c2c91a56df65","type":"text","text":"  사용자(학생)","x":380,"y":13,"width":127,"height":68},
 		{"id":"e152a22b9849892f","type":"text","text":"  사용자(근무자)","x":380,"y":317,"width":127,"height":56},
 		{"id":"951e87e0b6af7910","type":"file","file":"Source/사용자.png","x":394,"y":206,"width":99,"height":99},
