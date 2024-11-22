@@ -81,4 +81,15 @@ input_messages = [HumanMessage(query)]
 output = app.invoke({"messages": input_messages}, config)
 output["messages"][-1].pretty_print()
 ```
-이렇게 스레드를 생성해서 대화를 할 수 있고, 다른 스레드를 만들어서 
+이렇게 스레드를 생성해서 대화를 할 수 있고, 다른 스레드를 만들어서 새로운 대화를 할 수 있다.
+
+```
+config = {"configurable": {"thread_id": "abc234"}}
+
+input_messages = [HumanMessage(query)]
+output = app.invoke({"messages": input_messages}, config)
+output["messages"][-1].pretty_print()
+```
+`==================================[1m Ai Message [0m==================================`
+`I'm sorry, but I don't have access to personal information about you unless you provide it. How can I assist you today?`
+
