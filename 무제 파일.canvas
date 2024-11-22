@@ -1,19 +1,18 @@
 {
 	"nodes":[
-		{"id":"1e4b5badaa9b2ea8","type":"file","file":"Source/Pasted image 20241122205521.png","x":-620,"y":-400,"width":399,"height":209},
-		{"id":"c86abae18c7a19bc","type":"text","text":"챗봇","x":-470,"y":-180,"width":100,"height":60},
-		{"id":"671fec925eb9453b","type":"file","file":"Source/Pasted image 20241122205705.png","x":-20,"y":-344,"width":99,"height":99},
-		{"id":"0e51c2c91a56df65","type":"text","text":"  사용자(학생)","x":-34,"y":-233,"width":127,"height":68},
-		{"id":"951e87e0b6af7910","type":"file","file":"Source/Pasted image 20241122205705.png","x":-20,"y":-40,"width":99,"height":99},
-		{"id":"e152a22b9849892f","type":"text","text":"  사용자(근무자)","x":-34,"y":71,"width":127,"height":56},
 		{"id":"484c96638ad22b94","type":"text","text":"크롤링 & 제공받은 데이터","x":-1204,"y":-165,"width":250,"height":52},
 		{"id":"af5891aadeb5c254","x":-940,"y":-374,"width":250,"height":54,"type":"text","text":"SQL Query를 이용하여 데이터 접근"},
 		{"id":"15ae60f027c1bf4f","x":-1204,"y":-419,"width":250,"height":249,"type":"file","file":"Source/Pasted image 20241122231250.png"},
-		{"id":"281c157f947a1faa","x":-1149,"y":-500,"width":140,"height":60,"type":"text","text":"Vector DB"}
+		{"id":"281c157f947a1faa","x":-1149,"y":-500,"width":140,"height":60,"type":"text","text":"Vector DB"},
+		{"id":"0e51c2c91a56df65","type":"text","text":"  사용자(학생)","x":260,"y":-218,"width":127,"height":68},
+		{"id":"e152a22b9849892f","type":"text","text":"  사용자(근무자)","x":260,"y":86,"width":127,"height":56},
+		{"id":"671fec925eb9453b","type":"file","file":"Source/Pasted image 20241122205705.png","x":274,"y":-329,"width":99,"height":99},
+		{"id":"951e87e0b6af7910","type":"file","file":"Source/Pasted image 20241122205705.png","x":274,"y":-25,"width":99,"height":99},
+		{"id":"c86abae18c7a19bc","type":"text","text":"챗봇","x":-341,"y":-116,"width":100,"height":60},
+		{"id":"be182a2b19d0fa80","x":-211,"y":-310,"width":220,"height":160,"type":"file","file":"Source/Pasted image 20241122231349.png"},
+		{"id":"1e4b5badaa9b2ea8","type":"file","file":"Source/Pasted image 20241122205521.png","x":-560,"y":-313,"width":319,"height":167}
 	],
 	"edges":[
-		{"id":"25fcfc26f3fc7be9","fromNode":"671fec925eb9453b","fromSide":"left","toNode":"1e4b5badaa9b2ea8","toSide":"right"},
-		{"id":"65323047b31e9c8b","fromNode":"951e87e0b6af7910","fromSide":"left","toNode":"1e4b5badaa9b2ea8","toSide":"right"},
-		{"id":"56d6fd5e0bde9e3e","fromNode":"15ae60f027c1bf4f","fromSide":"right","toNode":"1e4b5badaa9b2ea8","toSide":"left"}
+		{"id":"6c6219c662a569c5","fromNode":"1e4b5badaa9b2ea8","fromSide":"right","toNode":"be182a2b19d0fa80","toSide":"left","fromEnd":"arrow"}
 	]
 }
