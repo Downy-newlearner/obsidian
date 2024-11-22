@@ -1,11 +1,11 @@
 {
 	"nodes":[
-		{"id":"1e4b5badaa9b2ea8","type":"file","file":"Source/Pasted image 20241122205521.png","x":-620,"y":-400,"width":400,"height":209},
+		{"id":"1e4b5badaa9b2ea8","type":"file","file":"Source/Pasted image 20241122205521.png","x":-620,"y":-400,"width":399,"height":209},
 		{"id":"c86abae18c7a19bc","type":"text","text":"챗봇","x":-470,"y":-180,"width":100,"height":60},
 		{"id":"484c96638ad22b94","type":"text","text":"크롤링 & 제공받은 데이터","x":-1080,"y":-165,"width":250,"height":52},
 		{"id":"3a685f9a1e243f1a","type":"file","file":"Source/Pasted image 20241104102156.png","x":-1047,"y":-405,"width":183,"height":220},
-		{"id":"671fec925eb9453b","x":-20,"y":-344,"width":99,"height":99,"type":"file","file":"Source/Pasted image 20241122205705.png"},
-		{"id":"0e51c2c91a56df65","x":-34,"y":-233,"width":127,"height":68,"type":"text","text":"  사용자(학생)"},
+		{"id":"671fec925eb9453b","type":"file","file":"Source/Pasted image 20241122205705.png","x":-20,"y":-344,"width":99,"height":99},
+		{"id":"0e51c2c91a56df65","type":"text","text":"  사용자(학생)","x":-34,"y":-233,"width":127,"height":68},
 		{"id":"951e87e0b6af7910","type":"file","file":"Source/Pasted image 20241122205705.png","x":-20,"y":-40,"width":99,"height":99},
 		{"id":"e152a22b9849892f","type":"text","text":"  사용자(근무자)","x":-34,"y":71,"width":127,"height":56}
 	],
