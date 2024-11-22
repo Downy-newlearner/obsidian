@@ -1,6 +1,7 @@
 {
 	"nodes":[
-		{"id":"3a685f9a1e243f1a","type":"file","file":"Source/Pasted image 20241104102156.png","x":-600,"y":-160,"width":220,"height":264}
+		{"id":"484c96638ad22b94","type":"text","text":"크롤링 & 제공받은 데이터","x":-1080,"y":-160,"width":250,"height":52},
+		{"id":"3a685f9a1e243f1a","type":"file","file":"Source/Pasted image 20241104102156.png","x":-1047,"y":-400,"width":183,"height":220}
 	],
 	"edges":[]
 }
