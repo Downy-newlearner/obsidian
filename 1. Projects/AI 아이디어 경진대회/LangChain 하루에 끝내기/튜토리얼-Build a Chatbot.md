@@ -42,3 +42,43 @@ model.invoke(
 LangGraph는 대화형 애플리케이션에서 메시지 기록을 유지하고, 간단한 체크포인트 기능을 지원하여 개발 편의성을 높여주는 도구입니다. SQLite 또는 Postgres와 같은 저장소와도 통합 가능하다.
 
 ### config을 이용한 스레드 이용
+```
+from langgraph.checkpoint.memory import MemorySaver
+from langgraph.graph import START, MessagesState, StateGraph
+
+# Define a new graph
+workflow = StateGraph(state_schema=MessagesState)
+
+
+# Define the function that calls the model
+def call_model(state: MessagesState):
+    response = model.invoke(state["messages"])
+    return {"messages": response}
+
+
+# Define the (single) node in the graph
+workflow.add_edge(START, "model")
+workflow.add_node("model", call_model)
+
+# Add memory
+memory = MemorySaver()
+app = workflow.compile(checkpointer=memory)
+```
+우선 LangGraph를 이용하여 워크플로우를 만들어주었다.
+
+```
+config = {"configurable": {"thread_id": "abc123"}}
+
+query = "Hi! I'm Bob."
+
+input_messages = [HumanMessage(query)]
+output = app.invoke({"messages": input_messages}, config)
+output["messages"][-1].pretty_print()  # output contains all messages in state
+
+query = "What's my name?"
+
+input_messages = [HumanMessage(query)]
+output = app.invoke({"messages": input_messages}, config)
+output["messages"][-1].pretty_print()
+```
+이렇게 스레드를 생성해서 대화를 할 수 있고, 다른 스레드를 만들어서 
