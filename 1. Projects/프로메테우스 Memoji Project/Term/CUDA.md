@@ -1,6 +1,7 @@
 ---
 created: 2024-11-23
 tags: 
-aliases: 
+aliases:
+  - 쿠다
 reference:
 ---
