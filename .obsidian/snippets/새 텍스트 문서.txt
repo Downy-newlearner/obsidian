@@ -1,14 +1,17 @@
-.link {
-    background-color: var(--text-accent);
-    border: none;
-    color: white;
-    font-size: 11px;
-    padding: 1px 8px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 0px 0px;
-    cursor: pointer;
-    border-radius: 14px;
-}
-
+2022.12~,SK hynix M15 Ph-2 Project 관리,검사: 설계 검토
+   2023.01~,SK hynix M15 Ph-2 Project 관리,검사: 설계 검토
+   2023.02~,SK hynix M15 Ph-2 Project 관리,검사: 설계 검토
+   2024.01~,P4 PH1 ERD Duct,검사: 설계 검토
+   2024.02~,P4 PH1 ERD Duct,검사: 설계 검토
+   2024.03~,P4 PH1 ERD Duct,검사: 설계 검토
+   2024.04~,P4 PH1 ERD Duct,검사: 설계 검토
+   2024.05~,PH1 ERD Duct,검사: 설계 검토
+   2024.06~,PH1 ERD Duct,검사: 설계 검토
+   2024.07~,NRD-KUTS 배치공사 B,검사: 설계 검토
+   2024.08~,NRD-KUTS 배치공사 B,검사: 설계 검토
+   2024.09~,NRD-KUTS 배치공사,검사: 설계 검토
+   2024.10~,P4 플랫폼 P3 배치공사 B,기초설계 기획자
+   2023.11~, (주)제트로블렌 포트,
+   2023.10~, (주)제트로블렌 포트,
+   2023.09~, (주)제트로블렌 포트,
+   2023.07~, (주)제트로블렌 포트,
