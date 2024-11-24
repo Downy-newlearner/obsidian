@@ -37,14 +37,13 @@ plt.show()
 
 # resize image
 inference_resizing = keras_cv.layers.Resizing(
-    640, 640, pad_to_aspect_ratio=False, bounding_box_format="xywh"
+    640, 640, pad_to_aspect_ratio=True, bounding_box_format="xywh"
 )
 
 
 
 image_batch = inference_resizing([image])
 
-breakpoint()
 class_ids = [
     "Aeroplane",  "Bicycle", "Bird",  "Boat", "Bottle",
     "Bus",  "Car", "Cat", "Chair", "Cow", "Dining Table",
