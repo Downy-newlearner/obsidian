@@ -268,6 +268,8 @@ Time delay를 볼 때 사용할 수 있다.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0039.jpg]]
 
+
+
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0040.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0041.jpg]]
