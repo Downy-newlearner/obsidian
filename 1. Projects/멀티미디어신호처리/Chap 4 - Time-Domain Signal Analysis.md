@@ -291,4 +291,7 @@ _수식 3_
 잡음이 있는 경우를 생각해보자.
 b는 가우시안 랜덤 노이즈이다.
 
-![[DSPChap4_Time_Domain_Signal_Analysis_page-00
+a와 b를 cross correlation을 해봤는데 잡음이 많았음에도 peak를 구해서 time delay도 알 수 있다.
+그러므로 cross correlation은 robust(강인한)하다
+
+![[DSPChap4_Time_Domain_Signal_Analysis_page-0043.jpg]]
