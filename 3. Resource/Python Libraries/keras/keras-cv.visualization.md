@@ -6,7 +6,155 @@ aliases:
   - plot_image_gallery
 reference:
 ---
+```
+# Object dection example
 
+# Requirements:
+
+# pip install keras-cv
+
+# pip install opencv-python
+
+  
+
+import os
+
+  
+
+os.environ["KERAS_BACKEND"] = "tensorflow"  # @param ["tensorflow", "jax", "torch"]
+
+  
+
+import keras
+
+import keras_cv
+
+import numpy as np
+
+  
+
+from keras_cv import visualization
+
+import matplotlib.pyplot as plt
+
+  
+
+# Load a pretrained model
+
+pretrained_model = keras_cv.models.YOLOV8Detector.from_preset(
+
+    "yolo_v8_m_pascalvoc", bounding_box_format="xywh"
+
+)
+
+  
+
+# Load an image from a URL or local path
+
+filepath = "C:/Users/jdh25/Downloads/b&b.jpeg"
+
+image = keras.utils.load_img(filepath)
+
+image = np.array(image)
+
+  
+
+visualization.plot_image_gallery(
+
+    np.array([image]),
+
+    value_range=(0, 255),
+
+    rows=1,
+
+    cols=1,
+
+    scale=5,
+
+)
+
+plt.show()
+
+  
+  
+  
+
+# resize image
+
+inference_resizing = keras_cv.layers.Resizing(
+
+    640, 640, pad_to_aspect_ratio=True, bounding_box_format="xywh"
+
+)
+
+  
+  
+  
+
+image_batch = inference_resizing([image])
+
+  
+
+class_ids = [
+
+    "Aeroplane",  "Bicycle", "Bird",  "Boat", "Bottle",
+
+    "Bus",  "Car", "Cat", "Chair", "Cow", "Dining Table",
+
+    "Dog", "Horse", "Motorbike", "Person", "Potted Plant",
+
+    "Sheep", "Sofa", "Train", "Tvmonitor", "Total", ]
+
+class_mapping = dict(zip(range(len(class_ids)), class_ids))
+
+  
+
+y_pred = pretrained_model.predict(image_batch)
+
+# y_pred is a bounding box Tensor:
+
+# {"classes": ..., boxes": ...}
+
+print(y_pred['classes'][0][:4])
+
+print(y_pred['confidence'][0][:4])
+
+print(y_pred['boxes'][0][:4])
+
+  
+  
+
+breakpoint()
+
+  
+  
+
+visualization.plot_bounding_box_gallery(
+
+    image_batch,
+
+    value_range=(0, 255),
+
+    rows=1,
+
+    cols=1,
+
+    y_pred=y_pred,
+
+    scale=5,
+
+    font_scale=0.7,
+
+    bounding_box_format="xywh",
+
+    class_mapping=class_mapping,
+
+)
+
+  
+
+plt.show()
+```
 # 1. keras-cv.visualization._plot_image_gallery_
 
 `visualization.plot_image_gallery`는 Keras-CV의 **`visualization`** 모듈에서 제공하는 함수로, 이미지 배열을 격자 형태로 시각화하여 쉽게 확인할 수 있도록 도와줍니다.
@@ -77,7 +225,7 @@ visualization.plot_image_gallery(
     - `plot_bounding_box_gallery`처럼 바운딩 박스 및 클래스 결과와 함께 이미지를 시각화할 수 있습니다.
 
 
-# 2. keras-cv.visualization._plot_bounding_
+# 2. keras-cv.visualization._plot_bounding_box_gallery_
 
 이 코드는 **객체 탐지 모델의 예측 결과를 처리하고 시각화**하는 부분입니다. 주요 작업은 모델 예측을 수행한 후, 바운딩 박스를 포함한 결과를 출력하고 시각적으로 확인하는 것입니다.
 
