@@ -60,6 +60,10 @@ print(y_pred['classes'][0][:4])
 print(y_pred['confidence'][0][:4])
 print(y_pred['boxes'][0][:4])
 
+
+breakpoint()
+
+
 visualization.plot_bounding_box_gallery(
     image_batch,
     value_range=(0, 255),
@@ -71,5 +75,6 @@ visualization.plot_bounding_box_gallery(
     bounding_box_format="xywh",
     class_mapping=class_mapping,
 )
+
 plt.show()
 
