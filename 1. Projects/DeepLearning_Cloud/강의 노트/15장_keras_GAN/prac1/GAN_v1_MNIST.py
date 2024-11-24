@@ -105,7 +105,8 @@ def train_generator(batch_size):
     noise = np.random.normal(0, 1, (batch_size, 100))
     model.fit(noise, valid, verbose=1)
 
-for epoch in tqdm(range(100)):  # Try 2000 
+
+for epoch in tqdm(range(2000)):  # Try 2000 
     train_discriminator(Xtrain, 64)
     train_generator(64)
 
@@ -120,7 +121,8 @@ np.random.seed(123)
 random_noise = np.random.normal(0, 1, (1, 100))
 gen_result = generator.predict(random_noise)
 
+
 for i in range(5):
-    gen_img = array_to_img(gen_result[0])
+    gen_img = array_to_img(gen_result[i])
     plt.imshow(gen_img, cmap='gray')
     plt.show()
