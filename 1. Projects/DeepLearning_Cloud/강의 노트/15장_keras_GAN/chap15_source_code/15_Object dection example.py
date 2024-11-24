@@ -33,6 +33,8 @@ visualization.plot_image_gallery(
 )
 plt.show()
 
+breakpoint()
+
 # resize image
 inference_resizing = keras_cv.layers.Resizing(
     640, 640, pad_to_aspect_ratio=True, bounding_box_format="xywh"
