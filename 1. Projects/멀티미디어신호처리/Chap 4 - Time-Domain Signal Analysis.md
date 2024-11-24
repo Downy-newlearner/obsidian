@@ -255,7 +255,10 @@ $x[n]$은 입력 범위가 0~2, $h[n]$은 입력 범위가 0~1이다.
 
 ### Discrete Cross-Correlation
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0036.jpg]]
-사이즈가 큰 파일에서 특정 패턴을 찾고 싶을 때 
+사이즈가 큰 파일에서 특정 패턴을 찾고 싶을 때 사용할 수 있다.(검색)
+Time delay를 볼 때 사용할 수 있다.
+
+더블 스타(\*\*)는  크로스 코렐레이션이다.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0037.jpg]]
 
