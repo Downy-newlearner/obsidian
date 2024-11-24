@@ -35,14 +35,28 @@ np.expand_dims(a, axis)
 ```python
 import numpy as np
 
+  
+
 arr = np.array([1, 2, 3])
-print("Original Shape:", arr.shape)  # (3,)
+
+print("Original", arr)  # [1 2 3]
+
+print("Original Shape:", arr.shape)  # (3,)
+
+  
 
 # 차원을 추가
-arr_expanded = np.expand_dims(arr, axis=0)
-print("Expanded Shape:", arr_expanded.shape)  # (1, 3)
-```
 
+arr_expanded = np.expand_dims(arr, axis=0)
+
+print("Expanded", arr_expanded)  # [[1 2 3]]
+
+print("Expanded Shape:", arr_expanded.shape)  # (1, 3)
+```
+`Original [1 2 3]`
+`Original Shape: (3,)`
+`Expanded [[1 2 3]]`
+`Expanded Shape: (1, 3)`
 #### 2. 여러 차원에서 사용
 
 ```python
