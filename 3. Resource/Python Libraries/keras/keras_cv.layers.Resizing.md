@@ -90,7 +90,7 @@ print("Resized Bounding Box:", resized_bounding_box)
     ```
     
     - `keras_cv.layers.Resizing` 클래스를 사용하여 `inference_resizing`라는 **크기 조정 객체**를 생성합니다.
-    - 생성된 객체는 `(640, 640)` 크기로 이미지를 변환하며, 필요시 **종횡비(aspect ratio)**를 유지하기 위해 패딩을 추가합니다.
+    - 생성된 객체는 `(640, 640)` 크기로 이미지를 변환하며, 필요시 **[[종횡비]](aspect ratio)**를 유지하기 위해 패딩을 추가합니다.
     - 이 객체는 이후에 입력 이미지를 처리할 준비가 된 상태입니다.
 2. **`__call__` 메서드 호출**:
     
