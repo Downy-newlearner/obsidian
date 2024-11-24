@@ -9,7 +9,7 @@ from keras.layers import Conv2D, Activation, Dropout, Flatten, Dense, BatchNorma
 from keras.optimizers import RMSprop
 from keras.preprocessing.image import array_to_img
 
-import warnings 
+import warnings
 warnings.filterwarnings('ignore')
 
 import matplotlib.pyplot as plt
