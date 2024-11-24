@@ -265,7 +265,8 @@ Time delay를 볼 때 사용할 수 있다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0038.jpg]]
 장치 이름은 correlator이다.
 이 함수는 $s[n]$과 $x[n]$을 cross correlation한다.
-	이 결과는 
+	이 결과는 $r_{xx}[n-D]$이다.
+	
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0039.jpg]]
 _수식 1_ 
@@ -287,5 +288,7 @@ _수식 3_
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0041.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0042.jpg]]
+잡음이 있는 경우를 생각해보자.
+b는 가우시안 랜덤 노이즈이다.
 
-![[DSPChap4_Time_Domain_Signal_Analysis_page-0043.jpg]]
+![[DSPChap4_Time_Domain_Signal_Analysis_page-00
