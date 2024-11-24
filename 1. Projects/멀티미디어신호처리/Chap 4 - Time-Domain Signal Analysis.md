@@ -265,6 +265,7 @@ Time delay를 볼 때 사용할 수 있다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0038.jpg]]
 장치 이름은 correlator이다.
 이 함수는 $s[n]$과 $x[n]$을 cross correlation한다.
+	이 결과는 
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0039.jpg]]
 _수식 1_ 
