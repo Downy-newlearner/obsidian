@@ -209,7 +209,7 @@ L을 더 증가시키면 더욱 부드러운 신호가 되지 않을까?
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0024.jpg]]
 
 
-## 4차시시
+## 4차시
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0025.jpg]]
 FIR, IIR의 예시로 Echo와 Reverbeeration을 알아보자
 Echo를 Comb filter라고 한다. 빗 필터라는 이야기로 그래프를 보면 빗을 닮았다.
@@ -230,7 +230,8 @@ time domain과 frequency domain에서 convolution하는 것을 확인한다.
 	Direct evaluation
 	Graphical approach
 
-지난 시간엔 direct evaluation을 봤고 이번 시간엔 Graphical approach를 보
+
+
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0031.jpg]]
 다음 슬라이드의 방법으로 convolution 결과의 입력 범위를 예측할 수 있으므로 0부터 3까지만 계산하면 된다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0032.jpg]]
@@ -241,6 +242,8 @@ $x[n]$은 입력 범위가 0~2, $h[n]$은 입력 범위가 0~1이다.
 	$y[n]$'s ending index = $x[n]$'s ending index +  $h[n]$'s  ending  index = 2+1 = 3
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0033.jpg]]
 
+## 5차시(12W-1)
+지난 시간엔 direct evaluation을 봤고 이번 시간엔 Graphical approach를 본다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0034.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0035.jpg]]
