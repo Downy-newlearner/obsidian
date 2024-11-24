@@ -38,7 +38,7 @@ Additivity
 **Discrete time system의 속성 2, 3**
 Homogeneity
 Linearity(Additivity + Homogeneity)
-	Additivity와 
+	Additivity와 Homogeneity를 모두 만족하면 그 시스템은 L
 
 Discrete time system은 Linear Operation이다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0006.jpg]]
