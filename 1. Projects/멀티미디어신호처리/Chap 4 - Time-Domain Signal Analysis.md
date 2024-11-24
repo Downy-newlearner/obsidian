@@ -277,6 +277,7 @@ _수식 2_
 
 _수식 3_
 	$s[n] = \alpha x[n-D]+p[n]$이고 convolution연산은 분배법칙이 성립하므로 식 정리를 수식 3과 같이 할 수 있다.
+	식 정리 결과 
 	
 
 
@@ -286,4 +287,4 @@ _수식 3_
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0042.jpg]]
 
-![[DSPChap4_Time_Domain_Signal_Analysis_page-0043.jpg]]
+![[DSPChap4_Time_Domain_Signal_Analys
