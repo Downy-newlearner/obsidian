@@ -251,7 +251,7 @@ $x[n]$은 입력 범위가 0~2, $h[n]$은 입력 범위가 0~1이다.
 수식으로 보면 어려우니까 다음 슬라이드의 예시를 보자.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0035.jpg]]
-
+이렇게 그래프로 시각화하면서 보는게 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0036.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0037.jpg]]
