@@ -243,7 +243,10 @@ $x[n]$은 입력 범위가 0~2, $h[n]$은 입력 범위가 0~1이다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0033.jpg]]
 
 ## 5차시(12W-1)
+*복습*
 지난 시간엔 direct evaluation을 봤고 이번 시간엔 Graphical approach를 본다.
+단순하면 손으로 계산할 수 있지만 복잡하면 힘들다.
+하물며 손으로 풀더라도 Graphical approah로 도식화하여 문제를 풀면 더욱 빠르게 문제를 풀 수 있다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0034.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0035.jpg]]
