@@ -106,7 +106,7 @@ def train_generator(batch_size):
     model.fit(noise, valid, verbose=1)
 
 
-for epoch in tqdm(range(2000)):  # Try 2000 
+for epoch in tqdm(range(3000)):  # Try 2000 
     train_discriminator(Xtrain, 64)
     train_generator(64)
 
