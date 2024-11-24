@@ -230,7 +230,7 @@ time domain과 frequency domain에서 convolution하는 것을 확인한다.
 	Direct evaluation
 	Graphical approach
 
-지난 시간엔 direct evaluation을 봤고 이번 시간ㅇ
+지난 시간엔 direct evaluation을 봤고 이번 시간엔 Graphical approach를 보
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0031.jpg]]
 다음 슬라이드의 방법으로 convolution 결과의 입력 범위를 예측할 수 있으므로 0부터 3까지만 계산하면 된다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0032.jpg]]
@@ -259,4 +259,4 @@ $x[n]$은 입력 범위가 0~2, $h[n]$은 입력 범위가 0~1이다.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0042.jpg]]
 
-![[DSPChap4_Time_Domain_Signal_
+![[DSPChap4_Time_Domain_Signal_Analysis_page-0043.jpg]]
