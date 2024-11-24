@@ -110,13 +110,17 @@ for epoch in tqdm(range(100)):  # Try 2000
     train_generator(64)
 
 # 결과물 확인
-original = array_to_img(Xtrain[0])
-plt.imshow(original, cmap='gray')
-plt.show()
+for i in range(5):
+    original = array_to_img(Xtrain[i])
+    plt.imshow(original, cmap='gray')
+    plt.show()
+
 
 np.random.seed(123)
 random_noise = np.random.normal(0, 1, (1, 100))
 gen_result = generator.predict(random_noise)
-gen_img = array_to_img(gen_result[0])
-plt.imshow(gen_img, cmap='gray')
-plt.show()
+
+for i in range(5):
+    gen_img = array_to_img(gen_result[0])
+    plt.imshow(gen_img, cmap='gray')
+    plt.show()
