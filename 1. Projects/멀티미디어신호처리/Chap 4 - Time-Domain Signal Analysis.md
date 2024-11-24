@@ -267,7 +267,13 @@ Time delay를 볼 때 사용할 수 있다.
 이 함수는 $s[n]$과 $x[n]$을 cross correlation한다.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0039.jpg]]
+_수식 1_ 
+	cross correlation은 convolution으로 구할 수 있다.
 
+가정: correlator - 항공기 거리와 노이즈는 무관하다.
+
+_수식 2_
+	
 
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0040.jpg]]
