@@ -248,6 +248,7 @@ $x[n]$은 입력 범위가 0~2, $h[n]$은 입력 범위가 0~1이다.
 단순하면 손으로 계산할 수 있지만 복잡하면 힘들다.
 하물며 손으로 풀더라도 Graphical approah로 도식화하여 문제를 풀면 더욱 빠르게 문제를 풀 수 있다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0034.jpg]]
+수식으로 보면 어려우니까 다음 슬라이드의 예시를 보자.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0035.jpg]]
 
