@@ -51,6 +51,8 @@ class_ids = [
     "Sheep", "Sofa", "Train", "Tvmonitor", "Total", ]
 class_mapping = dict(zip(range(len(class_ids)), class_ids))
 
+breakpoint()
+
 y_pred = pretrained_model.predict(image_batch)
 # y_pred is a bounding box Tensor:
 # {"classes": ..., boxes": ...}
