@@ -1,3 +1,10 @@
+---
+created: 2024-11-24
+tags: 
+aliases:
+  - load_img
+reference:
+---
 `keras.utils.load_img(filepath)` 메서드는 Keras에서 이미지를 로드하기 위해 사용됩니다. 
 
 ---
