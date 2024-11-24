@@ -1,3 +1,6 @@
+
+# 1. keras-cv.visualization._plot_image_gallery_
+
 `visualization.plot_image_gallery`는 Keras-CV의 **`visualization`** 모듈에서 제공하는 함수로, 이미지 배열을 격자 형태로 시각화하여 쉽게 확인할 수 있도록 도와줍니다.
 
 ---
@@ -64,3 +67,7 @@ visualization.plot_image_gallery(
     - 데이터를 직관적으로 확인할 수 있도록 지원합니다.
 - **모델 예측과 통합**:
     - `plot_bounding_box_gallery`처럼 바운딩 박스 및 클래스 결과와 함께 이미지를 시각화할 수 있습니다.
+
+
+# 2. keras-cv.visualization._plot_bounding_box_gallery_
+
