@@ -3,10 +3,12 @@
 		{"id":"f7ee9a2eb30b6de1","x":-600,"y":-216,"width":220,"height":60,"type":"text","text":"Reverse Process:\n\t$p_\\theta(x_t, t)$"},
 		{"id":"ea1abc138fbc53eb","x":-300,"y":-216,"width":250,"height":60,"type":"text","text":"$N(\\mu_\\theta(x_t,t), \\sum_\\theta(x_t,t))$"},
 		{"id":"0b6826937c606110","x":-294,"y":-80,"width":119,"height":60,"type":"text","text":"$\\mu_\\theta(x_t,t)$"},
-		{"id":"a4e0f0d833378ecd","x":-160,"y":-80,"width":126,"height":60,"type":"text","text":"$\\sum_\\theta(x_t,t)$"}
+		{"id":"a4e0f0d833378ecd","x":-160,"y":-80,"width":126,"height":60,"type":"text","text":"$\\sum_\\theta(x_t,t)$"},
+		{"id":"760ad30f0344158d","x":-456,"y":12,"width":250,"height":60,"type":"text","text":"$\\sigma_\\theta(x_t,t)$"}
 	],
 	"edges":[
 		{"id":"84237c5e04baf564","fromNode":"f7ee9a2eb30b6de1","fromSide":"right","toNode":"ea1abc138fbc53eb","toSide":"left"},
-		{"id":"43ddb8cfdb2248da","fromNode":"0b6826937c606110","fromSide":"top","toNode":"ea1abc138fbc53eb","toSide":"bottom"}
+		{"id":"43ddb8cfdb2248da","fromNode":"0b6826937c606110","fromSide":"top","toNode":"ea1abc138fbc53eb","toSide":"bottom"},
+		{"id":"2568671e87ccd2c8","fromNode":"a4e0f0d833378ecd","fromSide":"top","toNode":"ea1abc138fbc53eb","toSide":"bottom"}
 	]
 }
