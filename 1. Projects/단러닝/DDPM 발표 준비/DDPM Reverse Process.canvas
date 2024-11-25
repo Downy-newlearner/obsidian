@@ -22,8 +22,8 @@
 		{"id":"56cb8c5dc869ef70","type":"file","file":"1. Projects/단러닝/DDPM 발표 준비/노이즈 함수(Denoising U-Net)에 대한 자세한 설명.md","x":280,"y":127,"width":561,"height":400},
 		{"id":"254c5696eea997ca","type":"file","file":"1. Projects/단러닝/DDPM 발표 준비/bar 알파에 대한 설명.md","x":-592,"y":740,"width":620,"height":540},
 		{"id":"408ac1083765356a","type":"text","text":"$\\mathcal{L} = || \\epsilon_\\theta(x_t, t) - \\epsilon ||^2$","x":-97,"y":450,"width":250,"height":60},
-		{"id":"2fd6682a7af328a1","type":"file","file":"Source/Denoising U-Net 구조.png","x":280,"y":580,"width":354,"height":400},
-		{"id":"0d60154aba445e22","x":120,"y":-243,"width":400,"height":115,"type":"file","file":"Source/Pasted image 20241126031958.png"}
+		{"id":"0d60154aba445e22","x":120,"y":-243,"width":772,"height":223,"type":"file","file":"Source/Pasted image 20241126031958.png"},
+		{"id":"e299fa24bf493978","x":280,"y":580,"width":561,"height":677,"type":"file","file":"Source/Pasted image 20241126032027.png"}
 	],
 	"edges":[
 		{"id":"e157f2b52960772f","fromNode":"760ad30f0344158d","fromSide":"top","toNode":"0b6826937c606110","toSide":"bottom"},
