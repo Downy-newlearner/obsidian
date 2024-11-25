@@ -3,9 +3,12 @@
 **기존 소주제**
 
 - 1.1 Mode Collapse 문제와 원인
-	- 
+	- GAN이 생성 데이터의 다양성을 보장하지 못하게 만드는 문제
+	- $\because$ Generator와 Discriminator의 학습 불균형 및 손실함수의 한계
 
 - 1.2 훈련 안정성 부족 (Unstable Training)
+	- GAN의 학습은 Generator와 Discriminator 간의 경쟁적 구조로 인해 매우 불안정하며, 학습이 중단되거나 수렴하지 않는 경우가 흔하다.
+	- Non-Convergence 문제: G와 D가 
 - 1.3 평가 지표의 한계 (Inception Score와 FID의 문제점)
 
 **추가 가능 소주제**
@@ -75,4 +78,4 @@
 **추가 가능 소주제**
 
 - 6.4 이미지에서 텍스트로의 Diffusion 응용 사례
-- 6.5 비디오 생성에서의 Diffusion 활용
+- 6.5 비디오 생성에서의 Diffus
