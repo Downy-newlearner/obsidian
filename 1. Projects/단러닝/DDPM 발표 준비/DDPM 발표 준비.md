@@ -8,7 +8,8 @@
 
 - 1.2 훈련 안정성 부족 (Unstable Training)
 	- GAN의 학습은 Generator와 Discriminator 간의 경쟁적 구조로 인해 매우 불안정하며, 학습이 중단되거나 수렴하지 않는 경우가 흔하다.
-	- Non-Convergence 문제: G와 D가 
+	- Non-Convergence 문제: G와 D가 서로 적응하면서 손실 함수가 안정적으로 수렴하지 않고, 학습이 끝없이 반복될 수 있다.
+	- D가 지나치게 강하면 G가 유의미한 피드백을 받지 못하고, 반대로 G가 너무 강하면 D가 제대로 학습하지 못한다.
 - 1.3 평가 지표의 한계 (Inception Score와 FID의 문제점)
 
 **추가 가능 소주제**
@@ -78,4 +79,4 @@
 **추가 가능 소주제**
 
 - 6.4 이미지에서 텍스트로의 Diffusion 응용 사례
-- 6.5 비디오 생성에서의 Diffus
+- 6.5 비디오 생성에서의 Diffusion 활용
