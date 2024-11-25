@@ -9,12 +9,12 @@
 
 $\bar{\alpha}_t$는 timestep $t$에서의 $\alpha_t$ 값들의 누적 곱(product)으로 정의됩니다:
 
-αˉt=∏s=1tαs\bar{\alpha}_t = \prod_{s=1}^t \alpha_s
+$\bar{\alpha}_t = \prod_{s=1}^t \alpha_s$
 
 여기서:
 
 - $\alpha_s$는 timestep $s$에서의 노이즈 감소(또는 유지) 비율을 나타내는 개별적인 스케줄 파라미터입니다.
-- $\alpha_t$ 값은 보통 $\beta_t$ (노이즈 분산 스케줄)의 보완적 형태로 설정됩니다: αt=1−βt\alpha_t = 1 - \beta_t
+- $\alpha_t$ 값은 보통 $\beta_t$ (노이즈 분산 스케줄)의 보완적 형태로 설정됩니다: $\alpha_t = 1 - \beta_t$
 
 #### 3. 역할
 
