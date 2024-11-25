@@ -63,7 +63,7 @@
 
 - 5.1 Web Diffusion: 이미지 생성 웹 애플리케이션
 - 5.2 Stable Diffusion: 대규모 텍스트-이미지 생성
-- 5.3 HuggingFace Diffusers 라이브러리 활용
+- 5.3 HuggingFace [[diffusers 라이브러리|Diffusers]] 라이브러리 활용
 
 **추가 가능 소주제**
 
