@@ -4,8 +4,9 @@
 		{"id":"ea1abc138fbc53eb","type":"text","text":"$N(\\mu_\\theta(x_t,t), \\sum_\\theta(x_t,t))$","x":-300,"y":-216,"width":250,"height":60},
 		{"id":"0b6826937c606110","type":"text","text":"$\\mu_\\theta(x_t,t)$","x":-294,"y":-80,"width":119,"height":60},
 		{"id":"a4e0f0d833378ecd","type":"text","text":"$\\sum_\\theta(x_t,t)$","x":-160,"y":-80,"width":126,"height":60},
-		{"id":"629b02f9c20bfc0c","type":"text","text":"$\\beta_t$(상수)","x":-132,"y":60,"width":132,"height":60},
-		{"id":"760ad30f0344158d","type":"text","text":"$ϵ_\\theta(x_t,t)$","x":-282,"y":60,"width":96,"height":60}
+		{"id":"760ad30f0344158d","type":"text","text":"$\\epsilon_\\theta(x_t,t)$","x":-282,"y":60,"width":96,"height":60},
+		{"id":"629b02f9c20bfc0c","type":"text","text":"$\\beta_t$(상수)","x":-163,"y":60,"width":132,"height":60},
+		{"id":"e75ba3f9262c2765","x":100,"y":-240,"width":721,"height":536,"type":"file","file":"1. Projects/단러닝/DDPM 발표 준비/noting.md"}
 	],
 	"edges":[
 		{"id":"84237c5e04baf564","fromNode":"f7ee9a2eb30b6de1","fromSide":"right","toNode":"ea1abc138fbc53eb","toSide":"left"},
