@@ -19,7 +19,9 @@ $\bar{\alpha}_t = \prod_{s=1}^t \alpha_s$
 #### 3. 역할
 
 - $\bar{\alpha}_t$는 데이터를 denoising하거나 forward process를 진행할 때, **원본 데이터 $x_0$와 노이즈 $\epsilon$의 상대적 비중**을 조정합니다.
-- Forward process에서 $x_t$는 다음과 같이 표현됩니다: xt=αˉtx0+1−αˉtϵx_t = \sqrt{\bar{\alpha}_t} x_0 + \sqrt{1 - \bar{\alpha}_t} \epsilon 여기서:
+- Forward process에서 $x_t$는 다음과 같이 표현됩니다: 
+	$x_t = \sqrt{\bar{\alpha}_t} x_0 + \sqrt{1 - \bar{\alpha}_t} \epsilon$
+- 여기서:
     - $\sqrt{\bar{\alpha}_t}$는 clean 데이터 $x_0$의 기여도를 조절합니다.
     - $\sqrt{1 - \bar{\alpha}_t}$는 노이즈 $\epsilon$의 기여도를 조절합니다.
 
