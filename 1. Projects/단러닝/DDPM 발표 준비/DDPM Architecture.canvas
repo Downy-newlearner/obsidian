@@ -16,8 +16,8 @@
 		{"id":"e75ba3f9262c2765","type":"file","file":"1. Projects/단러닝/DDPM 발표 준비/noting.md","x":-919,"y":-720,"width":1644,"height":420},
 		{"id":"9a2907ef34a325c4","x":-444,"y":350,"width":65,"height":60,"type":"text","text":"$\\bar{\\alpha}_t$"},
 		{"id":"1de6efc86f3c221f","type":"text","text":" $\\epsilon \\sim \\mathcal{N}(0, I)$","x":-579,"y":450,"width":160,"height":60},
-		{"id":"b41c3305d4ad476e","x":-880,"y":350,"width":140,"height":60,"type":"text","text":"$1-\\beta = \\alpha_s$"},
-		{"id":"39dbe1d15877eb30","x":-793,"y":339,"width":250,"height":60,"type":"text","text":"$\\bar{\\alpha}_t = \\prod_{s=1}^t \\alpha_s$"}
+		{"id":"39dbe1d15877eb30","x":-655,"y":350,"width":153,"height":60,"type":"text","text":"$\\prod_{s=1}^t \\alpha_s = \\bar{\\alpha}_t$"},
+		{"id":"b41c3305d4ad476e","x":-850,"y":350,"width":140,"height":60,"type":"text","text":"$1-\\beta = \\alpha_s$"}
 	],
 	"edges":[
 		{"id":"84237c5e04baf564","fromNode":"f7ee9a2eb30b6de1","fromSide":"right","toNode":"ea1abc138fbc53eb","toSide":"left"},
@@ -29,6 +29,9 @@
 		{"id":"70d71e3ffdb542e4","fromNode":"1de6efc86f3c221f","fromSide":"right","toNode":"e03d378a7f86a2ed","toSide":"left"},
 		{"id":"f9eede832348b50b","fromNode":"0b6826937c606110","fromSide":"left","toNode":"86147d6feb7f85f9","toSide":"right","toEnd":"none"},
 		{"id":"942b2adb6a1cd2f3","fromNode":"9a2907ef34a325c4","fromSide":"bottom","toNode":"e03d378a7f86a2ed","toSide":"top"},
-		{"id":"b6b64afe6819fd4c","fromNode":"8b3a40ecbffd9754","fromSide":"bottom","toNode":"254c5696eea997ca","toSide":"left"}
+		{"id":"b6b64afe6819fd4c","fromNode":"8b3a40ecbffd9754","fromSide":"bottom","toNode":"254c5696eea997ca","toSide":"left"},
+		{"id":"d8aa5e69b3e89b46","fromNode":"b41c3305d4ad476e","fromSide":"right","toNode":"39dbe1d15877eb30","toSide":"left"},
+		{"id":"a8705d2998c2899a","fromNode":"39dbe1d15877eb30","fromSide":"right","toNode":"9a2907ef34a325c4","toSide":"left"},
+		{"id":"88283db811f1d2ea","fromNode":"629b02f9c20bfc0c","fromSide":"bottom","toNode":"b41c3305d4ad476e","toSide":"top","toEnd":"none"}
 	]
 }
