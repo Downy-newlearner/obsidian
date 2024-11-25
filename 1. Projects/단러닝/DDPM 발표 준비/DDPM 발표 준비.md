@@ -3,6 +3,8 @@
 **기존 소주제**
 
 - 1.1 Mode Collapse 문제와 원인
+	- 
+
 - 1.2 훈련 안정성 부족 (Unstable Training)
 - 1.3 평가 지표의 한계 (Inception Score와 FID의 문제점)
 
