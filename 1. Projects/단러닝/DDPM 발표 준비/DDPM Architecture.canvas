@@ -15,7 +15,9 @@
 		{"id":"56cb8c5dc869ef70","type":"file","file":"1. Projects/단러닝/DDPM 발표 준비/노이즈 함수에 대한 자세한 설명.md","x":-780,"y":700,"width":561,"height":400},
 		{"id":"e75ba3f9262c2765","type":"file","file":"1. Projects/단러닝/DDPM 발표 준비/noting.md","x":-919,"y":-720,"width":1644,"height":420},
 		{"id":"9a2907ef34a325c4","x":-444,"y":350,"width":65,"height":60,"type":"text","text":"$\\bar{\\alpha}_t$"},
-		{"id":"1de6efc86f3c221f","type":"text","text":" $\\epsilon \\sim \\mathcal{N}(0, I)$","x":-579,"y":450,"width":160,"height":60}
+		{"id":"1de6efc86f3c221f","type":"text","text":" $\\epsilon \\sim \\mathcal{N}(0, I)$","x":-579,"y":450,"width":160,"height":60},
+		{"id":"b41c3305d4ad476e","x":-880,"y":350,"width":140,"height":60,"type":"text","text":"$1-\\beta = \\alpha_s$"},
+		{"id":"39dbe1d15877eb30","x":-793,"y":339,"width":250,"height":60,"type":"text","text":"$\\bar{\\alpha}_t = \\prod_{s=1}^t \\alpha_s$"}
 	],
 	"edges":[
 		{"id":"84237c5e04baf564","fromNode":"f7ee9a2eb30b6de1","fromSide":"right","toNode":"ea1abc138fbc53eb","toSide":"left"},
