@@ -2,18 +2,18 @@
 ### 1. GAN의 한계
 
 - 1.1 Mode Collapse 문제와 원인
-    
     - GAN이 생성 데이터의 다양성을 보장하지 못하게 만드는 문제
     - $\because$ Generator와 Discriminator의 학습 불균형 및 손실 함수의 한계
-- 1.2 훈련 안정성 부족 (Unstable Training)
     
+- 1.2 훈련 안정성 부족 (Unstable Training)
     - GAN의 학습은 Generator와 Discriminator 간의 경쟁적 구조로 인해 매우 불안정하며, 학습이 중단되거나 수렴하지 않는 경우가 흔하다.
     - Non-Convergence 문제: G와 D가 서로 적응하면서 손실 함수가 안정적으로 수렴하지 않고, 학습이 끝없이 반복될 수 있다.
     - D가 지나치게 강하면 G가 유의미한 피드백을 받지 못하고, 반대로 G가 너무 강하면 D가 제대로 학습하지 못한다.
+    
 - 1.3 평가 지표의 한계 (Inception Score와 FID의 문제점)
     
 
-**요약**: G와 D가 균형을 맞추며 훈련되어야만 하는 GAN에는 한계가 존재한다.
+**요약**: GAN은 Generator와 Discriminator가 균형을 유지하며 훈련되어야 하지만, 이 과정에서 구조적 한계가 존재한다.
 
 ---
 
