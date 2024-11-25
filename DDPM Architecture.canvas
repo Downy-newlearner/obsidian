@@ -4,7 +4,7 @@
 		{"id":"ea1abc138fbc53eb","x":-300,"y":-216,"width":250,"height":60,"type":"text","text":"$N(\\mu_\\theta(x_t,t), \\sum_\\theta(x_t,t))$"},
 		{"id":"0b6826937c606110","x":-294,"y":-80,"width":119,"height":60,"type":"text","text":"$\\mu_\\theta(x_t,t)$"},
 		{"id":"a4e0f0d833378ecd","x":-160,"y":-80,"width":126,"height":60,"type":"text","text":"$\\sum_\\theta(x_t,t)$"},
-		{"id":"760ad30f0344158d","x":-456,"y":12,"width":250,"height":60,"type":"text","text":"$\\sigma_\\theta(x_t,t)$"}
+		{"id":"760ad30f0344158d","x":-456,"y":12,"width":250,"height":60,"type":"text","text":"$ϵ_\\theta(x_t,t)$"}
 	],
 	"edges":[
 		{"id":"84237c5e04baf564","fromNode":"f7ee9a2eb30b6de1","fromSide":"right","toNode":"ea1abc138fbc53eb","toSide":"left"},
