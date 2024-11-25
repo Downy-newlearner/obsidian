@@ -17,7 +17,9 @@
 		{"id":"9a2907ef34a325c4","x":-444,"y":350,"width":65,"height":60,"type":"text","text":"$\\bar{\\alpha}_t$"},
 		{"id":"1de6efc86f3c221f","type":"text","text":" $\\epsilon \\sim \\mathcal{N}(0, I)$","x":-579,"y":450,"width":160,"height":60},
 		{"id":"39dbe1d15877eb30","x":-655,"y":350,"width":153,"height":60,"type":"text","text":"$\\prod_{s=1}^t \\alpha_s = \\bar{\\alpha}_t$"},
-		{"id":"b41c3305d4ad476e","x":-850,"y":350,"width":140,"height":60,"type":"text","text":"$1-\\beta = \\alpha_s$"}
+		{"id":"b41c3305d4ad476e","x":-850,"y":350,"width":140,"height":60,"type":"text","text":"$1-\\beta = \\alpha_s$"},
+		{"id":"b7849b8424c3e537","x":-29,"y":-232,"width":379,"height":76,"color":"2","type":"text","text":"Reverse Process:\n\n$p_\\theta(x_{t-1} | x_t) = \\mathcal{N}(x_{t-1}; \\mu_\\theta(x_t, t), \\Sigma_\\theta(x_t, t))$"},
+		{"id":"b66b134b96435589","x":-624,"y":67,"width":250,"height":60,"type":"text","text":"$\\mu_\\theta(x_t, t) = \\frac{1}{\\sqrt{\\alpha_t}} \\left( x_t - \\frac{1 - \\alpha_t}{\\sqrt{1 - \\bar{\\alpha}_t}} \\epsilon_\\theta(x_t, t) \\right)$"}
 	],
 	"edges":[
 		{"id":"84237c5e04baf564","fromNode":"f7ee9a2eb30b6de1","fromSide":"right","toNode":"ea1abc138fbc53eb","toSide":"left"},
