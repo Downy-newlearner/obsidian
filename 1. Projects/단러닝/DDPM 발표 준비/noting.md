@@ -10,7 +10,7 @@
 2. **Noise Prediction 모델 학습**  
     DDPM에서는 $\epsilon_\theta(x_t, t)$라는 함수로 노이즈를 예측하도록 모델을 설계한다. 학습 데이터는 원본 데이터 $x_0$, timestep $t$, 가우시안 노이즈 $\epsilon \sim \mathcal{N}(0, I)$를 기반으로 만들어진 $x_t$ 샘플을 포함하며, 학습 손실 함수는 다음과 같다:
     
-    \mathcal{L} = || \epsilon_\theta(x_t, t) - \epsilon ||^2
+    $\mathcal{L} = || \epsilon_\theta(x_t, t) - \epsilon ||^2$
     
     이 손실은 실제 노이즈 $\epsilon$과 모델이 예측한 노이즈 $\epsilon_\theta$의 Mean Squared Error(MSE)로 정의된다.
     
