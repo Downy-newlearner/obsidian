@@ -1,6 +1,7 @@
 {
 	"nodes":[
-		{"id":"f7ee9a2eb30b6de1","x":-500,"y":-216,"width":250,"height":60,"type":"text","text":""}
+		{"id":"f7ee9a2eb30b6de1","x":-600,"y":-216,"width":220,"height":60,"type":"text","text":"Reverse Process:\n\t$p_\\theta(x_t, t)$"},
+		{"id":"ea1abc138fbc53eb","x":-310,"y":-210,"width":250,"height":60,"type":"text","text":"$N(\\mu_\\theta(x_t))"}
 	],
 	"edges":[]
 }
