@@ -6,10 +6,11 @@
 		{"id":"a4e0f0d833378ecd","type":"text","text":"$\\sum_\\theta(x_t,t)$","x":-160,"y":-80,"width":126,"height":60},
 		{"id":"760ad30f0344158d","type":"text","text":"$\\epsilon_\\theta(x_t,t)$","x":-282,"y":60,"width":96,"height":60},
 		{"id":"629b02f9c20bfc0c","type":"text","text":"$\\beta_t$(상수)","x":-163,"y":60,"width":132,"height":60},
-		{"id":"e75ba3f9262c2765","x":100,"y":-240,"width":721,"height":536,"type":"file","file":"1. Projects/단러닝/DDPM 발표 준비/noting.md"},
-		{"id":"98f385ff52b7f48b","x":-687,"y":285,"width":250,"height":60,"type":"text","text":"$x_0$"},
-		{"id":"8a3a270a88c9000f","x":-687,"y":180,"width":250,"height":60,"type":"text","text":"$t$ (timestep) "},
-		{"id":"e03d378a7f86a2ed","x":-687,"y":420,"width":250,"height":60,"type":"text","text":"$x_t$ 샘플"}
+		{"id":"1de6efc86f3c221f","x":-900,"y":420,"width":160,"height":60,"type":"text","text":" $\\epsilon \\sim \\mathcal{N}(0, I)$"},
+		{"id":"98f385ff52b7f48b","x":-598,"y":320,"width":73,"height":60,"type":"text","text":"$x_0$ "},
+		{"id":"e03d378a7f86a2ed","x":-624,"y":420,"width":126,"height":60,"type":"text","text":"$x_t$ 샘플"},
+		{"id":"8a3a270a88c9000f","x":-635,"y":236,"width":147,"height":60,"type":"text","text":"$t$ (timestep) "},
+		{"id":"e75ba3f9262c2765","x":40,"y":-240,"width":721,"height":536,"type":"file","file":"1. Projects/단러닝/DDPM 발표 준비/noting.md"}
 	],
 	"edges":[
 		{"id":"84237c5e04baf564","fromNode":"f7ee9a2eb30b6de1","fromSide":"right","toNode":"ea1abc138fbc53eb","toSide":"left"},
@@ -17,6 +18,7 @@
 		{"id":"2568671e87ccd2c8","fromNode":"a4e0f0d833378ecd","fromSide":"top","toNode":"ea1abc138fbc53eb","toSide":"bottom","toEnd":"none"},
 		{"id":"e157f2b52960772f","fromNode":"760ad30f0344158d","fromSide":"top","toNode":"0b6826937c606110","toSide":"bottom"},
 		{"id":"be0ed0d0954e06ea","fromNode":"629b02f9c20bfc0c","fromSide":"top","toNode":"a4e0f0d833378ecd","toSide":"bottom"},
-		{"id":"e763aaaf65ce17dd","fromNode":"98f385ff52b7f48b","fromSide":"bottom","toNode":"e03d378a7f86a2ed","toSide":"top"}
+		{"id":"e763aaaf65ce17dd","fromNode":"98f385ff52b7f48b","fromSide":"bottom","toNode":"e03d378a7f86a2ed","toSide":"top"},
+		{"id":"70d71e3ffdb542e4","fromNode":"1de6efc86f3c221f","fromSide":"right","toNode":"e03d378a7f86a2ed","toSide":"left"}
 	]
 }
