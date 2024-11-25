@@ -11,8 +11,9 @@
 		{"id":"98f385ff52b7f48b","type":"text","text":"$x_0$ ","x":-319,"y":350,"width":73,"height":60},
 		{"id":"e03d378a7f86a2ed","type":"text","text":"$x_t$ 샘플","x":-345,"y":450,"width":126,"height":60},
 		{"id":"8a3a270a88c9000f","type":"text","text":"$t$ (timestep) ","x":-356,"y":266,"width":147,"height":60},
-		{"id":"56cb8c5dc869ef70","x":-661,"y":560,"width":561,"height":400,"type":"file","file":"1. Projects/단러닝/DDPM 발표 준비/노이즈 함수에 대한 자세한 설명.md"},
-		{"id":"86147d6feb7f85f9","x":-682,"y":-80,"width":282,"height":60,"type":"text","text":"$\\mu_\\theta(x_t, t) = \\frac{1}{\\sqrt{\\alpha_t}} \\left( x_t - \\frac{1 - \\alpha_t}{\\sqrt{1 - \\bar{\\alpha}_t}} \\epsilon_\\theta(x_t, t) \\right)$"}
+		{"id":"86147d6feb7f85f9","x":-682,"y":-80,"width":282,"height":60,"type":"text","text":"$\\mu_\\theta(x_t, t) = \\frac{1}{\\sqrt{\\alpha_t}} \\left( x_t - \\frac{1 - \\alpha_t}{\\sqrt{1 - \\bar{\\alpha}_t}} \\epsilon_\\theta(x_t, t) \\right)$"},
+		{"id":"56cb8c5dc869ef70","x":-680,"y":760,"width":561,"height":400,"type":"file","file":"1. Projects/단러닝/DDPM 발표 준비/노이즈 함수에 대한 자세한 설명.md"},
+		{"id":"8b3a40ecbffd9754","x":-444,"y":520,"width":325,"height":60,"type":"text","text":"$x_t = \\sqrt{\\bar{\\alpha}_t} x_0 + \\sqrt{1 - \\bar{\\alpha}_t} \\epsilon, \\quad \\epsilon \\sim \\mathcal{N}(0, I)$"}
 	],
 	"edges":[
 		{"id":"84237c5e04baf564","fromNode":"f7ee9a2eb30b6de1","fromSide":"right","toNode":"ea1abc138fbc53eb","toSide":"left"},
