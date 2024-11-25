@@ -1,44 +1,48 @@
-# source : https://jamm-notnull.tistory.com/10
-# https://towardsdatascience.com/gan-by-example-using-keras-on-tensorflow-backend-1a6d515a60d0
-# https://goldenrabbit.co.kr/2023/07/31/%ED%8C%8C%EC%9D%B4%ED%86%A0%EC%B9%98-%EB%94%A5%EB%9F%AC%EB%8B%9D-gan%EC%9C%BC%EB%A1%9C-%EC%82%AC%EB%9E%8C-%EC%96%BC%EA%B5%B4-%EB%A7%8C%EB%93%A4%EA%B8%B0/
+# CUDA 환경 확인 및 설정
+import tensorflow as tf
+from tensorflow.keras.mixed_precision import set_global_policy
 
+# GPU 확인
+gpus = tf.config.list_physical_devices('GPU')
+if gpus:
+    print(f"GPUs Available: {len(gpus)}")
+    for gpu in gpus:
+        print(f" - {gpu.name}")
+else:
+    print("No GPU available. Using CPU.")
 
+# 혼합 정밀도 설정 (optional, NVIDIA RTX 이후 GPU에서 사용 권장)
+set_global_policy('mixed_float16')
+
+# 기본 코드 시작
 import numpy as np
 import keras.backend as K
 from keras.models import Sequential
 from keras.layers import Conv2D, Activation, Dropout, Flatten, Dense, BatchNormalization, Reshape, UpSampling2D, LeakyReLU 
 from keras.optimizers import RMSprop
-from keras.preprocessing import image
 from keras.preprocessing.image import array_to_img
-from skimage import color 
 
-import warnings ; warnings.filterwarnings('ignore')
+import warnings 
+warnings.filterwarnings('ignore')
 
 import matplotlib.pyplot as plt
 from tqdm import tqdm                      # progress bar
 
 K.clear_session()
 
+# load MNIST dataset
 from keras.datasets import mnist
 
-(X_train, _), (_, _) = mnist.load_data()
-X_train = X_train / 255.0  # 정규화
-X_train = np.expand_dims(X_train, axis=-1)  # 채널 차원 추가 (28, 28, 1)
+(X_train, _), (_, _) = mnist.load_data()  # 라벨 불필요하므로 _ 처리
+X_train = X_train / 255.0  # 정규화 (픽셀 값 0~1로 변환)
+X_train = np.expand_dims(X_train, axis=-1)  # (28, 28, 1)로 변환
 
+Xtrain = X_train  # 코드에서 사용하기 위한 데이터 변수 설정
 
-# load data
-img = image.load_img(X_train, target_size=(28,28))
-img = color.rgb2gray(img)
-img_array_train = image.img_to_array(img)
-img_array_train = np.expand_dims(img_array_train, axis=0)
-
-Xtrain = img_array_train
-Xtrain = Xtrain / 255
-
-img_shape = (img_array_train.shape[1], img_array_train.shape[2], img_array_train.shape[3])    # row, col, channel
+# 입력 이미지의 shape (28, 28, 1)
+img_shape = (X_train.shape[1], X_train.shape[2], X_train.shape[3])
 
 # 판별자 만들기 ###############################################
-
 discriminator = Sequential()
 discriminator.add(Conv2D(64, kernel_size=(5, 5), 
                         input_shape=img_shape, 
@@ -54,10 +58,9 @@ discriminator.add(Conv2D(128, kernel_size=(5, 5),
                         activation=LeakyReLU(alpha=0.2)))
 discriminator.add(Dropout(rate=0.4))
 discriminator.add(Flatten())
-discriminator.add(Dense(units=1, activation='sigmoid' ))
+discriminator.add(Dense(units=1, activation='sigmoid'))
 
 discriminator.summary()
-
 
 # 생성자 만들기 #######################################
 gen_dense_size=(7, 7, 64)
@@ -69,25 +72,26 @@ generator.add(Activation('relu'))
 generator.add(Reshape(gen_dense_size))
 
 generator.add(UpSampling2D())
-generator.add(Conv2D(filters = 128, kernel_size=5, padding='same', strides=1))
+generator.add(Conv2D(filters=128, kernel_size=5, padding='same', strides=1))
 generator.add(BatchNormalization(momentum=0.9))
 generator.add(Activation('relu'))
 
 generator.add(UpSampling2D())
-generator.add(Conv2D(filters = 64, kernel_size=5, padding='same', strides=1))
+generator.add(Conv2D(filters=64, kernel_size=5, padding='same', strides=1))
 generator.add(BatchNormalization(momentum=0.9))
 generator.add(Activation('relu'))
 
-generator.add(Conv2D(filters = 64, kernel_size=5, padding='same', strides=1))
+generator.add(Conv2D(filters=64, kernel_size=5, padding='same', strides=1))
 generator.add(BatchNormalization(momentum=0.9))
 generator.add(Activation('relu'))
 
-generator.add(Conv2D(filters = 1, kernel_size=5, padding='same', strides=1))
+generator.add(Conv2D(filters=1, kernel_size=5, padding='same', strides=1))
 generator.add(Activation('sigmoid'))
 
 generator.summary()
 
 # compile #####################################
+# 혼합 정밀도 학습을 위한 optimizer 설정
 discriminator.compile(optimizer=RMSprop(learning_rate=0.0008), loss='binary_crossentropy', metrics=['accuracy'])
 
 model = Sequential()
@@ -95,7 +99,6 @@ model.add(generator)
 model.add(discriminator)
 
 model.compile(optimizer=RMSprop(learning_rate=0.0004), loss='binary_crossentropy', metrics=['accuracy'])
-
 
 # learning
 def train_discriminator(x_train, batch_size):
@@ -116,13 +119,12 @@ def train_generator(batch_size):
     noise = np.random.normal(0, 1, (batch_size, 100))
     model.fit(noise, valid, verbose=1)
 
-    
-for epoch in tqdm(range(500)):          # Try 2000 
-    train_discriminator(Xtrain, 64)
-    train_generator(64)    
-    
-# # 결과물 확인
-original=array_to_img(Xtrain[0])
+for epoch in tqdm(range(2000)):  # Try 2000 
+    train_discriminator(Xtrain, 128)  # 배치 크기를 늘림
+    train_generator(128)
+
+# 결과물 확인
+original = array_to_img(Xtrain[0])
 plt.imshow(original, cmap='gray')
 plt.show()
 
@@ -132,5 +134,3 @@ gen_result = generator.predict(random_noise)
 gen_img = array_to_img(gen_result[0])
 plt.imshow(gen_img, cmap='gray')
 plt.show()
-
-

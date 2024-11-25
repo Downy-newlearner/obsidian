@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiPython",
       "🔥",
       "SiTripdotcom",
       "SiGit",
-      "LiDiamond",
-      "SiNotion"
+      "LiDiamond"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -40,5 +40,6 @@
   "4. Archive": "LiArchive",
   "3. Resource/Git": "SiGit",
   "1. Projects/2025 1월 일본여행": "SiTripdotcom",
-  "1. Projects/프로메테우스 Memoji Project": "🔥"
+  "1. Projects/프로메테우스 Memoji Project": "🔥",
+  "3. Resource/Python Libraries": "SiPython"
 }

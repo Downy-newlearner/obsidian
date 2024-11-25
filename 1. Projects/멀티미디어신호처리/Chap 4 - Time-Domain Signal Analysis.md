@@ -37,7 +37,8 @@ Additivity
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0005.jpg]]
 **Discrete time system의 속성 2, 3**
 Homogeneity
-Linearity
+Linearity(Additivity + Homogeneity)
+	Additivity와 Homogeneity를 모두 만족하면 그 시스템은 Linear System이라고 부른다.
 
 Discrete time system은 Linear Operation이다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0006.jpg]]
@@ -106,17 +107,7 @@ inpulse function은 singularity function이다.
 이것은 인공적으로 만들어낸 함수이다.(순간 확 튀는 함수는 존재하지 않음)
 그러므로 적당히 inpulse function에 유사한 함수를 unknown 시스템에 입력해서 그 시스템을 추측한다.
 
-| 특징            | FIR (Finite Impulse Response) | IIR (Infinite Impulse Response) |
-| ------------- | ----------------------------- | ------------------------------- |
-| **임펄스 응답 길이** | 유한 (finite)                   | 무한 (infinite)                   |
-| **구조**        | 비재귀적 (Non-recursive)          | 재귀적 (Recursive)                 |
-| **출력 의존성**    | 과거 입력에만 의존                    | 과거 입력과 출력에 모두 의존                |
-| **안정성**       | 항상 안정적                        | 계수에 따라 불안정할 수 있음                |
-| **인과성**       | 항상 인과적                        | 인과적 또는 비인과적일 수 있음               |
-| **설계 복잡도**    | 일반적으로 간단함                     | 상대적으로 복잡함                       |
-| **연산 효율성**    | 더 많은 계수를 필요로 하여 연산이 상대적으로 느림  | 적은 계수로 동일 효과를 낼 수 있어 연산이 빠름     |
-| **위상 반응**     | 선형 위상(Linear Phase) 구현 가능     | 선형 위상 구현 어려움                    |
-| **응용 예시**     | 오디오 신호 필터, 디지털 통신 필터          | 아날로그 필터의 디지털 구현, 제어 시스템 필터      |
+
 
 
 
@@ -209,7 +200,7 @@ L을 더 증가시키면 더욱 부드러운 신호가 되지 않을까?
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0024.jpg]]
 
 
-## 4차시시
+## 4차시
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0025.jpg]]
 FIR, IIR의 예시로 Echo와 Reverbeeration을 알아보자
 Echo를 Comb filter라고 한다. 빗 필터라는 이야기로 그래프를 보면 빗을 닮았다.
@@ -229,6 +220,9 @@ time domain과 frequency domain에서 convolution하는 것을 확인한다.
 **Convolution을 풀어내는 방법**
 	Direct evaluation
 	Graphical approach
+
+
+
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0031.jpg]]
 다음 슬라이드의 방법으로 convolution 결과의 입력 범위를 예측할 수 있으므로 0부터 3까지만 계산하면 된다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0032.jpg]]
@@ -239,22 +233,56 @@ $x[n]$은 입력 범위가 0~2, $h[n]$은 입력 범위가 0~1이다.
 	$y[n]$'s ending index = $x[n]$'s ending index +  $h[n]$'s  ending  index = 2+1 = 3
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0033.jpg]]
 
+## 5차시(12W-1)
+*복습*
+지난 시간엔 direct evaluation을 봤고 이번 시간엔 Graphical approach를 본다.
+단순하면 손으로 계산할 수 있지만 복잡하면 힘들다.
+하물며 손으로 풀더라도 Graphical approah로 도식화하여 문제를 풀면 더욱 빠르게 문제를 풀 수 있다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0034.jpg]]
+수식으로 보면 어려우니까 다음 슬라이드의 예시를 보자.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0035.jpg]]
+이렇게 그래프로 시각화하면서 보는게 훨씬 유리하다.(태블릿 필기 참고)
 
+### Discrete Cross-Correlation
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0036.jpg]]
+사이즈가 큰 파일에서 특정 패턴을 찾고 싶을 때 사용할 수 있다.(검색)
+Time delay를 볼 때 사용할 수 있다.
+
+더블 스타(\*\*)는  크로스 코렐레이션이다.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0037.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0038.jpg]]
+장치 이름은 correlator이다.
+이 함수는 $s[n]$과 $x[n]$을 cross correlation한다.
+	이 결과는 $r_{xx}[n-D]$이다.
+	
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0039.jpg]]
+_수식 1_ 
+	cross correlation은 convolution으로 구할 수 있다.
+
+가정: correlator - 항공기 거리와 노이즈는 무관하다.
+
+_수식 2_
+	$p[n]$와 $x[n]$은 무관하다는 뜻
+
+_수식 3_
+	$s[n] = \alpha x[n-D]+p[n]$이고 convolution연산은 분배법칙이 성립하므로 식 정리를 수식 3과 같이 할 수 있다.
+	식 정리 결과 Autocorrelation이 된다.(가우시안 형태)
+	
+
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0040.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0041.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0042.jpg]]
+잡음이 있는 경우를 생각해보자.
+b는 가우시안 랜덤 노이즈이다.
+
+a와 b를 cross correlation을 해봤는데 잡음이 많았음에도 peak를 구해서 time delay도 알 수 있다.
+그러므로 cross correlation은 robust(강인한)하다
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0043.jpg]]

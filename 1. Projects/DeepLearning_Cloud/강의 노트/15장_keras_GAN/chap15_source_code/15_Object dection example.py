@@ -33,10 +33,14 @@ visualization.plot_image_gallery(
 )
 plt.show()
 
+
+
 # resize image
 inference_resizing = keras_cv.layers.Resizing(
     640, 640, pad_to_aspect_ratio=True, bounding_box_format="xywh"
 )
+
+
 
 image_batch = inference_resizing([image])
 
@@ -47,12 +51,18 @@ class_ids = [
     "Sheep", "Sofa", "Train", "Tvmonitor", "Total", ]
 class_mapping = dict(zip(range(len(class_ids)), class_ids))
 
+breakpoint()
+
 y_pred = pretrained_model.predict(image_batch)
 # y_pred is a bounding box Tensor:
 # {"classes": ..., boxes": ...}
 print(y_pred['classes'][0][:4])
 print(y_pred['confidence'][0][:4])
 print(y_pred['boxes'][0][:4])
+
+
+breakpoint()
+
 
 visualization.plot_bounding_box_gallery(
     image_batch,
@@ -65,5 +75,6 @@ visualization.plot_bounding_box_gallery(
     bounding_box_format="xywh",
     class_mapping=class_mapping,
 )
+
 plt.show()
 
