@@ -48,12 +48,14 @@ model.add(Dense(1, activation='sigmoid'))
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['acc'])
 model.fit(X_train, y_train, epochs=100, verbose=2)
 
-# result = model.predict(X_train)
-# print(result)
-# pred = [1 if i > 0.5 else 0 for i in result]
-# print(pred)
-
-result2 = model.predict("you are excellent")
-print(result2)
-pred = [1 if i > 0.5 else 0 for i in result2]
+result = model.predict(X_train)
+print(result)
+pred = [1 if i > 0.5 else 0 for i in result]
 print(pred)
+
+breakpoint()
+
+# result2 = model.predict("you are excellent")
+# print(result2)
+# pred = [1 if i > 0.5 else 0 for i in result2]
+# print(pred)
