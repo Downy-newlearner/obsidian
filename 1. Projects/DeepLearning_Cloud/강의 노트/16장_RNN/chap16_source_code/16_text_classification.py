@@ -65,7 +65,7 @@ test_encoded = tokenizer.texts_to_sequences(test_sentence)
 # Step 2: Pad the sequence
 test_padded = pad_sequences(test_encoded, maxlen=max_len, padding='post')
 
-result2 = model.predict("you are excellent")
+result2 = model.predict(test_padded)
 print(result2)
 pred = [1 if i > 0.5 else 0 for i in result2]
 print(pred)
