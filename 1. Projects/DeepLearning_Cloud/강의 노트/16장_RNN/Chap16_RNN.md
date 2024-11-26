@@ -9,7 +9,7 @@
 ![[chap16_NLP이론(1)_page-0005.jpg]]
 
 ![[chap16_NLP이론(1)_page-0006.jpg]]
-
+보통 이 ㅈ
 ![[chap16_NLP이론(1)_page-0007.jpg]]
 
 ![[chap16_NLP이론(1)_page-0008.jpg]]
@@ -88,4 +88,4 @@
 
 ![[chap16_NLP이론(1)_page-0045.jpg]]
 
-![[chap16_NLP이론(1)_page-0046.jpg]]
+![[chap16_NLP이론(1)_page-00
