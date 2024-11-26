@@ -20,7 +20,7 @@ from tqdm import tqdm                      # progress bar
 K.clear_session()
 
 # load data
-img = image.load_img(이 부분을 어떻게 해야하나, target_size=(28,28))
+img = image.load_img(여기에 데이터 넣기, target_size=(28,28))
 img = color.rgb2gray(img)
 img_array_train = image.img_to_array(img)
 img_array_train = np.expand_dims(img_array_train, axis=0)
