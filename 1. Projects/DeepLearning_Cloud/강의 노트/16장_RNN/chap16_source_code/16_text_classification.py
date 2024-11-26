@@ -15,6 +15,9 @@ y_train = [1, 0, 0, 1, 1, 0, 1]   # 긍정 : 1, 부정 : 0
 ## 토큰화
 tokenizer = Tokenizer()
 tokenizer.fit_on_texts(sentences)
+
+breakpoint()
+
 vocab_size = len(tokenizer.word_index) + 1 # 패딩을 고려하여 +1
 print('단어 집합 :',vocab_size)
 
