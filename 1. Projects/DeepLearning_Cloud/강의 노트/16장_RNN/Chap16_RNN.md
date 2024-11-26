@@ -9,7 +9,8 @@
 ![[chap16_NLP이론(1)_page-0005.jpg]]
 
 ![[chap16_NLP이론(1)_page-0006.jpg]]
-보통 이 ㅈ
+보통 이 word embedding 기법을 사용한다.
+
 ![[chap16_NLP이론(1)_page-0007.jpg]]
 
 ![[chap16_NLP이론(1)_page-0008.jpg]]
@@ -88,4 +89,4 @@
 
 ![[chap16_NLP이론(1)_page-0045.jpg]]
 
-![[chap16_NLP이론(1)_page-00
+![[chap16_NLP이론(1)_page-0046.jpg]]
