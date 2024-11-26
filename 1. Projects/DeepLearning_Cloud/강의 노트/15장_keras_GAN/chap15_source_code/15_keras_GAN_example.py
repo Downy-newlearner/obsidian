@@ -19,15 +19,8 @@ from tqdm import tqdm                      # progress bar
 
 K.clear_session()
 
-from keras.datasets import mnist
-
-(X_train, _), (_, _) = mnist.load_data()
-X_train = X_train / 255.0  # 정규화
-X_train = np.expand_dims(X_train, axis=-1)  # 채널 차원 추가 (28, 28, 1)
-
-
 # load data
-img = image.load_img(X_train, target_size=(28,28))
+img = image.load_img(이 부분을 어떻게 해야하나, target_size=(28,28))
 img = color.rgb2gray(img)
 img_array_train = image.img_to_array(img)
 img_array_train = np.expand_dims(img_array_train, axis=0)
