@@ -74,7 +74,7 @@ def train_generator(batch_size):
     gan_model.train_on_batch(noise, valid)
 
 # 학습
-epochs = 20000
+epochs = 2000
 batch_size = 64
 for epoch in tqdm(range(epochs)):
     train_discriminator(Xtrain, batch_size)
