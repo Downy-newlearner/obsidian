@@ -56,6 +56,7 @@ print(pred)
 # breakpoint()
 
 # 토큰화 -> 패딩 과정을 거쳐야한다.
+# 모델에서 임배딩, 플래튼, 덴스 레이어를 거쳐야한다.
 # Test input
 test_sentence = ["you are excellent"]
 
