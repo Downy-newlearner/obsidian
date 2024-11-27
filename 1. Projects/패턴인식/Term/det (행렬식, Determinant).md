@@ -10,4 +10,4 @@ reference:
     예를 들어, 2차원 공간에서 행렬식이 0이 아니면 해당 행렬이 공간을 "왜곡"하지만 축소하거나 확장하지는 않습니다.
 - **역할**: 행렬식이 0인 경우, 행렬이 역행렬을 가질 수 없습니다(선형 종속 상태).
 - **계산**: 예를 들어, 2 $\times$ 2 행렬
-- $A = \begin{bmatrix} a & b \\ c & d \end{bmatrix}$ 에서 행렬식은 det(A)=ad−bcdet(A) = ad - bcdet(A)=ad−bc로 계산됩니다.
+- $A = \begin{bmatrix} a & b \\ c & d \end{bmatrix}$ 에서 행렬식은 $det(A)=ad−bc$로 계산됩니다.
