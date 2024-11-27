@@ -12,7 +12,7 @@ from tqdm import tqdm
 K.clear_session()
 
 # 이미지 로드 및 전처리
-img_path = r"C:\Obsidian\obsidian\1. Projects\DeepLearning_Cloud\강의 노트\15장_keras_GAN\prac1\input_images\Golden Retriever.jpeg"
+img_path = r"C:/Obsidian/obsidian/1. Projects/DeepLearning_Cloud/강의 노트/15장_keras_GAN/prac1/input_images/Golden Retriever.jpeg"
 img = image.load_img(img_path, target_size=(28, 28))
 img = color.rgb2gray(image.img_to_array(img))
 img = np.expand_dims(img, axis=0)
