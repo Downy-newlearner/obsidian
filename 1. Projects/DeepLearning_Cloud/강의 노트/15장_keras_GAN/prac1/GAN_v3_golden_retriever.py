@@ -4,19 +4,18 @@ from keras.models import Sequential
 from keras.layers import Conv2D, Activation, Dropout, Flatten, Dense, BatchNormalization, Reshape, UpSampling2D, LeakyReLU
 from keras.optimizers import RMSprop
 from keras.preprocessing import image
-from keras.preprocessing.image import array_to_img
-from skimage import color
+from keras.preprocessing.image import img_to_array, array_to_img
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 
 K.clear_session()
 
-# 이미지 로드 및 전처리
-img_path = r"C:/Obsidian/obsidian/1. Projects/DeepLearning_Cloud/강의 노트/15장_keras_GAN/prac1/input_images/Golden Retriever.jpeg"
-img = image.load_img(img_path, target_size=(28, 28))
-img = color.rgb2gray(image.img_to_array(img))
-img = np.expand_dims(img, axis=0)
-Xtrain = img / 255
+# 이미지 로드 및 전처리 (skimage 제거)
+img_path = r"C:\Obsidian\obsidian\1. Projects\DeepLearning_Cloud\강의 노트\15장_keras_GAN\prac1\input_images\Golden Retriever.jpeg"
+img = image.load_img(img_path, target_size=(28, 28), color_mode='grayscale')  # Grayscale로 불러오기
+img_array = img_to_array(img)
+img_array = np.expand_dims(img_array, axis=0)  # 배치 차원 추가
+Xtrain = img_array / 255.0  # 정규화
 img_shape = (Xtrain.shape[1], Xtrain.shape[2], 1)
 
 # 판별자 정의
