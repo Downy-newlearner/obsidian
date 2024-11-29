@@ -24,12 +24,14 @@ $P(\theta | D) = \frac{P(D | \theta) P(\theta)}{P(D)}$
 - $P(θ | D)$는 posterior probability로, 데이터 D를 고려한 후의 확률이다.
 - $P(D)$는 데이터 D가 발생할 전체 확률이다.
 
+### 요약:
+
 - **사전에 알고 있는 정보**:
-    - P(θ)P(\theta)P(θ) (Prior Probability): 모델 파라미터 θ\thetaθ에 대한 사전 정보
-    - P(D∣θ)P(D | \theta)P(D∣θ) (Likelihood): 주어진 θ\thetaθ에서 데이터 DDD가 발생할 확률 (사전 지식)
+    - $P(\theta)$ (Prior Probability): 모델 파라미터 θ\thetaθ에 대한 사전 정보
+    - P(D∣θ)$P(D | \theta)$ (Likelihood): 주어진 θ\thetaθ에서 데이터 DDD가 발생할 확률 (사전 지식)
 - **베이즈 정리 후에 알게 될 정보**:
-    - P(θ∣D)P(\theta | D)P(θ∣D) (Posterior Probability): 새로운 데이터 DDD를 반영하여 갱신된 모델 파라미터 θ\thetaθ에 대한 확률
-    - P(D)P(D)P(D) (Evidence): 데이터 DDD가 발생할 전체 확률 (베이즈 정리의 계산에서 필요한 값)
+    - $P(\theta | D)$ (Posterior Probability): 새로운 데이터 DDD를 반영하여 갱신된 모델 파라미터 θ\thetaθ에 대한 확률
+    - $P(D)$ (Evidence): 데이터 DDD가 발생할 전체 확률 (베이즈 정리의 계산에서 필요한 값)
 
 ### 3. 예시
 - 질병 A에 대한 prior probability가 5%라고 한다면, 이는 질병 A에 걸릴 확률이 5%라는 의미입니다.
