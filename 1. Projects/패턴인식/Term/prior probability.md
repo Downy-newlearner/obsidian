@@ -50,7 +50,7 @@ $P(\theta | D) = \frac{P(D | \theta) P(\theta)}{P(D)}$
 
 ---
 
-### 2. **P(D∣θ)P(D | \theta) - Likelihood (우도)**
+### 2. **P(D∣θ) - Likelihood (우도)**
 
 - **사전에 알고 있는 정보**:
     - **D**는 "이 사람이 질병 A의 증상"을 보였다는 정보입니다.
