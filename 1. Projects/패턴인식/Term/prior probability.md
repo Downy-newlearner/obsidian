@@ -9,7 +9,9 @@ reference:
 주어진 데이터나 증거를 고려하기 전에 어떤 사건이 발생할 확률을 나타낸다.
 즉, 사건에 대한 기존의 지식이나 믿음을 바탕으로 설정된 확률이다.
 
-베이즈 정리는 주어진 
+베이즈 정리는 주어진 사전 확률(prior probability)로 후행 확률(posterior probability)를 계산한다.
+
+$P(\theta | D) = \frac{P(D | \theta) P(\theta)}{P(D)}$
 
 
 ### 1. **사건에 대한 사전 정보**
@@ -43,4 +45,4 @@ reference:
 
 ### 결론
 
-**Prior probability**는 관찰하기 전, 혹은 증거가 없을 때 **어떤 사건이나 상태에 대해 가지고 있는 믿음**이나 **예상되는 확률**입니다. 이 확률은 새로운 데이터나 증거에 따라 **posterior probability**로 갱신됩
+**Prior probability**는 관찰하기 전, 혹은 증거가 없을 때 **어떤 사건이나 상태에 대해 가지고 있는 믿음**이나 **예상되는 확률**입니다. 이 확률은 새로운 데이터나 증거에 따라 **posterior probability**로 갱신됩니다.
