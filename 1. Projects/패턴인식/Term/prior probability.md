@@ -74,15 +74,15 @@ $P(\theta | D) = \frac{P(D | \theta) P(\theta)}{P(D)}$
 - **베이즈 정리에서 알게 될 정보**:
     - **P(D)** 는 데이터 DD가 발생할 **전체 확률**을 나타냅니다. 이는 "이 사람이 질병 A의 증상"을 보일 확률입니다. 하지만 이 값은 우리가 직접적으로 알 수 없고, **베이즈 정리**에서 계산되는 값입니다.
     - **P(D)** 는 모든 가능한 **질병 A에 걸린 사람**과 **걸리지 않은 사람**에 대해 증상이 나타날 확률을 종합한 것입니다.
-    - 이 값은 **normalization constant** 역할을 하며, 후행 확률을 정규화하는 데 사용됩니다. 계산은 다음과 같습니다: P(D)=P(D∣θ)P(θ)+P(D∣¬θ)P(¬θ)P(D) = P(D | \theta) P(\theta) + P(D | \neg \theta) P(\neg \theta)
-    - 여기서 **P(D∣¬θ)P(D | \neg \theta)**는 **질병 A에 걸리지 않은 사람**이 증상을 보일 확률이며, **P(¬θ)P(\neg \theta)**는 **질병 A에 걸리지 않은 확률**입니다.
+    - 이 값은 **normalization constant** 역할을 하며, 후행 확률을 정규화하는 데 사용됩니다. 계산은 다음과 같습니다: $P(D) = P(D | \theta) P(\theta) + P(D | \neg \theta) P(\neg \theta)$
+    - 여기서 **$P(D | \neg \theta)$** 는 **질병 A에 걸리지 않은 사람**이 증상을 보일 확률이며, **$P(\neg \theta)$** 는 **질병 A에 걸리지 않은 확률**입니다.
 
 ---
 
 ### 요약:
 
 - **사전에 알고 있는 정보**:
-    - P(θ)P(\theta) (Prior Probability): 질병 A에 걸릴 확률 (예: 5%)
+    - P(θ) (Prior Probability): 질병 A에 걸릴 확률 (예: 5%)
     - P(D∣θ)P(D | \theta) (Likelihood): 질병 A에 걸린 사람이 증상을 보일 확률 (예: 80%)
 - **베이즈 정리 후에 알게 될 정보**:
     - P(θ∣D)P(\theta | D) (Posterior Probability): 질병 A에 걸릴 확률을 증상 D를 고려하여 갱신한 확률
