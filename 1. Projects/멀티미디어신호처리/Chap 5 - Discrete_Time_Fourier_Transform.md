@@ -85,8 +85,8 @@ y[n]을 구하는 방법
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0018.jpg]]
 frequency response는 복소함수이다.
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0019.jpg]]
-$|H(\Omega)|$로 
-
+$|H(\Omega)|$로 그래프를 그리기도 하고, 여기에 로그를  붙여서 그리기도 한다.
+로그를 붙여 확인하는 그래프는, 필터의 특징을 잘 보
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0020.jpg]]
 
