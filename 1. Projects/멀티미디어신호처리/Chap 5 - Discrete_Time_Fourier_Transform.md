@@ -121,7 +121,7 @@ Magnitude resopnse를 구하는 방법
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0028.jpg]]
 comb 필터라고 한다.
-
+	잔향을 만들어내는 필터이다.
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0029.jpg]]
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0030.jpg]]
