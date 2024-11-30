@@ -1,5 +1,9 @@
 
 
+
+## 1차시(12w-2)
+*복습*
+
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0001.jpg]]
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0002.jpg]]
