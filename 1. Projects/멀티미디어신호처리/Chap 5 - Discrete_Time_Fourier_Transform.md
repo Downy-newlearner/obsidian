@@ -28,7 +28,7 @@ DFT를 이용하여 이산값으로 근사는 성공했지만, 이 방법은 신
 그래서 FFT를 사용한다.
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0008.jpg]]
-
+FFT는 에러가 조
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0009.jpg]]
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0010.jpg]]
