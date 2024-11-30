@@ -3,16 +3,19 @@
 
 ## 1차시(12w-2)
 *복습*
-지난 시간은 time domain 분석 기법을 살펴봤
+지난 시간은 time domain 분석 기법을 살펴봤다.(convolution, cross correlation 등 기법들은 time domain에서 유용하게 사용된다.)
+DSP 대부분은 frequency domain 분석을 사용한다. 이제 살펴보자
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0001.jpg]]
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0002.jpg]]
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0003.jpg]]
+Frequency spectrum은 
+
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0004.jpg]]
-
+오메가는 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0005.jpg]]
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0006.jpg]]
