@@ -42,6 +42,7 @@ white spectrum과 대비되는 개념으로는 colored specturm이라고 한다.
 이 두가지는 기억하자.
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0011.jpg]]
+### DTFT Properties 1: Periodicity
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0012.jpg]]
 
