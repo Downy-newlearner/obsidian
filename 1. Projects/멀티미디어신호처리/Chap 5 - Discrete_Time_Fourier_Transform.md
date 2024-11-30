@@ -95,8 +95,11 @@ Impulse Response, Difference Equation
 Frequency Response는 주어진 descrete time system의 ㅈ파수 특징을 설명하는 함수이다.
 time domain에서 ipmulse resopnse의 dtft이다.
 주어진 시스템의 frequency response를 구하는 2가지 방법
-1, h[n]에서DTFT를 취하는 방법
-2. 입출력의 관계식(Difference Equation)
+1.  h[n]에서DTFT를 취하는 방법
+2. 입출력의 관계식(Difference Equation)의 양변을 DTFT하여 X(오메가)와 Y(오메가)의 비율을 구한다.
+
+FR는 complex function이어서 real vk
+
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0022.jpg]]
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0023.jpg]]
