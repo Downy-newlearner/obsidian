@@ -79,7 +79,8 @@ y[n]을 구하는 방법
 
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0017.jpg]]
-
+구하는 방법 2가지
+	impulse response
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0018.jpg]]
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0019.jpg]]
@@ -108,4 +109,4 @@ y[n]을 구하는 방법
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0031.jpg]]
 
-![[DSPChap5_Discrete_Time_Fourier_Transform_page-0032.jpg]]
+![[DSPChap5_Discrete_Time_Fourier_Transform_pag
