@@ -34,6 +34,7 @@ N은 보통 256~2048 정도로 설정한다.
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0009.jpg]]
 Impulse function(Singularity function이라고도 부름)은 White spectrum이라고 부른다.
 white spectrum과 대비되는 개념으로는 colored specturm이라고 한다.
+
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0010.jpg]]
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0011.jpg]]
