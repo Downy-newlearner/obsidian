@@ -48,6 +48,7 @@ white spectrum과 대비되는 개념으로는 colored specturm이라고 한다.
 	1. 주 주기는 -파이부터 파이까지이다.
 2. 라디안 프리퀀시는 디지털 프리퀀시와 2파이를 곱한 관계가 있고 디지털 프리퀀시는 아날로그 프리쿼시를 나눈것과 관계가 있다.
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0012.jpg]]
+**오일러의 항등식**
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0013.jpg]]
 
