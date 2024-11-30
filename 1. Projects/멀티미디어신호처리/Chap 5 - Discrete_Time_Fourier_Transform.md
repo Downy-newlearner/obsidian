@@ -56,6 +56,7 @@ white spectrum과 대비되는 개념으로는 colored specturm이라고 한다.
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0014.jpg]]
 ## 2차시(13w-1)
 *복습*
+
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0015.jpg]]
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0016.jpg]]
@@ -90,4 +91,4 @@ white spectrum과 대비되는 개념으로는 colored specturm이라고 한다.
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0031.jpg]]
 
-![[DSPChap5_Discrete_Time_Fourier_Transform_page-00
+![[DSPChap5_Discrete_Time_Fourier_Transform_page-0032.jpg]]
