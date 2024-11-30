@@ -79,10 +79,11 @@ y[n]을 구하는 방법
 
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0017.jpg]]
-구하는 방법 2가지
-	impulse response
+- Frequency response 구하는 방법 2가지
+	1. impulse response가 주어져있다면 이로부터 DTFT를 취해서 구한다.
+	2. 입력과 출력의 관계식으로부터 $Y[\Omega]$를 구한다.
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0018.jpg]]
-
+frequency response는 복소함수이다.
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0019.jpg]]
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0020.jpg]]
@@ -109,4 +110,4 @@ y[n]을 구하는 방법
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0031.jpg]]
 
-![[DSPChap5_Discrete_Time_Fourier_Transform_pag
+![[DSPChap5_Discrete_Time_Fourier_Transform_page-0032.jpg]]
