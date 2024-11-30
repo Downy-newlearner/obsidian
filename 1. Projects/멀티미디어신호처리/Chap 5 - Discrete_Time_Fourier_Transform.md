@@ -56,7 +56,9 @@ white spectrum과 대비되는 개념으로는 colored specturm이라고 한다.
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0014.jpg]]
 ## 2차시(13w-1)
 *복습*
-이론적으로 철저한 기법은 DTFT지만 DTFT는 아웃풋이 연속적인 frequency spectrum이므로 
+이론적으로 철저한 기법은 DTFT지만 DTFT는 아웃풋이 연속적인 frequency spectrum이므로 DFT를 이용해 이산적으로 근사를 한 후에 컴퓨터에서 사용할 수 있다.
+DFT는 여전히 연산량이 많아 FFT를 통해 빠르게, 실시간으로 연산할 수 있는 알고리즘이 등장했다.
+
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0015.jpg]]
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0016.jpg]]
