@@ -60,7 +60,7 @@ white spectrum과 대비되는 개념으로는 colored specturm이라고 한다.
 DFT는 여전히 연산량이 많아 FFT를 통해 빠르게, 실시간으로 연산할 수 있는 알고리즘이 등장했다.
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0015.jpg]]
-
+y
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0016.jpg]]
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0017.jpg]]
