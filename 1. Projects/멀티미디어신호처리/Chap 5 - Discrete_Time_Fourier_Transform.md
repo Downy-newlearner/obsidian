@@ -3,6 +3,7 @@
 
 ## 1차시(12w-2)
 *복습*
+지난 시간은 time domain 분석 깁
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0001.jpg]]
 
