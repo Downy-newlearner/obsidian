@@ -77,7 +77,6 @@ y[n]을 구하는 방법
 
 
 
-
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0017.jpg]]
 - Frequency response 구하는 방법 2가지
 	1. impulse response가 주어져있다면 이로부터 DTFT를 취해서 구한다.
