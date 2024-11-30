@@ -86,10 +86,11 @@ y[n]을 구하는 방법
 frequency response는 복소함수이다.
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0019.jpg]]
 $|H(\Omega)|$로 그래프를 그리기도 하고, 여기에 로그를  붙여서 그리기도 한다.
-로그를 붙여 확인하는 그래프는, 필터의 특징을 잘 보
+로그를 붙여 확인하는 그래프는, 필터의 특징을 잘 보여줘서 자주 사용된다.
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0020.jpg]]
-
+시스템 표현에는 2가지 방법이 있다.
+Impulse Response, Difference Equation
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0021.jpg]]
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0022.jpg]]
