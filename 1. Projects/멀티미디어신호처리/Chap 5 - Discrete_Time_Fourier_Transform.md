@@ -11,7 +11,7 @@ DSP 대부분은 frequency domain 분석을 사용한다. 이제 살펴보자
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0002.jpg]]
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0003.jpg]]
-Frequency spectrum은 
+Frequency spectrum은 우리가 알고시펑 하
 
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0004.jpg]]
