@@ -28,9 +28,11 @@ DFT를 이용하여 이산값으로 근사는 성공했지만, 이 방법은 신
 그래서 FFT를 사용한다.
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0008.jpg]]
-FFT는 에러가 조
-![[DSPChap5_Discrete_Time_Fourier_Transform_page-0009.jpg]]
+FFT는 에러가 존재할 수 밖에 없고, 이 에러를 줄이려면 n을 늘려서 더 촘촘하게 이산시키면 된다.
+N은 보통 256~2048 정도로 설정한다.
 
+![[DSPChap5_Discrete_Time_Fourier_Transform_page-0009.jpg]]
+Impulse function()
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0010.jpg]]
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0011.jpg]]
