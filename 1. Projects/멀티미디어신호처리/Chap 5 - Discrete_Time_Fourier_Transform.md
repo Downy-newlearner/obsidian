@@ -15,7 +15,8 @@ Frequency spectrum은
 
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0004.jpg]]
-오메가는 
+$\Omega$는 radian frequency이다.
+	$\Omega = 2\pi F$
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0005.jpg]]
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0006.jpg]]
