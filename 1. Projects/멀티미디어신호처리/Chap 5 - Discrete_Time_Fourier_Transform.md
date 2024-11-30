@@ -85,7 +85,7 @@ y[n]을 구하는 방법
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0018.jpg]]
 frequency response는 복소함수이다.
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0019.jpg]]
-$|H()
+$|H(\Omega)|$로 
 
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0020.jpg]]
