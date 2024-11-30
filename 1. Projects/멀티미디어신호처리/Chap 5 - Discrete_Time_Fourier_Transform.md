@@ -86,6 +86,8 @@ y[n]을 구하는 방법
 frequency response는 복소함수이다.
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0019.jpg]]
 
+
+
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0020.jpg]]
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0021.jpg]]
