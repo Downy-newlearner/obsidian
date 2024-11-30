@@ -19,9 +19,9 @@ $\Omega$는 radian frequency이다.
 	$\Omega = 2\pi F$
 x라는 스펙트럼이 finite할 때 DTFT를 적용할 수 있다.
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0005.jpg]]
-
+오타: $H(\Omega)$가 아니라 $x(\Omega)$이다.
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0006.jpg]]
-
+연속적인 것을 컴퓨터를 이용해 처리할 수 없기 때문에 이산
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0007.jpg]]
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0008.jpg]]
@@ -72,4 +72,4 @@ x라는 스펙트럼이 finite할 때 DTFT를 적용할 수 있다.
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0031.jpg]]
 
-![[DSPChap5_Discrete_Time_Fourier_Transform_page-0032.jpg]]
+![[DSPChap5_Discrete_Time_Fourier_Transform_page-0032.
