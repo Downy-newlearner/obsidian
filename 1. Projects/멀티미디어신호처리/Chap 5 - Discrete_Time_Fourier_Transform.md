@@ -17,6 +17,7 @@ Frequency spectrum은
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0004.jpg]]
 $\Omega$는 radian frequency이다.
 	$\Omega = 2\pi F$
+x라는 스펙트럼이 finite할 때 DTFT를 적용할 수 있다.
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0005.jpg]]
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0006.jpg]]
