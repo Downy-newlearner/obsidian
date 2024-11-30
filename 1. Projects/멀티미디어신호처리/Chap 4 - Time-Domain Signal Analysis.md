@@ -82,7 +82,7 @@ causality를 따르는 시스템만이 구현이 가능하다.
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0013.jpg]]
 ### 시스템을 표현하는 방법(Impulse Response or Difference equation)
-시스템을 Impulse response로 표현하느냐, Difference equation(입력과 출력의 관계식)으로 표현하냐에 따라서 분석하는 방법이 달라진다.(분석이 다를 수 있지만 동일한 시스템을 이야기하는 것이다.)
+시스템을 [[Impulse response]]로 표현하느냐, Difference equation(입력과 출력의 관계식)으로 표현하냐에 따라서 분석하는 방법이 달라진다.(분석이 다를 수 있지만 동일한 시스템을 이야기하는 것이다.)
 
 두 번째 방법을 확인해보자
 	recursive / non recursive를 구분하는 것이 중요하다. -> FIR / IIR 시스템
@@ -100,7 +100,7 @@ FIR과 IIR 시스템의 구분은 임펄스 응답의 길이에 따라 결정된
 	- FIR은 유한 길이의 임펄스 응답을 가짐
 	- IIR은 무한 길이의 임펄스 응답을 가짐
 
-Impulse response
+[[Impulse response]]
 	어떤 unknown 시스템이 있다고 하자.
 	그 시스템에 impulse function을 입력하고 출력을 측정하면 이것이 inpulse response이다.
 
@@ -164,7 +164,7 @@ IIR은 Stability를 보장할 수 없지만 구현 비용이 저렴하다.
 ## 3차시
 
 **복습**
-- 우리가 다르는 DSP 시스템은 LTI 시스템을 가정한다.
+- 우리가 다루는 DSP 시스템은 [[LTI|LTI 시스템]]을 가정한다.
 	- 이 때 우리가 convolution을 이용해서 출력 $y[n]$을 구할 수 있다.
 	- 이를 만족하지 못하면 구현 불가
 	- *Causality*
