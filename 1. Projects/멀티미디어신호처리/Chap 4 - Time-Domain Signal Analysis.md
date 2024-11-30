@@ -64,7 +64,7 @@ causality를 따르는 시스템만이 구현이 가능하다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0010.jpg]]
 ## 2차시
 **복습**
-- LTI 시스템
+- [[LTI|LTI 시스템]]
 	- Causality: 미래가 아닌 과거를 기반으로 결과를 도출해야한다.
 		- non causal system은 구현이 불가능하다.
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0011.jpg]]
