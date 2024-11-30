@@ -65,9 +65,18 @@ y[n]을 구하는 방법
 	2. 출력 DTFT는 구한 두 텀을 곱한 것과 같다.
 	3. 구한 $Y[\Omega]$의 inverse DTFT를 구해서 $y[n]$을 구한다.
 
-
+이 과정을 사용하는 이유는 연산 속도가 빠르다.
+	왜냐하면 이 DTFT 연산은 결국 FFT를 이용하기 때문이다.
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0016.jpg]]
+### Frequency Response
+
+
+
+
+
+
+
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0017.jpg]]
 
