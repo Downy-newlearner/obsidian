@@ -70,11 +70,8 @@ y[n]을 구하는 방법
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0016.jpg]]
 ### Frequency Response
-
-
-
-
-
+frequency response는 time domain에서 Impulse response의 DTFT이다.
+이는 주어진 시스템의 특성을 반영하므로 매우 중요하다.
 
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0017.jpg]]
