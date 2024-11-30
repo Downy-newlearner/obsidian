@@ -38,7 +38,9 @@ white spectrum과 대비되는 개념으로는 colored specturm이라고 한다.
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0010.jpg]]
 수식1과 수식3은 많이 사용되므로 기억해두는 것이 좋다.
 1. 어떤 Discrete sequence가 $n_0$만큼 딜레이되면 exponential 형태로 $n_0$텀이 나온다.
-2. 어떤 $\alpha^n u[n]$ 형태의 DTFT는 
+2. 어떤 $\alpha^n u[n]$ 형태의 DTFT는 수식 3과 같이 나온다.
+이 두가지는 기억하자.
+
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0011.jpg]]
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0012.jpg]]
