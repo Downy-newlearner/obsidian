@@ -92,7 +92,11 @@ Impulse Response, Difference Equation
 
 ## 3차시(13w-2)
 **복습**
-Frequency Respons
+Frequency Response는 주어진 descrete time system의 ㅈ파수 특징을 설명하는 함수이다.
+time domain에서 ipmulse resopnse의 dtft이다.
+주어진 시스템의 frequency response를 구하는 2가지 방법
+1, h[n]에서DTFT를 취하는 방법
+2. 입출력의 관계식(Difference Equation)
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0022.jpg]]
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0023.jpg]]
@@ -113,4 +117,4 @@ Frequency Respons
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0031.jpg]]
 
-![[DSPChap5_Discrete_Time_Fourier_Transform_page-003
+![[DSPChap5_Discrete_Time_Fourier_Transform_page-0032.jpg]]
