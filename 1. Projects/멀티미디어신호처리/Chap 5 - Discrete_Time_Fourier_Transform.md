@@ -24,7 +24,9 @@ x라는 스펙트럼이 finite할 때 DTFT를 적용할 수 있다.
 DTFT가 만들어낸 연속적인 것을 컴퓨터를 이용해 처리할 수 없기 때문에 이산적으로 근사시켜야한다.
 그래서 DFT를 사용한다.
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0007.jpg]]
-이산값으로 근사
+DFT를 이용하여 이산값으로 근사는 성공했지만, 이 방법은 신호 처리에 시간이 걸려서 실시간으로 처리할 수 없다.
+그래서 FFT를 사용한다.
+
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0008.jpg]]
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0009.jpg]]
