@@ -208,6 +208,7 @@ Echo를 Comb filter라고 한다. 빗 필터라는 이야기로 그래프를 보
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0026.jpg]]
 
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0027.jpg]]
+### Convolution 연산
 상당한 연산량이 필요
 time domain과 frequency domain에서 convolution하는 것을 확인한다.
 	frequency domain에서 계산하는 것이 훨씬 빠르기 때문에 이를 보통 사용한다.
