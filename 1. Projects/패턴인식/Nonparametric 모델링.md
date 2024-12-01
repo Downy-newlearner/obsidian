@@ -102,7 +102,10 @@ pdf를 추정하지 말고, sample만 갖고 바로 추정해보자.
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0041.jpg]]
 ## Minimum Squared Error Discriminant Functions
 한 개의 discriminant 모델을 정한다.
-트레인 샘플이 v개가 있다고 가정하면, 
+트레인 샘플이 v개가 있다고 가정하면, 이 v개의 샘플들을 D에 집어넣어 값을 얻어낸다.
+desired value와 얻은 값의 차이를 squared 시킨다.(오차를 제곱하여 더할 때 오차가 서로 상쇄되지 않도록 한다.)
+
+w들을 미분해서 w모두 0이 되도록하는 값을 찾아가는 것이다.
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0042.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0043.jpg]]
@@ -117,4 +120,4 @@ pdf를 추정하지 말고, sample만 갖고 바로 추정해보자.
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0048.jpg]]
 
-![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0049.jpg]
+![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0049.jpg]]
