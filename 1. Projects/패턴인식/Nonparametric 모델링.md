@@ -48,7 +48,8 @@ tags:
 pdf를 추정하지 말고, sample만 갖고 바로 추정해보자.
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0020.jpg]]
-사용하는 distance가 
+사용하는 distance가 다양하다.
+
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0021.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0022.jpg]]
