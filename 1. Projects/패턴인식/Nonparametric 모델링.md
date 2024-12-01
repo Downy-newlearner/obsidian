@@ -76,7 +76,7 @@ pdf를 추정하지 말고, sample만 갖고 바로 추정해보자.
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0022.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0023.jpg]]
-## Adaptive Decision Boundaries Modeling
+## 적응형 DB 모델링(Adaptive Decision Boundaries Modeling)
 
 DB가 데이터에 맞게 조정하는 방법이다.
 scikit learn에서 linear는 선형 DB를 파라메터(w) 조절로 추정하는데, 지금 방법은 선형을 넘어 비선형 DB도 w 조절을 통해 만들어낸다.
@@ -103,7 +103,7 @@ scikit learn에서 linear는 선형 DB를 파라메터(w) 조절로 추정하는
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0033.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0034.jpg]]
-## Adaptive Discriminant Functions
+## 적응형 판별 함수(Adaptive Discriminant Functions)
 
 클래스가 n개라면 n개의 decision function을 모두 정의한다.
 그 후 샘플이 하나 들어오면, 그 샘플을 모든 decision function에 집어넣어, 가장 값이 큰 쪽으로 decision을 내리는 방법이다.
