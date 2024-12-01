@@ -30,6 +30,7 @@ tags:
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0014.jpg]]
 
+
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0015.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0016.jpg]]
