@@ -3,7 +3,7 @@ Lecture date: 2024-11-18
 tags:
 ---
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0001.jpg]]
-
+데이터가 *특정 분포를 따른*
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0002.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0003.jpg]]
