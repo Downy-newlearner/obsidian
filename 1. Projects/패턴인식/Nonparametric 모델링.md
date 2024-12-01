@@ -78,7 +78,8 @@ pdf를 추정하지 말고, sample만 갖고 바로 추정해보자.
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0023.jpg]]
 ## Adaptive Decision Boundaries Modeling
 
-데이터를 
+DB가 데이터에 맞게 조정하는 방법이다.
+scikit learn에서 linear는 선형 DB를 파라메터(w) 조절로 추정하는데, 
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0024.jpg]]
 
