@@ -69,8 +69,7 @@ pdf를 추정하지 말고, sample만 갖고 바로 추정해보자.
 
 이 방법을 사용했는데 틀린다면, w들을 서로 조절한다.
 조절하는 방식은 다음과 같다.
-	예를 들어 답이 $D_3$인데 $D_1$으로 답을 내렸다면
-	원래 답이 
+	원래 답이 i클래스인데 j클래스로 분류가 됐다면, j클래스의 w는 줄여주고, i클래스의 w는 늘려준다.
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0027.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0028.jpg]]
