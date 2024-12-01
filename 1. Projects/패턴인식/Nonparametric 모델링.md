@@ -100,7 +100,9 @@ pdf를 추정하지 말고, sample만 갖고 바로 추정해보자.
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0040.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0041.jpg]]
-
+## Minimum Squared Error Discriminant Functions
+한 개의 discriminant 모델을 정한다.
+트레인 샘플이 v개가 있다고 가정하면, 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0042.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0043.jpg]]
@@ -115,4 +117,4 @@ pdf를 추정하지 말고, sample만 갖고 바로 추정해보자.
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0048.jpg]]
 
-![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0049.jpg]]
+![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0049.jpg]
