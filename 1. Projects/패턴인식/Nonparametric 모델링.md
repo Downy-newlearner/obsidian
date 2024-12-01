@@ -25,6 +25,7 @@ tags:
 	- 오버피팅 발생 가능
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0003.jpg]]
+## 히스토그램 접근
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0004.jpg]]
 
@@ -47,6 +48,7 @@ tags:
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0013.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0014.jpg]]
+## 커널과 윈도우 추정(Kernel and Window Estimators)
 샘플이 많이 발생한 지점의 확률이 높을 것이라는 추론에서 시작.
 샘플이 발생하면 그 지역에 커널을 씌운다.(아래 figure들 참고)
 	삼각형 또는 가우시안 커널을 가장 많이 사용한다.
@@ -63,6 +65,7 @@ tags:
 윈도우 사이즈에 art 요소가 있다
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0019.jpg]]
+## 가까운 이웃 분류(Nearest Neighbor Classification)
 pdf를 추정하지 말고, sample만 갖고 바로 추정해보자.
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0020.jpg]]
