@@ -117,7 +117,7 @@ w들을 미분해서 w모두 0이 되도록하는 값을 찾아가는 것이다.
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0046.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0047.jpg]]
-
+미분 후 연립해서 $w_0, w_1, 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0048.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0049.jpg]]
