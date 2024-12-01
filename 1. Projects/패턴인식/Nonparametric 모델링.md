@@ -3,7 +3,14 @@ Lecture date: 2024-11-18
 tags:
 ---
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0001.jpg]]
-데이터가 *특정 분포를 따른*
+데이터가 *특정 분포를 따른다고 가정*하고, 그 분포를 설명하는 파라미터(평균, 분산 등)를 추정하는 방식이다.
+
+- 장점
+	- 계산 효율 좋음
+	- 데이터가 모델을 잘 따르면, 모델 성능이 우수함
+- 단점
+	- 데이터가 가정한 분포와 맞지 않으면 성능이 떨어질 수 있음
+	- 유연성이 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0002.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0003.jpg]]
