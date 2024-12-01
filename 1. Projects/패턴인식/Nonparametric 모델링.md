@@ -125,4 +125,4 @@ w들을 미분해서 w모두 0이 되도록하는 값을 찾아가는 것이다.
 
 *요약*
 classification 방법은 크게 봤을 떄, 통계적 방법으로 이용했을 때, 베이지안 클래시파이어를 이용한다.
-이 때의 확률 값은 잘 알려진 RV function을 이용하는 방법과, 샘플들 자체를 이용하는 방법(ㅇ)
+이 때의 확률 값은 잘 알려진 RV function을 이용하는 방법과, 샘플들 자체를 이용하는 방법(윈도우를 씌워 모델링), 또는 이런 확률 추정을 하지 않고 nearest nehgibo샘플만 이용하는 방법도 있고, iteration 방법을 decision boundary를 찾아가는 discriminant 
