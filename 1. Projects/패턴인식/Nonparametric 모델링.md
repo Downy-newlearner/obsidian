@@ -55,7 +55,8 @@ pdf를 추정하지 말고, sample만 갖고 바로 추정해보자.
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0022.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0023.jpg]]
-## A
+## Adaptive Decision Boundaries Modeling
+
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0024.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0025.jpg]]
