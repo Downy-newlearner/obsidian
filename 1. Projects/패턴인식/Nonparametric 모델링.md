@@ -62,14 +62,8 @@ pdf를 추정하지 말고, sample만 갖고 바로 추정해보자.
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0025.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0026.jpg]]
-## Adaptive decision boundary algorithm
+### Adaptive decision boundary algorithm(example 풀어보기)
 
-클래스가 n개라면 n개의 decision function을 모두 정의한다.
-그 후 샘플이 하나 들어오면, 그 샘플을 모든 decision function에 집어넣어, 가장 값이 큰 쪽으로 decision을 내리는 방법이다.
-
-이 방법을 사용했는데 틀린다면, w들을 서로 조절한다.
-조절하는 방식은 다음과 같다.
-	원래 답이 i클래스인데 j클래스로 분류가 됐다면, j클래스의 w는 줄여주고, i클래스의 w는 늘려준다.
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0027.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0028.jpg]]
@@ -85,7 +79,14 @@ pdf를 추정하지 말고, sample만 갖고 바로 추정해보자.
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0033.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0034.jpg]]
+## Adaptive Discriminant Functions
 
+클래스가 n개라면 n개의 decision function을 모두 정의한다.
+그 후 샘플이 하나 들어오면, 그 샘플을 모든 decision function에 집어넣어, 가장 값이 큰 쪽으로 decision을 내리는 방법이다.
+
+이 방법을 사용했는데 틀린다면, w들을 서로 조절한다.
+조절하는 방식은 다음과 같다.
+	원래 답이 i클래스인데 j클래스로 분류가 됐다면, j클래스의 w는 줄여주고, i클래스의 w는 늘려준다.
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0035.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0036.jpg]]
