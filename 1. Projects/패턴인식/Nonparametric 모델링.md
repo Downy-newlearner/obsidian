@@ -40,8 +40,12 @@ tags:
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0017.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0018.jpg]]
-샘플 충분해얗
+샘플 충분해야함
+계산량 많음
+윈도우 사이즈에 art 요소가 있다
+
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0019.jpg]]
+pdf를 추정하지 말고, sample만 갖고 바로 추정해보자.
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0020.jpg]]
 
