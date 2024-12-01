@@ -10,9 +10,13 @@ tags:
 	- 데이터가 모델을 잘 따르면, 모델 성능이 우수함
 - 단점
 	- 데이터가 가정한 분포와 맞지 않으면 성능이 떨어질 수 있음
-	- 유연성이 
+	- 유연성이 부족하며, 복잡한 데이터 구조를 모델링하는 데 한계가 있다.
+	
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0002.jpg]]
+데이터의 분포에 대한 가정을 하지 않고, 파라미터가 없거나 매우 적은 모델로 데이터를 자유롭게 설명하는 방식이다.
 
+- 장점
+	- 데이터의 사저
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0003.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0004.jpg]]
