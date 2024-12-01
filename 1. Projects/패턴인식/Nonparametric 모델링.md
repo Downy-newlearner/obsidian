@@ -40,7 +40,7 @@ tags:
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0017.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0018.jpg]]
-
+샘플 충분해얗
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0019.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0020.jpg]]
