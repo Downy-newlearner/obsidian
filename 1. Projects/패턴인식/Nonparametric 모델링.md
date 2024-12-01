@@ -62,7 +62,10 @@ pdf를 추정하지 말고, sample만 갖고 바로 추정해보자.
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0025.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0026.jpg]]
+## Adaptive decision boundary algorithm
 
+클래스가 n개라면 n개의 decision function을 모두 정의한다.
+샘플이 하나 들어오면, 그 샘플을 모든 decision function에 집어넣어, 가장 값이 큰 쪽으로 decision을 내리는 방식이다.
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0027.jpg]]
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0028.jpg]]
