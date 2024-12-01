@@ -30,7 +30,8 @@ tags:
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0014.jpg]]
 샘플이 많이 발생한 지점의 확률이 높을 것이라는 추론에서 시작.
-샘플이 발생하면 그 지역에 커널을 씌운다.
+샘플이 발생하면 그 지역에 커널을 씌운다.(아래 figure들 참고)
+	삼각형 또는 가우시안 커널을 가장 많이 사용한다.
 
 ![[[강의노트]Ch4_NonparametricDecisionMaking(수정) (1)_page-0015.jpg]]
 
