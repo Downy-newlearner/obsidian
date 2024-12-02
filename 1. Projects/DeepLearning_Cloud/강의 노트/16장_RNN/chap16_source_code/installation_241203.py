@@ -10,7 +10,7 @@ tokenizer = BartTokenizer.from_pretrained("facebook/bart-base")
 
 from transformers import pipeline
 pipe = pipeline('sentiment analysis',
-       model='nlptown bert base multilingual uncased sentiment')
+       model='nlptown/bert-base-multilingual-uncased-sentiment')
 pipe = pipeline('text generation')
 pipe = pipeline("text2text generation")
 pipe = pipeline("question answering")
