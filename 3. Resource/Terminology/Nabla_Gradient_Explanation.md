@@ -15,8 +15,7 @@ reference:
 - **표현**:  
   \[
   
-abla f = \left( rac{\partial f}{\partial x}, rac{\partial f}{\partial y}, rac{\partial f}{\partial z} 
-ight)
+$\nabla f = \left( rac{\partial f}{\partial x}, rac{\partial f}{\partial y}, rac{\partial f}{\partial z} ight)$
   \]
 - **의미**:  
   - 스칼라 필드 \( f \)의 각 점에서 **최대 변화율의 방향**과 크기를 나타내는 벡터입니다.
