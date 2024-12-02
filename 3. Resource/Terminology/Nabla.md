@@ -1,22 +1,23 @@
 ---
 created: 2024-12-02
 tags: 
-aliases: 
+aliases:
+  - nabla
+  - del
+  - del operator
 reference:
 ---
 
 # 뒤집힌 삼각형(∇) 기호와 Gradient
 
-뒤집힌 삼각형 기호(∇)는 **델 연산자(Del operator)** 또는 **나블라(Nabla)**라고 불리며, 
+뒤집힌 삼각형 기호(∇)는 **델 연산자(Del operator)** 또는 **나블라(Nabla)** 라고 불리며, 
 벡터 미적분학에서 중요한 연산을 나타냅니다. 이 기호는 **Gradient**를 포함한 여러 연산에서 사용됩니다.
 
 ## Gradient (그라디언트)
 - ∇는 스칼라 함수 \( f(x, y, z) \)의 **그라디언트**를 나타냅니다.
 - **표현**:  
-  \[
   
-$\nabla f = \left( rac{\partial f}{\partial x}, rac{\partial f}{\partial y}, rac{\partial f}{\partial z} ight)$
-  \]
+$\nabla f = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z} \right)$
 - **의미**:  
   - 스칼라 필드 \( f \)의 각 점에서 **최대 변화율의 방향**과 크기를 나타내는 벡터입니다.
   - 예를 들어, 온도 분포 \( f(x, y, z) \)에서 그라디언트는 가장 빠르게 온도가 변하는 방향을 가리킵니다.
