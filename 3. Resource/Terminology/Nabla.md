@@ -23,22 +23,25 @@ $\nabla f = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y},
   - 예를 들어, 온도 분포 \( f(x, y, z) \)에서 그라디언트는 가장 빠르게 온도가 변하는 방향을 가리킵니다.
 
 ## Divergence (발산)
-- 벡터 필드 \( \mathbf{F} \)에서 **발산(Divergence)**을 계산할 때 사용됩니다.
+- 벡터 필드 $\mathbf{F}$에서 **발산(Divergence)** 을 계산할 때 사용됩니다.
 - **표현**:  
-  \[
-  
-abla \cdot \mathbf{F} = rac{\partial F_x}{\partial x} + rac{\partial F_y}{\partial y} + rac{\partial F_z}{\partial z}
-  \]
+  $$
+  \nabla \cdot \mathbf{F} = \frac{\partial F_x}{\partial x} + \frac{\partial F_y}{\partial y} + \frac{\partial F_z}{\partial z}
+  $$
 - **의미**:  
   - 벡터 필드가 주어진 점에서 얼마나 퍼져나가는지를 나타냅니다.
 
+
 ## Curl (회전)
-- 벡터 필드 \( \mathbf{F} \)의 **회전(Curl)**을 계산할 때 사용됩니다.
+- 벡터 필드 $\mathbf{F}$의 **회전(Curl)** 을 계산할 때 사용됩니다.
 - **표현**:  
-  \[
-  
-abla 	imes \mathbf{F}
-  \]
+  $$
+  \nabla \times \mathbf{F} = \begin{vmatrix}
+  \mathbf{i} & \mathbf{j} & \mathbf{k} \\
+  \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
+  F_x & F_y & F_z
+  \end{vmatrix}
+  $$
 - **의미**:  
   - 벡터 필드가 주어진 점에서 얼마나 회전하는지를 나타내는 또 다른 벡터 필드입니다.
 
