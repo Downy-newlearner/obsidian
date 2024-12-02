@@ -5,6 +5,7 @@ aliases:
   - nabla
   - del
   - del operator
+  - 뒤집힌 삼각형
 reference:
 ---
 
@@ -19,8 +20,8 @@ reference:
   
 $\nabla f = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z} \right)$
 - **의미**:  
-  - 스칼라 필드 \( f \)의 각 점에서 **최대 변화율의 방향**과 크기를 나타내는 벡터입니다.
-  - 예를 들어, 온도 분포 \( f(x, y, z) \)에서 그라디언트는 가장 빠르게 온도가 변하는 방향을 가리킵니다.
+  - 스칼라 필드 $f$의 각 점에서 **최대 변화율의 방향**과 크기를 나타내는 벡터입니다.
+  - 예를 들어, 온도 분포 $f(x, y, z)$에서 그라디언트는 가장 빠르게 온도가 변하는 방향을 가리킵니다.
 
 ## Divergence (발산)
 - 벡터 필드 $\mathbf{F}$에서 **발산(Divergence)** 을 계산할 때 사용됩니다.
