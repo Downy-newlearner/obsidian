@@ -1,0 +1,43 @@
+{
+  "os":  "Windows-10-10.0.22631-SP0",
+  "python":  "3.10.0",
+  "startedAt":  "2024-12-04T11:59:49.401056Z",
+  "program":  "C:\\Users\\user\\Documents\\Obsidian Vault\\obsidian\\1. Projects\\DeepLearning_Cloud\\강의 노트\\16장_RNN\\chap16_source_code\\practice2.py",
+  "codePath":  "1. Projects\\DeepLearning_Cloud\\강의 노트\\16장_RNN\\chap16_source_code\\practice2.py",
+  "git":  {
+    "remote":  "https://github.com/Downy-newlearner/obsidian.git",
+    "commit":  "57fc97b9f6ed63ca4f7b14719595003c04f28625"
+  },
+  "email":  "jdh251425142514@gmail.com",
+  "root":  "C:\\Users\\user\\Documents\\Obsidian Vault\\obsidian\\1. Projects\\DeepLearning_Cloud\\강의 노트\\16장_RNN\\chap16_source_code",
+  "host":  "DESKTOP-B32QARD",
+  "username":  "user",
+  "executable":  "C:\\Users\\user\\Documents\\Obsidian Vault\\myenv\\Scripts\\python.exe",
+  "codePathLocal":  "practice2.py",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "gpu":  "NVIDIA GeForce RTX 3060",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "511243710464",
+      "used":  "384663646208"
+    }
+  },
+  "memory":  {
+    "total":  "16984190976"
+  },
+  "cpu":  {
+    "count":  6,
+    "countLogical":  12
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 3060",
+      "memoryTotal":  "12884901888",
+      "cudaCores":  3584,
+      "architecture":  "Ampere"
+    }
+  ],
+  "cudaVersion":  "12.6"
+}

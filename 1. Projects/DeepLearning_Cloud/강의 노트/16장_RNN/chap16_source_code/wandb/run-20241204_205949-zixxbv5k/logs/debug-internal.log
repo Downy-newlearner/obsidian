@@ -1,0 +1,17 @@
+{"time":"2024-12-04T20:59:49.4047259+09:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-04T20:59:49.4052702+09:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\user\\Documents\\Obsidian Vault\\obsidian\\1. Projects\\DeepLearning_Cloud\\강의 노트\\16장_RNN\\chap16_source_code\\wandb\\run-20241204_205949-zixxbv5k\\logs\\debug-core.log"}
+{"time":"2024-12-04T20:59:49.6655381+09:00","level":"INFO","msg":"created new stream","id":"zixxbv5k"}
+{"time":"2024-12-04T20:59:49.6655381+09:00","level":"INFO","msg":"stream: started","id":"zixxbv5k"}
+{"time":"2024-12-04T20:59:49.6655381+09:00","level":"INFO","msg":"handler: started","stream_id":"zixxbv5k"}
+{"time":"2024-12-04T20:59:49.6655381+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"zixxbv5k"}
+{"time":"2024-12-04T20:59:49.6655381+09:00","level":"INFO","msg":"sender: started","stream_id":"zixxbv5k"}
+{"time":"2024-12-04T20:59:50.0782548+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-04T21:00:00.0786986+09:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
+{"time":"2024-12-04T21:00:22.3866599+09:00","level":"INFO","msg":"stream: closing","id":"zixxbv5k"}
+{"time":"2024-12-04T21:00:22.3866599+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-04T21:00:22.3872864+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-04T21:00:24.9401986+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-04T21:00:25.3400556+09:00","level":"INFO","msg":"handler: closed","stream_id":"zixxbv5k"}
+{"time":"2024-12-04T21:00:25.3400556+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zixxbv5k"}
+{"time":"2024-12-04T21:00:25.3400556+09:00","level":"INFO","msg":"sender: closed","stream_id":"zixxbv5k"}
+{"time":"2024-12-04T21:00:25.3415952+09:00","level":"INFO","msg":"stream: closed","id":"zixxbv5k"}

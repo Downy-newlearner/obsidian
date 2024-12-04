@@ -1,0 +1,27 @@
+2024-12-04 20:59:49,391 INFO    MainThread:53572 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2024-12-04 20:59:49,391 INFO    MainThread:53572 [wandb_setup.py:_flush():79] Configure stats pid to 53572
+2024-12-04 20:59:49,391 INFO    MainThread:53572 [wandb_setup.py:_flush():79] Loading settings from C:\Users\user\.config\wandb\settings
+2024-12-04 20:59:49,391 INFO    MainThread:53572 [wandb_setup.py:_flush():79] Loading settings from C:\Users\user\Documents\Obsidian Vault\obsidian\1. Projects\DeepLearning_Cloud\강의 노트\16장_RNN\chap16_source_code\wandb\settings
+2024-12-04 20:59:49,392 INFO    MainThread:53572 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-12-04 20:59:49,392 INFO    MainThread:53572 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': '1. Projects\\DeepLearning_Cloud\\강의 노트\\16장_RNN\\chap16_source_code\\practice2.py', 'program_abspath': 'C:\\Users\\user\\Documents\\Obsidian Vault\\obsidian\\1. Projects\\DeepLearning_Cloud\\강의 노트\\16장_RNN\\chap16_source_code\\practice2.py', 'program': 'C:\\Users\\user\\Documents\\Obsidian Vault\\obsidian\\1. Projects\\DeepLearning_Cloud\\강의 노트\\16장_RNN\\chap16_source_code\\practice2.py'}
+2024-12-04 20:59:49,392 INFO    MainThread:53572 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-12-04 20:59:49,392 INFO    MainThread:53572 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-12-04 20:59:49,392 INFO    MainThread:53572 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-12-04 20:59:49,392 INFO    MainThread:53572 [wandb_init.py:_log_setup():533] Logging user logs to C:\Users\user\Documents\Obsidian Vault\obsidian\1. Projects\DeepLearning_Cloud\강의 노트\16장_RNN\chap16_source_code\wandb\run-20241204_205949-zixxbv5k\logs\debug.log
+2024-12-04 20:59:49,392 INFO    MainThread:53572 [wandb_init.py:_log_setup():534] Logging internal logs to C:\Users\user\Documents\Obsidian Vault\obsidian\1. Projects\DeepLearning_Cloud\강의 노트\16장_RNN\chap16_source_code\wandb\run-20241204_205949-zixxbv5k\logs\debug-internal.log
+2024-12-04 20:59:49,392 INFO    MainThread:53572 [wandb_init.py:init():619] calling init triggers
+2024-12-04 20:59:49,393 INFO    MainThread:53572 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {}
+2024-12-04 20:59:49,393 INFO    MainThread:53572 [wandb_init.py:init():669] starting backend
+2024-12-04 20:59:49,393 INFO    MainThread:53572 [wandb_init.py:init():673] sending inform_init request
+2024-12-04 20:59:49,400 INFO    MainThread:53572 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-12-04 20:59:49,400 INFO    MainThread:53572 [wandb_init.py:init():686] backend started and connected
+2024-12-04 20:59:49,416 INFO    MainThread:53572 [wandb_init.py:init():781] updated telemetry
+2024-12-04 20:59:49,494 INFO    MainThread:53572 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2024-12-04 20:59:50,067 INFO    MainThread:53572 [wandb_init.py:init():867] starting run threads in backend
+2024-12-04 20:59:50,279 INFO    MainThread:53572 [wandb_run.py:_console_start():2456] atexit reg
+2024-12-04 20:59:50,279 INFO    MainThread:53572 [wandb_run.py:_redirect():2305] redirect: wrap_raw
+2024-12-04 20:59:50,279 INFO    MainThread:53572 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2024-12-04 20:59:50,280 INFO    MainThread:53572 [wandb_run.py:_redirect():2395] Redirects installed.
+2024-12-04 20:59:50,282 INFO    MainThread:53572 [wandb_init.py:init():911] run started, returning control to user process
+2024-12-04 21:00:22,386 WARNING MsgRouterThr:53572 [router.py:message_loop():75] message_loop has been closed
