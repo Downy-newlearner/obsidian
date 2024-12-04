@@ -124,7 +124,7 @@ wandb.log({"Test RMSE": np.sqrt(np.mean((y_test_actual - y_pred_actual)**2))})
 plt.figure(figsize=(10, 6))
 plt.plot(y_test_actual, label='Actual')
 plt.plot(y_pred_actual, label='Predicted')
-plt.title('Actual vs Predicted Close Prices')
+plt.title('2017-07-01 이후 실제 종가와 예측 종가의 비교')
 plt.legend()
 plt.show()
 
