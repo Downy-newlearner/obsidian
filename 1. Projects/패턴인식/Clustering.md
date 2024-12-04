@@ -35,7 +35,9 @@
 ![[Ch5_Clustering_page-0017.jpg]]
 
 ![[Ch5_Clustering_page-0018.jpg]]
-클러스터 구하고 민
+클러스터 구하고 mean을 구함 
+mean으로부터 variance를 구함
+variance가 작아지도록 클러스터링을 하는 방식이다.
 
 ![[Ch5_Clustering_page-0019.jpg]]
 
@@ -65,4 +67,4 @@
 
 ![[Ch5_Clustering_page-0032.jpg]]
 
-![[Ch5_Clu
+![[Ch5_Clustering_page-0033.jpg]]
