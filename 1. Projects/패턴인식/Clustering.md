@@ -63,10 +63,11 @@ k개의 클러스터 값(시드)을 정하고 시작한다.
 
 ![[Ch5_Clustering_page-0027.jpg]]
 
+## k-means Algorithm
 ![[Ch5_Clustering_page-0028.jpg]]
-### k-means Algorithm
 샘플이 하나 들어갈 때 마다 샘플이 업데이트 된다.
 훨씬 빠르게 클러스터링이 가능하다.
+
 ![[Ch5_Clustering_page-0029.jpg]]
 
 ![[Ch5_Clustering_page-0030.jpg]]
