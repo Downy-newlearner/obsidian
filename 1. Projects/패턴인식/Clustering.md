@@ -52,7 +52,10 @@ variance가 작아지도록 클러스터링을 하는 방식이다.
 ![[Ch5_Clustering_page-0023.jpg]]
 
 ![[Ch5_Clustering_page-0024.jpg]]
-
+## Partitional Clustering
+k개의 클러스터 값(시드)을 정하고 시작한다.
+첫 샘플이 시드 중 어디에 가장 가까운지 계산
+이후 시드의 위치를 업데이트
 ![[Ch5_Clustering_page-0025.jpg]]
 
 ![[Ch5_Clustering_page-0026.jpg]]
