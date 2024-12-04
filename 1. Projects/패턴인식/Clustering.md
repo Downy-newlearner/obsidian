@@ -76,4 +76,8 @@ k개의 클러스터 값(시드)을 정하고 시작한다.
 
 ![[Ch5_Clustering_page-0032.jpg]]
 
+
+## 변형된 k means algorithm
 ![[Ch5_Clustering_page-0033.jpg]]
+기존의 kmeans는 두 번만 계산
+변형된 kmeans는 끝까지 계산한다는 차이가 있다.
