@@ -1,0 +1,44 @@
+_wandb:
+    value:
+        cli_version: 0.18.6
+        m: []
+        python_version: 3.10.0
+        t:
+            "1":
+                - 2
+                - 3
+                - 55
+            "2":
+                - 2
+                - 3
+                - 55
+            "3":
+                - 13
+                - 16
+                - 23
+                - 55
+            "4": 3.10.0
+            "5": 0.18.6
+            "8":
+                - 3
+                - 5
+            "12": 0.18.6
+            "13": windows-amd64
+architecture:
+    value: Sequential_Model
+batch_size:
+    value: 32
+embedding_dim:
+    value: 4
+epochs:
+    value: 100
+learning_rate:
+    value: 0.001
+loss_function:
+    value: binary_crossentropy
+max_len:
+    value: 4
+optimizer:
+    value: adam
+vocab_size:
+    value: 16

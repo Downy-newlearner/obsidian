@@ -1,0 +1,16 @@
+{"time":"2024-12-04T17:23:06.4254813+09:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-04T17:23:06.4254813+09:00","level":"INFO","msg":"created symlink","path":"C:\\Obsidian\\obsidian\\1. Projects\\DeepLearning_Cloud\\강의 노트\\16장_RNN\\chap16_source_code\\wandb\\run-20241204_172306-bom5wv8o\\logs\\debug-core.log"}
+{"time":"2024-12-04T17:23:06.5385559+09:00","level":"INFO","msg":"created new stream","id":"bom5wv8o"}
+{"time":"2024-12-04T17:23:06.5385559+09:00","level":"INFO","msg":"stream: started","id":"bom5wv8o"}
+{"time":"2024-12-04T17:23:06.5385559+09:00","level":"INFO","msg":"sender: started","stream_id":"bom5wv8o"}
+{"time":"2024-12-04T17:23:06.5385559+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"bom5wv8o"}}
+{"time":"2024-12-04T17:23:06.5385559+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"bom5wv8o"}}
+{"time":"2024-12-04T17:23:06.9992919+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-04T17:23:24.5995939+09:00","level":"INFO","msg":"stream: closing","id":"bom5wv8o"}
+{"time":"2024-12-04T17:23:24.5995939+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-04T17:23:24.6005052+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-04T17:23:28.3332195+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-04T17:23:28.8718011+09:00","level":"INFO","msg":"sender: closed","stream_id":"bom5wv8o"}
+{"time":"2024-12-04T17:23:28.8718011+09:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"bom5wv8o"}}
+{"time":"2024-12-04T17:23:28.8718011+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"bom5wv8o"}}
+{"time":"2024-12-04T17:23:28.8735081+09:00","level":"INFO","msg":"stream: closed","id":"bom5wv8o"}

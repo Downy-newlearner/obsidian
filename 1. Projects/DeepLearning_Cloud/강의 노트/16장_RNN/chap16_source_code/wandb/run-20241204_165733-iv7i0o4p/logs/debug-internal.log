@@ -1,0 +1,16 @@
+{"time":"2024-12-04T16:57:33.5059349+09:00","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-12-04T16:57:33.5059349+09:00","level":"INFO","msg":"created symlink","path":"C:\\Obsidian\\obsidian\\1. Projects\\DeepLearning_Cloud\\강의 노트\\16장_RNN\\chap16_source_code\\wandb\\run-20241204_165733-iv7i0o4p\\logs\\debug-core.log"}
+{"time":"2024-12-04T16:57:33.7660137+09:00","level":"INFO","msg":"created new stream","id":"iv7i0o4p"}
+{"time":"2024-12-04T16:57:33.7660137+09:00","level":"INFO","msg":"stream: started","id":"iv7i0o4p"}
+{"time":"2024-12-04T16:57:33.7665273+09:00","level":"INFO","msg":"sender: started","stream_id":"iv7i0o4p"}
+{"time":"2024-12-04T16:57:33.7660137+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"iv7i0o4p"}}
+{"time":"2024-12-04T16:57:33.7665273+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"iv7i0o4p"}}
+{"time":"2024-12-04T16:57:34.2681582+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-04T16:57:37.1925127+09:00","level":"INFO","msg":"stream: closing","id":"iv7i0o4p"}
+{"time":"2024-12-04T16:57:37.1925127+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-04T16:57:37.1931693+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-04T16:57:38.2720232+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-04T16:57:38.5240925+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"iv7i0o4p"}}
+{"time":"2024-12-04T16:57:38.5240925+09:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"iv7i0o4p"}}
+{"time":"2024-12-04T16:57:38.5246064+09:00","level":"INFO","msg":"sender: closed","stream_id":"iv7i0o4p"}
+{"time":"2024-12-04T16:57:38.5253059+09:00","level":"INFO","msg":"stream: closed","id":"iv7i0o4p"}

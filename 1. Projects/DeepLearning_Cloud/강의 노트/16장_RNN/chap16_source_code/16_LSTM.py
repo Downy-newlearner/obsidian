@@ -1,8 +1,20 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import wandb
+from wandb.integration.keras import WandbMetricsLogger
 
-df = pd.read_csv('D:/OneDrive - 단국대학교/2022_강의/_딥러닝클라우드_2022/data/cansim-0800020.csv',
+# wandb 로그인
+wandb.login(key="ad4fbe99cfbcb6f99c9d3ee059361d2f81b5d93b")  # wandb 서비스 로그인
+
+# wandb 초기화
+wandb.init(
+    project="DeepCl_LSTM",  # 프로젝트 이름
+    name="LSTM",
+    entity="jdh251425142514-dankook-university"  # 실행 이름
+)
+
+df = pd.read_csv(r"C:\Obsidian\obsidian\1. Projects\DeepLearning_Cloud\강의 노트\16장_RNN\cansim-0800020\cansim-0800020.csv",
                  skiprows=6, skipfooter=9, engine='python')
 df.head()
 
@@ -15,7 +27,7 @@ df = df.set_index('Adjustments')
 print(df.head())
 df.plot()
 
-# 2011/1/1 까지의 데이터를 트레이닝셋.
+# 2011/1/1 까지의 데이터를 트레이닝셋. 
 # 그 이후 데이터를 테스트셋으로 한다.
 # 예측할 feature는 Unadjusted
 
@@ -98,7 +110,7 @@ model.compile(loss='mean_squared_error', optimizer='adam')
 model.summary()
 
 model.fit(X_train_t, y_train, epochs=100,
-          batch_size=30, verbose=1)
+          batch_size=30, verbose=1, callbacks=[WandbMetricsLogger()])
 
 y_pred = model.predict(X_test_t)
 print(y_pred)

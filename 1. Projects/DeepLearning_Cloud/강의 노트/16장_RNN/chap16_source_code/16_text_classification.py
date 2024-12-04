@@ -1,6 +1,12 @@
 import numpy as np
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
+import wandb
+from wandb.integration.keras import WandbMetricsLogger
+
+# wandb 로그인
+wandb.login(key="ad4fbe99cfbcb6f99c9d3ee059361d2f81b5d93b")  # wandb 서비스 로그인
+
 
 sentences = ['nice great best amazing', 
              'stop lies', 
@@ -16,7 +22,6 @@ y_train = [1, 0, 0, 1, 1, 0, 1]   # 긍정 : 1, 부정 : 0
 tokenizer = Tokenizer()
 tokenizer.fit_on_texts(sentences)
 
-breakpoint()
 
 vocab_size = len(tokenizer.word_index) + 1 # 패딩을 고려하여 +1
 print('단어 집합 :',vocab_size)
@@ -40,13 +45,33 @@ from tensorflow.keras.layers import Dense, Embedding, Flatten
 
 embedding_dim = 4
 
+
+# wandb 초기화
+wandb.init(
+    project="DeepCl_text_classification_project",  # 프로젝트 이름
+    name="Text_Classification_Observation",
+    entity="jdh251425142514-dankook-university",  # 실행 이름
+    config={  # 설정 항목 정의
+        "vocab_size": vocab_size,  # 단어 집합 크기
+        "embedding_dim": embedding_dim,  # 임베딩 차원 수
+        "max_len": max_len,  # 입력 시퀀스의 최대 길이
+        "batch_size": 32,  # 배치 크기
+        "learning_rate": 1e-3,  # 학습률
+        "epochs": 100,  # 총 에포크 수
+        "architecture": "Sequential_Model",  # 모델 아키텍처 이름
+        "optimizer": "adam",  # 최적화 알고리즘
+        "loss_function": "binary_crossentropy"  # 손실 함수
+    }
+)
+
+
 model = Sequential()
 model.add(Embedding(vocab_size, embedding_dim, input_length=max_len))
 model.add(Flatten())
 model.add(Dense(1, activation='sigmoid'))
 
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['acc'])
-model.fit(X_train, y_train, epochs=100, verbose=2)
+model.fit(X_train, y_train, epochs=1000, verbose=2,callbacks=[WandbMetricsLogger()]) #batch_size 언급이 없다면 default 값은 32 하지만 현재 데이터의 수는 7개 이므로 batch_size는 7이다.
 
 result = model.predict(X_train)
 print(result)
