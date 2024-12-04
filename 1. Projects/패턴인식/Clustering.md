@@ -35,7 +35,6 @@
 ![[Ch5_Clustering_page-0017.jpg]]
 
 ![[Ch5_Clustering_page-0018.jpg]]
-
 ![[Ch5_Clustering_page-0019.jpg]]
 
 ![[Ch5_Clustering_page-0020.jpg]]
