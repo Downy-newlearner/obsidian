@@ -35,6 +35,8 @@
 ![[Ch5_Clustering_page-0017.jpg]]
 
 ![[Ch5_Clustering_page-0018.jpg]]
+클러스터 구하고 민
+
 ![[Ch5_Clustering_page-0019.jpg]]
 
 ![[Ch5_Clustering_page-0020.jpg]]
@@ -63,4 +65,4 @@
 
 ![[Ch5_Clustering_page-0032.jpg]]
 
-![[Ch5_Clustering_page-0033.jpg]]
+![[Ch5_Clu
