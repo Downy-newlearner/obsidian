@@ -6,3 +6,4 @@
 {"time":"2024-12-04T21:16:40.8805729+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"t6x30srr"}
 {"time":"2024-12-04T21:16:40.8810879+09:00","level":"INFO","msg":"handler: started","stream_id":"t6x30srr"}
 {"time":"2024-12-04T21:16:41.3099785+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-04T21:16:51.3104171+09:00","level":"ERROR","msg":"monitor: disk: error sampling metrics: Incorrect function."}
