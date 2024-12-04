@@ -83,8 +83,15 @@ checkpoint = ModelCheckpoint(
     verbose=1
 )
 
-# 모델 학습
-try:
+import os  # 파일 존재 여부 확인을 위한 모듈
+
+# 모델 학습 또는 로드
+if os.path.exists(checkpoint_path):
+    print("Saved model checkpoint found. Loading the model...")
+    # 저장된 모델 로드
+    model = load_model(checkpoint_path)
+else:
+    print("No checkpoint found. Training the model...")
     # LSTM 모델 구성
     model = Sequential()
     model.add(LSTM(units=50, return_sequences=False, input_shape=(X_train.shape[1], X_train.shape[2])))
@@ -97,14 +104,12 @@ try:
     # 모델 학습
     history = model.fit(
         X_train, y_train,
-        epochs=50,
+        epochs=100,
         batch_size=32,
         validation_split=0.1,
         verbose=1,
-        callbacks=[WandbMetricsLogger(), checkpoint]
+        callbacks=[WandbMetricsLogger(), ModelCheckpoint(filepath=checkpoint_path, save_best_only=True, monitor="val_loss", mode="min", verbose=1)]
     )
-except:
-    print("Skipping training as model might already be trained.")
 
 # 저장된 모델 로드
 model = load_model(checkpoint_path)
@@ -124,7 +129,7 @@ wandb.log({"Test RMSE": np.sqrt(np.mean((y_test_actual - y_pred_actual)**2))})
 plt.figure(figsize=(10, 6))
 plt.plot(y_test_actual, label='Actual')
 plt.plot(y_pred_actual, label='Predicted')
-plt.title('2017-07-01 이후 실제 종가와 예측 종가의 비교')
+plt.title('After 2017-07-01, Actual vs. Predicted')
 plt.legend()
 plt.show()
 
