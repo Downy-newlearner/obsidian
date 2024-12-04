@@ -1,5 +1,5 @@
 ![[Ch5_Clustering_page-0001.jpg]]
-그룹을 어
+그룹을 어떻게 지을 것인가? -> 
 ![[Ch5_Clustering_page-0002.jpg]]
 
 ![[Ch5_Clustering_page-0003.jpg]]
