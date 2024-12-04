@@ -1,0 +1,8 @@
+{"time":"2024-12-04T21:16:40.7562931+09:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-04T21:16:40.7568168+09:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\user\\Documents\\Obsidian Vault\\obsidian\\1. Projects\\DeepLearning_Cloud\\강의 노트\\16장_RNN\\chap16_source_code\\wandb\\run-20241204_211640-t6x30srr\\logs\\debug-core.log"}
+{"time":"2024-12-04T21:16:40.8805729+09:00","level":"INFO","msg":"created new stream","id":"t6x30srr"}
+{"time":"2024-12-04T21:16:40.8805729+09:00","level":"INFO","msg":"stream: started","id":"t6x30srr"}
+{"time":"2024-12-04T21:16:40.8805729+09:00","level":"INFO","msg":"sender: started","stream_id":"t6x30srr"}
+{"time":"2024-12-04T21:16:40.8805729+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"t6x30srr"}
+{"time":"2024-12-04T21:16:40.8810879+09:00","level":"INFO","msg":"handler: started","stream_id":"t6x30srr"}
+{"time":"2024-12-04T21:16:41.3099785+09:00","level":"INFO","msg":"Starting system monitor"}
