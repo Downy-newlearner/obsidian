@@ -46,6 +46,8 @@ variance가 작아지도록 클러스터링을 하는 방식이다.
 ![[Ch5_Clustering_page-0021.jpg]]
 
 ![[Ch5_Clustering_page-0022.jpg]]
+계산량이 상당히 많다는 것을 알 수 있다.
+대신 클러스터링 결과는 준수하다.
 
 ![[Ch5_Clustering_page-0023.jpg]]
 
