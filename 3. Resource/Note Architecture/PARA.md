@@ -1,6 +1,5 @@
 ---
-aliases:
-  - 파라
+aliases: []
 ---
 ## 1. Project
 - 목표와 데드라인이 정확한 것들
