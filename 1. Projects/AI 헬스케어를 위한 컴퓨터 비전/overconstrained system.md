@@ -1,5 +1,5 @@
 ---
-created: 
+created: 2024-12-05
 tags: 
 aliases: 
 reference:
@@ -12,9 +12,10 @@ reference:
 
 1. **방정식의 수 > 변수의 수**
     
-    - Ax=BAx = B 형태의 선형 방정식에서, AA의 행 수가 열 수보다 많을 때 발생.
-    - 예: [X11X21X31X41][ab]=[X1′X2′X3′X4′]\begin{bmatrix} X_1 & 1 \\ X_2 & 1 \\ X_3 & 1 \\ X_4 & 1 \end{bmatrix} \begin{bmatrix} a \\ b \end{bmatrix} = \begin{bmatrix} X'_1 \\ X'_2 \\ X'_3 \\ X'_4 \end{bmatrix} 이 경우, 2개의 변수 aa와 bb를 결정하기 위해 4개의 방정식이 주어짐.
-2. **모든 방정식을 만족하는 해가 존재하지 않음**
+    - Ax=B형태의 선형 방정식에서, A의 행 수가 열 수보다 많을 때 발생.
+    - 예: $\begin{bmatrix} X_1 & 1 \\ X_2 & 1 \\ X_3 & 1 \\ X_4 & 1 \end{bmatrix} \begin{bmatrix} a \\ b \end{bmatrix} = \begin{bmatrix} X'_1 \\ X'_2 \\ X'_3 \\ X'_4 \end{bmatrix}$
+    - 이 경우, 2개의 변수 a와 b를 결정하기 위해 4개의 방정식이 주어짐.
+1. **모든 방정식을 만족하는 해가 존재하지 않음**
     
     - 데이터에 노이즈가 포함되거나, 방정식이 서로 충돌하는 경우에 발생.
     - 따라서, 해를 근사적으로 구해야 함.
