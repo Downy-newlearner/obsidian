@@ -1,7 +1,8 @@
 ---
 created: 2024-12-05
 tags: 
-aliases: 
+aliases:
+  - SIFT
 reference:
 ---
 ### SIFT (Scale-Invariant Feature Transform)
@@ -13,10 +14,10 @@ reference:
 2. **작동 단계**
     
     1. **특징점 검출**
-        - DoG를 사용하여 다양한 스케일에서 지역 극값을 탐지.
+        - [[Difference of Gaussians|DoG]]를 사용하여 다양한 스케일에서 지역 극값을 탐지.
         - 저대비 특징점과 에지 근처의 특징점 제거.
     2. **스케일 불변성 확보**
-        - DoG 스케일-스페이스에서 극값의 스케일을 기준으로 적절한 크기의 지역을 선택.
+        - [[Difference of Gaussians|DoG]] 스케일-스페이스에서 극값의 스케일을 기준으로 적절한 크기의 지역을 선택.
     3. **방향 할당**
         - 각 키포인트에 대해 주된 방향을 계산하여 회전에 대한 불변성 제공.
     4. **특징 설명자 생성**

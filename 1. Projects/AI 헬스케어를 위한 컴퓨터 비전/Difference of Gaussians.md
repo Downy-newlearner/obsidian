@@ -3,6 +3,7 @@ created:
 tags: 
 aliases:
   - Difference of Gaussians
+  - DoG
 reference:
 ---
 ### DoG (Difference of Gaussians)
