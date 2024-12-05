@@ -8,3 +8,4 @@ reference: https://blog.naver.com/martinok1103/221505801502
 
 ![[Pasted image 20241205224620.png]]
 
+norm이 1인 벡터를 [[단위 벡터]]라고 한다.
