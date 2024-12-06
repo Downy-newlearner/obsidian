@@ -27,6 +27,8 @@ F는 디지털 프리퀀시
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0009.jpg]]
 중요 프로퍼티
 DTFT는 주기를 가지고있다: 2$\pi$
+DFT는 N포인트로 어프로치하니까 주기가 N포인트 주기
+수식을 정리하면 
 
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0010.jpg]]
 
