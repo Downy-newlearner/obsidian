@@ -25,6 +25,8 @@ F는 디지털 프리퀀시
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0008.jpg]]
 
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0009.jpg]]
+중요 프로퍼티
+DTFT는 주기를 가지고있다: 2$\pi$
 
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0010.jpg]]
 
