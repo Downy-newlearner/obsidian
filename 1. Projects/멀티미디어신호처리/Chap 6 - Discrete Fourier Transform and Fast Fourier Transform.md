@@ -6,7 +6,7 @@ tags:
 *복습*
 시그널 처리는 대부분 frequency domian
 타임 도메인에서 하는 건 컨볼루션, 코렐레이션이다.(나머지는 프리퀀시에서)
-
+100퍼센트 맞는 분석 기법은 DTFT이다. 하지만 연속적이라 컴퓨터로 처리가 불가능
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0001.jpg]]
 
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0002.jpg]]
