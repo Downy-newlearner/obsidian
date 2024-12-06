@@ -92,7 +92,7 @@ Impulse Response, Difference Equation
 
 ## 3차시(13w-2)
 **복습**
-Frequency Response는 주어진 descrete time system의 ㅈ파수 특징을 설명하는 함수이다.
+Frequency Response는 주어진 descrete time system의 주파수 특징을 설명하는 함수이다.
 time domain에서 ipmulse resopnse의 dtft이다.
 주어진 시스템의 frequency response를 구하는 2가지 방법
 1.  $h[n]$에서 DTFT를 취하는 방법
