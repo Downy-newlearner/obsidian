@@ -14,6 +14,7 @@ tags:
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0003.jpg]]
 
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0004.jpg]]
+F는 디지털 프리퀀시
 
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0005.jpg]]
 
