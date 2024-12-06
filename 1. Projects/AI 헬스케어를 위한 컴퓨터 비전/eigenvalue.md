@@ -6,7 +6,7 @@ reference:
 ---
 ### Eigenvalue (고유값)
 
-- **정의**: 주어진 정방행렬 $A$에 대해, 스칼라 $\lambda$가 eigenvalue라면, 다음과 같은 관계를 만족합니다:
+- **정의**: 주어진 [[정방행렬]] $A$에 대해, 스칼라 $\lambda$가 eigenvalue라면, 다음과 같은 관계를 만족합니다:
 
 
 $A \mathbf{v} = \lambda \mathbf{v}$
