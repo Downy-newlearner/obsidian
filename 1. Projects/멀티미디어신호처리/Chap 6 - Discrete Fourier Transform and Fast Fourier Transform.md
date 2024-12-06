@@ -34,6 +34,7 @@ DFT는 N포인트로 어프로치하니까 주기가 N포인트 주기
 	그래서 DFT는 주기가 N이다.
 
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0010.jpg]]
+인버스 트랜스폼은 기억하지 않아도 좋다
 
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0011.jpg]]
 
