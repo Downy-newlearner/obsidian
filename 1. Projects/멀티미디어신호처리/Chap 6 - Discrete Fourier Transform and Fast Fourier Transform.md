@@ -3,7 +3,8 @@ Lecture date: 2024-12-06
 tags:
   - 멀티미디어신호처리
 ---
-
+*복습*
+시그널 처리는 대부분 frequency 
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0001.jpg]]
 
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0002.jpg]]
