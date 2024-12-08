@@ -60,7 +60,7 @@ white spectrum과 대비되는 개념으로는 colored specturm이라고 한다.
 **오일러의 항등식**
 
 ![[DSPChap5_Discrete_Time_Fourier_Transform_page-0013.jpg]]
-Shifting Property 증명
+*Shifting Property 증명*
 ![[Pasted image 20241208210140.png]]
 
 
