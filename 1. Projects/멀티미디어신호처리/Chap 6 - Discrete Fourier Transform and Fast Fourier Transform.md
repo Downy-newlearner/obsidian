@@ -105,7 +105,7 @@ bit reversing을 하면 공교롭게도 순서가 맞는다.
 
 ## DFT vs FFT 연산 속도 비교
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0035.jpg]]
-연산
+
 
 
 
