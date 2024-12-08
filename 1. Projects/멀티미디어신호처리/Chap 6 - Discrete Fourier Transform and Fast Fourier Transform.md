@@ -114,9 +114,13 @@ bit reversing을 하면 공교롭게도 순서가 맞는다.
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0037.jpg]]
 
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0038.jpg]]
-Chap4에서 컨볼루션
+Chap4에서 컨볼루션, 코레스폰딩을 타임 도메인에서 했는데, 이는 연산량이 많아서 보통은 frequency domain에서 FFT를 이용한다.
+
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0039.jpg]]
 
+
+
+## FFT 예제
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0040.jpg]]
 
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0041.jpg]]
