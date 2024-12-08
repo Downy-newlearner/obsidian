@@ -96,7 +96,7 @@ FFT는 DFT를 실시간으로 연산할 수 있는 아록리즘이다.(1966)
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0032.jpg]]
 
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0033.jpg]]
-
+stage를 지날 때마다 
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0034.jpg]]
 
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0035.jpg]]
