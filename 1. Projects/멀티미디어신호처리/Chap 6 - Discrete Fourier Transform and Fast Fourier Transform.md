@@ -70,6 +70,9 @@ DFT는 N포인트로 어프로치하니까 주기가 N포인트 주기
 
 
 # 2차시
+복습
+FFT는 DFT를 실시간으로 연산할 수 있는 아록리즘이다.(1966)
+
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0023.jpg]]
 
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0024.jpg]]
