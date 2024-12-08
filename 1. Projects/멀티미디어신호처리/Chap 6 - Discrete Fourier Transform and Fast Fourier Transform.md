@@ -114,7 +114,7 @@ bit reversing을 하면 공교롭게도 순서가 맞는다.
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0037.jpg]]
 
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0038.jpg]]
-
+Chap4에서 컨볼루션
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0039.jpg]]
 
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0040.jpg]]
