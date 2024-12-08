@@ -99,8 +99,15 @@ FFT는 DFT를 실시간으로 연산할 수 있는 아록리즘이다.(1966)
 stage를 지날 때마다 다음 스테이지의 올바른 순서로 입력하기 위한 과정이 필요하다.(다음 슬라이드)
 
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0034.jpg]]
-bit reversing을
+bit reversing을 하면 공교롭게도 순서가 맞는다.
+
+
+
+## DFT vs FFT 연산 속도 비교
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0035.jpg]]
+연산
+
+
 
 ![[DSPChap6_Discrete_Fourier_Transform_and_Fast_Fourier_Transform_page-0036.jpg]]
 
