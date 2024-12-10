@@ -22,6 +22,7 @@
 
 ![[chap19_langchain_page-0012.jpg]]
 https://huggingface.co/learn/cookbook/ko/advanced_ko_rag
+여기 쭉 읽어보기(꼭)
 
 ![[chap19_langchain_page-0013.jpg]]
 
