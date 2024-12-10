@@ -21,6 +21,7 @@
 ![[chap19_langchain_page-0011.jpg]]
 
 ![[chap19_langchain_page-0012.jpg]]
+https://huggingface.co/learn/cookbook/ko/advanced_ko_rag
 
 ![[chap19_langchain_page-0013.jpg]]
 
