@@ -40,8 +40,11 @@ class MyApp(QWidget):
         input_text = self.text_query.toPlainText()  # 입력 텍스트 가져오기
         translator = Translator()
         translated_text = translator.translate(input_text, src='ko', dest='en')  # 한->영 번역
-        result_text = f"Query: {input_text}\nAnswer: {translated_text.text}"
-        self.text_answer.setPlainText(result_text)  # 결과 출력
+
+        # 기존 결과에 새로운 질의-응답 추가
+        previous_text = self.text_answer.toPlainText()  # 기존 기록 가져오기
+        result_text = f"{previous_text}\nQuery: {input_text}\nAnswer: {translated_text.text}"
+        self.text_answer.setPlainText(result_text.strip())  # 결과 출력
 
 
 # 프로그램 실행
