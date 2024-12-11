@@ -199,6 +199,8 @@ filter 대신 system이라는 말을 사용할 수도 있다.
 L을 더 증가시키면 더욱 부드러운 신호가 되지 않을까?
 	그렇지 않다. 너무 큰 L point는 왜곡을 유발한다.
 		위의 주기가 50인 주기 신호에 L = 50인 MA 필터를 적용하면 0 근방에서 왜곡이 발생한다.
+
+
 ![[DSPChap4_Time_Domain_Signal_Analysis_page-0024.jpg]]
 
 
