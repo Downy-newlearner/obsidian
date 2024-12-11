@@ -46,6 +46,9 @@ class MyApp(QWidget):
         result_text = f"{previous_text}\nQuery: {input_text}\nAnswer: {translated_text.text}"
         self.text_answer.setPlainText(result_text.strip())  # 결과 출력
 
+        # 텍스트 박스 비우기
+        self.text_query.clear()
+
 
 # 프로그램 실행
 if __name__ == '__main__':
