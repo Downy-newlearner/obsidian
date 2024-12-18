@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiLivechat",
+      "LiBox",
       "LiFileUser",
       "SiPython",
-      "🔥",
-      "SiTripdotcom",
-      "SiGit"
+      "🔥"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -42,5 +42,7 @@
   "1. Projects/2025 1월 일본여행": "SiTripdotcom",
   "1. Projects/프로메테우스 Memoji Project": "🔥",
   "3. Resource/Python Libraries": "SiPython",
-  "5. Portfolio": "LiFileUser"
+  "5. Portfolio": "LiFileUser",
+  "Source": "LiBox",
+  "ChatGPT 용어 Instruction.md": "SiLivechat"
 }
