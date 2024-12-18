@@ -4,7 +4,7 @@ tags:
 aliases: 
 reference:
 ---
-
+빌드 자동
 ![[Pasted image 20241218114753.png]]
 
 - Java 대신 Groovy를 사용하는 이유
