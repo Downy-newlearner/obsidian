@@ -4,7 +4,8 @@ tags:
 aliases: 
 reference:
 ---
-빌드 자동
+*Gradle과 같은 빌드 도구에서 빌드 스크립트를 작성하는데 사용되는 동적 프로그래밍 언어.*
+
 ![[Pasted image 20241218114753.png]]
 
 - Java 대신 Groovy를 사용하는 이유
