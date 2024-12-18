@@ -1,5 +1,5 @@
 ### 1. Gradle 개요
-- Gradle은 빌드 자동화 도구로, Java, Groovy, Kotlin 등 여러 언어를 지원합니다.
+- Gradle은 [[빌드]] 자동화 도구로, Java, Groovy, Kotlin 등 여러 언어를 지원합니다.
 - Java 프로젝트에 자주 사용되지만, Android 앱 개발, 웹 애플리케이션 배포, 서버 설정 등 다양한 분야에서 활용됩니다.
 
 ### 2. Gradle의 특징
