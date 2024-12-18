@@ -99,7 +99,7 @@ Gradle은 멀티 프로젝트 빌드를 지원합니다. 여러 프로젝트를 
 
 ### 10. Gradle과 다른 빌드 도구 비교
 
-- Maven: Maven은 XML 기반의 설정 파일을 사용하고, Gradle은 Groovy/Kotlin 기반으로 더 유연하고 다이나믹한 구성이 가능합니다.
+- [[Maven]]: Maven은 XML 기반의 설정 파일을 사용하고, Gradle은 Groovy/Kotlin 기반으로 더 유연하고 다이나믹한 구성이 가능합니다.
 - Ant: Ant는 스크립트를 사용한 빌드 도구로, Gradle보다 더 복잡한 구성이 필요하지만 유연성은 뛰어납니다.
 
 ### 11. Gradle 학습 리소스
