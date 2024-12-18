@@ -4,6 +4,8 @@ tags:
 aliases: 
 reference:
 ---
+실행중인 도커 이미지를 *컨테이너*라고 한다.
+
 Application을 포장 및 전송하기 위해 도커는 "docker image"를 사용한다.
 
 Docker image는 파일로 어플리케이션 실행에 필요한 독립적인 환경을 포함하며, 런타임 환경을 위한 일종의 템플릿이다.
