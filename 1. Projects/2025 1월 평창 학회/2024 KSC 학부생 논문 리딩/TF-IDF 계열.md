@@ -21,4 +21,6 @@ TF-IDF는 TF와 IDF를 곱한 값을 의미한다.
 	- Document Frequency
 	- 특정 단어 t가 등정한 문서의 수
 1. IDF(t)
-2. 
+	- ![[Pasted image 20241223155308.png|300]]
+	- Inverse Document Frequency
+	- DF(t)에 반비례하는 수
