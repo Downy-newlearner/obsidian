@@ -14,6 +14,11 @@ reference:
 TF-IDF는 TF와 IDF를 곱한 값을 의미한다.
 문서를 d, 단어를 t, 문서의 총 개수를 n이라고 표현할 때, TF, DF, IDF는 각각 다음과 같이 정의할 수 있다.
 
-1. TF
-2. DF
-3. IDF
+1. TF(d, t)
+	- Term Frequency
+	- 특정 문서 d에서의 특정 단어 t의 등장 횟수
+1. DF(t)
+	- Document Frequency
+	- 특정 단어 t가 등정한 문서의 수
+1. IDF(t)
+2. 
