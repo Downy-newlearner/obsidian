@@ -1,6 +1,7 @@
 ---
 created: 2024-12-23
-tags: 
+tags:
+  - Terminology
 aliases:
   - Term Frequency-Inverse Document Frequency
 reference:
