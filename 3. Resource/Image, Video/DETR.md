@@ -5,6 +5,7 @@ tags:
   - DETR
 aliases:
   - DEtection TRansformer
+reference: https://www.youtube.com/watch?v=wO5_7NaCWjU
 ---
 DETR(DEtection TRansformer)은 기존 객체 탐지 파이프라인에서 필요로 하는 수작업 컴포넌트인 [[Non-Maximum Suppression|NMS]](Non-Maximum Suppression)와 [[앵커]](anchor) 생성 과정을 제거하고, [[엔드-투-엔드 방식]]의 트랜스포머 구조를 사용해 객체 탐지를 set prediction 문제로 접근한다. 주요 특징으로는 encoder-decoder 구조의 트랜스포머를 통해 중복된 예측을 제거하며, COCO 데이터셋에서 Faster R-CNN과 유사한 성능을 보인다. Large object에 강점을 보이나, small object에 대한 성능은 낮아 FPN 적용을 계획 중이다.
 
@@ -100,3 +101,15 @@ IoU 임계값 0.75에서 모델의 정밀도를 평가하는 지표이다.
 
 **요약**:  
 큰 객체에 대한 모델의 탐지 성능을 평가하는 지표이다.
+
+
+
+**DETR(Detection Transformer)의 문제점:**
+
+1. 느린 학습 속도와 낮은 수렴 속도:
+    - DETR은 기존 객체 탐지 모델에 비해 학습 시간이 훨씬 오래 걸립니다.
+    - 수렴 문제가 발생하여 합리적인 시간 내에 최적의 성능을 달성하기 어려운 경우가 있습니다.
+    
+2. 희소한 긍정 신호:
+    - 학습 데이터에서 긍정적인(관련된) 신호의 분포가 희소하여 효과적으로 학습하기 어렵습니다.
+    - 이로 인해 중요한 특징이나 객체를 식별하는 데 비효율성이 발생할 수 있습니다.
