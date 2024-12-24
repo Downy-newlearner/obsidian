@@ -1,0 +1,5 @@
+## 논문 주제
+- co-DETR를 이용한 차량 파손 및 부품 detection(vs YOLOv4, VGG16) 
+	- [[YOLOv4를 이용한 차량파손 검출 모델 개선]]
+
+## co-DETR란?
