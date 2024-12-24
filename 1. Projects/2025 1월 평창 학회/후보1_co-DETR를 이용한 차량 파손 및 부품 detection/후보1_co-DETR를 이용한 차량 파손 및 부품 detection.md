@@ -6,9 +6,9 @@
 - https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=581 (기각: Segmentation 데이터임)
 
 - https://github.com/jennyluciav/car-damage-dataset (논문에서 사용한 github 데이터) -> 전처리 필요
-	- 
+	- 라벨링이 안되어있음
 
-https://universe.roboflow.com/capstone-nh0nc/car-damage-detection-t0g92/dataset/4/images/4a6dce624f619d83a4fddc73208d98bd (Detection 데이터셋)
+- https://universe.roboflow.com/capstone-nh0nc/car-damage-detection-t0g92/dataset/4/images/4a6dce624f619d83a4fddc73208d98bd (Detection 데이터셋)
 
 ## co-DETR란?
 - DETRs with Collaborative Hybrid Assignments Training
