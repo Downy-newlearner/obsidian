@@ -3,3 +3,4 @@
 	- [[YOLOv4를 이용한 차량파손 검출 모델 개선]]
 
 ## co-DETR란?
+- DETRs with Collaborative Hybrid Assignments Training
