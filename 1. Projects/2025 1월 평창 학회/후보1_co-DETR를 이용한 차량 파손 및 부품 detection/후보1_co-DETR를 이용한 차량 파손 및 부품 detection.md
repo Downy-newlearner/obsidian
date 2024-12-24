@@ -3,6 +3,9 @@
 	- [[YOLOv4를 이용한 차량파손 검출 모델 개선]]
 
 ## 데이터
-https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=581
+https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=581 (기각: Segmentation 데이터임)
+
+https://github.com/jennyluciav/car-damage-dataset (논문에서 사용한 github 데이터)
+
 ## co-DETR란?
 - DETRs with Collaborative Hybrid Assignments Training
