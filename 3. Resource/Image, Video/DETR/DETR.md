@@ -14,7 +14,7 @@ reference: https://www.youtube.com/watch?v=hCWUTvVrG7E
 
 
 
-
+ 
 
 DETR(DEtection TRansformer)은 기존 객체 탐지 파이프라인에서 필요로 하는 수작업 컴포넌트인 [[Non-Maximum Suppression|NMS]](Non-Maximum Suppression)와 [[앵커]](anchor) 생성 과정을 제거하고, [[엔드-투-엔드 방식]]의 트랜스포머 구조를 사용해 객체 탐지를 set prediction 문제로 접근한다. 
 	*이분 매칭(bipartite matching) 방식*을 사용하여 이를 가능하게 만들었다.
