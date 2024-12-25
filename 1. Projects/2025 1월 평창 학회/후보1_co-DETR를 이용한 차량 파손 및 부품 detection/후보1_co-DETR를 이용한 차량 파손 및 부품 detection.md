@@ -28,4 +28,4 @@ co-DETR vs YOLOv7
 - 코드 디버깅(중요!!): 학습은 시간이 오래걸리는 작업이므로 돌려두고 기다려야하는데, 학습 마지막단계(ex. best 파라미터 저장. metric 저장, validation)에서 오류가 나면 골치아파질 수도 있음. 처음부터 꼼꼼히 디버깅 하기.
 	- 추천: 학습 1 iteration 디버깅 -> (train코드 주석 후)validation 디버깅 -> (train, validation 주석 후)모델 save 코드 디버깅
 
-- 
+- DETR은 학습 시간이 많이 걸리므로 pretrained model을 사용하거나 transform for learning(?)기법을 사용해서 학습 시간을 줄이는 것을 추천한다.(https://youtu.be/hCWUTvVrG7E?t=1635)
