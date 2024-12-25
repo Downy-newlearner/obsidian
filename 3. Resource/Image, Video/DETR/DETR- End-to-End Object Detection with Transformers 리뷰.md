@@ -22,7 +22,7 @@ reference: https://www.youtube.com/watch?v=hCWUTvVrG7E
 set prediction problem에서 set은 집합을 얘기한다.
 	집합은 중복 원소가 없고 순서가 상관없는 특징을 가지고있다.
 
-기존에는 region proposal을 통해 바운딩 박스를 여러개 치고 그것들 중 가장 좋은 것만 남기는 방식을 사용했다면 DETR은 set prediction problem을 통해 직접적인 D
+기존에는 region proposal을 통해 바운딩 박스를 여러개 치고 그것들 중 가장 좋은 것만 남기는 간접적인 방식을 사용했다면 DETR은 set prediction problem을 통해 직접적인 Detection을 하고자 하였다.
 
 
 
