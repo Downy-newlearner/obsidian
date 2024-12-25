@@ -49,10 +49,10 @@ N개의 object queries를 통해 각각 서로 다른 인스턴스를 구분할 
 
 
 ![[DETR (1)_page-0006.jpg]]
-
+d는 임베딩이라고 볼 수 있다.(feature 정보)
 
 
 
 ![[DETR (1)_page-0007.jpg]]
-말단 부분은 경계선으로 볼 수 있고 이 부분의 attention Score 값을 높게 혀
+말단 부분은 경계선으로 볼 수 있고 이 부분의 attention Score 값을 높게 형성한다.
 
