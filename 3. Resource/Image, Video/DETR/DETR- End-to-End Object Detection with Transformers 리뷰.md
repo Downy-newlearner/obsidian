@@ -19,6 +19,12 @@ reference: https://www.youtube.com/watch?v=hCWUTvVrG7E
 바운딩 박스를 여러개 두고 NMS 기법을 이용해 최종 bounding box를 만드는 방식을 사용했다.
 
 ![[DETR (1)_page-0004.jpg]]
+set prediction problem에서 set은 집합을 얘기한다.
+	집합은 중복 원소가 없고 순서가 상관없는 특징을 가지고있다.
+
+
+
+
 
 ![[DETR (1)_page-0005.jpg]]
 
