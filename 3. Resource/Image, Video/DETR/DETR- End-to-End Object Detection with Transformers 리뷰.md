@@ -14,7 +14,9 @@ reference: https://www.youtube.com/watch?v=hCWUTvVrG7E
 
 ![[DETR (1)_page-0003.jpg]]
 기존 탐지 모델은 모델링 하는 사람이 미리 알고있으면 좋은 정보인 '사전 지식'이 많이 필요로 했었다.
-	bounding box의 형태, bounding box가 겹칠 때의 처리 방법 등을 정해줬어야해
+	bounding box의 형태, bounding box가 겹칠 때의 처리 방법 등을 정해줬어야했음
+
+바운딩 박스를 여러개 두고 NMS 기법을 이용해 최종 bounding box를 만드는 방식을 사용했다.
 
 ![[DETR (1)_page-0004.jpg]]
 
