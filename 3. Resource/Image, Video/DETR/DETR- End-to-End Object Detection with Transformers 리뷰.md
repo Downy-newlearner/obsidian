@@ -10,7 +10,7 @@ reference: https://www.youtube.com/watch?v=hCWUTvVrG7E
 또한 강력한 성능을 보인다.
 
 ![[DETR (1)_page-0002.jpg]]
-
+이분 매칭 손실 함수를 이용해서 중복 탐지를 막을 수 있다.
 
 ![[DETR (1)_page-0003.jpg]]
 
