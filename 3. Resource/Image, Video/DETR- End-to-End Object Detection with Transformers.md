@@ -1,7 +1,7 @@
-**쟁점**: 
-
-**적용 주제**: 
-
-**용어**: 
-
-**논문의 허점**:
+---
+created: 2024-12-25
+tags:
+  - 논문
+aliases: 
+reference: https://www.youtube.com/watch?v=hCWUTvVrG7E
+---
