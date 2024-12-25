@@ -24,6 +24,8 @@ set prediction problem에서 set은 집합을 얘기한다.
 
 기존에는 region proposal을 통해 바운딩 박스를 여러개 치고 그것들 중 가장 좋은 것만 남기는 간접적인 방식을 사용했다면 DETR은 set prediction problem을 통해 직접적인 Detection을 하고자 하였다.
 
+매칭 로스가 줄얻
+
 
 
 ![[DETR (1)_page-0005.jpg]]
