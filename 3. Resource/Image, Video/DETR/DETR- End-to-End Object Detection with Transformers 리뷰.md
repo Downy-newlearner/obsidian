@@ -28,8 +28,15 @@ set prediction problem에서 set은 집합을 얘기한다.
 
 N값을 충분히 크게 만드는 것이 이런 접근에서 필요한 과정이다.
 
+결론: *기존 NMS 방식* -> *이분 매칭*
+
 
 ![[DETR (1)_page-0005.jpg]]
+- Transformer가 왜 사용되었는가
+	- attention 매커니즘을 통해 각 픽셀들이 서로의 스코어를 만든다.
+	- 이 과정에서 
+
+
 
 ![[DETR (1)_page-0006.jpg]]
 
