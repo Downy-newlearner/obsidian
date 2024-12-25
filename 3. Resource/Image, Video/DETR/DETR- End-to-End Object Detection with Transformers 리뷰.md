@@ -54,3 +54,5 @@ N개의 object queries를 통해 각각 서로 다른 인스턴스를 구분할 
 
 
 ![[DETR (1)_page-0007.jpg]]
+
+
