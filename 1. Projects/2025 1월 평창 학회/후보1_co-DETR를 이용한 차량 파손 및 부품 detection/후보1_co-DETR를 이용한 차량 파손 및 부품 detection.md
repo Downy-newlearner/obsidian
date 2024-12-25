@@ -22,7 +22,8 @@
 co-DETR vs YOLOv7
 
 - co-DETR을 사용하고자 한 이유
-	- DETR은 큰 Object에 대한 Detection 성능이 우수한데, 데이터 특성 상 큰 
+	- DETR은 큰 Object에 대한 Detection 성능이 우수한데, 데이터 특성 상 큰 Object가 많아서 적합한 모델이라고 생각한다.
+	- co-DETR은 DETR보다 
 
 ## 실험
 
