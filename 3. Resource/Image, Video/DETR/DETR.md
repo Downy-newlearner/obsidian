@@ -11,7 +11,7 @@ reference: https://www.youtube.com/watch?v=hCWUTvVrG7E
 
 
 
-
+데이터만 잘 주어진다면 
 
 
 
