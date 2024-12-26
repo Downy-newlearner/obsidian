@@ -10,7 +10,7 @@ python tools/train_wandb.py projects/configs/co_deformable_detr/co_deformable_de
 
 ## 해야할 것
 1. 데이터 증강
-2. YOLO모델과 성능 비교
+2. VGGNET모델과 성능 비교
 3. 논문 작성
 4. co-Deformable-DETR 아키텍처 그리기(ppt)
 
