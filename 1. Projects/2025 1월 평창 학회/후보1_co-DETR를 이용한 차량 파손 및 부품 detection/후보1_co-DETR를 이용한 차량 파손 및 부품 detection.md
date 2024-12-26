@@ -5,6 +5,8 @@ python 3.7.1
 pip install torch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 --index-url https://download.pytorch.org/whl/cu113
 
 ## 실행 코드
+python tools/train_wandb.py projects/configs/co_deformable_detr/co_deformable_detr_r50_1x_coco.py --work-dir path_to_exp --hyperparams projects/configs/hyperparams/default_hyperparams.yaml
+
 
 ## 해야할 것
 1. 데이터 증강
