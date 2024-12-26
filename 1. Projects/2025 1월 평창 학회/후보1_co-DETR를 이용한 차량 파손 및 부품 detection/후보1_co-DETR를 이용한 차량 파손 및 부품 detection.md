@@ -14,7 +14,19 @@ python tools/train_wandb.py projects/configs/co_deformable_detr/co_deformable_de
 3. 논문 작성
 4. co-Deformable-DETR 아키텍처 그리기(ppt)
 
+좋아 코드 짜줘.
 
+모델: VGG19
+
+train_dataset root: /home/jdh251425/co-deformable-detr/data/coco/train2017
+
+train_dataset annFile: /home/jdh251425/co-deformable-detr/data/coco/annotations/instances_train17.json
+
+batch_size = 60
+
+Pretrained = True
+
+손실함수
 
 ## 논문 주제
 - co-DETR를 이용한 차량 파손 및 부품 detection(vs YOLOv4, VGG16) 
