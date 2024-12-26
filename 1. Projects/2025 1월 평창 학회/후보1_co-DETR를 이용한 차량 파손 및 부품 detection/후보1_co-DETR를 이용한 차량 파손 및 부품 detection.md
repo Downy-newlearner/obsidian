@@ -1,3 +1,11 @@
+## 해야할 것
+1. 데이터 증강
+2. YOLO모델과 성능 비교
+3. 논문 작성
+4. co-Deformable-DETR 아키텍처 그리기(ppt)
+
+
+
 ## 논문 주제
 - co-DETR를 이용한 차량 파손 및 부품 detection(vs YOLOv4, VGG16) 
 	- [[YOLOv4를 이용한 차량파손 검출 모델 개선]]
