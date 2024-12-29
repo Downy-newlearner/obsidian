@@ -47,3 +47,9 @@ pip install mmcv-full==1.5.0 -f https://download.openmmlab.com/mmcv/dist/cu115/t
 
 
 export LD_LIBRARY_PATH=$HOME/local_libs:$LD_LIBRARY_PATH
+find / -name "libGLdispatch.so.0" 2>/dev/null
+echo 'export LD_LIBRARY_PATH=/home/jdh251425/miniconda3/pkgs/libglvnd-1.7.0-ha4b6fd6_2/lib/:$LD_LIBRARY_PATH' >> ~/.bashrc
+source ~/.bashrc
+cd mmdet/
+export PYTHONPATH=$(pwd):$PYTHONPATH
+cd ..
