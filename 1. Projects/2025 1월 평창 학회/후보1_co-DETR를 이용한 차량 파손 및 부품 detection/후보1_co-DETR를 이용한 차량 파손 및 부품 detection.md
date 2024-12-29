@@ -80,6 +80,14 @@ Co-Deformable-DETR은 DETR 대비 연산 효율성이 뛰어나고 수렴 속도
 Deformable Attention
 
 ## 실험
+- 백그라운드에서 실행해기 - nohup
+https://joonyon.tistory.com/entry/%EC%89%BD%EA%B2%8C-%EC%84%A4%EB%AA%85%ED%95%9C-nohup-%EA%B3%BC-%EB%B0%B1%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%82%AC%EC%9A%A9%EB%B2%95
+
+실험 과정을 확인하고싶으면 같은 디렉토리에 저장되는 로그를 열어 확인하면 된다.
+
+전이학습 할 때 gradient freezing해야하는 곳을 판별해서 잘 freezing하기
+
+
 - 학습시간: batch가 커지면 좀 더 빨라지긴 하지만, 어차피 데이터 자체가 많으면 1회 학습 당 걸리는 시간이 늘어남. 학습데이터수-모델용량-배치를 현재 리소스에 맞게 잘 조절해서 학습
 - 메모리(중요!! ram, vram 모두해당): 모델과 데이터(1 batch)가 모두 로드 가능한 정도의 용량이 확보되어야 함. 학습 과정에서 vram 사용량이 점점 증가하는 경우가 있으므로 여유를 두고 학습하는 것 추천
 - 코드 디버깅(중요!!): 학습은 시간이 오래걸리는 작업이므로 돌려두고 기다려야하는데, 학습 마지막단계(ex. best 파라미터 저장. metric 저장, validation)에서 오류가 나면 골치아파질 수도 있음. 처음부터 꼼꼼히 디버깅 하기.
@@ -109,3 +117,6 @@ co-DETR vs YOLOv7
 	- 추천: 학습 1 iteration 디버깅 -> (train코드 주석 후)validation 디버깅 -> (train, validation 주석 후)모델 save 코드 디버깅
 
 - DETR은 학습 시간이 많이 걸리므로 pretrained model을 사용하거나 transform for learning(?)기법을 사용해서 학습 시간을 줄이는 것을 추천한다.(https://youtu.be/hCWUTvVrG7E?t=1635)
+## 구현
+
+timm 패키지에서 
