@@ -53,3 +53,7 @@ source ~/.bashrc
 cd mmdet/
 export PYTHONPATH=$(pwd):$PYTHONPATH
 cd ..
+
+
+export PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:64
+nohup bash tools/dist_train.sh projects/configs/co_deformable_detr/co_deformable_detr_r50_1x_coco.py 4 path_to_exp > nohup_241230.out & 
