@@ -30,5 +30,9 @@ pip install mmcv-full==1.5.0 -f https://download.openmmlab.com/mmcv/dist/cu115/t
 		ar x libgl1-mesa-glx*.deb 
 		tar -xvf data.tar.* 
 		```
-	- 
-
+	- 홈 디렉토리에 복사
+		```
+		mkdir -p ~/local_libs
+		cp ./usr/lib/x86_64-linux-gnu/libGL.so.1 ~/local_libs/
+		```
+	- 환경 변수 설정
