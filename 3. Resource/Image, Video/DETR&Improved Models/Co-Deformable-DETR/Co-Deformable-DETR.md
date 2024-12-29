@@ -37,6 +37,7 @@ pip install mmcv-full==1.5.0 -f https://download.openmmlab.com/mmcv/dist/cu115/t
 		cp ./usr/lib/x86_64-linux-gnu/libGL.so.1 ~/local_libs/
 		```
 	- 환경 변수 설정
+		```export LD_LIBRARY_PATH=$HOME/local_libs:$LD_LIBRARY_PATH```
 
 - mmdet 모듈이 없다는 에러 해결
 	- (real_coenv) jdh251425@mlpa-titanx4:~/co-deformable-detr/mmdet$ export PYTHONPATH=$(pwd):$PYTHONPATH
