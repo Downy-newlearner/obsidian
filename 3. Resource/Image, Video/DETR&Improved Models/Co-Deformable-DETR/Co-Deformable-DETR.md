@@ -16,3 +16,5 @@ github: https://github.com/Sense-X/Co-DETR
 	- cuda=11.3
 	- MMCV V1.5.0
 		- Pytorch가 먼저 설치되어있어야함.
+
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
