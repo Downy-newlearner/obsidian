@@ -9,7 +9,7 @@ pip install torch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 --index-url htt
 python tools/train_wandb.py projects/configs/co_deformable_detr/co_deformable_detr_r50_1x_coco.py --work-dir path_to_exp --hyperparams projects/configs/hyperparams/default_hyperparams.yaml
 
 
-nohup bash tools/dist_train.sh projects/configs/co_deformable_detr/co_deformable_detr_r50_1x_coco.py 4 path_to_exp > nohup_241230.out
+nohup bash tools/dist_train.sh projects/configs/co_deformable_detr/co_deformable_detr_r50_1x_coco.py 4 path_to_exp > nohup_241230.out &
 
 
 ## 해야할 것
