@@ -42,3 +42,8 @@ pip install mmcv-full==1.5.0 -f https://download.openmmlab.com/mmcv/dist/cu115/t
 - mmdet 모듈이 없다는 에러 해결
 	- (real_coenv) jdh251425@mlpa-titanx4:~/co-deformable-detr/mmdet$ export PYTHONPATH=$(pwd):$PYTHONPATH
 	- mmdet 폴더로 이동해서 파이썬 경로 추가하면 된다.
+
+
+
+
+export LD_LIBRARY_PATH=$HOME/local_libs:$LD_LIBRARY_PATH
