@@ -22,5 +22,7 @@ conda install pytorch==1.11 torchvision torchaudio cudatoolkit=11.5 -c pytorch
 pip install mmcv-full==1.5.0 -f https://download.openmmlab.com/mmcv/dist/cu115/torch1.11.0/index.html
 
 
+- libGL.so.1 패키지 문제 해결
+	- 
 
-pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu111/torch1.8.0/index.html
+
