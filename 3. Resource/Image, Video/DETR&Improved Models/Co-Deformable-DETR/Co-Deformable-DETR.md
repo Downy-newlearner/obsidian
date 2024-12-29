@@ -22,3 +22,5 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 - 내 라이브러리
 	- Pytorch: 1.13.1
 	- CUDA: 12.6
+
+pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu111/torch1.8.0/index.html
