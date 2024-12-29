@@ -13,4 +13,6 @@ github: https://github.com/Sense-X/Co-DETR
 - 필요한 세팅
 	- python=3.7.11,
 	- pytorch=1.11.0,
-	- cuda=11.3 환경을 사용했다.
+	- cuda=11.3
+	- MMCV V1.5.0
+		- Pytorch가 먼저 설치되어있어야함.
