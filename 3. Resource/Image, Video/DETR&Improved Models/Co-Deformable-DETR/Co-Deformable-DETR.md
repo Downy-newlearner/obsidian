@@ -19,4 +19,6 @@ github: https://github.com/Sense-X/Co-DETR
 		- **Note**: mmcv-full is only compiled on PyTorch 1.x.0 because the compatibility usually holds between 1.x.0 and 1.x.1. If your PyTorch version is 1.x.1, you can install mmcv-full compiled with PyTorch 1.x.0 and it usually works well. For example, if your PyTorch version is 1.8.1 and CUDA version is 11.1, you can use the following command to install mmcv-full.
 
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
-내 Pytorch
+- 내 라이브러리
+	- Pytorch: 1.13.1
+	- CUDA: 12.6
