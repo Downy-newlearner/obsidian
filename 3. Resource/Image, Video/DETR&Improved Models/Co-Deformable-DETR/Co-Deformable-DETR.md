@@ -23,6 +23,8 @@ pip install mmcv-full==1.5.0 -f https://download.openmmlab.com/mmcv/dist/cu115/t
 
 
 - libGL.so.1 패키지 문제 해결
-	- 
+	- 현재 경로에 해당 패키지 다운로드
+		```apt download libgl1-mesa-glx```
+	- .deb 파일로 
 
 
