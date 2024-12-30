@@ -37,7 +37,23 @@ pip install mmcv-full==1.5.0 -f https://download.openmmlab.com/mmcv/dist/cu115/t
 		cp ./usr/lib/x86_64-linux-gnu/libGL.so.1 ~/local_libs/
 		```
 	- 환경 변수 설정
+		```export LD_LIBRARY_PATH=$HOME/local_libs:$LD_LIBRARY_PATH```
 
 - mmdet 모듈이 없다는 에러 해결
 	- (real_coenv) jdh251425@mlpa-titanx4:~/co-deformable-detr/mmdet$ export PYTHONPATH=$(pwd):$PYTHONPATH
 	- mmdet 폴더로 이동해서 파이썬 경로 추가하면 된다.
+
+
+
+
+export LD_LIBRARY_PATH=$HOME/local_libs:$LD_LIBRARY_PATH
+find / -name "libGLdispatch.so.0" 2>/dev/null
+echo 'export LD_LIBRARY_PATH=/home/jdh251425/miniconda3/pkgs/libglvnd-1.7.0-ha4b6fd6_2/lib/:$LD_LIBRARY_PATH' >> ~/.bashrc
+source ~/.bashrc
+cd mmdet/
+export PYTHONPATH=$(pwd):$PYTHONPATH
+cd ..
+
+
+export PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:64
+nohup bash tools/dist_train.sh projects/configs/co_deformable_detr/co_deformable_detr_r50_1x_coco.py 4 path_to_exp > nohup_241230.out & 

@@ -1,4 +1,5 @@
 jdh251425@220.149.231.136:9004
+[[Co-Deformable-DETR]]
 
 ## 환경
 python 3.7.1
@@ -6,6 +7,9 @@ pip install torch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 --index-url htt
 
 ## 실행 코드
 python tools/train_wandb.py projects/configs/co_deformable_detr/co_deformable_detr_r50_1x_coco.py --work-dir path_to_exp --hyperparams projects/configs/hyperparams/default_hyperparams.yaml
+
+
+nohup bash tools/dist_train.sh projects/configs/co_deformable_detr/co_deformable_detr_r50_1x_coco.py 4 path_to_exp > nohup_241230.out &
 
 
 ## 해야할 것
@@ -60,6 +64,7 @@ DETR이 학습 데이터를 얼마나 필요로 하는지 DETR논문 확인해�
 
 
 
+
 ### 2. 알고리즘 적용하기
 
 
@@ -80,8 +85,12 @@ Co-Deformable-DETR은 DETR 대비 연산 효율성이 뛰어나고 수렴 속도
 Deformable Attention
 
 ## 실험
-- 백그라운드에서 실행해기 - nohup
+- 백그라운드에서 실행하기 - nohup
 https://joonyon.tistory.com/entry/%EC%89%BD%EA%B2%8C-%EC%84%A4%EB%AA%85%ED%95%9C-nohup-%EA%B3%BC-%EB%B0%B1%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%82%AC%EC%9A%A9%EB%B2%95
+	- nohup bash tools/dist_train.sh projects/configs/co_deformable_detr/co_deformable_detr_r50_1x_coco.py 4 path_to_exp > nohup_241230.out
+
+- 체크포인트 모델 저장 장소
+	- /home/jdh251425/co-deformable-detr/path_to_exp by HardDiskBackend.
 
 실험 과정을 확인하고싶으면 같은 디렉토리에 저장되는 로그를 열어 확인하면 된다.
 
