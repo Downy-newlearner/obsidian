@@ -3,7 +3,7 @@ created: 2025-01-09
 tags:
   - Terminology
 aliases: 
-reference: https://wikidocs.net/166721
+reference:
 ---
 Docker를 3일 동안 차근차근 공부하려면 다음과 같은 커리큘럼을 추천드립니다:
 
