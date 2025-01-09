@@ -1,3 +1,13 @@
+
+```
+FROM openjdk:17
+
+WORKDIR /app
+
+COPY build
+```
+
+
 ![[Pasted image 20250110025218.png]]
 
 
