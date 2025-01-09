@@ -2,7 +2,8 @@
 created: 2025-01-09
 tags:
   - Terminology
-aliases: 
+aliases:
+  - TDD
 reference: https://www.youtube.com/watch?v=SRAnCjb9sm8
 ---
 테스트 주도 개발([[Test-Driven Development]], TDD)는 테스트를 먼저 작성하고 그 테스트를 통과하도록 코드를 구현하는 개발 방법론이다.
