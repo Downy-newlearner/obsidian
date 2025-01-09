@@ -11,9 +11,13 @@
     - "Virtualization vs containerization"
 
 
+- 컨테이너의 구조
+![[Pasted image 20250109181200.png|500]]
 
+- 가상 머신의 구조
+![[Pasted image 20250109181239.png|500]]
 
-
+컨테이너와 가상 
 
 #### **Docker의 구성 요소**
 
