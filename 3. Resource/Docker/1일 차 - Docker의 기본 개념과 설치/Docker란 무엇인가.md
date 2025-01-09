@@ -19,6 +19,7 @@
 출처: https://learn.microsoft.com/ko-kr/virtualization/windowscontainers/about/containers-vs-vm
 
 
+### 공통점
 컨테이너와 가상 머신의 공통점 부터 알아보자.
 	1. 둘 다 애플리케이션과 실행 환경을 '**격리**' 시킨다.
 	2. 둘 다 CPU, 메모리, 디스크 등의 '**리소스를 할당**'하여 각 환경이 필요한 자원을 독립적으로 사용할 수 있게 한다.
