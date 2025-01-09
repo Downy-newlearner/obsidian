@@ -5,3 +5,50 @@ tags:
 aliases: 
 reference: https://wikidocs.net/166721
 ---
+Docker를 3일 동안 차근차근 공부하려면 다음과 같은 커리큘럼을 추천드립니다:
+
+### 1일 차: Docker 기본 개념과 설치
+
+- **Docker란 무엇인가?**
+    - 컨테이너와 가상 머신의 차이점
+    - Docker의 구성 요소(이미지, 컨테이너, Docker Daemon, Docker CLI 등)
+- **Docker 설치**
+    - Windows, macOS, Linux에서 Docker 설치
+    - Docker Desktop과 Docker Engine의 차이점
+- **Docker 명령어 기초**
+    - `docker --version`, `docker info`
+    - `docker run`, `docker ps`, `docker stop`, `docker rm`, `docker images`, `docker rmi`
+- **이미지와 컨테이너 이해**
+    - Docker 이미지 빌드 및 실행
+    - 컨테이너의 생명 주기
+
+### 2일 차: Docker 이미지와 Dockerfile
+
+- **Docker 이미지**
+    - Docker Hub에서 이미지 가져오기
+    - 이미지 레이어와 캐시
+    - 이미지 최적화
+- **Dockerfile 작성**
+    - `FROM`, `RUN`, `COPY`, `CMD`, `ENTRYPOINT` 명령어 이해
+    - Dockerfile에서 환경 변수 사용하기
+    - Dockerfile 최적화 및 보안 고려사항
+- **Docker 이미지 빌드**
+    - `docker build` 명령어 사용
+    - `docker build`의 캐시 및 레이어 최적화
+    - 멀티 스테이지 빌드(Multi-stage build) 이해
+
+### 3일 차: Docker Compose와 실습
+
+- **Docker Compose 기본 개념**
+    - Docker Compose란 무엇인가?
+    - `docker-compose.yml` 파일 구조
+    - 여러 컨테이너를 동시에 실행하기
+- **Docker Compose 실습**
+    - 간단한 `docker-compose.yml` 작성 및 실행
+    - 네트워크와 볼륨 사용하기
+    - `docker-compose up`, `docker-compose down` 명령어
+- **도커 파일 실행 및 디버깅**
+    - 실습 중 발생할 수 있는 오류 해결 방법
+    - 로그 확인 및 문제 해결
+
+이 커리큘럼을 통해 Docker의 기본 개념부터 실무적인 Dockerfile 작성과 Docker Compose까지 다루며, 도커 파일을 실행하는 데 필요한 의문점들을 해결할 수 있을 것입니다.
