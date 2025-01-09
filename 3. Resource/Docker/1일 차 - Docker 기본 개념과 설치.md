@@ -1,0 +1,13 @@
+
+- **Docker란 무엇인가?**
+    - 컨테이너와 가상 머신의 차이점
+    - Docker의 구성 요소(이미지, 컨테이너, Docker Daemon, Docker CLI 등)
+- **Docker 설치**
+    - Windows, macOS, Linux에서 Docker 설치
+    - Docker Desktop과 Docker Engine의 차이점
+- **Docker 명령어 기초**
+    - `docker --version`, `docker info`
+    - `docker run`, `docker ps`, `docker stop`, `docker rm`, `docker images`, `docker rmi`
+- **이미지와 컨테이너 이해**
+    - Docker 이미지 빌드 및 실행
+    - 컨테이너의 생명 주기
