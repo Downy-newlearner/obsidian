@@ -49,5 +49,14 @@
       ],
       "key": "P"
     }
+  ],
+  "copy-document-as-html:copy-selection-as-html": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
   ]
 }
