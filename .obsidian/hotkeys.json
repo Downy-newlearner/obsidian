@@ -50,7 +50,7 @@
       "key": "P"
     }
   ],
-  "copy-document-as-html:copy-selection-as-html": [
+  "copy-document-as-html:copy-as-html": [
     {
       "modifiers": [
         "Mod",
