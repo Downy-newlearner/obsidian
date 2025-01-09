@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiDocker",
       "SiLivechat",
       "LiBox",
       "LiFileUser",
-      "SiPython",
-      "🔥"
+      "SiPython"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -44,5 +44,6 @@
   "3. Resource/Python Libraries": "SiPython",
   "5. Portfolio": "LiFileUser",
   "Source": "LiBox",
-  "ChatGPT 용어 Instruction.md": "SiLivechat"
+  "ChatGPT 용어 Instruction.md": "SiLivechat",
+  "3. Resource/Docker": "SiDocker"
 }
