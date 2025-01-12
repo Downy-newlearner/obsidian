@@ -5,3 +5,6 @@ tags:
 aliases: 
 reference:
 ---
+![[Pasted image 20250113003045.png]]
+
+- 
