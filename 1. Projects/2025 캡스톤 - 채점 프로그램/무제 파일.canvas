@@ -1,9 +1,10 @@
 {
 	"nodes":[
-		{"id":"58d491c27de2ee83","x":-366,"y":72,"width":250,"height":60,"type":"text","text":""},
-		{"id":"615a9d87fe91d1bb","x":-362,"y":-157,"width":250,"height":60,"type":"text","text":"답안지 스캔"},
 		{"id":"e0afc370af6c8573","x":-362,"y":-280,"width":250,"height":60,"type":"text","text":"데이터 준비"},
-		{"id":"0b02383be72fba24","x":-337,"y":-45,"width":250,"height":60,"type":"text","text":"이름, 학번 마스킹"}
+		{"id":"615a9d87fe91d1bb","x":-660,"y":-160,"width":250,"height":60,"type":"text","text":"답안지 스캔"},
+		{"id":"0b02383be72fba24","x":-366,"y":-160,"width":250,"height":60,"type":"text","text":"이름, 학번 마스킹"},
+		{"id":"58d491c27de2ee83","x":-80,"y":-160,"width":250,"height":60,"type":"text","text":"문제와 답 라벨링"},
+		{"id":"9797fb8853f4c3cf","x":540,"y":-280,"width":250,"height":60,"type":"text","text":"모델 준비"}
 	],
 	"edges":[]
 }
