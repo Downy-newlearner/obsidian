@@ -5,6 +5,8 @@
     "tags": "tags",
     "created": "date",
     "dead line": "date",
-    "Lecture date": "date"
+    "Lecture date": "date",
+    "Name of book": "multitext",
+    "Part of book": "multitext"
   }
 }
