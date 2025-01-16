@@ -8,5 +8,12 @@
   "alwaysUpdateLinks": true,
   "userIgnoreFilters": [
     "4. Arichive/Notion/"
-  ]
+  ],
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
