@@ -3,3 +3,5 @@
 - Width, Height
 
 결과 이미지를 다시 img2img 탭으로 보내서 업스케일링 시도함
+![[Pasted image 20250119181407.png]]
+
