@@ -1,11 +1,14 @@
 {
 	"nodes":[
-		{"id":"15e51274a69a93dd","x":-480,"y":-120,"width":400,"height":267,"type":"file","file":"Source/beard man.jpg"},
-		{"id":"fecacbba6b86ba09","x":-405,"y":-220,"width":250,"height":50,"type":"text","text":"원본 이미지"},
-		{"id":"f469f5ea04bff4cf","x":180,"y":-120,"width":400,"height":400,"type":"file","file":"Source/ControlNet_1.png"},
-		{"id":"f7b5f15f0e241b99","x":255,"y":-220,"width":250,"height":50,"type":"text","text":"ControlNet 적용"},
-		{"id":"dbeee1c914b56b79","x":780,"y":-120,"width":400,"height":265,"type":"file","file":"Source/ControlNet_Upscailing_wo_LoRA.png"},
-		{"id":"5e5114a03e7c222b","x":855,"y":-220,"width":285,"height":60,"type":"text","text":"Upscailing 적용(LoRA, CN 제거)"}
+		{"id":"15e51274a69a93dd","type":"file","file":"Source/beard man.jpg","x":-480,"y":-120,"width":400,"height":267},
+		{"id":"fecacbba6b86ba09","type":"text","text":"원본 이미지","x":-405,"y":-220,"width":250,"height":50},
+		{"id":"f469f5ea04bff4cf","type":"file","file":"Source/ControlNet_1.png","x":180,"y":-120,"width":400,"height":400},
+		{"id":"f7b5f15f0e241b99","type":"text","text":"ControlNet 적용","x":255,"y":-220,"width":250,"height":50},
+		{"id":"dbeee1c914b56b79","type":"file","file":"Source/ControlNet_Upscailing_wo_LoRA.png","x":780,"y":-120,"width":400,"height":265},
+		{"id":"5e5114a03e7c222b","type":"text","text":"Upscailing 적용(LoRA, CN 제거)","x":855,"y":-220,"width":285,"height":60}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"b4ce99de8803745b","fromNode":"15e51274a69a93dd","fromSide":"right","toNode":"f469f5ea04bff4cf","toSide":"left"},
+		{"id":"394c6d46f481b019","fromNode":"f469f5ea04bff4cf","fromSide":"right","toNode":"dbeee1c914b56b79","toSide":"left"}
+	]
 }
