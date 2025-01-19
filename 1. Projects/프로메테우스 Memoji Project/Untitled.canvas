@@ -1,8 +1,9 @@
 {
 	"nodes":[
-		{"id":"f469f5ea04bff4cf","x":139,"y":180,"width":400,"height":400,"type":"file","file":"Source/ControlNet_1.png"},
 		{"id":"15e51274a69a93dd","x":-480,"y":-120,"width":400,"height":267,"type":"file","file":"Source/beard man.jpg"},
-		{"id":"fecacbba6b86ba09","x":-405,"y":-220,"width":250,"height":50,"type":"text","text":"원본 이미지"}
+		{"id":"fecacbba6b86ba09","x":-405,"y":-220,"width":250,"height":50,"type":"text","text":"원본 이미지"},
+		{"id":"f469f5ea04bff4cf","x":180,"y":-120,"width":400,"height":400,"type":"file","file":"Source/ControlNet_1.png"},
+		{"id":"f7b5f15f0e241b99","x":255,"y":-220,"width":250,"height":50,"type":"text","text":"ControlNet 적용"}
 	],
 	"edges":[]
 }
