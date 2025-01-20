@@ -12,8 +12,8 @@
 		{"id":"884b4e8641b9e8d7","x":1100,"y":240,"width":400,"height":400,"type":"file","file":"1. Projects/2025 LLM 스터디/한 권으로 끝내는 실전 LLM 파인튜닝/3.1 전체 파인튜닝 데이터 준비.md"},
 		{"id":"e2ccdcfd732b4825","x":1500,"y":240,"width":400,"height":400,"type":"file","file":"1. Projects/2025 LLM 스터디/한 권으로 끝내는 실전 LLM 파인튜닝/3.2 Gemma와 Llama 3 모델 구조 분석.md"},
 		{"id":"b633d259c9d834a8","type":"text","text":"2주차-1 01/18","x":1430,"y":138,"width":140,"height":60},
-		{"id":"36e317a4a6f4dfee","type":"text","text":"2주차 -1\n01/20","x":-220,"y":1260,"width":140,"height":60},
-		{"id":"56d4c3440513d7d7","x":-350,"y":240,"width":400,"height":400,"type":"file","file":"1. Projects/2025 LLM 스터디/1주차 - 1/1주차-파란책 Chap.1.md"}
+		{"id":"56d4c3440513d7d7","x":-350,"y":240,"width":400,"height":400,"type":"file","file":"1. Projects/2025 LLM 스터디/1주차 - 1/1주차-파란책 Chap.1.md"},
+		{"id":"36e317a4a6f4dfee","type":"text","text":"2주차 -1\n01/20","x":-220,"y":1120,"width":140,"height":60}
 	],
 	"edges":[]
 }
