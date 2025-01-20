@@ -1,10 +1,6 @@
 {
 	"nodes":[
-		{"id":"b38b0c3e537db697","type":"text","text":"파이썬 스터디","x":-661,"y":-420,"width":250,"height":60},
-		{"id":"ae19829c8a5b7008","type":"text","text":"캡스톤: 채점프로그램","x":-661,"y":-207,"width":250,"height":60},
-		{"id":"dec54b48f6378eac","type":"text","text":"LG Aimers","x":-661,"y":11,"width":250,"height":60},
 		{"id":"dcf4d19f6961af85","type":"text","text":"LLM 스터디","x":-661,"y":240,"width":250,"height":60},
-		{"id":"1bb407c357b25a40","type":"text","text":"프로메테우스: Memoji","x":-661,"y":880,"width":250,"height":61},
 		{"id":"e196950e469b54db","type":"text","text":"1주차-1\n01/11","x":-220,"y":138,"width":140,"height":60},
 		{"id":"d8a8e6f2383c2372","x":160,"y":240,"width":400,"height":400,"type":"file","file":"1. Projects/2025 LLM 스터디/한 권으로 끝내는 실전 LLM 파인튜닝/1. NLP의 과거와 오늘.md"},
 		{"id":"0e89a7c93cf285d9","x":560,"y":240,"width":400,"height":400,"type":"file","file":"1. Projects/2025 LLM 스터디/한 권으로 끝내는 실전 LLM 파인튜닝/2. GPT.md"},
