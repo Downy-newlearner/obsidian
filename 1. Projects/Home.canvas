@@ -8,8 +8,8 @@
 		{"id":"56d4c3440513d7d7","x":-360,"y":240,"width":400,"height":400,"type":"file","file":"1. Projects/2025 LLM 스터디/1주차 - 1/1주차-파란책 Chap.1.md"},
 		{"id":"e196950e469b54db","type":"text","text":"1주차 01/11","x":-220,"y":138,"width":120,"height":60},
 		{"id":"36e317a4a6f4dfee","type":"text","text":"1주차 01/11","x":720,"y":138,"width":120,"height":60},
-		{"id":"b633d259c9d834a8","type":"text","text":"1주차 01/11","x":560,"y":138,"width":120,"height":60},
-		{"id":"73bb1547c8dd9ea4","type":"text","text":"2주차 01/13","x":260,"y":138,"width":120,"height":60}
+		{"id":"b633d259c9d834a8","type":"text","text":"3주차 01/18","x":560,"y":138,"width":120,"height":60},
+		{"id":"73bb1547c8dd9ea4","type":"text","text":"1주차-101/13","x":260,"y":138,"width":120,"height":60}
 	],
 	"edges":[]
 }
