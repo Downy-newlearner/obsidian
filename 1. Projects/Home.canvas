@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"b38b0c3e537db697","x":-661,"y":-238,"width":250,"height":60,"type":"text","text":"파이썬 스터디"},
+		{"id":"ae19829c8a5b7008","x":-661,"y":-80,"width":250,"height":60,"type":"text","text":"캡스톤: 채점프로그램"},
+		{"id":"dec54b48f6378eac","x":-665,"y":96,"width":250,"height":60,"type":"text","text":"LG Aimers"},
+		{"id":"dcf4d19f6961af85","x":-294,"y":-147,"width":250,"height":60,"type":"text","text":"LLM 스터디"},
+		{"id":"1bb407c357b25a40","x":-327,"y":35,"width":250,"height":60,"type":"text","text":"프로메테"}
+	],
+	"edges":[]
+}
