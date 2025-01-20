@@ -1,14 +1,15 @@
 {
 	"nodes":[
-		{"id":"b38b0c3e537db697","x":-661,"y":-420,"width":250,"height":60,"type":"text","text":"파이썬 스터디"},
-		{"id":"ae19829c8a5b7008","x":-661,"y":-207,"width":250,"height":60,"type":"text","text":"캡스톤: 채점프로그램"},
-		{"id":"dec54b48f6378eac","x":-661,"y":11,"width":250,"height":60,"type":"text","text":"LG Aimers"},
-		{"id":"dcf4d19f6961af85","x":-661,"y":240,"width":250,"height":60,"type":"text","text":"LLM 스터디"},
-		{"id":"1bb407c357b25a40","x":-661,"y":460,"width":250,"height":61,"type":"text","text":"프로메테우스: Memoji"},
-		{"id":"e196950e469b54db","x":-320,"y":140,"width":120,"height":60,"type":"text","text":"1주차 01/11"},
-		{"id":"b633d259c9d834a8","type":"text","text":"1주차 01/11","x":-60,"y":78,"width":120,"height":60},
-		{"id":"36e317a4a6f4dfee","type":"text","text":"1주차 01/11","x":280,"y":170,"width":120,"height":60},
-		{"id":"73bb1547c8dd9ea4","type":"text","text":"1주차 01/11","x":-160,"y":138,"width":120,"height":60}
+		{"id":"b38b0c3e537db697","type":"text","text":"파이썬 스터디","x":-661,"y":-420,"width":250,"height":60},
+		{"id":"ae19829c8a5b7008","type":"text","text":"캡스톤: 채점프로그램","x":-661,"y":-207,"width":250,"height":60},
+		{"id":"dec54b48f6378eac","type":"text","text":"LG Aimers","x":-661,"y":11,"width":250,"height":60},
+		{"id":"dcf4d19f6961af85","type":"text","text":"LLM 스터디","x":-661,"y":240,"width":250,"height":60},
+		{"id":"1bb407c357b25a40","type":"text","text":"프로메테우스: Memoji","x":-661,"y":880,"width":250,"height":61},
+		{"id":"56d4c3440513d7d7","x":-360,"y":240,"width":400,"height":400,"type":"file","file":"1. Projects/2025 LLM 스터디/1주차 - 1/1주차-파란책 Chap.1.md"},
+		{"id":"e196950e469b54db","type":"text","text":"1주차 01/11","x":-220,"y":138,"width":120,"height":60},
+		{"id":"36e317a4a6f4dfee","type":"text","text":"1주차 01/11","x":720,"y":138,"width":120,"height":60},
+		{"id":"b633d259c9d834a8","type":"text","text":"1주차 01/11","x":560,"y":138,"width":120,"height":60},
+		{"id":"73bb1547c8dd9ea4","type":"text","text":"2주차 01/11","x":260,"y":138,"width":120,"height":60}
 	],
 	"edges":[]
 }
