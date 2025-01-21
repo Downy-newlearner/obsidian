@@ -8,4 +8,4 @@ reference:
 ---
 ![[Pasted image 20250121173750.png]]
 
-logits은 $$
+logits은 $\hat_{y}$
