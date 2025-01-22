@@ -5,3 +5,5 @@ tags:
 aliases: 
 reference: https://wikidocs.net/64779
 ---
+![[Pasted image 20250122213030.png]]
+
