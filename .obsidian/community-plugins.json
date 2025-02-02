@@ -10,5 +10,6 @@
   "obsidian-zotero-desktop-connector",
   "copy-document-as-html",
   "better-export-pdf",
-  "code-styler"
+  "code-styler",
+  "obsidian-plugin-prettier"
 ]
