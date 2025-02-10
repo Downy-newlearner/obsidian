@@ -11,5 +11,6 @@
   "copy-document-as-html",
   "better-export-pdf",
   "code-styler",
-  "obsidian-plugin-prettier"
+  "obsidian-plugin-prettier",
+  "obsidian-pandoc"
 ]
