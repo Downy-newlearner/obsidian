@@ -14,8 +14,8 @@
   "exportFormats": [
     {
       "name": "\bCreate Literature Notes",
-      "outputPathTemplate": "{{citekey}}.md",
-      "imageOutputPathTemplate": "{{citekey}}/",
+      "outputPathTemplate": "3. Resource/Paper/{{title}}.md",
+      "imageOutputPathTemplate": "3. Resource/Paper/{{title}}.md",
       "imageBaseNameTemplate": "image"
     }
   ],
