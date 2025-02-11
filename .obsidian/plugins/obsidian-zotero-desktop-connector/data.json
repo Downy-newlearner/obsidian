@@ -7,7 +7,8 @@
   "citeFormats": [
     {
       "name": "APA Style",
-      "format": "formatted-citation"
+      "format": "formatted-citation",
+      "cslStyle": "apa"
     }
   ],
   "exportFormats": [],
