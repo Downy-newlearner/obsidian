@@ -15,7 +15,7 @@
     {
       "name": "\bCreate Literature Notes",
       "outputPathTemplate": "3. Resource/Paper/{{title}}.md",
-      "imageOutputPathTemplate": "3. Resource/Paper/{{title}}.md",
+      "imageOutputPathTemplate": "3. Resource/Paper/{title}}/images/",
       "imageBaseNameTemplate": "image"
     }
   ],
