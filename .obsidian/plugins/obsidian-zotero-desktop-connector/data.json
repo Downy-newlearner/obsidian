@@ -11,7 +11,14 @@
       "cslStyle": "apa"
     }
   ],
-  "exportFormats": [],
+  "exportFormats": [
+    {
+      "name": "\bCreate Literature Notes",
+      "outputPathTemplate": "{{citekey}}.md",
+      "imageOutputPathTemplate": "{{citekey}}/",
+      "imageBaseNameTemplate": "image"
+    }
+  ],
   "citeSuggestTemplate": "[[{{citekey}}]]",
   "openNoteAfterImport": false,
   "whichNotesToOpenAfterImport": "first-imported-note"
