@@ -16,7 +16,9 @@
       "name": "\bCreate Literature Notes",
       "outputPathTemplate": "3. Resource/Paper/{{title}}.md",
       "imageOutputPathTemplate": "3. Resource/Paper/{title}}/images/",
-      "imageBaseNameTemplate": "image"
+      "imageBaseNameTemplate": "image",
+      "templatePath": "template/Common Template in CV.md",
+      "cslStyle": "apa"
     }
   ],
   "citeSuggestTemplate": "[[{{citekey}}]]",
