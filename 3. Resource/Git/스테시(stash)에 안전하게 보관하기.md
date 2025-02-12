@@ -1,9 +1,9 @@
 ---
-created: 
+created: 2025-02-12
 tags:
   - Terminology
 aliases: 
-reference:
+reference: https://mylko72.gitbooks.io/git/content/%EB%A6%AC%EB%B2%A0%EC%9D%B4%EC%8A%A4rebase.html
 ---
 - 어떤 브랜치에서 파일을 수정하거나 추가한 후 커밋하지 않은 상태일 때는 다른 브랜치로 checkout이 불가능하다.
 - 이는 수정사항을 잃어버리지 않도록 하려는 Git의 매커니즘이다.
