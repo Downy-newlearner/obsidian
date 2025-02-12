@@ -29,4 +29,9 @@ git stash list
 - 목록 앞의 stash@{0}은 stash ID로 각각의 저장 내용을 구별짓는 번호이다.
 - stash는 스택 방식으로 동작하므로 가장 최근에 저장한 stash가 가장 먼저 나오게 된다.
 
-## 
+## 저장 내용을 복구
+```
+git stash pop
+```
+- 가장 최근에 stash한 저장 내용을 `git stash pop`명령을 통해 현재 브랜치에 적용할 수 있다.
+- 
