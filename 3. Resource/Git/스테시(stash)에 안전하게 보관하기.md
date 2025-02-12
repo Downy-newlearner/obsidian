@@ -26,4 +26,7 @@ git stash
 git stash list
 ```
 - 현재 stash area에 저장되어 있는 변경사항들을 모두 조회 가능하다.
-- 목록 앞의 stash@{0}은 stash ID로 각각의 저장 내용을 구별짓는 번호이
+- 목록 앞의 stash@{0}은 stash ID로 각각의 저장 내용을 구별짓는 번호이다.
+- stash는 스택 방식으로 동작하므로 가장 최근에 저장한 stash가 가장 먼저 나오게 된다.
+
+## 
