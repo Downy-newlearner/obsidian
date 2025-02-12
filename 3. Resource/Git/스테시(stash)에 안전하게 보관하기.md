@@ -22,3 +22,8 @@ git stash
 - `git stash`이후 `git status`를 확인해보면 수정사항이 없다고 표시된다.
 
 ## 스테시 목록 조회
+```
+git stash list
+```
+- 현재 stash area에 저장되어 있는 변경사항들을 모두 조회 가능하다.
+- 목록 앞의 stash@{0}은 stash ID로 각각의 저장 내용을 구별짓는 번호이
