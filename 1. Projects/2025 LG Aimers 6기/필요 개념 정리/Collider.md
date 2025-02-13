@@ -20,3 +20,6 @@ reference: https://everyday-tech.tistory.com/entry/%EC%9D%B8%EA%B3%BC-%EC%B6%94%
 
 1. 상관 관계는 아닐듯
 2. 서로 어떤 영향을 주는지 알아보기 위해서 두 변수에 대해 회귀 계수 분석을 한다면?
+	- 이미 Non-Causal Association에 영향을 받은 상태라 의미없는 분석이 될 것 같다.
+
+- 배경지식으로 각 컬럼이 어떤 컬럼에 영향을 주는지 고민해보고 원인 변수와 결과 변수(타겟 변수)에 모두 영햐
