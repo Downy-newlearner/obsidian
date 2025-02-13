@@ -3,3 +3,5 @@
 
 ## 교란 변수(Confounder)와 Collider
 [[Collider]]
+
+## ROC-AUC
