@@ -76,4 +76,6 @@ df[['정자 나이', '난자 나이']] = df.apply(create_age_columns, axis=1)
 임신 성공 vs 임신 실패
 컬럼별 value_count
 
-![[Pasted image 20250214012136.png]]
+![[Pasted image 20250214012136.png|400]]
+
+![[Pasted image 20250214012154.png]]
