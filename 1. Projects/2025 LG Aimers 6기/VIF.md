@@ -13,3 +13,4 @@ reference: https://laoonlee.tistory.com/12
 
 ## VIF가 계산되는 방식
 ![[Pasted image 20250213215336.png|300]]
+[[결정 계수]]
