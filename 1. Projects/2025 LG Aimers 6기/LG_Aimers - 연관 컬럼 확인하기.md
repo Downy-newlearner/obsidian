@@ -81,4 +81,7 @@ df[['정자 나이', '난자 나이']] = df.apply(create_age_columns, axis=1)
 ![[Pasted image 20250214012154.png]]
 
 
-31-3
+31-35
+26-30
+21-25
+만20세 이하
