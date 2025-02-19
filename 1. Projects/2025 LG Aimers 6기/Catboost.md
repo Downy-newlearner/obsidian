@@ -37,5 +37,8 @@ reference:
 
 ## 3. Ordered Boosting
 ![[Pasted image 20250219152445.png|500]]
-- 먼저 Train set의 row 순서를 랜덤으로 섞는 'Random Permutation'을 진행한다.
-- 
+- **Random Permutation**: CatBoost는 먼저 데이터의 행 순서를 랜덤하게 혼합하는 여러 개의 permuted 데이터셋을 생성하여 오버피팅을 방지합니다. 데이터셋의 개수는 `bagging_temperature` 매개변수를 통해 조정할 수 있습니다.
+
+- **Incremental Learning**: Ordered Boosting 과정에서는 데이터 포인트의 순서에 따라 점진적으로 모델을 학습시킵니다. 각 단계에서 새로운 데이터 포인트에 대해 잔차를 계산하며, 이전 단계에서 학습한 정보를 기반으로 예측을 개선합니다.
+
+- **Sequential Residual Calculation**: 데이터 포인트 순서대로 학습을 진행하며, 각각의 새로운 데이터 포인트 또는 블록에 대해 잔차(residual)를 계산하여 모델을 보정해가는 과정을 반복합니다. 이는 시퀀스를 고려한 학습을 통해 일반화 성능을 향상시킵니다.
