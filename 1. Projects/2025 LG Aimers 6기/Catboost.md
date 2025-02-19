@@ -12,6 +12,8 @@ reference:
 - Ordered Target Encoding
 - Ordered Boosting
 
-## 1. 특이한 범주형 변수 처리
+## 1. Categoricla Feature Combination: 특이한 범주형 변수 처리
 - 데이터의 두 컬럼에서 매치되는 값이 항상 같다고 가정하자. 
-	- 예를 들어 A컬럼의 값이 a이면 B컬럼의 값이 항상 b이고, A컬럼의 값이 a이면 B컬럼의 값이 항상 b이
+	- 예를 들어 A컬럼의 값이 a1이면 B컬럼의 값이 항상 b1이고, A컬럼의 값이 a2이면 B컬럼의 값이 항상 b2인 상황이다.
+- 그렇다면 컬럼 하나를 삭제하여 dimension을 자동으로 줄인다.
+
