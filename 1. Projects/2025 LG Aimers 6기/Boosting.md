@@ -19,6 +19,6 @@ reference:
 ![[Pasted image 20250219144651.png|500]]
 - 연속적인 weak learner들의 구조를 가진다. 
 - 바로 직전 weak learner의 error를 반영하여 현재 weak learner를 보완한다.
-	- 이 과정을 N번 하면 iteration N번 돌린 부스
+	- 이 과정을 N번 하면 iteration N번 돌린 부스팅 모델이 되는 것이다.
 
 ![[Pasted image 20250219144358.png]]
