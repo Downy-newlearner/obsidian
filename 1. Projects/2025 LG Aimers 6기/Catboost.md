@@ -33,3 +33,7 @@ reference:
 - Target Encoding의 data leakage를 방지하기 위한 기법이다.
 - Weather 데이터의 인코딩을 위해 Weekday의 타겟 인코딩 결과를 반영한다.
 - 이전 컬럼이 없는 Weekday 컬럼은 Laplace Smoothing이라는 방법을 사용한다.
+
+
+## 3. Ordered Boosting
+![[Pasted image 20250219152445.png|500]]
