@@ -24,9 +24,11 @@ reference:
 
 ### Target Encoding
 - 범주형 컬럼에서의 각 값의 타겟 변수 값을 평균낸 후 그 값으로 인코딩을 진행한다.
+	- ![[Pasted image 20250219152219.png|250]]
 	- 예를 들어 Weather 변수에서 'Cloudy'값들이 가지는 평균 타겟 값이 18.5라면 'Cloudy'는 18.5로 인코딩된다.
 
 - 이렇게하면 타겟 값이 독립 변수에 들어가기 때문에 data leakage가 발생할 수 있다.
 
 ### Ordered Target Encoding
-- Target Encoding의 data
+- Target Encoding의 data leakage를 방지하기 위한 기법이다.
+- 
