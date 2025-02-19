@@ -37,3 +37,5 @@ reference:
 
 ## 3. Ordered Boosting
 ![[Pasted image 20250219152445.png|500]]
+- 먼저 Train set의 row 순서를 랜덤으로 섞는 'Random Permutation'을 진행한다.
+- 
