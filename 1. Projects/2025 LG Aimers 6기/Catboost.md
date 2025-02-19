@@ -9,6 +9,8 @@ reference:
 - 범주형 변수로 이루어진 데이터셋에서 예측 성능이 우수하다.
 - [[Boosting]] 기반의 모델이다.
 - 특이한 Categorical feature(범주형 변수) 처리
+	1. Categorical feature combination
+	2. 범주형 변수를 encoding할 필요 없음(알아서 target encoding을 해준다.)
 - Ordered Target Encoding
 - Ordered Boosting
 
