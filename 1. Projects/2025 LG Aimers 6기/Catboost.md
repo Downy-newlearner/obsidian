@@ -19,3 +19,5 @@ reference:
 	- 예를 들어 A컬럼의 값이 a1이면 B컬럼의 값이 항상 b1이고, A컬럼의 값이 a2이면 B컬럼의 값이 항상 b2인 상황이다.
 - 그렇다면 컬럼 하나를 삭제하여 dimension을 자동으로 줄인다.
 
+## 2. Ordered Target Encoding
+- 범주형 변수를 그대로 모델에 넣어주면 알아서 Ordered target encoding을 진행한
