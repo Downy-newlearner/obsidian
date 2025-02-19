@@ -23,4 +23,5 @@ reference:
 - 범주형 변수를 그대로 모델에 넣어주면 알아서 Ordered target encoding을 진행한다.
 
 ### Target Encoding
-- 범주형 컬럼에서의 각 값의 타겟 변수
+- 범주형 컬럼에서의 각 값의 타겟 변수 값을 평균낸 후 그 값으로 인코딩을 진행한다.
+	- 예를 들어 Weather 변수에서 'Cloudy'값들이 가지는 평균 타겟 값이 18.5라면 'Cloudy'는 18.5로 
