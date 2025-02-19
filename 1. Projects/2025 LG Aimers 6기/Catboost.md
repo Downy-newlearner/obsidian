@@ -20,4 +20,7 @@ reference:
 - 그렇다면 컬럼 하나를 삭제하여 dimension을 자동으로 줄인다.
 
 ## 2. Ordered Target Encoding
-- 범주형 변수를 그대로 모델에 넣어주면 알아서 Ordered target encoding을 진행한
+- 범주형 변수를 그대로 모델에 넣어주면 알아서 Ordered target encoding을 진행한다.
+
+### Target Encoding
+- 범주형 컬럼에서의 각 값의 타겟 변수
