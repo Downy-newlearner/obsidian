@@ -1,1 +1,0 @@
-[token](https://python.langchain.com/docs/concepts/tokens/) usage information, latency, [standard model parameters](https://python.langchain.com/docs/concepts/chat_models/#standard-parameters) (such as temperature), and other information
