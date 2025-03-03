@@ -1,4 +1,4 @@
-논문의 related work 부분을 분석하고싶어. 내가 related work 파트 전문을 줄테니까 다음과 같이 작업해줘.
+논문의 related work 부분을 분석하고싶어. 내가 related work 파트 전문을  줄테니까 다음과 같이 작업해줘.
 
 1. 소제목을 확인
 
