@@ -8,8 +8,8 @@
 		{"id":"9797fb8853f4c3cf","type":"text","text":"모델 준비","x":540,"y":-280,"width":250,"height":60},
 		{"id":"34688a054263c833","type":"text","text":"Yolov8 vs Tesseract OCR 비교하기","x":540,"y":-160,"width":250,"height":60},
 		{"id":"4e992d97bfa6cf28","type":"text","text":"인수인계 파일 분석","x":-1505,"y":-280,"width":250,"height":60,"color":"4"},
-		{"id":"eccee4ebbad8d57a","type":"file","file":"1. Projects/2025 캡스톤 - 채점 프로그램/250113 성원 ppt.md","x":-1940,"y":-160,"width":1120,"height":740},
-		{"id":"912d1872efac110b","type":"file","file":"1. Projects/2025 캡스톤 - 채점 프로그램/모델 고민.md","x":540,"y":-60,"width":620,"height":540},
+		{"id":"eccee4ebbad8d57a","type":"file","file":"1. Projects/2025 4학년 1학기/2025 캡스톤 - 채점 프로그램/250113 성원 ppt.md","x":-1940,"y":-160,"width":1120,"height":740},
+		{"id":"912d1872efac110b","type":"file","file":"1. Projects/2025 4학년 1학기/2025 캡스톤 - 채점 프로그램/모델 고민.md","x":540,"y":-60,"width":620,"height":540},
 		{"id":"50086d4f184caf25","type":"text","text":"모델 훈련","x":1353,"y":-279,"width":250,"height":60},
 		{"id":"03f9083730ab8c9e","type":"text","text":"Yolov7 훈련시키기","x":1353,"y":-160,"width":250,"height":60},
 		{"id":"2eb398faefe3cb29","x":1353,"y":-40,"width":250,"height":58,"type":"text","text":"Yolo 형식의 dataset 만들기"}
