@@ -19,16 +19,26 @@
 		{"id":"615ebc3a12e65c9d","x":-259,"y":-820,"width":250,"height":60,"type":"text","text":"데이터(사자성어, 명언, 책 구절)"},
 		{"id":"9659994dac168017","x":17,"y":-820,"width":250,"height":60,"type":"text","text":"영어로 속 뜻 작성해서 DB에 포함"},
 		{"id":"fb14ec49db4a00f5","x":-259,"y":-695,"width":250,"height":60,"type":"text","text":"입력받은 짧은 글"},
-		{"id":"0bb49de1e9768737","x":388,"y":-766,"width":250,"height":60,"type":"text","text":"유사도 검색은 영어로만 하기로 통일함"},
 		{"id":"ff3388ab6ccac88f","x":17,"y":-500,"width":250,"height":60,"type":"text","text":"요약"},
 		{"id":"9500e941960fd994","x":17,"y":-695,"width":250,"height":60,"type":"text","text":"번역(한 -> 영)"},
-		{"id":"babf109c701d8cae","x":17,"y":-600,"width":250,"height":60,"type":"text","text":"감정 분석"}
+		{"id":"babf109c701d8cae","x":17,"y":-600,"width":250,"height":60,"type":"text","text":"감정 분석"},
+		{"id":"115adcd0fdbcd563","x":300,"y":-695,"width":250,"height":60,"type":"text","text":"영어로 번역된 요약글(w/ 감정분석)"},
+		{"id":"05acb66f987bf1c7","x":300,"y":-821,"width":250,"height":60,"type":"text","text":"임베딩하여 벡터 DB에 포함"},
+		{"id":"0bb49de1e9768737","x":600,"y":-821,"width":250,"height":60,"type":"text","text":"유사도 검색은 영어로만 하기로 통일함"}
 	],
 	"edges":[
 		{"id":"4959edb3a28a9cba","fromNode":"aa6d641d2d2b8c78","fromSide":"right","toNode":"c4913613860dca0f","toSide":"left"},
 		{"id":"b3e26181abc4c62d","fromNode":"aa6d641d2d2b8c78","fromSide":"right","toNode":"76fbabfef693b79b","toSide":"left"},
 		{"id":"4ff7aa1ffe2e06d4","fromNode":"aa6d641d2d2b8c78","fromSide":"right","toNode":"0ebbe97e61cc6d4c","toSide":"left"},
 		{"id":"152b7c42745bf02f","fromNode":"aa6d641d2d2b8c78","fromSide":"right","toNode":"860020708be5fe0f","toSide":"left"},
-		{"id":"563df8ce25d0eabe","fromNode":"aa6d641d2d2b8c78","fromSide":"right","toNode":"6e0d609437dd4ccc","toSide":"left"}
+		{"id":"563df8ce25d0eabe","fromNode":"aa6d641d2d2b8c78","fromSide":"right","toNode":"6e0d609437dd4ccc","toSide":"left"},
+		{"id":"230d03f01574a4a6","fromNode":"05acb66f987bf1c7","fromSide":"right","toNode":"0bb49de1e9768737","toSide":"left"},
+		{"id":"d01b9927e9067a7b","fromNode":"115adcd0fdbcd563","fromSide":"right","toNode":"0bb49de1e9768737","toSide":"left"},
+		{"id":"bb468ea7c027ec3f","fromNode":"615ebc3a12e65c9d","fromSide":"right","toNode":"9659994dac168017","toSide":"left"},
+		{"id":"a5dee7c363cf6bd9","fromNode":"9659994dac168017","fromSide":"right","toNode":"05acb66f987bf1c7","toSide":"left"},
+		{"id":"d4396834d8f1bd7b","fromNode":"fb14ec49db4a00f5","fromSide":"right","toNode":"9500e941960fd994","toSide":"left"},
+		{"id":"f5cc89ab67db7efe","fromNode":"fb14ec49db4a00f5","fromSide":"right","toNode":"babf109c701d8cae","toSide":"left"},
+		{"id":"510d02d1f82a2be2","fromNode":"fb14ec49db4a00f5","fromSide":"right","toNode":"ff3388ab6ccac88f","toSide":"left"},
+		{"id":"d35163761c96203f","fromNode":"9500e941960fd994","fromSide":"right","toNode":"115adcd0fdbcd563","toSide":"left"}
 	]
 }
