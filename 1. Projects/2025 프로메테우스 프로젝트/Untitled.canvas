@@ -1,14 +1,17 @@
 {
 	"nodes":[
-		{"id":"ff3388ab6ccac88f","x":-66,"y":-557,"width":250,"height":60,"type":"text","text":""},
+		{"id":"9500e941960fd994","x":-97,"y":-415,"width":250,"height":60,"type":"text","text":""},
 		{"id":"aa6d641d2d2b8c78","x":-294,"y":-210,"width":250,"height":60,"type":"text","text":"모델 선정"},
 		{"id":"76fbabfef693b79b","x":17,"y":-129,"width":250,"height":60,"type":"text","text":"LLM"},
 		{"id":"8b2e178782c79427","x":-20,"y":40,"width":250,"height":60,"type":"text","text":"영어 속뜻으로 번역"},
 		{"id":"dffece413296732d","x":-294,"y":40,"width":250,"height":60,"type":"text","text":"데이터 확보"},
 		{"id":"c4913613860dca0f","x":17,"y":-210,"width":250,"height":60,"type":"text","text":"임베딩 모델(영어)"},
 		{"id":"17deae6e50cbdfc6","x":-294,"y":180,"width":250,"height":60,"type":"text","text":"디자인 선정"},
-		{"id":"615ebc3a12e65c9d","x":-340,"y":-696,"width":250,"height":60,"type":"text","text":"데이터(사자성어, 명언, 책 구절)"},
-		{"id":"fb14ec49db4a00f5","x":-320,"y":-571,"width":250,"height":60,"type":"text","text":"입력받은 짧은 글"}
+		{"id":"fb14ec49db4a00f5","x":-320,"y":-571,"width":250,"height":60,"type":"text","text":"입력받은 짧은 글"},
+		{"id":"ff3388ab6ccac88f","x":-44,"y":-571,"width":250,"height":60,"type":"text","text":"요약"},
+		{"id":"babf109c701d8cae","x":-44,"y":-480,"width":250,"height":60,"type":"text","text":"감정 분석"},
+		{"id":"615ebc3a12e65c9d","x":-320,"y":-696,"width":250,"height":60,"type":"text","text":"데이터(사자성어, 명언, 책 구절)"},
+		{"id":"9659994dac168017","x":-44,"y":-696,"width":250,"height":60,"type":"text","text":"영어로 속 뜻 작성해서 DB에 포함"}
 	],
 	"edges":[
 		{"id":"4959edb3a28a9cba","fromNode":"aa6d641d2d2b8c78","fromSide":"right","toNode":"c4913613860dca0f","toSide":"left"},
