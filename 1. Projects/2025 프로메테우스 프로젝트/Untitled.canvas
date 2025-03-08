@@ -2,7 +2,6 @@
 	"nodes":[
 		{"id":"aa6d641d2d2b8c78","x":-294,"y":-210,"width":250,"height":60,"type":"text","text":"모델 선정"},
 		{"id":"c4913613860dca0f","x":17,"y":-210,"width":250,"height":60,"type":"text","text":"임베딩 모델(영어)"},
-		{"id":"3e5e47cf31ecbe3c","x":300,"y":-40,"width":250,"height":60,"color":"6","type":"text","text":"토크나이저로 형용사만 추출할까?"},
 		{"id":"6e0d609437dd4ccc","x":17,"y":260,"width":250,"height":60,"type":"text","text":"번역 모델"},
 		{"id":"860020708be5fe0f","x":17,"y":140,"width":250,"height":60,"type":"text","text":"감정 분석 모델"},
 		{"id":"0ebbe97e61cc6d4c","x":17,"y":20,"width":250,"height":60,"color":"1","type":"text","text":"요약 모델"},
@@ -18,7 +17,9 @@
 		{"id":"615ebc3a12e65c9d","x":-294,"y":-700,"width":250,"height":60,"type":"text","text":"데이터(사자성어, 명언, 책 구절)"},
 		{"id":"9659994dac168017","x":-18,"y":-700,"width":250,"height":60,"type":"text","text":"영어로 속 뜻 작성해서 DB에 포함"},
 		{"id":"9500e941960fd994","x":-18,"y":-384,"width":250,"height":60,"type":"text","text":"번역(한 -> 영)"},
-		{"id":"3472a10e5201e220","x":-294,"y":900,"width":250,"height":60,"type":"text","text":"벡터 DB 선정"}
+		{"id":"3472a10e5201e220","x":-294,"y":900,"width":250,"height":60,"type":"text","text":"벡터 DB 선정"},
+		{"id":"3e5e47cf31ecbe3c","x":320,"y":20,"width":250,"height":60,"color":"6","type":"text","text":"토크나이저로 형용사만 추출할까?"},
+		{"id":"ff44a5f846a0e45d","x":318,"y":-217,"width":250,"height":60,"type":"text","text":"https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2"}
 	],
 	"edges":[
 		{"id":"4959edb3a28a9cba","fromNode":"aa6d641d2d2b8c78","fromSide":"right","toNode":"c4913613860dca0f","toSide":"left"},
