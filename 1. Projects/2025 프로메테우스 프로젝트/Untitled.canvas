@@ -13,8 +13,9 @@
 		{"id":"8b2e178782c79427","x":-20,"y":340,"width":250,"height":60,"type":"text","text":"영어 속뜻으로 번역"},
 		{"id":"17deae6e50cbdfc6","x":-294,"y":480,"width":250,"height":60,"type":"text","text":"디자인 선정"},
 		{"id":"860020708be5fe0f","x":17,"y":48,"width":250,"height":60,"type":"text","text":"감정 분석 모델"},
-		{"id":"0ebbe97e61cc6d4c","x":17,"y":-40,"width":250,"height":60,"type":"text","text":"요약 모델"},
-		{"id":"6e0d609437dd4ccc","x":17,"y":140,"width":250,"height":60,"type":"text","text":"번역 모델"}
+		{"id":"0ebbe97e61cc6d4c","x":17,"y":-40,"width":250,"height":60,"color":"1","type":"text","text":"요약 모델"},
+		{"id":"6e0d609437dd4ccc","x":17,"y":140,"width":250,"height":60,"type":"text","text":"번역 모델"},
+		{"id":"3e5e47cf31ecbe3c","x":275,"y":-45,"width":250,"height":60,"type":"text","text":"토크나이저로 형용사만 추출할까?"}
 	],
 	"edges":[
 		{"id":"4959edb3a28a9cba","fromNode":"aa6d641d2d2b8c78","fromSide":"right","toNode":"c4913613860dca0f","toSide":"left"},
