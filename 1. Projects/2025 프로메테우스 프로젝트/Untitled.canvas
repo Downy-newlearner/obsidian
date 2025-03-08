@@ -1,7 +1,7 @@
 {
 	"nodes":[
+		{"id":"3747912fc82cd29f","x":-23,"y":745,"width":250,"height":60,"type":"text","text":""},
 		{"id":"aa6d641d2d2b8c78","x":-294,"y":-210,"width":250,"height":60,"type":"text","text":"모델 선정"},
-		{"id":"76fbabfef693b79b","x":17,"y":-129,"width":250,"height":60,"type":"text","text":"LLM"},
 		{"id":"c4913613860dca0f","x":17,"y":-210,"width":250,"height":60,"type":"text","text":"임베딩 모델(영어)"},
 		{"id":"fb14ec49db4a00f5","x":-320,"y":-571,"width":250,"height":60,"type":"text","text":"입력받은 짧은 글"},
 		{"id":"ff3388ab6ccac88f","x":-44,"y":-571,"width":250,"height":60,"type":"text","text":"요약"},
@@ -9,13 +9,15 @@
 		{"id":"615ebc3a12e65c9d","x":-320,"y":-696,"width":250,"height":60,"type":"text","text":"데이터(사자성어, 명언, 책 구절)"},
 		{"id":"9659994dac168017","x":-44,"y":-696,"width":250,"height":60,"type":"text","text":"영어로 속 뜻 작성해서 DB에 포함"},
 		{"id":"9500e941960fd994","x":-44,"y":-380,"width":250,"height":60,"type":"text","text":"번역(한 -> 영)"},
-		{"id":"dffece413296732d","x":-294,"y":340,"width":250,"height":60,"type":"text","text":"데이터 확보"},
-		{"id":"8b2e178782c79427","x":-20,"y":340,"width":250,"height":60,"type":"text","text":"영어 속뜻으로 번역"},
-		{"id":"17deae6e50cbdfc6","x":-294,"y":480,"width":250,"height":60,"type":"text","text":"디자인 선정"},
-		{"id":"860020708be5fe0f","x":17,"y":48,"width":250,"height":60,"type":"text","text":"감정 분석 모델"},
-		{"id":"0ebbe97e61cc6d4c","x":17,"y":-40,"width":250,"height":60,"color":"1","type":"text","text":"요약 모델"},
-		{"id":"6e0d609437dd4ccc","x":17,"y":140,"width":250,"height":60,"type":"text","text":"번역 모델"},
-		{"id":"3e5e47cf31ecbe3c","x":275,"y":-45,"width":250,"height":60,"type":"text","text":"토크나이저로 형용사만 추출할까?"}
+		{"id":"3e5e47cf31ecbe3c","x":300,"y":-40,"width":250,"height":60,"color":"6","type":"text","text":"토크나이저로 형용사만 추출할까?"},
+		{"id":"6e0d609437dd4ccc","x":17,"y":260,"width":250,"height":60,"type":"text","text":"번역 모델"},
+		{"id":"860020708be5fe0f","x":17,"y":140,"width":250,"height":60,"type":"text","text":"감정 분석 모델"},
+		{"id":"0ebbe97e61cc6d4c","x":17,"y":20,"width":250,"height":60,"color":"1","type":"text","text":"요약 모델"},
+		{"id":"76fbabfef693b79b","x":17,"y":-100,"width":250,"height":60,"type":"text","text":"LLM"},
+		{"id":"dffece413296732d","x":-294,"y":520,"width":250,"height":60,"type":"text","text":"데이터 확보"},
+		{"id":"8b2e178782c79427","x":-20,"y":520,"width":250,"height":60,"type":"text","text":"영어 속뜻으로 번역"},
+		{"id":"17deae6e50cbdfc6","x":-294,"y":660,"width":250,"height":60,"type":"text","text":"디자인 선정"},
+		{"id":"c9160cff4f6807d9","x":-52,"y":657,"width":250,"height":60,"type":"text","text":"생성형 모델"}
 	],
 	"edges":[
 		{"id":"4959edb3a28a9cba","fromNode":"aa6d641d2d2b8c78","fromSide":"right","toNode":"c4913613860dca0f","toSide":"left"},
