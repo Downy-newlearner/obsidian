@@ -17,7 +17,8 @@
 		{"id":"babf109c701d8cae","x":-18,"y":-484,"width":250,"height":60,"type":"text","text":"감정 분석"},
 		{"id":"615ebc3a12e65c9d","x":-294,"y":-700,"width":250,"height":60,"type":"text","text":"데이터(사자성어, 명언, 책 구절)"},
 		{"id":"9659994dac168017","x":-18,"y":-700,"width":250,"height":60,"type":"text","text":"영어로 속 뜻 작성해서 DB에 포함"},
-		{"id":"9500e941960fd994","x":-18,"y":-384,"width":250,"height":60,"type":"text","text":"번역(한 -> 영)"}
+		{"id":"9500e941960fd994","x":-18,"y":-384,"width":250,"height":60,"type":"text","text":"번역(한 -> 영)"},
+		{"id":"3472a10e5201e220","x":-294,"y":900,"width":250,"height":60,"type":"text","text":"벡터 DB 선정"}
 	],
 	"edges":[
 		{"id":"4959edb3a28a9cba","fromNode":"aa6d641d2d2b8c78","fromSide":"right","toNode":"c4913613860dca0f","toSide":"left"},
