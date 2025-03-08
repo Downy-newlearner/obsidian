@@ -4,7 +4,11 @@
 		{"id":"76fbabfef693b79b","x":17,"y":-129,"width":250,"height":60,"type":"text","text":"LLM"},
 		{"id":"8b2e178782c79427","x":-20,"y":40,"width":250,"height":60,"type":"text","text":"영어 속뜻으로 번역"},
 		{"id":"dffece413296732d","x":-294,"y":40,"width":250,"height":60,"type":"text","text":"데이터 확보"},
-		{"id":"c4913613860dca0f","x":17,"y":-210,"width":250,"height":60,"type":"text","text":"임베딩 모델(영어)"}
+		{"id":"c4913613860dca0f","x":17,"y":-210,"width":250,"height":60,"type":"text","text":"임베딩 모델(영어)"},
+		{"id":"17deae6e50cbdfc6","x":-294,"y":180,"width":250,"height":60,"type":"text","text":"디자인 선정"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"4959edb3a28a9cba","fromNode":"aa6d641d2d2b8c78","fromSide":"right","toNode":"c4913613860dca0f","toSide":"left"},
+		{"id":"b3e26181abc4c62d","fromNode":"aa6d641d2d2b8c78","fromSide":"right","toNode":"76fbabfef693b79b","toSide":"left"}
+	]
 }
