@@ -24,7 +24,9 @@
 		{"id":"babf109c701d8cae","x":17,"y":-600,"width":250,"height":60,"type":"text","text":"감정 분석"},
 		{"id":"115adcd0fdbcd563","x":300,"y":-695,"width":250,"height":60,"type":"text","text":"영어로 번역된 요약글(w/ 감정분석)"},
 		{"id":"05acb66f987bf1c7","x":300,"y":-821,"width":250,"height":60,"type":"text","text":"임베딩하여 벡터 DB에 포함"},
-		{"id":"0bb49de1e9768737","x":600,"y":-821,"width":250,"height":60,"type":"text","text":"유사도 검색은 영어로만 하기로 통일함"}
+		{"id":"0bb49de1e9768737","x":600,"y":-821,"width":250,"height":60,"type":"text","text":"유사도 검색은 영어로만 하기로 통일함"},
+		{"id":"6671ddc0c01de37d","x":-259,"y":-960,"width":250,"height":60,"color":"4","type":"text","text":"파이프라인"},
+		{"id":"6dd3ccaaeea1aad6","x":-294,"y":-360,"width":250,"height":60,"color":"4","type":"text","text":"할 일"}
 	],
 	"edges":[
 		{"id":"4959edb3a28a9cba","fromNode":"aa6d641d2d2b8c78","fromSide":"right","toNode":"c4913613860dca0f","toSide":"left"},
@@ -39,6 +41,8 @@
 		{"id":"d4396834d8f1bd7b","fromNode":"fb14ec49db4a00f5","fromSide":"right","toNode":"9500e941960fd994","toSide":"left"},
 		{"id":"f5cc89ab67db7efe","fromNode":"fb14ec49db4a00f5","fromSide":"right","toNode":"babf109c701d8cae","toSide":"left"},
 		{"id":"510d02d1f82a2be2","fromNode":"fb14ec49db4a00f5","fromSide":"right","toNode":"ff3388ab6ccac88f","toSide":"left"},
-		{"id":"d35163761c96203f","fromNode":"9500e941960fd994","fromSide":"right","toNode":"115adcd0fdbcd563","toSide":"left"}
+		{"id":"d35163761c96203f","fromNode":"9500e941960fd994","fromSide":"right","toNode":"115adcd0fdbcd563","toSide":"left"},
+		{"id":"285d24e053f577f5","fromNode":"babf109c701d8cae","fromSide":"right","toNode":"115adcd0fdbcd563","toSide":"left"},
+		{"id":"0fefd053063de820","fromNode":"ff3388ab6ccac88f","fromSide":"right","toNode":"115adcd0fdbcd563","toSide":"left"}
 	]
 }
