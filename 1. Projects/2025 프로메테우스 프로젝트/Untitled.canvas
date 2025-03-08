@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"76fbabfef693b79b","x":17,"y":-129,"width":250,"height":60,"type":"text","text":""},
+		{"id":"aa6d641d2d2b8c78","x":-294,"y":-210,"width":250,"height":60,"type":"text","text":"모델 선정"},
+		{"id":"dffece413296732d","x":-294,"y":-60,"width":250,"height":60,"type":"text","text":"데이터 확보"},
+		{"id":"c4913613860dca0f","x":-68,"y":-214,"width":250,"height":60,"type":"text","text":"임베딩 모델"}
+	],
+	"edges":[]
+}
