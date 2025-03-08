@@ -1,5 +1,6 @@
 {
 	"nodes":[
+		{"id":"afc54df98bd05905","x":268,"y":603,"width":250,"height":60,"type":"text","text":""},
 		{"id":"aa6d641d2d2b8c78","x":-294,"y":-210,"width":250,"height":60,"type":"text","text":"모델 선정"},
 		{"id":"c4913613860dca0f","x":17,"y":-210,"width":250,"height":60,"type":"text","text":"임베딩 모델(영어)"},
 		{"id":"6e0d609437dd4ccc","x":17,"y":260,"width":250,"height":60,"type":"text","text":"번역 모델"},
@@ -26,7 +27,8 @@
 		{"id":"05acb66f987bf1c7","x":300,"y":-821,"width":250,"height":60,"type":"text","text":"임베딩하여 벡터 DB에 포함"},
 		{"id":"0bb49de1e9768737","x":600,"y":-821,"width":250,"height":60,"type":"text","text":"유사도 검색은 영어로만 하기로 통일함"},
 		{"id":"6671ddc0c01de37d","x":-259,"y":-960,"width":250,"height":60,"color":"4","type":"text","text":"파이프라인"},
-		{"id":"6dd3ccaaeea1aad6","x":-294,"y":-360,"width":250,"height":60,"color":"4","type":"text","text":"할 일"}
+		{"id":"6dd3ccaaeea1aad6","x":-294,"y":-360,"width":250,"height":60,"color":"4","type":"text","text":"할 일"},
+		{"id":"08d32e51a93c4b71","x":264,"y":517,"width":250,"height":60,"type":"text","text":"Quotes - 500K"}
 	],
 	"edges":[
 		{"id":"4959edb3a28a9cba","fromNode":"aa6d641d2d2b8c78","fromSide":"right","toNode":"c4913613860dca0f","toSide":"left"},
