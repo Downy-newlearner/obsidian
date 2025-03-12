@@ -1,23 +1,26 @@
 {
 	"nodes":[
-		{"id":"09b7f6c3b0566eff","x":-140,"y":-240,"width":250,"height":60,"type":"text","text":"회원 가입"},
-		{"id":"afea1b67ed9a51b6","x":-140,"y":-140,"width":250,"height":50,"type":"text","text":"사용자 로그인"},
-		{"id":"e43fcf701efd77b9","x":-140,"y":-40,"width":250,"height":60,"type":"text","text":"메인 화면 구현"},
-		{"id":"fc99034855c5402d","x":80,"y":60,"width":250,"height":60,"type":"text","text":"채점 결과 확인하기"},
-		{"id":"27148d9554d0128b","x":80,"y":160,"width":250,"height":60,"type":"text","text":"\b결과를 확인할 시험 선택하기(드롭다운)"},
-		{"id":"816010aba5732877","x":-340,"y":160,"width":250,"height":60,"type":"text","text":"채점할 답안지 이미지들을 로컬에서 업로드"},
-		{"id":"086d8b8634080ca6","x":-340,"y":260,"width":250,"height":60,"type":"text","text":"정답 파일을 로컬에서 업로드"},
-		{"id":"a6bce5b2b803c87b","x":-340,"y":360,"width":250,"height":60,"type":"text","text":"제출하기 버튼을 클릭"},
-		{"id":"4e009fb521b3cf0f","x":-340,"y":460,"width":250,"height":60,"type":"text","text":"채점중 애니메이션 표시"},
-		{"id":"6fafbbb70bb4ecb8","x":-340,"y":60,"width":250,"height":60,"type":"text","text":"채점하기"},
-		{"id":"6d352dc096371cb3","x":370,"y":258,"width":250,"height":122,"type":"text","text":"모든 학생 성적 분포 시각화:\n막대그래프(계급 구간 10, 각 구간에 포함된 학생 수를 표시), 평균, 표준편차"},
-		{"id":"09a341a6c5203c8d","x":640,"y":258,"width":250,"height":322,"type":"text","text":"(학생 이름, 학번, 점수) 집계표 + 평균\n\nEx: \n홍길동 32200000 80\n공서연 32222222  20\n\n-----------------\n평균:\n표준편차:\n최고점:\n최저점:"},
-		{"id":"9ea66d44bc0bb11c","x":80,"y":258,"width":250,"height":202,"type":"text","text":"시험을 응시한 학생들 중에서 원하는 학생들을 선택하여 해당 학생들에 대한 아래 정보를 담아 zip 파일로 제공한다.\n\n시험지 이미지, 문항별 정답 여부, 문항별 점수, 최종 점수"}
+		{"id":"09b7f6c3b0566eff","type":"text","text":"회원 가입","x":-140,"y":-240,"width":250,"height":60},
+		{"id":"afea1b67ed9a51b6","type":"text","text":"사용자 로그인","x":-140,"y":-140,"width":250,"height":50},
+		{"id":"e43fcf701efd77b9","type":"text","text":"메인 화면 구현","x":-140,"y":-40,"width":250,"height":60},
+		{"id":"fc99034855c5402d","type":"text","text":"채점 결과 확인하기","x":80,"y":60,"width":250,"height":60},
+		{"id":"27148d9554d0128b","type":"text","text":"\b결과를 확인할 시험 선택하기(드롭다운)","x":80,"y":160,"width":250,"height":60},
+		{"id":"816010aba5732877","type":"text","text":"채점할 답안지 이미지들을 로컬에서 업로드","x":-340,"y":160,"width":250,"height":60},
+		{"id":"086d8b8634080ca6","type":"text","text":"정답 파일을 로컬에서 업로드","x":-340,"y":260,"width":250,"height":60},
+		{"id":"a6bce5b2b803c87b","type":"text","text":"제출하기 버튼을 클릭","x":-340,"y":360,"width":250,"height":60},
+		{"id":"4e009fb521b3cf0f","type":"text","text":"채점중 애니메이션 표시","x":-340,"y":460,"width":250,"height":60},
+		{"id":"6fafbbb70bb4ecb8","type":"text","text":"채점하기","x":-340,"y":60,"width":250,"height":60},
+		{"id":"6d352dc096371cb3","type":"text","text":"모든 학생 성적 분포 시각화:\n막대그래프(계급 구간 10, 각 구간에 포함된 학생 수를 표시), 평균, 표준편차","x":370,"y":320,"width":250,"height":122},
+		{"id":"09a341a6c5203c8d","type":"text","text":"(학생 이름, 학번, 점수) 집계표 + 평균\n\nEx: \n홍길동 32200000 80\n공서연 32222222  10\n\n-----------------\n평균:\n표준편차:\n최고점:\n최저점:","x":640,"y":320,"width":250,"height":322},
+		{"id":"9ea66d44bc0bb11c","type":"text","text":"시험을 응시한 학생들 중에서 원하는 학생들을 선택하여 해당 학생들에 대한 아래 정보를 담아 zip 파일로 제공한다.\n\n시험지 이미지, 문항별 정답 여부, 문항별 점수, 최종 점수","x":80,"y":320,"width":250,"height":202}
 	],
 	"edges":[
 		{"id":"1143bb7f125d2ab8","fromNode":"e43fcf701efd77b9","fromSide":"bottom","toNode":"6fafbbb70bb4ecb8","toSide":"top"},
 		{"id":"c41475b23ba17998","fromNode":"e43fcf701efd77b9","fromSide":"bottom","toNode":"fc99034855c5402d","toSide":"top"},
 		{"id":"63616beb1a4d6b39","fromNode":"4e009fb521b3cf0f","fromSide":"right","toNode":"fc99034855c5402d","toSide":"left"},
-		{"id":"1278984c31a63f42","fromNode":"fc99034855c5402d","fromSide":"bottom","toNode":"27148d9554d0128b","toSide":"top"}
+		{"id":"1278984c31a63f42","fromNode":"fc99034855c5402d","fromSide":"bottom","toNode":"27148d9554d0128b","toSide":"top"},
+		{"id":"99da9cdcdae09c14","fromNode":"27148d9554d0128b","fromSide":"bottom","toNode":"9ea66d44bc0bb11c","toSide":"top"},
+		{"id":"88d4f026df08d6c6","fromNode":"27148d9554d0128b","fromSide":"bottom","toNode":"6d352dc096371cb3","toSide":"top"},
+		{"id":"7e2825fded9dd4b2","fromNode":"27148d9554d0128b","fromSide":"bottom","toNode":"09a341a6c5203c8d","toSide":"top"}
 	]
 }
