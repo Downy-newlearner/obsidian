@@ -11,7 +11,8 @@
 		{"id":"4e009fb521b3cf0f","x":-340,"y":460,"width":250,"height":60,"type":"text","text":"채점중 애니메이션 표시"},
 		{"id":"6fafbbb70bb4ecb8","x":-340,"y":60,"width":250,"height":60,"type":"text","text":"채점하기"},
 		{"id":"9ea66d44bc0bb11c","x":60,"y":258,"width":250,"height":60,"type":"text","text":"1. 학생별 정오표"},
-		{"id":"6d352dc096371cb3","x":332,"y":273,"width":250,"height":60,"type":"text","text":"2. 총 학생 성적 분포 시각화"}
+		{"id":"6d352dc096371cb3","x":332,"y":273,"width":250,"height":60,"type":"text","text":"2. 총 학생 성적 분포 시각화"},
+		{"id":"09a341a6c5203c8d","x":620,"y":273,"width":250,"height":60,"type":"text","text":"3.  학생 이름, 점수 집계 + 평균"}
 	],
 	"edges":[
 		{"id":"1143bb7f125d2ab8","fromNode":"e43fcf701efd77b9","fromSide":"bottom","toNode":"6fafbbb70bb4ecb8","toSide":"top"},
