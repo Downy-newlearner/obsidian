@@ -1,16 +1,20 @@
 {
 	"nodes":[
-		{"id":"086d8b8634080ca6","x":-349,"y":392,"width":250,"height":60,"type":"text","text":"정답 파일을 로컬에서 업로드"},
-		{"id":"a6bce5b2b803c87b","x":-361,"y":536,"width":250,"height":60,"type":"text","text":"제출하기 버튼을 클릭"},
-		{"id":"4e009fb521b3cf0f","x":-352,"y":701,"width":250,"height":60,"type":"text","text":"채점중 애니메이션 표시"},
-		{"id":"6a266ae33d9a34da","x":-351,"y":818,"width":250,"height":60,"type":"text","text":"채점 결과 확인하기"},
-		{"id":"27148d9554d0128b","x":-387,"y":946,"width":250,"height":60,"type":"text","text":"과목명, 학생 이름을 선택하여 채점 결과를 확인하기"},
 		{"id":"09b7f6c3b0566eff","x":-140,"y":-240,"width":250,"height":60,"type":"text","text":"회원 가입"},
 		{"id":"afea1b67ed9a51b6","x":-140,"y":-140,"width":250,"height":50,"type":"text","text":"사용자 로그인"},
 		{"id":"e43fcf701efd77b9","x":-140,"y":-40,"width":250,"height":60,"type":"text","text":"메인 화면 구현"},
 		{"id":"6fafbbb70bb4ecb8","x":-280,"y":60,"width":250,"height":60,"type":"text","text":"채점하기"},
 		{"id":"fc99034855c5402d","x":0,"y":60,"width":250,"height":60,"type":"text","text":"이전 시험 결과 확인"},
-		{"id":"816010aba5732877","x":-280,"y":160,"width":250,"height":60,"type":"text","text":"채점할 답안지 이미지들을 로컬에서 업로드"}
+		{"id":"816010aba5732877","x":-280,"y":160,"width":250,"height":60,"type":"text","text":"채점할 답안지 이미지들을 로컬에서 업로드"},
+		{"id":"086d8b8634080ca6","x":-280,"y":260,"width":250,"height":60,"type":"text","text":"정답 파일을 로컬에서 업로드"},
+		{"id":"a6bce5b2b803c87b","x":-280,"y":360,"width":250,"height":60,"type":"text","text":"제출하기 버튼을 클릭"},
+		{"id":"4e009fb521b3cf0f","x":-280,"y":460,"width":250,"height":60,"type":"text","text":"채점중 애니메이션 표시"},
+		{"id":"6a266ae33d9a34da","x":-280,"y":560,"width":250,"height":60,"type":"text","text":"채점 결과 확인하기"},
+		{"id":"27148d9554d0128b","x":-530,"y":700,"width":250,"height":60,"type":"text","text":"과목명, 학생 이름을 선택하여 채점 결과를 확인하기"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"1143bb7f125d2ab8","fromNode":"e43fcf701efd77b9","fromSide":"bottom","toNode":"6fafbbb70bb4ecb8","toSide":"top"},
+		{"id":"c41475b23ba17998","fromNode":"e43fcf701efd77b9","fromSide":"bottom","toNode":"fc99034855c5402d","toSide":"top"},
+		{"id":"604d9d8fc0ad55df","fromNode":"6a266ae33d9a34da","fromSide":"bottom","toNode":"27148d9554d0128b","toSide":"top"}
+	]
 }
