@@ -9,7 +9,9 @@
 		{"id":"086d8b8634080ca6","x":-340,"y":260,"width":250,"height":60,"type":"text","text":"정답 파일을 로컬에서 업로드"},
 		{"id":"a6bce5b2b803c87b","x":-340,"y":360,"width":250,"height":60,"type":"text","text":"제출하기 버튼을 클릭"},
 		{"id":"4e009fb521b3cf0f","x":-340,"y":460,"width":250,"height":60,"type":"text","text":"채점중 애니메이션 표시"},
-		{"id":"6fafbbb70bb4ecb8","x":-340,"y":60,"width":250,"height":60,"type":"text","text":"채점하기"}
+		{"id":"6fafbbb70bb4ecb8","x":-340,"y":60,"width":250,"height":60,"type":"text","text":"채점하기"},
+		{"id":"210d0aae792e29bd","x":360,"y":160,"width":250,"height":60,"type":"text","text":"시각화 자료 "},
+		{"id":"5d0be995aee884d3","x":335,"y":238,"width":250,"height":60,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"1143bb7f125d2ab8","fromNode":"e43fcf701efd77b9","fromSide":"bottom","toNode":"6fafbbb70bb4ecb8","toSide":"top"},
