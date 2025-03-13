@@ -9,7 +9,7 @@
 ### 학습 시작
 
 ```
-python train.py --batch-size 16 --epochs 100 --device 0 --name custom_training
+python train.py --batch-size 16 --epochs 10 --device 0 --name custom_training
 ```
 
 | Option       | Change NV as Default | Privious Value                                      | New Value                                                                                         | Relative Path                  |
