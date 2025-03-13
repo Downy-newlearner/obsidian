@@ -16,7 +16,8 @@
 		{"id":"853727c9f19b6702","type":"text","text":"최종 채점중 애니메이션 표시","x":-340,"y":660,"width":250,"height":60,"color":"4"},
 		{"id":"cddfa60edfaa48d7","type":"text","text":"다훈 유석","x":-620,"y":320,"width":250,"height":60},
 		{"id":"b3bfebce69053aee","type":"text","text":"서연 성원","x":440,"y":130,"width":250,"height":60},
-		{"id":"086d8b8634080ca6","type":"text","text":"정답 파일을 로컬에서 업로드","x":-620,"y":160,"width":250,"height":60,"color":"4"}
+		{"id":"086d8b8634080ca6","type":"text","text":"정답 파일을 로컬에서 업로드","x":-620,"y":160,"width":250,"height":60,"color":"4"},
+		{"id":"6bfd774bbd7d197a","x":-920,"y":160,"width":250,"height":60,"type":"text","text":"학생의 이름과 학번이 포함된 파일 업로드"}
 	],
 	"edges":[
 		{"id":"1143bb7f125d2ab8","fromNode":"e43fcf701efd77b9","fromSide":"bottom","toNode":"6fafbbb70bb4ecb8","toSide":"top"},
