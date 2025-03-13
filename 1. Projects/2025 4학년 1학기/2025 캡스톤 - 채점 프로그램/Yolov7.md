@@ -12,17 +12,17 @@
 python train.py --data ../AI/dataset/dataset5.yaml --cfg /home/kimsy9587/yolov7/cfg/training/yolov7.yaml --weights 'yolov7.pt' --batch-size 16 --epochs 100 --img-size 640 640 --device 0 --name custom_training --hyp /home/kimsy9587/yolov7/data/hyp.scratch.custom.yaml
 ```
 
-| Option       | Privious Value                                      | New Value                                                                                     |       |
-| ------------ | --------------------------------------------------- | --------------------------------------------------------------------------------------------- | ----- |
-| --data       | ../AI/dataset/dataset5.yaml                         | ./data.yaml                                                                                   | 검증 필요 |
-| --cfg        | /home/kimsy9587/yolov7/cfg/training/yolov7.yaml     | /Users/downy/Documents/2025_DKU_Capstone/2025_DKU_Capstone/AI/YOLOv7/cfg/training/yolov7.yaml |       |
-| --weights    | yolov7.pt                                           |                                                                                               |       |
-| --batch-size | 16                                                  |                                                                                               |       |
-| --epochs     | 100                                                 |                                                                                               |       |
-| --img-size   | 640 640                                             |                                                                                               |       |
-| --device     | 0                                                   |                                                                                               |       |
-| --name       | custom_training                                     |                                                                                               |       |
-| --hyp        | /home/kimsy9587/yolov7/data/hyp.scratch.custom.yaml |                                                                                               |       |
+| Option       | Privious Value                                      | New Value                                                                                     | Relative path              |     |
+| ------------ | --------------------------------------------------- | --------------------------------------------------------------------------------------------- | -------------------------- | --- |
+| --data       | ../AI/dataset/dataset5.yaml                         | /Users/downy/Documents/2025_DKU_Capstone/2025_DKU_Capstone/AI/YOLOv7/data.yaml                | ./data.yaml                |     |
+| --cfg        | /home/kimsy9587/yolov7/cfg/training/yolov7.yaml     | /Users/downy/Documents/2025_DKU_Capstone/2025_DKU_Capstone/AI/YOLOv7/cfg/training/yolov7.yaml | ./cfg/training/yolov7.yaml |     |
+| --weights    | yolov7.pt                                           |                                                                                               |                            |     |
+| --batch-size | 16                                                  |                                                                                               |                            |     |
+| --epochs     | 100                                                 |                                                                                               |                            |     |
+| --img-size   | 640 640                                             |                                                                                               |                            |     |
+| --device     | 0                                                   |                                                                                               |                            |     |
+| --name       | custom_training                                     |                                                                                               |                            |     |
+| --hyp        | /home/kimsy9587/yolov7/data/hyp.scratch.custom.yaml |                                                                                               |                            |     |
 ### 옵션 설명
 
 - `--data`: 데이터 설정 파일 경로
