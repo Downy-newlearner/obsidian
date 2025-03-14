@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"7021bc5859a4c62c","x":-293,"y":-194,"width":250,"height":60,"type":"text","text":"node"},
+		{"id":"c5f27912684ae0be","x":179,"y":-229,"width":250,"height":60,"type":"text","text":"node2"},
+		{"id":"0d4577b4a9e99f25","x":-227,"y":-12,"width":707,"height":572,"type":"file","file":"1. Projects/2025 4학년 1학기/2025 캡스톤 - 채점 프로그램/Yolov7.md"}
+	],
+	"edges":[
+		{"id":"c0fc2cf52cf668bd","fromNode":"7021bc5859a4c62c","fromSide":"right","toNode":"c5f27912684ae0be","toSide":"left"},
+		{"id":"8e11b581d8668d3c","fromNode":"7021bc5859a4c62c","fromSide":"bottom","toNode":"0d4577b4a9e99f25","toSide":"top"}
+	]
+}
