@@ -3,7 +3,7 @@ created: 2025-03-16
 tags:
   - Terminology
 aliases: 
-reference:
+reference: https://youtu.be/sY4YyacSsLc?si=5D6s4RIC-stStv9R
 ---
 ## one-hot encoding은 유사도가 없다.
 
