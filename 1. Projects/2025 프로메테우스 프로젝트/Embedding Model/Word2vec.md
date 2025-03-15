@@ -23,4 +23,7 @@ neighbor를 타겟이라고 한다.
 
 ![[Pasted image 20250316024311.png]]
 
-레이어는 ㅊ
+레이어는 총 3개가 있다.
+	input
+	hidden
+	output
