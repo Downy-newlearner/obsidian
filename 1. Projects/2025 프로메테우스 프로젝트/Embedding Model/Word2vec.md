@@ -13,3 +13,10 @@ reference:
 비슷한 위치에 있는 단어를 이웃이라고한다.
 
 skip gram
+![[Pasted image 20250316024135.png]]
+
+neighbor를 타겟이라고 한다.
+
+
+![[Pasted image 20250316024215.png]]
+딥러닝에
