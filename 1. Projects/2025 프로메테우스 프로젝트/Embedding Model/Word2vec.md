@@ -19,4 +19,8 @@ neighbor를 타겟이라고 한다.
 
 
 ![[Pasted image 20250316024215.png]]
-딥러닝에
+딥러닝에 들어가는 건 word가 아니라 encoding value이다.
+
+![[Pasted image 20250316024311.png]]
+
+레이어는 ㅊ
