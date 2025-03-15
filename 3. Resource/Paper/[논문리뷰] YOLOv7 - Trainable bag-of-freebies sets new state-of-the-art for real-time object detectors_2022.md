@@ -15,7 +15,7 @@ tags:
 > <mark style="background-color: #2ea8e5">Highlight</mark>  
 > Non-max suppresion  
 > [page 1]()  
-> - 객체 검출에서 여러 겹치는 Bounding box 중 가장 중요한 것을 선택하기 위한 기법입니다. 일반적으로 신뢰도가 가장 높은 박스만 남기고 나머지는 제거합니다.  
+> - 객체 검출에서 여러 겹치는 [[Bounding box]] 중 가장 중요한 것을 선택하기 위한 기법입니다. 일반적으로 신뢰도가 가장 높은 박스만 남기고 나머지는 제거합니다.  
 
 
 > <mark style="background-color: #2ea8e5">Highlight</mark>  
