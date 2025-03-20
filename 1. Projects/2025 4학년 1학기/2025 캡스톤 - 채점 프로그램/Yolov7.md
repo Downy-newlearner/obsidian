@@ -9,7 +9,7 @@
 ### 학습 시작
 
 ```
-python train.py --batch-size 16 --epochs 10 --device 0 --name custom_training
+python train.py --batch-size 16 --epochs 100 --device 0 --name custom_training
 ```
 
 | Option       | Change NV as Default | Privious Value                                      | New Value                                                                                         | Relative Path                  |
@@ -23,6 +23,8 @@ python train.py --batch-size 16 --epochs 10 --device 0 --name custom_training
 | --device     |                      | 0                                                   | 0                                                                                                 |                                |
 | --name       |                      | custom_training                                     |                                                                                                   |                                |
 | --hyp        | O                    | /home/kimsy9587/yolov7/data/hyp.scratch.custom.yaml | /Users/downy/Documents/2025_DKU_Capstone/2025_DKU_Capstone/AI/YOLOv7/data/hyp.scratch.custom.yaml | ./data/hyp.scratch.custom.yaml |
+python train.py --batch-size 16 --epochs 100 --device 0 --name custom_training
+
 ### 옵션 설명
 
 - `--data`: 데이터 설정 파일 경로
