@@ -1,2 +1,0 @@
-  
-Trial 1 finished with value: 0.14294592914853946 and parameters: {'n_estimators': 120, 'max_depth': 23, 'learning_rate': 0.004557794977219437, 'subsample': 0.5159709438014055, 'min_samples_split': 10, 'min_samples_leaf': 10, 'max_features': 'sqrt'}. Best is trial 1 with value: 0.14294592914853946.

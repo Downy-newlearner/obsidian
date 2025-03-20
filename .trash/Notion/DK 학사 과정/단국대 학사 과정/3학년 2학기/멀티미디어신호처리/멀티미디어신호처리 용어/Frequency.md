@@ -1,1 +1,0 @@
-![[DSPChap2_Fundamentals_of_DSP_page-0009.jpg]]
