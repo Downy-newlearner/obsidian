@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"66736c98f2d8adcb","type":"text","text":"2023 12","x":-426,"y":-290,"width":250,"height":60},
+		{"id":"c9fc1fc7557f22b6","type":"text","text":"BITL에 들어감","x":-426,"y":-180,"width":250,"height":60,"color":"#1696dc"},
+		{"id":"dd13ec97c343735f","type":"text","text":"","x":-74,"y":-177,"width":250,"height":60},
+		{"id":"ad69c387959d1475","type":"text","text":"단러닝: Deep Learning\n다훈 판홍 예림 유진","x":1200,"y":-199,"width":250,"height":60,"color":"#1696d2"},
+		{"id":"b03aed4ffc96334b","type":"text","text":"파이토치 트랜스포머를 활용한 자연어 처리와 컴퓨터비전 심층학습","x":1200,"y":258,"width":301,"height":67},
+		{"id":"8c7cfbf2181bdbf9","x":314,"y":-290,"width":250,"height":60,"type":"text","text":"2024 01"},
+		{"id":"69f25ac60ed37e47","type":"text","text":"2024 03","x":1200,"y":-290,"width":250,"height":60},
+		{"id":"d818086b5edaef90","type":"text","text":"SWAG 0기 시작","x":314,"y":-180,"width":250,"height":60,"color":"#1696d2"},
+		{"id":"53e4b4b787e1ce12","x":314,"y":-66,"width":428,"height":357,"type":"text","text":"![[Pasted image 20250424235729.png]]"},
+		{"id":"278245bd66d46158","type":"file","file":"Source/Pasted image 20250424232301.png","x":1200,"y":-100,"width":400,"height":332}
+	],
+	"edges":[]
+}

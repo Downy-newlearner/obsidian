@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "SiDocker",
-      "SiLivechat",
-      "LiBox",
-      "LiFileUser",
-      "SiPython"
+      "LiDumbbell",
+      "LiHeart",
+      "LiAlertCircle",
+      "‼",
+      "LiSun"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -33,14 +33,16 @@
     "lucideIconPackType": "native",
     "debugMode": false
   },
-  "1. Projects": "LiRocket",
-  "2. Area": "LiMessageCircleHeart",
-  "3. Resource": "LiDiamond",
-  "3. Resource/Calender Archive": "LiCalendarDays",
+  "1. Projects": "LiAlertCircle",
+  "2. Area": "LiSun",
+  "3. Resource": "LiCloudSun",
   "4. Archive": "LiArchive",
   "3. Resource/Git": "SiGit",
   "3. Resource/Python Libraries": "SiPython",
   "5. Portfolio": "LiFileUser",
   "Source": "LiBox",
-  "3. Resource/Docker": "SiDocker"
+  "3. Resource/Docker": "SiDocker",
+  "4. Archive/Calender Archive": "LiCalendarDays",
+  "3. Resource/건강 관리": "LiHeart",
+  "3. Resource/운동": "LiDumbbell"
 }
