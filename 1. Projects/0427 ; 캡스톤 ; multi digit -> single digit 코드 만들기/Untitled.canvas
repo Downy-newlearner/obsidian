@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"221c4d45c836dcc5","x":-525,"y":-91,"width":250,"height":60,"type":"text","text":"OCR_to_text_crop.py"},
+		{"id":"bbbcfd1a23d46e1f","x":-215,"y":42,"width":250,"height":60,"type":"text","text":""},
+		{"id":"9d6d382c05d0f48b","x":-20,"y":-121,"width":250,"height":60,"type":"text","text":"digit 별로 자르는 코드 추가"},
+		{"id":"08dbe3ea98a223f9","x":-247,"y":-251,"width":250,"height":60,"type":"text","text":"is_merged를 체크"},
+		{"id":"365a8cf046bce5d2","x":60,"y":-261,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[]
+}
