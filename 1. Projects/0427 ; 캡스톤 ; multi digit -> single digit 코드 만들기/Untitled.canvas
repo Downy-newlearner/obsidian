@@ -9,12 +9,13 @@
 		{"id":"356c333908a1b88d","x":620,"y":-180,"width":250,"height":60,"type":"text","text":"인식(기본 동작 재활용)"},
 		{"id":"e0a2f38b4e22dc9e","x":920,"y":-180,"width":250,"height":60,"type":"text","text":"순서대로 이어붙이기"},
 		{"id":"221c4d45c836dcc5","x":-680,"y":-380,"width":250,"height":60,"type":"text","text":"OCR_to_text_crop.py"},
-		{"id":"4833af078d52566a","x":-683,"y":-94,"width":250,"height":60,"type":"text","text":"이미지"}
+		{"id":"4833af078d52566a","x":-660,"y":-91,"width":250,"height":60,"type":"text","text":"이미지"}
 	],
 	"edges":[
 		{"id":"606e8c598aa41f32","fromNode":"08dbe3ea98a223f9","fromSide":"right","toNode":"365a8cf046bce5d2","toSide":"left"},
 		{"id":"bf7c3e809f9f86a6","fromNode":"365a8cf046bce5d2","fromSide":"right","toNode":"9d6d382c05d0f48b","toSide":"left"},
 		{"id":"493f5ae6b3998783","fromNode":"08dbe3ea98a223f9","fromSide":"right","toNode":"2c778d47f03930af","toSide":"left"},
-		{"id":"4a86a6c683fbe7b9","fromNode":"2c778d47f03930af","fromSide":"right","toNode":"7bd9127a9df5033e","toSide":"left"}
+		{"id":"4a86a6c683fbe7b9","fromNode":"2c778d47f03930af","fromSide":"right","toNode":"7bd9127a9df5033e","toSide":"left"},
+		{"id":"15089179ae240716","fromNode":"4833af078d52566a","fromSide":"right","toNode":"08dbe3ea98a223f9","toSide":"left"}
 	]
 }
