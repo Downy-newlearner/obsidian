@@ -1,10 +1,17 @@
 {
 	"nodes":[
 		{"id":"221c4d45c836dcc5","x":-525,"y":-91,"width":250,"height":60,"type":"text","text":"OCR_to_text_crop.py"},
-		{"id":"bbbcfd1a23d46e1f","x":-215,"y":42,"width":250,"height":60,"type":"text","text":""},
-		{"id":"9d6d382c05d0f48b","x":-20,"y":-121,"width":250,"height":60,"type":"text","text":"digit 별로 자르는 코드 추가"},
-		{"id":"08dbe3ea98a223f9","x":-247,"y":-251,"width":250,"height":60,"type":"text","text":"is_merged를 체크"},
-		{"id":"365a8cf046bce5d2","x":60,"y":-261,"width":250,"height":60,"type":"text","text":""}
+		{"id":"08dbe3ea98a223f9","x":-215,"y":-91,"width":250,"height":60,"type":"text","text":"is_merged를 체크"},
+		{"id":"2c778d47f03930af","type":"text","text":"0","x":144,"y":-30,"width":60,"height":60},
+		{"id":"bbbcfd1a23d46e1f","x":-215,"y":120,"width":250,"height":60,"type":"text","text":""},
+		{"id":"365a8cf046bce5d2","x":144,"y":-180,"width":60,"height":60,"type":"text","text":"1"},
+		{"id":"9d6d382c05d0f48b","x":320,"y":-180,"width":250,"height":60,"type":"text","text":"digit 별로 자르기"},
+		{"id":"7bd9127a9df5033e","x":320,"y":-30,"width":250,"height":60,"type":"text","text":"기존 동작 수행"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"606e8c598aa41f32","fromNode":"08dbe3ea98a223f9","fromSide":"right","toNode":"365a8cf046bce5d2","toSide":"left"},
+		{"id":"bf7c3e809f9f86a6","fromNode":"365a8cf046bce5d2","fromSide":"right","toNode":"9d6d382c05d0f48b","toSide":"left"},
+		{"id":"493f5ae6b3998783","fromNode":"08dbe3ea98a223f9","fromSide":"right","toNode":"2c778d47f03930af","toSide":"left"},
+		{"id":"4a86a6c683fbe7b9","fromNode":"2c778d47f03930af","fromSide":"right","toNode":"7bd9127a9df5033e","toSide":"left"}
+	]
 }
