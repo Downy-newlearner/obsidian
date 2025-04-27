@@ -6,7 +6,7 @@
 		{"id":"bbbcfd1a23d46e1f","x":-215,"y":120,"width":250,"height":60,"type":"text","text":""},
 		{"id":"365a8cf046bce5d2","x":144,"y":-180,"width":60,"height":60,"type":"text","text":"1"},
 		{"id":"9d6d382c05d0f48b","x":320,"y":-180,"width":250,"height":60,"type":"text","text":"digit 별로 자르기"},
-		{"id":"7bd9127a9df5033e","x":500,"y":-31,"width":250,"height":60,"type":"text","text":"기존 동작 수행"}
+		{"id":"7bd9127a9df5033e","x":520,"y":-31,"width":250,"height":60,"type":"text","text":"기존 동작 수행"}
 	],
 	"edges":[
 		{"id":"606e8c598aa41f32","fromNode":"08dbe3ea98a223f9","fromSide":"right","toNode":"365a8cf046bce5d2","toSide":"left"},
