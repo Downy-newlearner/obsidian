@@ -6,12 +6,13 @@
 		{"id":"bbbcfd1a23d46e1f","x":-215,"y":120,"width":250,"height":60,"type":"text","text":""},
 		{"id":"365a8cf046bce5d2","x":144,"y":-180,"width":60,"height":60,"type":"text","text":"1"},
 		{"id":"9d6d382c05d0f48b","x":320,"y":-180,"width":250,"height":60,"type":"text","text":"digit 별로 자르기"},
-		{"id":"7bd9127a9df5033e","x":320,"y":-30,"width":250,"height":60,"type":"text","text":"기존 동작 수행"}
+		{"id":"7bd9127a9df5033e","x":500,"y":-31,"width":250,"height":60,"type":"text","text":"기존 동작 수행"}
 	],
 	"edges":[
 		{"id":"606e8c598aa41f32","fromNode":"08dbe3ea98a223f9","fromSide":"right","toNode":"365a8cf046bce5d2","toSide":"left"},
 		{"id":"bf7c3e809f9f86a6","fromNode":"365a8cf046bce5d2","fromSide":"right","toNode":"9d6d382c05d0f48b","toSide":"left"},
 		{"id":"493f5ae6b3998783","fromNode":"08dbe3ea98a223f9","fromSide":"right","toNode":"2c778d47f03930af","toSide":"left"},
-		{"id":"4a86a6c683fbe7b9","fromNode":"2c778d47f03930af","fromSide":"right","toNode":"7bd9127a9df5033e","toSide":"left"}
+		{"id":"4a86a6c683fbe7b9","fromNode":"2c778d47f03930af","fromSide":"right","toNode":"7bd9127a9df5033e","toSide":"left"},
+		{"id":"943f954f09d5a25b","fromNode":"9d6d382c05d0f48b","fromSide":"right","toNode":"7bd9127a9df5033e","toSide":"top"}
 	]
 }
