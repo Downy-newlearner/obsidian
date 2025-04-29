@@ -147,7 +147,8 @@
 		{"id":"dfaa2c7de1dd2c6c","type":"text","text":"recognition_results_qn.csv","x":-100,"y":-460,"width":270,"height":60,"color":"5"},
 		{"id":"b6fd579e5829f09b","type":"text","text":"OCR_to_text_crop.py","x":78,"y":-316,"width":250,"height":60,"color":"2"},
 		{"id":"326451e0c0d283a1","type":"text","text":"채점자 인계 여부 정보를 담고 있다. ('matching_result' == 'JSON')","x":44,"y":-1320,"width":307,"height":80},
-		{"id":"1e730173c636e9cb","x":440,"y":376,"width":250,"height":60,"type":"text","text":"중간에 써져있는 걸 어떻게?"}
+		{"id":"1e730173c636e9cb","x":440,"y":376,"width":250,"height":60,"type":"text","text":"중간에 써져있는 걸 어떻게?"},
+		{"id":"4460fba39194c464","x":-870,"y":730,"width":250,"height":60,"type":"text","text":" active learning\n"}
 	],
 	"edges":[
 		{"id":"167dc3d99215d67d","fromNode":"3e2c9ca4466127f8","fromSide":"right","toNode":"94269104171a0135","toSide":"left"},
