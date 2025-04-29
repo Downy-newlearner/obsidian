@@ -149,7 +149,7 @@
 		{"id":"326451e0c0d283a1","type":"text","text":"채점자 인계 여부 정보를 담고 있다. ('matching_result' == 'JSON')","x":44,"y":-1320,"width":307,"height":80},
 		{"id":"1e730173c636e9cb","x":440,"y":376,"width":250,"height":60,"type":"text","text":"중간에 써져있는 걸 어떻게?"},
 		{"id":"4460fba39194c464","x":-870,"y":730,"width":250,"height":60,"type":"text","text":" active learning\n"},
-		{"id":"7e18a80e4d14ba44","x":-384,"y":705,"width":544,"height":395,"type":"text","text":"end-to-end 설계 후 인식 가능한 데이터를 모아둠\n\n이후 그 데이터들로 학습\n\n액티브 러닝은 학습 이후에도 데이터가 추가된다면 추가 학습이 이뤄지는 학습이다. (continual learning의 반댓말)"}
+		{"id":"7e18a80e4d14ba44","x":-384,"y":705,"width":544,"height":395,"type":"text","text":"end-to-end 설계 후 인식 가능한 데이터를 모아둠\n\n이후 그 데이터들로 학습\n\n액티브 러닝은 학습 이후에도 데이터가 추가된다면 추가 학습이 이뤄지는 학습이다. (continual learning의 반댓말)\n\n딥러닝 베이스로 앞단을 바꿨을 때 transfer learning을 하면 물론 현재 시험지에 "}
 	],
 	"edges":[
 		{"id":"167dc3d99215d67d","fromNode":"3e2c9ca4466127f8","fromSide":"right","toNode":"94269104171a0135","toSide":"left"},
