@@ -23,7 +23,9 @@
 		{"id":"c9fd619d081d3bac","x":2788,"y":-275,"width":250,"height":60,"type":"text","text":"2024 09"},
 		{"id":"a4dfaf56b4077fdc","x":2796,"y":-188,"width":250,"height":60,"type":"text","text":"단러닝: 딥러닝은 처음이라"},
 		{"id":"332409f28177d715","x":2796,"y":-52,"width":383,"height":400,"type":"file","file":"Source/Pasted image 20250502104947.png"},
-		{"id":"d730162a48d81868","x":2796,"y":401,"width":400,"height":347,"type":"file","file":"Source/Pasted image 20250502104957.png"}
+		{"id":"d730162a48d81868","x":2796,"y":401,"width":400,"height":347,"type":"file","file":"Source/Pasted image 20250502104957.png"},
+		{"id":"166ea562dd1a5fc6","x":4140,"y":-270,"width":250,"height":60,"type":"text","text":"2024 11"},
+		{"id":"d780301f28df206f","x":4120,"y":-187,"width":250,"height":60,"type":"text","text":"AI 아이디어 경진 대회"}
 	],
 	"edges":[]
 }
