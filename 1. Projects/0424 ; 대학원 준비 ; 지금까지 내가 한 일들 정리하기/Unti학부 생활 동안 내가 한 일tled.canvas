@@ -12,7 +12,10 @@
 		{"id":"278245bd66d46158","type":"file","file":"Source/Pasted image 20250424232301.png","x":1200,"y":-100,"width":400,"height":332},
 		{"id":"7bf73dcd2024f316","x":2523,"y":-275,"width":250,"height":60,"type":"text","text":"2024 07"},
 		{"id":"b7f775eade13b9d9","x":2527,"y":-112,"width":250,"height":60,"type":"text","text":"밑시딥 학습 시작"},
-		{"id":"0ce69aa9e250a589","x":2523,"y":-198,"width":250,"height":60,"type":"text","text":"MLPA 합류"}
+		{"id":"0ce69aa9e250a589","x":2523,"y":-198,"width":250,"height":60,"type":"text","text":"MLPA 합류"},
+		{"id":"bf4a845a57a056f2","x":3402,"y":-274,"width":250,"height":60,"type":"text","text":"2024 09"},
+		{"id":"cbb6582fdad6b9a4","x":3406,"y":-198,"width":250,"height":60,"type":"text","text":"프로메테우스 프로젝트 시작"},
+		{"id":"262ceeecf4d5a309","x":3406,"y":-120,"width":250,"height":60,"type":"text","text":"MyMemoji"}
 	],
 	"edges":[]
 }
