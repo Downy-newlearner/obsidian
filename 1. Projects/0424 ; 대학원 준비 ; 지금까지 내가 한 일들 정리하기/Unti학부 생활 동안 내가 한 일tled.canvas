@@ -16,7 +16,9 @@
 		{"id":"bf4a845a57a056f2","x":3402,"y":-274,"width":250,"height":60,"type":"text","text":"2024 09"},
 		{"id":"cbb6582fdad6b9a4","x":3406,"y":-198,"width":250,"height":60,"type":"text","text":"프로메테우스 프로젝트 시작"},
 		{"id":"262ceeecf4d5a309","x":3406,"y":-120,"width":250,"height":60,"type":"text","text":"MyMemoji"},
-		{"id":"ad5713b6dbb4660f","x":3406,"y":0,"width":614,"height":574,"type":"file","file":"Source/Pasted image 20250502104427.png"}
+		{"id":"ad5713b6dbb4660f","x":3406,"y":0,"width":614,"height":574,"type":"file","file":"Source/Pasted image 20250502104427.png"},
+		{"id":"1c3cf65b760b829a","x":1869,"y":-284,"width":250,"height":60,"type":"text","text":"2024 05"},
+		{"id":"6d257775dbdf9bd1","x":1869,"y":-197,"width":250,"height":60,"type":"text","text":"환경부 데이터분석 공모전(2405~2407)"}
 	],
 	"edges":[]
 }
