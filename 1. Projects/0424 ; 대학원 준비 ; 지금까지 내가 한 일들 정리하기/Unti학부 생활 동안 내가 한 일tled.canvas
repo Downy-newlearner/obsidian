@@ -19,7 +19,9 @@
 		{"id":"ad5713b6dbb4660f","x":3406,"y":0,"width":614,"height":574,"type":"file","file":"Source/Pasted image 20250502104427.png"},
 		{"id":"1c3cf65b760b829a","x":1869,"y":-284,"width":250,"height":60,"type":"text","text":"2024 05"},
 		{"id":"6d257775dbdf9bd1","x":1869,"y":-197,"width":250,"height":60,"type":"text","text":"환경부 데이터분석 공모전(2405~2407)"},
-		{"id":"3dbc871122ff10b8","x":1869,"y":-112,"width":250,"height":60,"type":"text","text":"로드킬, 생태통로 데이터 분석을 통한 생태통로 입지 분석"}
+		{"id":"3dbc871122ff10b8","x":1869,"y":-112,"width":250,"height":60,"type":"text","text":"로드킬, 생태통로 데이터 분석을 통한 생태통로 입지 분석"},
+		{"id":"c9fd619d081d3bac","x":2788,"y":-275,"width":250,"height":60,"type":"text","text":"2024 09"},
+		{"id":"a4dfaf56b4077fdc","x":2796,"y":-188,"width":250,"height":60,"type":"text","text":"단러닝: 딥러닝은 처음이라\n"}
 	],
 	"edges":[]
 }
