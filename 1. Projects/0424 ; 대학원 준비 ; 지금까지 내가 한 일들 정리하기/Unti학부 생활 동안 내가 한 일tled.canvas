@@ -15,7 +15,8 @@
 		{"id":"0ce69aa9e250a589","x":2523,"y":-198,"width":250,"height":60,"type":"text","text":"MLPA 합류"},
 		{"id":"bf4a845a57a056f2","x":3402,"y":-274,"width":250,"height":60,"type":"text","text":"2024 09"},
 		{"id":"cbb6582fdad6b9a4","x":3406,"y":-198,"width":250,"height":60,"type":"text","text":"프로메테우스 프로젝트 시작"},
-		{"id":"262ceeecf4d5a309","x":3406,"y":-120,"width":250,"height":60,"type":"text","text":"MyMemoji"}
+		{"id":"262ceeecf4d5a309","x":3406,"y":-120,"width":250,"height":60,"type":"text","text":"MyMemoji"},
+		{"id":"ad5713b6dbb4660f","x":3406,"y":0,"width":614,"height":574,"type":"file","file":"Source/Pasted image 20250502104427.png"}
 	],
 	"edges":[]
 }
