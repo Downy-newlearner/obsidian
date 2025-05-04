@@ -25,7 +25,9 @@
 		{"id":"d780301f28df206f","type":"text","text":"AI 아이디어 경진 대회","x":4620,"y":-191,"width":250,"height":60},
 		{"id":"332409f28177d715","type":"file","file":"Source/Pasted image 20250502104947.png","x":4120,"y":0,"width":383,"height":400},
 		{"id":"d730162a48d81868","type":"file","file":"Source/Pasted image 20250502104957.png","x":4120,"y":453,"width":400,"height":347},
-		{"id":"a4dfaf56b4077fdc","type":"text","text":"단러닝: 딥러닝은 처음이라","x":4120,"y":-198,"width":250,"height":60}
+		{"id":"a4dfaf56b4077fdc","type":"text","text":"단러닝: 딥러닝은 처음이라","x":4120,"y":-198,"width":250,"height":60},
+		{"id":"364b1049333936a9","x":1200,"y":380,"width":400,"height":400,"type":"file","file":"1. Projects/0424 ; 대학원 준비 ; 지금까지 내가 한 일들 정리하기/단러닝클럽/2024-1 단러닝클럽 수료확인서.pdf"},
+		{"id":"08aa7f7be894f39e","x":4120,"y":860,"width":400,"height":400,"type":"file","file":"1. Projects/0424 ; 대학원 준비 ; 지금까지 내가 한 일들 정리하기/단러닝클럽/2024-2 단러닝클럽 수료확인서.pdf"}
 	],
 	"edges":[]
 }
