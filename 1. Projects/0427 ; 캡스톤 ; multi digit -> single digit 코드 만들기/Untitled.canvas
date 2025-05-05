@@ -6,7 +6,9 @@
 		{"id":"297d3619dd5a98c0","x":753,"y":-122,"width":250,"height":60,"type":"text","text":"1. 각 서브 디렉토리 순회"},
 		{"id":"b98c37fff51a2ef0","x":1124,"y":-88,"width":250,"height":60,"type":"text","text":"1. 이미지 처리"},
 		{"id":"4d9a3b45effeb0b4","x":1124,"y":18,"width":250,"height":60,"type":"text","text":"바운딩 박스 생성"},
-		{"id":"c81e9fd8e3e5d462","x":1420,"y":18,"width":250,"height":60,"type":"text","text":"인식 결과 생성"}
+		{"id":"c81e9fd8e3e5d462","x":1420,"y":18,"width":250,"height":60,"type":"text","text":"인식 결과 생성"},
+		{"id":"ba00f3363c257fc5","x":1855,"y":-88,"width":250,"height":60,"type":"text","text":"유클리드 거리 계산"},
+		{"id":"202c20eaa2ed1012","x":2290,"y":-94,"width":250,"height":60,"type":"text","text":"결과 계산 및 저장"}
 	],
 	"edges":[]
 }
