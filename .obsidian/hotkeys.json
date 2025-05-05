@@ -180,5 +180,21 @@
       ],
       "key": "S"
     }
+  ],
+  "smart-composer:open-new-chat": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "smart-composer:add-selection-to-chat": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "="
+    }
   ]
 }
