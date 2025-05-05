@@ -262,8 +262,8 @@
       "dimension": 1024
     }
   ],
-  "chatModelId": "claude-3.7-sonnet",
-  "applyModelId": "gpt-4o-mini",
+  "chatModelId": "gpt-4o",
+  "applyModelId": "gpt-4o",
   "embeddingModelId": "openai/text-embedding-3-small",
   "systemPrompt": "",
   "ragOptions": {
