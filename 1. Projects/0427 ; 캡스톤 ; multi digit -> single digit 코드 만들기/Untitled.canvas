@@ -1,14 +1,14 @@
 {
 	"nodes":[
-		{"id":"08dbe3ea98a223f9","x":-215,"y":-91,"width":250,"height":60,"type":"text","text":"is_merged를 체크(파일명 확인)"},
+		{"id":"08dbe3ea98a223f9","type":"text","text":"is_merged를 체크(파일명 확인)","x":-215,"y":-91,"width":250,"height":60},
 		{"id":"2c778d47f03930af","type":"text","text":"0","x":144,"y":-30,"width":60,"height":60},
-		{"id":"bbbcfd1a23d46e1f","x":-215,"y":120,"width":250,"height":60,"type":"text","text":""},
-		{"id":"365a8cf046bce5d2","x":144,"y":-180,"width":60,"height":60,"type":"text","text":"1"},
-		{"id":"9d6d382c05d0f48b","x":320,"y":-180,"width":250,"height":60,"type":"text","text":"digit 별로 자르기"},
-		{"id":"356c333908a1b88d","x":620,"y":-180,"width":250,"height":60,"type":"text","text":"인식(기본 동작 재활용)"},
-		{"id":"e0a2f38b4e22dc9e","x":920,"y":-180,"width":250,"height":60,"type":"text","text":"순서대로 이어붙이기"},
-		{"id":"221c4d45c836dcc5","x":-660,"y":-380,"width":250,"height":60,"type":"text","text":"OCR_to_text_crop.py"},
-		{"id":"7bd9127a9df5033e","x":320,"y":-30,"width":250,"height":60,"type":"text","text":"인식(기본 동작과 동일)"}
+		{"id":"bbbcfd1a23d46e1f","type":"text","text":"","x":-215,"y":120,"width":250,"height":60},
+		{"id":"365a8cf046bce5d2","type":"text","text":"1","x":144,"y":-180,"width":60,"height":60},
+		{"id":"9d6d382c05d0f48b","type":"text","text":"digit 별로 자르기","x":320,"y":-180,"width":250,"height":60},
+		{"id":"356c333908a1b88d","type":"text","text":"인식(기본 동작 재활용)","x":620,"y":-180,"width":250,"height":60},
+		{"id":"e0a2f38b4e22dc9e","type":"text","text":"순서대로 이어붙이기","x":920,"y":-180,"width":250,"height":60},
+		{"id":"221c4d45c836dcc5","type":"text","text":"\buse_ocr/split_and_recognize_single_digits.py","x":-660,"y":-380,"width":400,"height":60},
+		{"id":"7bd9127a9df5033e","type":"text","text":"인식(기본 동작과 동일)","x":320,"y":-30,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"606e8c598aa41f32","fromNode":"08dbe3ea98a223f9","fromSide":"right","toNode":"365a8cf046bce5d2","toSide":"left"},
