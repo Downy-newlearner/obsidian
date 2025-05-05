@@ -12,5 +12,6 @@
   "better-export-pdf",
   "code-styler",
   "obsidian-plugin-prettier",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "smart-composer"
 ]
