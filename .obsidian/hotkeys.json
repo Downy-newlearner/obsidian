@@ -196,5 +196,6 @@
       ],
       "key": "="
     }
-  ]
+  ],
+  "editor:toggle-checklist-status": []
 }
