@@ -1,0 +1,172 @@
+/* 전체 페이지 영역 */
+body {
+  margin: 0;
+  padding: 0;
+  width: 2480px;
+  height: 3508px;
+  font-family: "Inter", sans-serif;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+/* 상단 프로필 영역 */
+.header {
+  display: flex;
+  flex-direction: row;
+  padding: 80px 700px 80px 120px; /* 오른쪽 공간 확보 */
+  gap: 80px;
+  box-sizing: border-box;
+}
+
+.profile-img {
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-name {
+  font-size: 140px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.header-title {
+  font-size: 52px;
+  font-weight: 600;
+  color: #3e71de;
+  margin-bottom: 40px;
+}
+
+.header-summary {
+  font-size: 38px;
+  line-height: 1.4;
+  width: 1500px;
+}
+
+/* 연락처 바 */
+.contact-bar {
+  width: 100%;
+  height: 120px;
+  background: #e5e5e5;
+  display: flex;
+  align-items: center;
+  padding-left: 120px;
+  gap: 80px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+/* 섹션 제목 */
+.section-title {
+  font-size: 64px;
+  font-weight: 700;
+  color: #3e71de;
+  margin-top: 80px;
+  margin-left: 120px;
+}
+
+/* Representative Works grid */
+.works-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 80px;
+  row-gap: 120px;
+
+  padding: 40px 700px 40px 120px; /* 오른쪽 사이드바 공간 확보 */
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+/* 각 포스트 카드 */
+.work-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.work-img {
+  width: 100%;
+  height: 760px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.work-title-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.work-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.work-date {
+  font-size: 32px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.work-desc {
+  margin-top: 20px;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 1.5;
+}
+
+/* 오른쪽 사이드바 */
+.sidebar {
+  position: absolute;
+  right: 0;
+  top: 780px;
+  width: 620px;
+  height: 2600px;
+  background: rgba(235, 235, 235, 0.6);
+  border-radius: 16px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.sidebar-section-title {
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.sidebar-list {
+  font-size: 36px;
+  line-height: 1.4;
+  margin-bottom: 80px;
+}
+
+.skill-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skill-badge {
+  background: #d9d9d9;
+  padding: 14px 28px;
+  border-radius: 12px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* 페이지 번호 */
+.page-number {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  font-size: 48px;
+  font-weight: 700;
+}

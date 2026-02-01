@@ -1,0 +1,20 @@
+.obsidian/workspace.json
+
+# 대용량 파일 패턴 (100MB+)
+*.mov
+*.MOV
+*.mp4
+*.MP4
+*.safetensors
+*.dylib
+*.pack
+
+# 문제 파일
+4. Archive/25S2 ; 단국대학교 4학년 2학기/컴퓨터비전/Lecture notes/중간/0908.md
+
+# 중첩된 .git 폴더들
+**/.git/
+
+# 대용량 폴더들
+4. Archive/2407 MLPA/2507 정호선배 HOT3D/code/backup_0819/
+4. Archive/2509 메타라마아카데미/code/meta-llama-academy-RagLLama/.venv/

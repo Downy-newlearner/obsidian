@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Platform Portfolio</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        background: #f2f2f2;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 100vh;
+        overflow-x: auto;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+          "Helvetica Neue", Arial, sans-serif;
+      }
+
+      .portfolio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        isolation: isolate;
+        position: relative;
+        width: 2480px;
+        height: 3508px;
+        min-height: 1080px;
+        overflow-y: scroll;
+        background: #ffffff;
+      }
+
+      /* 헤더 섹션 */
+      .header {
+        position: relative;
+        width: 100%;
+        background: #e5e5e5;
+        padding: 80px 120px 60px;
+        margin-bottom: 0;
+      }
+
+      .profile-section {
+        display: flex;
+        align-items: flex-start;
+        gap: 40px;
+        position: relative;
+      }
+
+      .profile-image {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 6px solid #ffffff;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+        flex-shrink: 0;
+      }
+
+      .profile-info {
+        flex: 1;
+      }
+
+      .name {
+        font-size: 64px;
+        font-weight: 700;
+        color: #000000;
+        margin-bottom: 12px;
+        letter-spacing: -0.02em;
+      }
+
+      .job-title {
+        font-size: 32px;
+        font-weight: 500;
+        color: #000000;
+        margin-bottom: 24px;
+        letter-spacing: -0.01em;
+      }
+
+      .summary {
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333333;
+        margin-bottom: 32px;
+        max-width: 1400px;
+      }
+
+      .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        align-items: center;
+      }
+
+      .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-size: 18px;
+        color: #333333;
+      }
+
+      .contact-icon {
+        width: 24px;
+        height: 24px;
+        opacity: 0.7;
+      }
+
+      /* 메인 콘텐츠 영역 */
+      .main-content {
+        display: flex;
+        width: 100%;
+        padding: 60px 120px;
+        gap: 60px;
+        flex: 1;
+      }
+
+      /* 왼쪽 열 - REPRESENTATIVE WORKS */
+      .left-column {
+        flex: 2;
+        min-width: 0;
+      }
+
+      .section-title {
+        font-size: 32px;
+        font-weight: 700;
+        color: #0066cc;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+        letter-spacing: 0.05em;
+      }
+
+      .work-item {
+        margin-bottom: 48px;
+        display: flex;
+        gap: 32px;
+      }
+
+      .work-image {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+        flex-shrink: 0;
+      }
+
+      .work-content {
+        flex: 1;
+      }
+
+      .work-title {
+        font-size: 28px;
+        font-weight: 700;
+        color: #000000;
+        margin-bottom: 8px;
+      }
+
+      .work-date {
+        font-size: 18px;
+        color: #666666;
+        margin-bottom: 16px;
+      }
+
+      .work-description ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .work-description li {
+        font-size: 18px;
+        line-height: 1.6;
+        color: #333333;
+        margin-bottom: 8px;
+        padding-left: 24px;
+        position: relative;
+      }
+
+      .work-description li::before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        color: #0066cc;
+        font-weight: bold;
+      }
+
+      /* 오른쪽 열 */
+      .right-column {
+        flex: 1;
+        min-width: 320px;
+      }
+
+      .sidebar-section {
+        margin-bottom: 48px;
+      }
+
+      .sidebar-title {
+        font-size: 24px;
+        font-weight: 700;
+        color: #000000;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+
+      .licenses,
+      .works-logos {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+
+      .license-logo,
+      .work-logo {
+        width: 120px;
+        height: auto;
+        object-fit: contain;
+      }
+
+      .skills-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+
+      .skill-tag {
+        background: #e5e5e5;
+        color: #333333;
+        padding: 8px 16px;
+        border-radius: 6px;
+        font-size: 16px;
+        font-weight: 500;
+      }
+
+      .education-list,
+      .language-list {
+        list-style: none;
+        padding: 0;
+      }
+
+      .education-list li,
+      .language-list li {
+        font-size: 18px;
+        line-height: 1.8;
+        color: #333333;
+        margin-bottom: 8px;
+      }
+
+      /* 페이지 번호 */
+      .page-number {
+        position: absolute;
+        bottom: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 18px;
+        color: #666666;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="portfolio">
+      <!-- 헤더 섹션 -->
+      <header class="header">
+        <div class="profile-section">
+          <img
+            src="./assets/profile_image.png"
+            alt="Profile"
+            class="profile-image"
+          />
+          <div class="profile-info">
+            <h1 class="name">Bill Gates</h1>
+            <p class="job-title">Computer Engineer</p>
+            <p class="summary">
+              Co-founder of Microsoft, driving early OS development and guiding
+              the company's growth into a global software leader. Led global
+              philanthropic efforts focused on public health, education, and
+              poverty reduction through the Gates Foundation.
+            </p>
+            <div class="contact-info">
+              <div class="contact-item">
+                <svg
+                  class="contact-icon"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+                  />
+                </svg>
+                <span>BGates@resume.com</span>
+              </div>
+              <div class="contact-item">
+                <svg
+                  class="contact-icon"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"
+                  />
+                </svg>
+                <span>123-424-5678</span>
+              </div>
+              <div class="contact-item">
+                <svg
+                  class="contact-icon"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+                  />
+                </svg>
+                <span>New York City, NY</span>
+              </div>
+              <div class="contact-item">
+                <svg
+                  class="contact-icon"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                  />
+                </svg>
+                <span>github.com/BillGates</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- 메인 콘텐츠 -->
+      <div class="main-content">
+        <!-- 왼쪽 열 -->
+        <div class="left-column">
+          <h2 class="section-title">Representative Works</h2>
+
+          <article class="work-item">
+            <img
+              src="./assets/Image 1.png"
+              alt="Microsoft"
+              class="work-image"
+            />
+            <div class="work-content">
+              <h3 class="work-title">Microsoft | CEO</h3>
+              <p class="work-date">1975.03.23</p>
+              <div class="work-description">
+                <ul>
+                  <li>
+                    Led development of Windows and Office suite, revolutionizing
+                    personal computing
+                  </li>
+                  <li>
+                    Managed large-scale operations and strategic direction of
+                    the company
+                  </li>
+                  <li>
+                    Guided significant R&D investments in software and
+                    technology
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="work-item">
+            <img
+              src="./assets/Image 2.png"
+              alt="Gates Foundation"
+              class="work-image"
+            />
+            <div class="work-content">
+              <h3 class="work-title">Gates Found. | Chair</h3>
+              <p class="work-date">1994.05.10</p>
+              <div class="work-description">
+                <ul>
+                  <li>
+                    Set global strategies for public health, education, and
+                    poverty reduction
+                  </li>
+                  <li>
+                    Managed philanthropic investments and grant programs
+                    worldwide
+                  </li>
+                  <li>
+                    Collaborated with governments and research institutions to
+                    drive impact
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="work-item">
+            <img
+              src="./assets/Image 7.png"
+              alt="Altair BASIC"
+              class="work-image"
+            />
+            <div class="work-content">
+              <h3 class="work-title">Altair BASIC | Researcher</h3>
+              <p class="work-date">2010.09.05</p>
+              <div class="work-description">
+                <ul>
+                  <li>
+                    Co-developed Altair BASIC, a foundational programming
+                    language
+                  </li>
+                  <li>
+                    Established the technical foundation for Microsoft's growth
+                  </li>
+                  <li>Pioneered early software development methodologies</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="work-item">
+            <img
+              src="./assets/Image 3.png"
+              alt="Terra Power"
+              class="work-image"
+            />
+            <div class="work-content">
+              <h3 class="work-title">TERRA POWER | Founder</h3>
+              <p class="work-date">2010.09.05</p>
+              <div class="work-description">
+                <ul>
+                  <li>
+                    Spearheaded development of next-generation nuclear energy
+                    solutions
+                  </li>
+                  <li>Accelerated innovation in clean energy technology</li>
+                  <li>
+                    Led research and development in sustainable energy systems
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- 오른쪽 열 -->
+        <div class="right-column">
+          <div class="sidebar-section">
+            <h3 class="sidebar-title">Licenses</h3>
+            <div class="licenses">
+              <div>GTQ 국가공인 그래픽기술자격</div>
+              <div>Original - Microsoft</div>
+            </div>
+          </div>
+
+          <div class="sidebar-section">
+            <h3 class="sidebar-title">Works</h3>
+            <div class="works-logos">
+              <div>Windows</div>
+              <div>Microsoft Loop</div>
+              <div>Azure</div>
+              <div>GitHub</div>
+            </div>
+          </div>
+
+          <div class="sidebar-section">
+            <h3 class="sidebar-title">Skills</h3>
+            <div class="skills-list">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">JAVA</span>
+              <span class="skill-tag">UI/UX Design</span>
+              <span class="skill-tag">ASSEMBLY</span>
+              <span class="skill-tag">C/C++</span>
+            </div>
+          </div>
+
+          <div class="sidebar-section">
+            <h3 class="sidebar-title">Education</h3>
+            <ul class="education-list">
+              <li>Ph.D Software Engineering<br />Dankook Univ.</li>
+              <li>MS Software Engineering<br />Dankook Univ.</li>
+              <li>BS Computer Science<br />Dankook Univ.</li>
+            </ul>
+          </div>
+
+          <div class="sidebar-section">
+            <h3 class="sidebar-title">Languages</h3>
+            <ul class="language-list">
+              <li>English (Native or Bilingual)</li>
+              <li>Korean (Native or Bilingual)</li>
+              <li>Japanese (Full Professional)</li>
+              <li>German (Full Professional)</li>
+            </ul>
+          </div>
+
+          <div class="sidebar-section">
+            <h3 class="sidebar-title">Achievements</h3>
+            <p style="color: #999999; font-size: 16px">-</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 페이지 번호 -->
+      <div class="page-number">1</div>
+    </div>
+  </body>
+</html>

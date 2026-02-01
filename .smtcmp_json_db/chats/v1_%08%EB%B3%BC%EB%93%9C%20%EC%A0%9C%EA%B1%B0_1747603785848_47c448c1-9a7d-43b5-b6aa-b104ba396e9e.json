@@ -1,0 +1,91 @@
+{
+  "id": "47c448c1-9a7d-43b5-b6aa-b104ba396e9e",
+  "title": "\b볼드 제거",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "\b볼드 제거",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "```1. Projects/0519 ; 단러닝 강화학습 ; DQN 발표준비/1. 공부.md\n- 강화 학습의 기본적인 구성 요소는 무엇인가요? 특히 상태(State), 행동(Action), 보상(Reward), 정책(Policy)의 역할은 무엇이며, **가치 함수(Value Function), 특히 상태 가치 함수(State Value Function)**와 **행동 가치 함수(Action-Value Function, Q 함수)**는 어떻게 정의되나요?\n- Q 함수는 왜 중요한가요? Q 함수를 통해 최적 정책(Optimal Policy)을 어떻게 찾을 수 있나요?\n- Q-learning은 무엇이며, 상태나 행동의 수가 매우 많은 복잡한 환경에 적용할 때 어떤 한계가 있나요?\n- Deep Q Network (DQN)는 이러한 Q-learning의 한계를 어떻게 극복하나요? 특히, **신경망(Neural Network)**이 Q 함수를 근사하는 데 어떤 역할을 하며, 고차원 입력(예: 이미지)을 처리하기 위해 어떤 종류의 신경망(예: CNN)이 사용되나요?\n- DQN에서 학습의 안정성과 효율성을 높이기 위해 사용되는 핵심 기법들은 무엇인가요? 특히 Experience Replay (경험 재생)와 **Target Network (목표 네트워크)**는 각각 어떤 문제점을 해결하고 어떻게 작동하나요?\n```\n\n\n\b볼드 제거\n\n"
+        }
+      ],
+      "id": "d6043610-46ac-4598-a4f0-a97dd6120dfe",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "1. Projects/0519 ; 단러닝 강화학습 ; DQN 발표준비/1. 공부.md"
+        },
+        {
+          "type": "block",
+          "content": "- 강화 학습의 기본적인 구성 요소는 무엇인가요? 특히 상태(State), 행동(Action), 보상(Reward), 정책(Policy)의 역할은 무엇이며, **가치 함수(Value Function), 특히 상태 가치 함수(State Value Function)**와 **행동 가치 함수(Action-Value Function, Q 함수)**는 어떻게 정의되나요?\n- Q 함수는 왜 중요한가요? Q 함수를 통해 최적 정책(Optimal Policy)을 어떻게 찾을 수 있나요?\n- Q-learning은 무엇이며, 상태나 행동의 수가 매우 많은 복잡한 환경에 적용할 때 어떤 한계가 있나요?\n- Deep Q Network (DQN)는 이러한 Q-learning의 한계를 어떻게 극복하나요? 특히, **신경망(Neural Network)**이 Q 함수를 근사하는 데 어떤 역할을 하며, 고차원 입력(예: 이미지)을 처리하기 위해 어떤 종류의 신경망(예: CNN)이 사용되나요?\n- DQN에서 학습의 안정성과 효율성을 높이기 위해 사용되는 핵심 기법들은 무엇인가요? 특히 Experience Replay (경험 재생)와 **Target Network (목표 네트워크)**는 각각 어떤 문제점을 해결하고 어떻게 작동하나요?",
+          "file": "1. Projects/0519 ; 단러닝 강화학습 ; DQN 발표준비/1. 공부.md",
+          "startLine": 5,
+          "endLine": 9
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "다음은 요청하신 대로 볼드를 제거한 문서의 변경된 부분입니다:\n\n<smtcmp_block filename=\"Projects/0519 ; 단러닝 강화학습 ; DQN 발표준비/1. 공부.md\" language=\"markdown\">\n<!-- ... existing content ... -->\n- 강화 학습의 기본적인 구성 요소는 무엇인가요? 특히 상태(State), 행동(Action), 보상(Reward), 정책(Policy)의 역할은 무엇이며, 가치 함수(Value Function), 특히 상태 가치 함수(State Value Function)와 행동 가치 함수(Action-Value Function, Q 함수)는 어떻게 정의되나요?\n<!-- ... existing content ... -->\n- Deep Q Network (DQN)는 이러한 Q-learning의 한계를 어떻게 극복하나요? 특히, 신경망(Neural Network)이 Q 함수를 근사하는 데 어떤 역할을 하며, 고차원 입력(예: 이미지)을 처리하기 위해 어떤 종류의 신경망(예: CNN)이 사용되나요?\n<!-- ... existing content ... -->\n- DQN에서 학습의 안정성과 효율성을 높이기 위해 사용되는 핵심 기법들은 무엇인가요? 특히 Experience Replay (경험 재생)와 Target Network (목표 네트워크)는 각각 어떤 문제점을 해결하고 어떻게 작동하나요?\n<!-- ... existing content ... -->\n</smtcmp_block>\n\n문서에서 강조 효과를 위한 볼드체를 제거했습니다.",
+      "id": "d2ee3549-561b-47d3-95d8-35b9dd3cb7aa",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4o",
+          "model": "gpt-4o"
+        },
+        "usage": {
+          "prompt_tokens": 1277,
+          "completion_tokens": 291,
+          "total_tokens": 1568,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    }
+  ],
+  "createdAt": 1747603781254,
+  "updatedAt": 1747603785848,
+  "schemaVersion": 1
+}

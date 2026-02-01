@@ -1,0 +1,1 @@
+{"_wandb":{"runtime":5707},"epoch/loss":0.00010537412890698761,"epoch/val_loss":0.00013064383529126644,"epoch/learning_rate":0.0010000000474974513,"_timestamp":1.7333146560438662e+09,"_runtime":55.290262,"epoch/epoch":99,"Test RMSE":1.137646674902417,"_step":100}

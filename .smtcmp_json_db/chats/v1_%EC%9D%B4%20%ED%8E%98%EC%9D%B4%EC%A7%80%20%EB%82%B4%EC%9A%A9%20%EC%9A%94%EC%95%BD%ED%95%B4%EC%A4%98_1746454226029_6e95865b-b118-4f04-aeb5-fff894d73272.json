@@ -1,0 +1,84 @@
+{
+  "id": "6e95865b-b118-4f04-aeb5-fff894d73272",
+  "title": "이 페이지 내용 요약해줘",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "이 페이지 내용 요약해줘",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n이 페이지 내용 요약해줘\n\n"
+        }
+      ],
+      "id": "d337371e-bfa3-41b1-95f5-0fd8240bf335",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "2. Area/2025 4학년 1학기/강화학습/0422 ; 필기자료-기말/강화학습_8-1_(250422).md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "이 문서는 강화학습에 대한 필기 노트로 다음과 같은 내용을 포함합니다:\n\n- **정책 평가와 정책 개선**: 이전 내용은 정책 평가에 대한 것이고, 새로운 내용은 정책 개선에 관한 것입니다. MC의 정책 개선은 Monte Carlo control을, TD의 정책 개선은 SARSA와 Q-learning을 다룹니다.\n- **On-policy vs Off-policy Learning**: 스스로 학습하는 것이 on-policy learning이며, 다른 정보를 가져와 배우는 것이 off-policy learning입니다.\n- **Q-learning의 정책 개선**: Q값은 상태와 행동 쌍의 미래 보상을 나타내며, 이를 통해 정책을 개선합니다.\n- **Exploitation & Exploration**: 특정 행동만 계속하면 다른 행동을 업데이트 못할 수 있으며, 이를 완화하기 위해 Exploration을 사용합니다.\n- **$\\epsilon$-Greedy Exploration**: E&E를 수행하기 위한 기법으로, 정책 개선을 돕습니다.\n- **MC Control과 GLIE**: MC control은 온라인-like 학습이며, GLIE에서는 $\\epsilon$ 값을 0으로 줄여나갑니다.\n- **정책 개선을 위한 전략**: 각 에피소드마다 policy improvement를 하며, 충분히 학습 반복 후 정책/가치 함수가 안정된 상태(수렴)를 가질 수 있습니다.\n- **입실론 그리디 전략**: 정책 개선을 위해 입실론 값을 조절하며 사용되는 전략입니다.\n\n각 항목은 이미지와 함께 설명되어 있으며, 학습 방법론 및 전략 등을 개략적으로 다루고 있습니다.",
+      "id": "1083d467-1bb7-458d-920b-a7d3ed08db9c",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4o",
+          "model": "gpt-4o"
+        },
+        "usage": {
+          "prompt_tokens": 1665,
+          "completion_tokens": 334,
+          "total_tokens": 1999,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    }
+  ],
+  "createdAt": 1746453989308,
+  "updatedAt": 1746454226029,
+  "schemaVersion": 1
+}

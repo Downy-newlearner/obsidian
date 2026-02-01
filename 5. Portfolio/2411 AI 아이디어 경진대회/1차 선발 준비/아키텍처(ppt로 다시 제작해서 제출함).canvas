@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"04bb90b51071d582","type":"group","x":-383,"y":-621,"width":359,"height":445,"label":"ChatBot"},
+		{"id":"1e4b5badaa9b2ea8","type":"file","file":"4. Archive/Source/LangChain.png","x":-363,"y":-601,"width":319,"height":167},
+		{"id":"fccd652473495c8e","type":"file","file":"4. Archive/Source/Chat UI.png","x":-381,"y":-29,"width":354,"height":218},
+		{"id":"af5891aadeb5c254","type":"text","text":"SQL Query를 이용하여 데이터 접근","x":-651,"y":-601,"width":250,"height":54},
+		{"id":"15ae60f027c1bf4f","type":"file","file":"4. Archive/Source/Pasted image 20241122231250.png","x":-920,"y":-642,"width":250,"height":249},
+		{"id":"be182a2b19d0fa80","type":"file","file":"4. Archive/Source/Llama 3.png","x":-331,"y":-380,"width":253,"height":184},
+		{"id":"281c157f947a1faa","type":"text","text":"Vector DB","x":-920,"y":-702,"width":250,"height":60},
+		{"id":"484c96638ad22b94","type":"text","text":"크롤링 & 제공받은 데이터를 벡터화하여 저장한다.","x":-920,"y":-393,"width":250,"height":52},
+		{"id":"1ec03dcc8298ab60","type":"text","text":"LangChain","x":0,"y":-547,"width":140,"height":60},
+		{"id":"6db52571a486c710","type":"text","text":"LLM:  Llama 3","x":0,"y":-318,"width":140,"height":60},
+		{"id":"c5b4feba7e0fc0ce","type":"text","text":"Chat UI","x":-277,"y":196,"width":147,"height":59},
+		{"id":"0e51c2c91a56df65","type":"text","text":"  사용자(학생)","x":380,"y":13,"width":127,"height":68},
+		{"id":"e152a22b9849892f","type":"text","text":"  사용자(근무자)","x":380,"y":317,"width":127,"height":56},
+		{"id":"951e87e0b6af7910","type":"file","file":"4. Archive/Source/사용자.png","x":394,"y":206,"width":99,"height":99},
+		{"id":"671fec925eb9453b","type":"file","file":"4. Archive/Source/사용자.png","x":394,"y":-98,"width":99,"height":99},
+		{"id":"f5a04bbcf5019a01","type":"text","text":"프롬프트 + 쿼리","x":120,"y":-29,"width":190,"height":60}
+	],
+	"edges":[
+		{"id":"6c6219c662a569c5","fromNode":"1e4b5badaa9b2ea8","fromSide":"bottom","toNode":"be182a2b19d0fa80","toSide":"top","fromEnd":"arrow"},
+		{"id":"ab352031da0e2739","fromNode":"15ae60f027c1bf4f","fromSide":"right","toNode":"1e4b5badaa9b2ea8","toSide":"left","fromEnd":"arrow"},
+		{"id":"92e5aa1b5ef80d40","fromNode":"be182a2b19d0fa80","fromSide":"bottom","toNode":"fccd652473495c8e","toSide":"top"},
+		{"id":"c4b05d60b3492932","fromNode":"fccd652473495c8e","fromSide":"right","toNode":"671fec925eb9453b","toSide":"left","fromEnd":"arrow"},
+		{"id":"6b55ee9029943bfa","fromNode":"fccd652473495c8e","fromSide":"right","toNode":"951e87e0b6af7910","toSide":"left","fromEnd":"arrow"}
+	]
+}

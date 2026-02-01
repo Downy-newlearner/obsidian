@@ -1,0 +1,91 @@
+{
+  "id": "6e21e606-6fc1-4306-bba8-82cc4ddf2074",
+  "title": "대답해줘",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "대답해줘",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "```1. Projects/0519 ; 단러닝 강화학습 ; DQN 발표준비/1. 공부.md\n- Q. \"Experience replay를 사용하기 위해서는 학습 중인 모델의 현재 파라미터가 과거에 데이터를 생성할 때 사용한 파라미터와 다를 수 있으므로 off-policy 학습이 필수적입니다.\" 라는 문장 설명이 필요하다.\n```\n\n\n대답해줘\n\n"
+        }
+      ],
+      "id": "720bb527-1ed3-493c-a49d-528a1aac2c69",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "1. Projects/0519 ; 단러닝 강화학습 ; DQN 발표준비/1. 공부.md"
+        },
+        {
+          "type": "block",
+          "content": "- Q. \"Experience replay를 사용하기 위해서는 학습 중인 모델의 현재 파라미터가 과거에 데이터를 생성할 때 사용한 파라미터와 다를 수 있으므로 off-policy 학습이 필수적입니다.\" 라는 문장 설명이 필요하다.",
+          "file": "1. Projects/0519 ; 단러닝 강화학습 ; DQN 발표준비/1. 공부.md",
+          "startLine": 24,
+          "endLine": 24
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "Experience replay를 사용할 때 학습 중인 모델의 현재 파라미터와 과거에 데이터를 생성할 때 사용한 파라미터가 다른 이유는, 경험이 기록된 당시의 모델과 현재 모델이 다를 수 있기 때문입니다. 따라서 off-policy 학습이 필수적입니다. Off-policy 학습은 에이전트가 이전의 다른 정책에 기반한 경험을 통해 학습할 수 있도록 하며, 이를 통해 다양한 경험을 활용할 수 있습니다.",
+      "id": "b75e458c-fd7c-450a-b10b-095434a39249",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4o",
+          "model": "gpt-4o"
+        },
+        "usage": {
+          "prompt_tokens": 1410,
+          "completion_tokens": 103,
+          "total_tokens": 1513,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    }
+  ],
+  "createdAt": 1747605308689,
+  "updatedAt": 1747605310983,
+  "schemaVersion": 1
+}

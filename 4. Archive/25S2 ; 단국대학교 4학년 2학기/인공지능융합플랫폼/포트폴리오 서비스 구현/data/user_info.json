@@ -1,0 +1,65 @@
+{
+  "name": "Chung Dahun",
+  "job_title": "Backend Developer",
+
+  "summary": "Backend Developer specializing in designing scalable service architectures, optimizing high-traffic systems, and building reliable data pipelines. Skilled in Java, Spring Boot, distributed systems, and cloud-native environments. Passionate about writing clean, maintainable code and creating backend systems that enable robust product growth.",
+
+  "profile_image": "/Users/downy/Documents/25S2 인공지능융합플랫폼 포트폴리오 서비스 구현/portfolio_screen/assets/user_profile_image.png",
+
+  "contact": {
+    "email": "dahun.dev@resume.com",
+    "phone": "010-1234-5678",
+    "location": "Seoul, South Korea",
+    "github": "github.com/dahundev"
+  },
+
+  "licenses": ["정보처리기사", "SQLD (SQL Developer)"],
+
+  "works": ["Spring Boot", "Kafka", "AWS", "Docker", "GitHub"],
+
+  "works_images": [
+    "/Users/downy/Documents/25S2 인공지능융합플랫폼 포트폴리오 서비스 구현/portfolio_screen/assets/Spring_Boot.png",
+    "/Users/downy/Documents/25S2 인공지능융합플랫폼 포트폴리오 서비스 구현/portfolio_screen/assets/Kafka.png",
+    "/Users/downy/Documents/25S2 인공지능융합플랫폼 포트폴리오 서비스 구현/portfolio_screen/assets/AWS.png",
+    "/Users/downy/Documents/25S2 인공지능융합플랫폼 포트폴리오 서비스 구현/portfolio_screen/assets/Docker.png",
+    "/Users/downy/Documents/25S2 인공지능융합플랫폼 포트폴리오 서비스 구현/portfolio_screen/assets/GitHiub.png"
+  ],
+
+  "skills": [
+    "Java",
+    "Spring Boot",
+    "JPA/Hibernate",
+    "MySQL",
+    "Redis",
+    "Kafka",
+    "Docker",
+    "AWS",
+    "CI/CD",
+    "Clean Architecture"
+  ],
+
+  "education": [
+    {
+      "degree": "BS Computer Science",
+      "school": "Dankook University"
+    }
+  ],
+
+  "languages": [
+    {
+      "name": "Korean",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "Professional Working Proficiency"
+    }
+  ],
+
+  "achievements": [
+    "고가용성 기반 분산 메시징 시스템 구축 경험",
+    "대규모 트래픽 환경에서 SQL 및 쿼리 튜닝 수행",
+    "Kafka 기반 비동기 이벤트 파이프라인 설계 및 운영",
+    "Spring Boot 기반 고성능 결제 승인 API 리팩토링"
+  ]
+}

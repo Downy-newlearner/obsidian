@@ -1,0 +1,14 @@
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Google Gemini 공식 SDK
+google-generativeai>=1.0.0
+
+# JSON5 파싱
+json5>=0.9.0
+
+# HTML 파싱 (필요 시)
+beautifulsoup4>=4.12.0
+
+# PDF 생성을 위한 Playwright
+playwright>=1.45.0

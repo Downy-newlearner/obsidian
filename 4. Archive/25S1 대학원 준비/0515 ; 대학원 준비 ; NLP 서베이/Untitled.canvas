@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"49a0ba991be3cb9c","type":"text","text":"## RAG 개념의 확산(2020.05)\n\n- Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks(2020)\n- LLM과 검색 결합으로 지식 기반 응답 능력을 강화함","x":11,"y":1142,"width":392,"height":180,"color":"1"},
+		{"id":"97866cb82d6f0129","type":"text","text":"### RAG 사전학습 접근법 제시(2020)\n- REALM: Retrieval-Augmented Language Model Pre-Training(2020)\n- 검색 기반 언어모델 사전학습 방식을 제시함","x":448,"y":1169,"width":332,"height":214},
+		{"id":"da47f40c983009f9","type":"text","text":"### Flamingo를 통한 멀티모달 Few-shot 강화(2022)\n- Flamingo: a Visual Language Model for Few-Shot Learning(2022)\n- 멀티모달 Few-shot 학습 능력을 강화함","x":480,"y":423,"width":357,"height":205},
+		{"id":"98a9a99d84431bd7","type":"text","text":"### Gato의 등장과 멀티모달 확장(2022)\n- 논문명: A Generalist Agent(2022)\n- 하나의 모델로 텍스트, 이미지, 게임플레이, 로봇 제어까지 처리하며, 진짜 범용 멀티모달 모델 가능성을 제시함","x":880,"y":236,"width":360,"height":187},
+		{"id":"1f88c72f7f135a5e","type":"text","text":"### Gemini의 멀티모달 완성도 향상(2023~2024)\n\n- 참고문서:  \n- 처음부터 멀티모달로 설계된 대형 모델로, 텍스트, 이미지, 코드, 오디오, 비디오까지 통합 이해 및 생성을 지원함","x":1260,"y":529,"width":400,"height":236},
+		{"id":"c3f74a58865bcd4a","type":"text","text":"### RAG 고도화: 실시간 검색과 연계(2022)\n- 논문명: WebGPT: Browser-Assisted Question-Answering with Human Feedback(2022)\n- 실시간 웹 검색과 LLM을 결합해 최신 정보 제공 능력을 확보함","x":735,"y":1469,"width":345,"height":236},
+		{"id":"41c839b968aa711a","type":"text","text":"### 상용 RAG 서비스의 확산(2023~)\n- 참고사례: Perplexity AI(2023~)\n- 사용자 검색 요청을 RAG 기반으로 자연스럽게 처리하는 대중화된 검색 서비스 제공","x":1020,"y":1192,"width":360,"height":169},
+		{"id":"8fe5b5a6722f6003","type":"text","text":"### 엔터프라이즈 RAG 솔루션의 등장(2023~)\n- 대표 사례: OpenAI GPTs, Microsoft Azure AI Search, Google Vertex AI Search(2023~)\n- 사내 문서, 지식, API 연결 등 맞춤형 검색과 응답 기능을 기업용 솔루션으로 확장함","x":1320,"y":1460,"width":396,"height":216},
+		{"id":"2a057dad8456ccde","type":"text","text":"## 통합형 AI 에이전트의 등장(2024~)\n\n- 기업 주도(OpenAI GPTs, Google Gemini Agents 등)\n    \n- RAG + 멀티모달 + API 호출 + 맞춤형 워크플로우를 통합한 에이전트 등장\n    \n    - 일상 업무 자동화\n        \n    - 검색/생성/실행 일체화\n        \n    - OS 수준의 AI 어시스턴트로 진화 가능성","x":1780,"y":853,"width":460,"height":262,"color":"1"},
+		{"id":"503032058e96b2bd","type":"text","text":"## LLM 시대의 시작(2020.01, GPT-3 중심)\n- Scaling Laws for Neural Language Models(2020)\n- 모델 크기, 데이터량, 성능의 관계 정립으로 LLM 트랜드를 촉발함.","x":-587,"y":853,"width":440,"height":224,"color":"1"},
+		{"id":"9dec4a7c5c4fb1a0","type":"text","text":"### BERT(2018)\n- 다양한 NLP 테스크의 성능 향상\n- MLM\n- Bidirectional Context 사용\n- Fine-tuning 패러다임 확립\n- 이전까지 \"생성 모델 중심\"에서 \"이해 모델 중심\"으로 연구를 확대했다.","x":-547,"y":1137,"width":360,"height":256},
+		{"id":"d088cb76dfb173bb","type":"text","text":"RNN-LSTM-Seq2Seq-Attention(2015)","x":-1400,"y":951,"width":250,"height":60},
+		{"id":"7e7de4206e3d14b0","type":"text","text":"## Transformer의 등장(2017)\n- Attention Is All You Need(2017)\n- RNN을 완전히 대체하는 Self-Attention 기반 모델 등장, 병렬처리 효율 및 성능 혁신\n- Autoregressive를 통한 토큰 순차 생성\n- 번역/생성 중심","x":-1060,"y":842,"width":340,"height":278,"color":"1"},
+		{"id":"2203693c6f5f410b","type":"text","text":"InstructGPT 및 RLHF 도입(2022)\n\n- Training Language Models to Follow Instructions with Human Feedback(2022)\n- RLHF를 통해 사용자 지시 반응성을 향상시킴","x":409,"y":861,"width":371,"height":224},
+		{"id":"06bd284efc8df7ba","type":"text","text":"## 멀티모달 학습의 시작(2021)\n\n- Learning Transferable Visual Models From Natural Language Supervision (CLIP)(2021)\n- 이미지-텍스트 공동 학습을 통해 범용 멀티모달 이해 모델을 제시함","x":11,"y":580,"width":358,"height":214,"color":"1"}
+	],
+	"edges":[
+		{"id":"82441c98469ac258","fromNode":"d088cb76dfb173bb","fromSide":"right","toNode":"7e7de4206e3d14b0","toSide":"left"},
+		{"id":"2f173bcb3bc8f86d","fromNode":"503032058e96b2bd","fromSide":"right","toNode":"06bd284efc8df7ba","toSide":"left"},
+		{"id":"0161b347fed15940","fromNode":"06bd284efc8df7ba","fromSide":"right","toNode":"da47f40c983009f9","toSide":"left"},
+		{"id":"b927db78cea051e0","fromNode":"503032058e96b2bd","fromSide":"right","toNode":"2203693c6f5f410b","toSide":"left"},
+		{"id":"fd94a553f7c2e730","fromNode":"503032058e96b2bd","fromSide":"right","toNode":"49a0ba991be3cb9c","toSide":"left"},
+		{"id":"276feaffbcfb38d9","fromNode":"7e7de4206e3d14b0","fromSide":"right","toNode":"9dec4a7c5c4fb1a0","toSide":"left"},
+		{"id":"000cadc6c0dd8583","fromNode":"49a0ba991be3cb9c","fromSide":"right","toNode":"97866cb82d6f0129","toSide":"left"},
+		{"id":"2aad6615d898b378","fromNode":"da47f40c983009f9","fromSide":"right","toNode":"98a9a99d84431bd7","toSide":"left"},
+		{"id":"b6c96a7008443b14","fromNode":"98a9a99d84431bd7","fromSide":"right","toNode":"1f88c72f7f135a5e","toSide":"left"},
+		{"id":"397ac8ea6919873f","fromNode":"1f88c72f7f135a5e","fromSide":"right","toNode":"2a057dad8456ccde","toSide":"left"},
+		{"id":"fbbc78bd755b8716","fromNode":"41c839b968aa711a","fromSide":"right","toNode":"8fe5b5a6722f6003","toSide":"left"},
+		{"id":"001a885a5dd37432","fromNode":"8fe5b5a6722f6003","fromSide":"right","toNode":"2a057dad8456ccde","toSide":"left"},
+		{"id":"6b154ea40c403c0a","fromNode":"97866cb82d6f0129","fromSide":"right","toNode":"c3f74a58865bcd4a","toSide":"left"},
+		{"id":"675858c6e7c3cb34","fromNode":"c3f74a58865bcd4a","fromSide":"right","toNode":"41c839b968aa711a","toSide":"left"},
+		{"id":"c1fd6ad52d51163d","fromNode":"9dec4a7c5c4fb1a0","fromSide":"top","toNode":"503032058e96b2bd","toSide":"bottom"}
+	]
+}

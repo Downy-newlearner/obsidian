@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"64ac2b4ffcc73b0d","type":"file","file":"4. Archive/Source/Pasted image 20250404165436.png","x":100,"y":-115,"width":400,"height":331},
+		{"id":"2b0ca33d727cba17","type":"text","text":"https://davelogs.tistory.com/76","x":100,"y":-200,"width":292,"height":60},
+		{"id":"5b8b620ab7c43e94","type":"file","file":"4. Archive/2504 KCC 논문 작성/구상 및 레퍼런스/KCI_FI002967644.pdf","x":-380,"y":-184,"width":400,"height":400},
+		{"id":"ccbe139a182dc4cb","type":"text","text":"Reference","x":-380,"y":-340,"width":250,"height":60},
+		{"id":"cee0c5025a765018","type":"text","text":"주제: OCR 훈련 전후의 답안지 인식 성능 비교","x":-380,"y":-460,"width":347,"height":60}
+	],
+	"edges":[]
+}

@@ -1,0 +1,8 @@
+{
+  "timestamp": "20251207_151349",
+  "status": "error",
+  "input_file": "/Users/downy/Documents/25S2 인공지능융합플랫폼 포트폴리오 서비스 구현/data/백앤드 시나리오.json",
+  "response": {
+    "error": "400 Client Error: Bad Request for url: https://api.upstage.ai/v1/chat/completions"
+  }
+}

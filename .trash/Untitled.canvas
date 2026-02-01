@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"014ae519c3e54b8f","type":"text","text":"거버넌스 셋업 및 상위기획","x":-15,"y":-254,"width":250,"height":60},
+		{"id":"d0c080336a0c09d4","type":"text","text":"타겟 시장 분석 및 문제 정의","x":-440,"y":-254,"width":250,"height":60},
+		{"id":"b174a870eb1b15a8","type":"file","file":"Source/Pasted image 20250409163936.png","x":-515,"y":-140,"width":400,"height":81},
+		{"id":"1dd850b95d8a9f2e","type":"file","file":"Source/Pasted image 20250409163946.png","x":-90,"y":-137,"width":399,"height":78},
+		{"id":"4baa64dbb7723667","type":"text","text":"설계 및 기능 정의","x":451,"y":-254,"width":250,"height":60},
+		{"id":"db6be803224aa9f0","type":"file","file":"Source/Pasted image 20250409164044.png","x":376,"y":-133,"width":400,"height":74},
+		{"id":"053bedac379675b6","type":"text","text":"AI 서비스 기획","x":-15,"y":-420,"width":250,"height":60},
+		{"id":"5cb818f7ec37a5bb","type":"text","text":"AI 기능 구체화","x":921,"y":-261,"width":250,"height":60},
+		{"id":"0b46380d4d00b4be","type":"file","file":"Source/Pasted image 20250409164132.png","x":846,"y":-133,"width":399,"height":69},
+		{"id":"f8e90fd6031adbd4","type":"text","text":"전처리","x":814,"y":-20,"width":107,"height":60},
+		{"id":"fd5a50cbb018fa93","type":"text","text":"p. 28~","x":942,"y":-20,"width":118,"height":60}
+	],
+	"edges":[
+		{"id":"fc96de5e86de4b0a","fromNode":"d0c080336a0c09d4","fromSide":"bottom","toNode":"b174a870eb1b15a8","toSide":"top"},
+		{"id":"fa9355eb3439667a","fromNode":"014ae519c3e54b8f","fromSide":"bottom","toNode":"1dd850b95d8a9f2e","toSide":"top"}
+	]
+}

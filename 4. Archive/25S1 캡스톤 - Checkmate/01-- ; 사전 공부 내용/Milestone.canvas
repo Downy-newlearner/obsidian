@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"615a9d87fe91d1bb","type":"text","text":"답안지 스캔","x":-660,"y":-160,"width":250,"height":60,"color":"3"},
+		{"id":"0b02383be72fba24","type":"text","text":"이름, 학번 마스킹","x":-366,"y":-160,"width":250,"height":60,"color":"4"},
+		{"id":"58d491c27de2ee83","type":"text","text":"문제와 답 라벨링","x":-80,"y":-160,"width":250,"height":60},
+		{"id":"e0afc370af6c8573","type":"text","text":"데이터 준비","x":-366,"y":-280,"width":250,"height":60,"color":"3"},
+		{"id":"f89a1f8e64adf741","type":"text","text":"어노테이션 툴 선정","x":-80,"y":-51,"width":250,"height":60,"color":"4"},
+		{"id":"9797fb8853f4c3cf","type":"text","text":"모델 준비","x":540,"y":-280,"width":250,"height":60},
+		{"id":"34688a054263c833","type":"text","text":"Yolov8 vs Tesseract OCR 비교하기","x":540,"y":-160,"width":250,"height":60},
+		{"id":"4e992d97bfa6cf28","type":"text","text":"인수인계 파일 분석","x":-1505,"y":-280,"width":250,"height":60,"color":"4"},
+		{"id":"eccee4ebbad8d57a","type":"file","file":"4. Archive/25S1 캡스톤 - Checkmate/01-- ; 사전 공부 내용/250113 성원 ppt.md","x":-1940,"y":-160,"width":1120,"height":740},
+		{"id":"912d1872efac110b","type":"file","file":"4. Archive/25S1 캡스톤 - Checkmate/01-- ; 사전 공부 내용/모델 고민.md","x":540,"y":-60,"width":620,"height":540},
+		{"id":"50086d4f184caf25","type":"text","text":"모델 훈련","x":1353,"y":-279,"width":250,"height":60},
+		{"id":"03f9083730ab8c9e","type":"text","text":"Yolov7 훈련시키기","x":1353,"y":-160,"width":250,"height":60},
+		{"id":"2eb398faefe3cb29","x":1353,"y":-40,"width":250,"height":58,"type":"text","text":"Yolo 형식의 dataset 만들기"}
+	],
+	"edges":[
+		{"id":"eabf94ade3d61835","fromNode":"e0afc370af6c8573","fromSide":"bottom","toNode":"615a9d87fe91d1bb","toSide":"top","toEnd":"none"},
+		{"id":"8985656052274827","fromNode":"e0afc370af6c8573","fromSide":"bottom","toNode":"0b02383be72fba24","toSide":"top","toEnd":"none"},
+		{"id":"7fb9d62e1cae4ffb","fromNode":"e0afc370af6c8573","fromSide":"bottom","toNode":"58d491c27de2ee83","toSide":"top","toEnd":"none"},
+		{"id":"5e29cec09e9762c0","fromNode":"58d491c27de2ee83","fromSide":"bottom","toNode":"f89a1f8e64adf741","toSide":"top","toEnd":"none"},
+		{"id":"f4af5adb01fe81a4","fromNode":"e0afc370af6c8573","fromSide":"right","toNode":"9797fb8853f4c3cf","toSide":"left"},
+		{"id":"5a8aa429dd94448d","fromNode":"4e992d97bfa6cf28","fromSide":"right","toNode":"e0afc370af6c8573","toSide":"left"},
+		{"id":"41ae24bfbef6d7b1","fromNode":"50086d4f184caf25","fromSide":"bottom","toNode":"03f9083730ab8c9e","toSide":"top","toEnd":"none"},
+		{"id":"c4cdd0184a5be858","fromNode":"9797fb8853f4c3cf","fromSide":"right","toNode":"50086d4f184caf25","toSide":"left"},
+		{"id":"1b13732e21bc34cd","fromNode":"03f9083730ab8c9e","fromSide":"bottom","toNode":"2eb398faefe3cb29","toSide":"top"}
+	]
+}

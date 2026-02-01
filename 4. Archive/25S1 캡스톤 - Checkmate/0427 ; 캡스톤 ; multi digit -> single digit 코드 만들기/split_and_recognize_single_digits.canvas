@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"221c4d45c836dcc5","type":"text","text":"\buse_ocr/split_and_recognize_single_digits.py","x":-660,"y":-380,"width":400,"height":60},
+		{"id":"ff5ff44d84e5681f","type":"text","text":"1. 디렉토리 내 파일 및 디렉토리 목록 가져오기","x":-660,"y":-201,"width":250,"height":60},
+		{"id":"494fb01bd26759d3","type":"text","text":"1. JSON 파일 초기화","x":-260,"y":-201,"width":250,"height":60},
+		{"id":"297d3619dd5a98c0","type":"text","text":"1. 각 서브 디렉토리 순회","x":160,"y":-201,"width":250,"height":60},
+		{"id":"b98c37fff51a2ef0","type":"text","text":"1. 이미지 처리","x":520,"y":-201,"width":250,"height":60},
+		{"id":"4d9a3b45effeb0b4","type":"text","text":"바운딩 박스 생성","x":520,"y":-95,"width":250,"height":60},
+		{"id":"5f4d7c1ba4bbaa4d","type":"file","file":"4. Archive/Source/Pasted image 20250505095708.png","x":520,"y":41,"width":400,"height":358},
+		{"id":"c81e9fd8e3e5d462","type":"text","text":"인식 결과 생성","x":980,"y":-95,"width":250,"height":60},
+		{"id":"f445a3d0e673ec0a","type":"file","file":"4. Archive/Source/Pasted image 20250505095427.png","x":981,"y":20,"width":383,"height":400},
+		{"id":"ba00f3363c257fc5","type":"text","text":"유클리드 거리 계산","x":1440,"y":-196,"width":250,"height":60},
+		{"id":"202c20eaa2ed1012","type":"text","text":"결과 계산 및 저장","x":1940,"y":-196,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"ef6aa33c5ef72cd3","fromNode":"ff5ff44d84e5681f","fromSide":"right","toNode":"494fb01bd26759d3","toSide":"left"},
+		{"id":"808eaafd88142ef2","fromNode":"494fb01bd26759d3","fromSide":"right","toNode":"297d3619dd5a98c0","toSide":"left"},
+		{"id":"aca6c534198ec33a","fromNode":"297d3619dd5a98c0","fromSide":"right","toNode":"b98c37fff51a2ef0","toSide":"left"},
+		{"id":"a69536a02d6cb17f","fromNode":"b98c37fff51a2ef0","fromSide":"right","toNode":"ba00f3363c257fc5","toSide":"left"},
+		{"id":"5eb1fded678e1501","fromNode":"ba00f3363c257fc5","fromSide":"right","toNode":"202c20eaa2ed1012","toSide":"left"}
+	]
+}

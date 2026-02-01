@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"dcf4d19f6961af85","type":"text","text":"LLM 스터디","x":-661,"y":240,"width":250,"height":60},
+		{"id":"e196950e469b54db","type":"text","text":"1주차-1\n01/11","x":-220,"y":138,"width":140,"height":60},
+		{"id":"d8a8e6f2383c2372","type":"file","file":"4. Archive/2502 LLM 스터디/한 권으로 끝내는 실전 LLM 파인튜닝/1. NLP의 과거와 오늘.md","x":160,"y":240,"width":400,"height":400},
+		{"id":"0e89a7c93cf285d9","type":"file","file":"4. Archive/2502 LLM 스터디/한 권으로 끝내는 실전 LLM 파인튜닝/2. GPT.md","x":560,"y":240,"width":400,"height":400},
+		{"id":"73bb1547c8dd9ea4","type":"text","text":"1주차-2\n01/13","x":500,"y":138,"width":120,"height":60},
+		{"id":"884b4e8641b9e8d7","type":"file","file":"4. Archive/2502 LLM 스터디/한 권으로 끝내는 실전 LLM 파인튜닝/3.1 전체 파인튜닝 데이터 준비.md","x":1100,"y":240,"width":400,"height":400},
+		{"id":"e2ccdcfd732b4825","type":"file","file":"4. Archive/2502 LLM 스터디/한 권으로 끝내는 실전 LLM 파인튜닝/3.2 Gemma와 Llama 3 모델 구조 분석.md","x":1500,"y":240,"width":400,"height":400},
+		{"id":"b633d259c9d834a8","type":"text","text":"2주차-1 01/18","x":1430,"y":138,"width":140,"height":60},
+		{"id":"56d4c3440513d7d7","type":"file","file":"4. Archive/2502 LLM 스터디/1주차 - 1/1주차-파란책 Chap.1.md","x":-350,"y":240,"width":400,"height":400},
+		{"id":"36e317a4a6f4dfee","type":"text","text":"2주차 - 2\n01/20","x":-220,"y":1120,"width":140,"height":60}
+	],
+	"edges":[]
+}

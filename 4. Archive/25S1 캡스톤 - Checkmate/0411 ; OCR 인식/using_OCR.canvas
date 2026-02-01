@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"c297598af75f27b9","x":-669,"y":-391,"width":250,"height":60,"color":"6","type":"text","text":"recognizing_question_number"},
+		{"id":"6424210b5f871452","type":"text","text":"recognizing_question_number","x":-669,"y":280,"width":250,"height":60,"color":"6"},
+		{"id":"ff85fad507bd584d","x":-669,"y":-260,"width":250,"height":60,"type":"text","text":"파일명에서 y_top, y_bottom 추출"},
+		{"id":"cb93d4e26cd2f9a6","x":-327,"y":-256,"width":250,"height":60,"type":"text","text":"각 이미지 파일에 대해 OCR 수행"},
+		{"id":"0421b9a68c56f641","x":9,"y":-255,"width":250,"height":60,"type":"text","text":"인식된 텍스트와 신뢰도 추출"}
+	],
+	"edges":[]
+}

@@ -1,0 +1,3991 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <title>환경공간정보서비스 - 토지피복지도 예제</title>
+    <style type="text/css">
+        html, body, #map { margin: 0; padding: 0; width: 100%; height: 100%; }
+        .ol-popup {
+            position: absolute;
+            background-color: white;
+            -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+            filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid #cccccc;
+            bottom: 12px;
+            left: -50px;
+            min-width: 180px;
+        }
+        .ol-popup:after, .ol-popup:before {
+            top: 100%;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none;
+        }
+        .ol-popup:after {
+            border-top-color: white;
+            border-width: 10px;
+            left: 48px;
+            margin-left: -10px;
+        }
+        .ol-popup:before {
+            border-top-color: #cccccc;
+            border-width: 11px;
+            left: 48px;
+            margin-left: -11px;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ol3/3.11.1/ol.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ol3/3.11.1/ol.min.js"></script>
+</head>
+<body>
+<div id="map"></div>
+<div id="popup" class="ol-popup">
+    <div id="popup-content"></div>
+</div>
+<script type="text/javascript">
+    var map = new ol.Map({
+        target: 'map',
+        layers: [new ol.layer.Tile({
+            source: new ol.source.TileWMS({
+                url: 'https://egisapp.me.go.kr/geoserver/gwc/service/wms?',
+                params: {
+                    'LAYERS': 'EGIS:lv3_2023y',
+                    'TILED': true,
+                    'SRS': 'EPSG:3857'
+                }
+            })
+        })],
+        view: new ol.View({
+            center: ol.proj.transform([127, 36.5], 'EPSG:4326', 'EPSG:3857'),
+            zoom: 7,
+            enableRotation: false
+        })
+    });
+
+    var container = document.getElementById('popup');
+    var content = document.getElementById('popup-content');
+    var overlay = new ol.Overlay({
+        element: container,
+        autoPan: true,
+        autoPanAnimation: {
+            duration: 250
+        }
+    });
+    map.addOverlay(overlay);
+
+    var features = [];
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.386, 37.283])),
+        name: '경기광주',
+        route: '제2중부선',
+        section: '330~335'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.421, 37.249])),
+        name: '경기광주',
+        route: '중부선',
+        section: '325~330'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.385, 37.283])),
+        name: '경기광주',
+        route: '중부선',
+        section: '330~335'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.347, 37.315])),
+        name: '경기광주',
+        route: '중부선',
+        section: '335~340'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.321, 37.354])),
+        name: '경기광주',
+        route: '중부선',
+        section: '340~345'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.311, 37.398])),
+        name: '경기광주',
+        route: '중부선',
+        section: '345~350'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.289, 37.439])),
+        name: '경기광주',
+        route: '중부선',
+        section: '350~355'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.385, 37.283])),
+        name: '경기광주',
+        route: '중부선',
+        section: '330~335'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.139, 37.289])),
+        name: '군포',
+        route: '영동선',
+        section: '45~50'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([129.091, 37.486])),
+        name: '강릉',
+        route: '동해선',
+        section: '15~20'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.897, 37.691])),
+        name: '강릉',
+        route: '동해선',
+        section: '50~55'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.63, 38.057])),
+        name: '양양',
+        route: '동해선',
+        section: '100~105'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.831, 37.316])),
+        name: '원주',
+        route: '영동선',
+        section: '115~120'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.036, 37.445])),
+        name: '원주',
+        route: '영동선',
+        section: '140~145'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.235, 37.248])),
+        name: '이천',
+        route: '영동선',
+        section: '55~60'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.289, 37.239])),
+        name: '이천',
+        route: '영동선',
+        section: '60~65'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.342, 37.252])),
+        name: '이천',
+        route: '영동선',
+        section: '65~70'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.393, 37.24])),
+        name: '이천',
+        route: '영동선',
+        section: '70~75'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.446, 37.237])),
+        name: '이천',
+        route: '영동선',
+        section: '75~80'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.501, 37.245])),
+        name: '이천',
+        route: '영동선',
+        section: '80~85'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.186, 37.269])),
+        name: '이천',
+        route: '영동선',
+        section: '50~55'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.235, 37.248])),
+        name: '이천',
+        route: '영동선',
+        section: '55~60'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.289, 37.239])),
+        name: '이천',
+        route: '영동선',
+        section: '60~65'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.393, 37.24])),
+        name: '이천',
+        route: '영동선',
+        section: '70~75'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.446, 37.237])),
+        name: '이천',
+        route: '영동선',
+        section: '75~80'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.582, 37.27])),
+        name: '이천',
+        route: '중부내륙선',
+        section: '270~275'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.913, 37.341])),
+        name: '홍천',
+        route: '중앙선',
+        section: '315~320'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.894, 37.383])),
+        name: '홍천',
+        route: '중앙선',
+        section: '320~325'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.973, 37.573])),
+        name: '홍천',
+        route: '중앙선',
+        section: '345~350'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.874, 37.67])),
+        name: '홍천',
+        route: '중앙선',
+        section: '360~365'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.797, 37.725])),
+        name: '홍천',
+        route: '중앙선',
+        section: '370~375'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.791, 37.766])),
+        name: '홍천',
+        route: '중앙선',
+        section: '375~380'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.913, 37.341])),
+        name: '홍천',
+        route: '중앙선',
+        section: '315~320'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.894, 37.383])),
+        name: '홍천',
+        route: '중앙선',
+        section: '320~325'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.959, 37.497])),
+        name: '홍천',
+        route: '중앙선',
+        section: '335~340'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.979, 37.53])),
+        name: '홍천',
+        route: '중앙선',
+        section: '340~345'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.479, 36.546])),
+        name: '보은',
+        route: '청주상주선',
+        section: '5~10'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.836, 36.456])),
+        name: '보은',
+        route: '청주상주선',
+        section: '40~45'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.888, 36.447])),
+        name: '보은',
+        route: '청주상주선',
+        section: '45~50'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.132, 36.37])),
+        name: '보은',
+        route: '청주상주선',
+        section: '70~75'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.132, 36.37])),
+        name: '보은',
+        route: '청주상주선',
+        section: '70~75'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.443, 36.947])),
+        name: '엄정',
+        route: '평택제천선',
+        section: '55~60'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.17, 37.084])),
+        name: '제천',
+        route: '중앙선',
+        section: '275~280'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.15, 37.121])),
+        name: '제천',
+        route: '중앙선',
+        section: '280~285'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.118, 37.202])),
+        name: '제천',
+        route: '중앙선',
+        section: '290~295'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.081, 37.233])),
+        name: '제천',
+        route: '중앙선',
+        section: '295~300'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.294, 37.005])),
+        name: '제천',
+        route: '중앙선',
+        section: '260~265'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.17, 37.084])),
+        name: '제천',
+        route: '중앙선',
+        section: '275~280'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.15, 37.121])),
+        name: '제천',
+        route: '중앙선',
+        section: '280~285'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.118, 37.202])),
+        name: '제천',
+        route: '중앙선',
+        section: '290~295'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.081, 37.233])),
+        name: '제천',
+        route: '중앙선',
+        section: '295~300'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.955, 37.313])),
+        name: '제천',
+        route: '중앙선',
+        section: '310~315'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.438, 36.709])),
+        name: '진천',
+        route: '중부선',
+        section: '260~265'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.481, 36.859])),
+        name: '진천',
+        route: '중부선',
+        section: '280~285'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.463, 37.077])),
+        name: '진천',
+        route: '중부선',
+        section: '305~310'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.428, 36.579])),
+        name: '진천',
+        route: '중부선',
+        section: '245~250'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.475, 36.991])),
+        name: '진천',
+        route: '중부선',
+        section: '295~300'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.613, 37.188])),
+        name: '충주',
+        route: '중부내륙선',
+        section: '260~265'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.784, 37.038])),
+        name: '충주',
+        route: '중부내륙선',
+        section: '235~240'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.759, 36.714])),
+        name: '공주',
+        route: '당진대전선',
+        section: '20~25'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.901, 36.59])),
+        name: '공주',
+        route: '당진대전선',
+        section: '40~45'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.951, 36.574])),
+        name: '공주',
+        route: '당진대전선',
+        section: '45~50'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.114, 36.487])),
+        name: '공주',
+        route: '당진대전선',
+        section: '65~70'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.165, 36.498])),
+        name: '공주',
+        route: '당진대전선',
+        section: '70~75'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.216, 36.488])),
+        name: '공주',
+        route: '당진대전선',
+        section: '75~80'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.25, 36.459])),
+        name: '공주',
+        route: '당진대전선',
+        section: '80~85'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.288, 36.428])),
+        name: '공주',
+        route: '당진대전선',
+        section: '85~90'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.825, 36.647])),
+        name: '공주',
+        route: '당진대전선',
+        section: '30~35'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.855, 36.609])),
+        name: '공주',
+        route: '당진대전선',
+        section: '35~40'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.951, 36.574])),
+        name: '공주',
+        route: '당진대전선',
+        section: '45~50'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.99, 36.545])),
+        name: '공주',
+        route: '당진대전선',
+        section: '50~55'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.012, 36.505])),
+        name: '공주',
+        route: '당진대전선',
+        section: '55~60'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.114, 36.487])),
+        name: '공주',
+        route: '당진대전선',
+        section: '65~70'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.165, 36.498])),
+        name: '공주',
+        route: '당진대전선',
+        section: '70~75'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.25, 36.459])),
+        name: '공주',
+        route: '당진대전선',
+        section: '80~85'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.288, 36.428])),
+        name: '공주',
+        route: '당진대전선',
+        section: '85~90'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.619, 36.851])),
+        name: '당진',
+        route: '서해안선',
+        section: '255~260'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.759, 36.919])),
+        name: '당진',
+        route: '서해안선',
+        section: '270~275'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.418, 36.466])),
+        name: '대전',
+        route: '경부선',
+        section: '285~290'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.429, 36.507])),
+        name: '대전',
+        route: '경부선',
+        section: '290~295'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.423, 36.595])),
+        name: '대전',
+        route: '경부선',
+        section: '300~305'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.518, 36.348])),
+        name: '대전',
+        route: '경부선',
+        section: '265~270'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.081, 36.426])),
+        name: '대전',
+        route: '호남지선',
+        section: '40~45'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.109, 36.508])),
+        name: '대전',
+        route: '호남지선',
+        section: '50~55'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.777, 36.217])),
+        name: '부여',
+        route: '서천공주선',
+        section: '20~25'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.766, 36.128])),
+        name: '부여',
+        route: '서천공주선',
+        section: '10~15'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.777, 36.217])),
+        name: '부여',
+        route: '서천공주선',
+        section: '20~25'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.798, 36.258])),
+        name: '부여',
+        route: '서천공주선',
+        section: '25~30'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.838, 36.287])),
+        name: '부여',
+        route: '서천공주선',
+        section: '30~35'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.876, 36.32])),
+        name: '부여',
+        route: '서천공주선',
+        section: '35~40'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.913, 36.353])),
+        name: '부여',
+        route: '서천공주선',
+        section: '40~45'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.556, 36.318])),
+        name: '영동',
+        route: '경부선',
+        section: '260~265'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.932, 36.216])),
+        name: '영동',
+        route: '경부선',
+        section: '220~225'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.603, 36.295])),
+        name: '영동',
+        route: '경부선',
+        section: '255~260'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.422, 36.278])),
+        name: '영동',
+        route: '대전남부순환선',
+        section: '10~15'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.384, 36.625])),
+        name: '천안',
+        route: '경부선',
+        section: '305~310'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.373, 36.668])),
+        name: '천안',
+        route: '경부선',
+        section: '310~315'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.309, 36.726])),
+        name: '천안',
+        route: '경부선',
+        section: '320~325'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.217, 36.76])),
+        name: '천안',
+        route: '경부선',
+        section: '330~335'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.168, 36.825])),
+        name: '천안',
+        route: '경부선',
+        section: '340~345'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.384, 36.625])),
+        name: '천안',
+        route: '경부선',
+        section: '305~310'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.256, 36.735])),
+        name: '천안',
+        route: '경부선',
+        section: '325~330'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.217, 36.76])),
+        name: '천안',
+        route: '경부선',
+        section: '330~335'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.054, 36.161])),
+        name: '논산',
+        route: '호남지선',
+        section: '10~15'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.051, 36.206])),
+        name: '논산',
+        route: '호남지선',
+        section: '15~20'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.518, 36.105])),
+        name: '무주',
+        route: '중부선',
+        section: '185~190'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.609, 35.73])),
+        name: '무주',
+        route: '중부선',
+        section: '135~140'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.569, 36.267])),
+        name: '보령',
+        route: '서해안선',
+        section: '185~190'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.564, 36.343])),
+        name: '보령',
+        route: '서해안선',
+        section: '195~200'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.555, 36.387])),
+        name: '보령',
+        route: '서해안선',
+        section: '200~205'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.647, 36.109])),
+        name: '보령',
+        route: '서해안선',
+        section: '165~170'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.583, 35.357])),
+        name: '부안',
+        route: '서해안선',
+        section: '65~70'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.024, 35.798])),
+        name: '전주',
+        route: '호남선',
+        section: '160~165'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.351, 35.341])),
+        name: '구례',
+        route: '순천완주선',
+        section: '50~55'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.19, 35.366])),
+        name: '남원',
+        route: '광주대구선',
+        section: '35~40'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.187, 35.242])),
+        name: '담양',
+        route: '호남선',
+        section: '45~50'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.323, 35.029])),
+        name: '순천',
+        route: '호남선',
+        section: '15~20'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.571, 36.771])),
+        name: '영주',
+        route: '중앙선',
+        section: '220~225'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([129.034, 36.054])),
+        name: '영천',
+        route: '대구포항선',
+        section: '40~45'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.398, 36.399])),
+        name: '청송',
+        route: '당진영덕선',
+        section: '95~100'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([129.13, 36.494])),
+        name: '청송',
+        route: '당진영덕선',
+        section: '165~170'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.128, 35.129])),
+        name: '고성',
+        route: '중부선',
+        section: '45~50'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2353995, 37.24775218])),
+        name: '이천',
+        route: '영동선',
+        section: '55~60'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2891418, 37.23903239])),
+        name: '이천',
+        route: '영동선',
+        section: '60~65'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2891418, 37.23903239])),
+        name: '이천',
+        route: '영동선',
+        section: '60~65'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.341751, 37.25188916])),
+        name: '이천',
+        route: '영동선',
+        section: '65~70'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3924944, 37.23998333])),
+        name: '이천',
+        route: '영동선',
+        section: '70~75'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.591999, 37.22667332])),
+        name: '이천',
+        route: '중부내륙선',
+        section: '265~270'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.58192, 37.27041539])),
+        name: '이천',
+        route: '중부내륙선',
+        section: '270~275'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.58192, 37.27041539])),
+        name: '이천',
+        route: '중부내륙선',
+        section: '270~275'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.6767718, 37.68172555])),
+        name: '대관령',
+        route: '영동선',
+        section: '210~215'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.4296797, 37.60719163])),
+        name: '대관령',
+        route: '영동선',
+        section: '185~190'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.7146223, 37.24914842])),
+        name: '원주',
+        route: '영동선',
+        section: '100~105'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.659495, 37.25375187])),
+        name: '원주',
+        route: '영동선',
+        section: '95~100'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.5419668, 37.34736707])),
+        name: '이천',
+        route: '중부내륙선',
+        section: '280~285'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.9125914, 37.34098708])),
+        name: '홍천',
+        route: '중앙선',
+        section: '315~320'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.9125914, 37.34098708])),
+        name: '홍천',
+        route: '중앙선',
+        section: '315~320'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.8938802, 37.38295623])),
+        name: '홍천',
+        route: '중앙선',
+        section: '320~325'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.916969, 37.41832587])),
+        name: '홍천',
+        route: '중앙선',
+        section: '325~330'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.936538, 37.45675982])),
+        name: '홍천',
+        route: '중앙선',
+        section: '330~335'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.9732079, 37.57288407])),
+        name: '홍천',
+        route: '중앙선',
+        section: '345~350'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.8743817, 37.67018364])),
+        name: '홍천',
+        route: '중앙선',
+        section: '360~365'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.8743817, 37.67018364])),
+        name: '홍천',
+        route: '중앙선',
+        section: '360~365'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.7967581, 37.72454322])),
+        name: '홍천',
+        route: '중앙선',
+        section: '370~375'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.7967581, 37.72454322])),
+        name: '홍천',
+        route: '중앙선',
+        section: '370~375'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.8971321, 37.69083783])),
+        name: '강릉',
+        route: '동해선',
+        section: '50~55'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3509745, 35.34066554])),
+        name: '구례',
+        route: '순천완주선',
+        section: '50~55'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3237419, 35.37965981])),
+        name: '구례',
+        route: '순천완주선',
+        section: '55~60'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3149054, 35.5473521])),
+        name: '구례',
+        route: '순천완주선',
+        section: '75~80'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.8826171, 36.01521806])),
+        name: '영천',
+        route: '대구포항선',
+        section: '25~30'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.8477373, 35.98051263])),
+        name: '영천',
+        route: '대구포항선',
+        section: '20~25'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.8219773, 36.42194292])),
+        name: '청송',
+        route: '당진영덕선',
+        section: '135~140'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.5755127, 36.72708471])),
+        name: '영주',
+        route: '중앙선',
+        section: '215~220'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.6178161, 36.4786835])),
+        name: '영주',
+        route: '중앙선',
+        section: '180~185'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.7663718, 36.12754749])),
+        name: '대전',
+        route: '서천공주선',
+        section: '10~15'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.8809713, 36.21975958])),
+        name: '영동',
+        route: '경부선',
+        section: '225~230'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3727573, 36.66848896])),
+        name: '천안',
+        route: '경부선',
+        section: '310~315'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3727573, 36.66848896])),
+        name: '천안',
+        route: '경부선',
+        section: '310~315'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.7772633, 36.21674456])),
+        name: '대전',
+        route: '서천공주선',
+        section: '20~25'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.8531751, 36.25403093])),
+        name: '영동',
+        route: '경부선',
+        section: '230~235'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.6029307, 36.2948484])),
+        name: '영동',
+        route: '경부선',
+        section: '255~260'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3085103, 36.72644825])),
+        name: '천안',
+        route: '경부선',
+        section: '320~325'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.217288, 36.76028949])),
+        name: '천안',
+        route: '경부선',
+        section: '330~335'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.7980863, 36.2578517])),
+        name: '대전',
+        route: '서천공주선',
+        section: '25~30'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.6029307, 36.2948484])),
+        name: '영동',
+        route: '경부선',
+        section: '255~260'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.5564176, 36.31774985])),
+        name: '영동',
+        route: '경부선',
+        section: '260~265'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.1681066, 36.8254311])),
+        name: '천안',
+        route: '경부선',
+        section: '340~345'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.1681066, 36.8254311])),
+        name: '천안',
+        route: '경부선',
+        section: '340~345'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.6184162, 36.85091501])),
+        name: '당진',
+        route: '당진대전선',
+        section: '0~5'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.6897475, 36.78257846])),
+        name: '공주',
+        route: '당진대전선',
+        section: '10~15'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.6897475, 36.78257846])),
+        name: '공주',
+        route: '당진대전선',
+        section: '10~15'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.7590962, 36.7140194])),
+        name: '공주',
+        route: '당진대전선',
+        section: '20~25'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.825385, 36.64697595])),
+        name: '공주',
+        route: '당진대전선',
+        section: '30~35'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.9009977, 36.59005306])),
+        name: '공주',
+        route: '당진대전선',
+        section: '40~45'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.95119, 36.57359905])),
+        name: '공주',
+        route: '당진대전선',
+        section: '45~50'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.0121259, 36.50495053])),
+        name: '공주',
+        route: '당진대전선',
+        section: '55~60'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.0585342, 36.48478628])),
+        name: '공주',
+        route: '당진대전선',
+        section: '60~65'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.0585342, 36.48478628])),
+        name: '공주',
+        route: '당진대전선',
+        section: '60~65'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.1135605, 36.48682968])),
+        name: '공주',
+        route: '당진대전선',
+        section: '65~70'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.1135605, 36.48682968])),
+        name: '공주',
+        route: '당진대전선',
+        section: '65~70'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.1654894, 36.49757058])),
+        name: '공주',
+        route: '당진대전선',
+        section: '70~75'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.5561056, 36.64432477])),
+        name: '당진',
+        route: '서해안선',
+        section: '230~235'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.5639501, 36.73237025])),
+        name: '당진',
+        route: '서해안선',
+        section: '240~245'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.5663638, 36.77628719])),
+        name: '당진',
+        route: '서해안선',
+        section: '245~250'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.1654894, 36.49757058])),
+        name: '공주',
+        route: '당진대전선',
+        section: '70~75'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2162696, 36.48780468])),
+        name: '공주',
+        route: '당진대전선',
+        section: '75~80'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2501974, 36.45888886])),
+        name: '공주',
+        route: '당진대전선',
+        section: '80~85'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2501974, 36.45888886])),
+        name: '공주',
+        route: '당진대전선',
+        section: '80~85'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2883162, 36.42787177])),
+        name: '공주',
+        route: '당진대전선',
+        section: '85~90'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2883162, 36.42787177])),
+        name: '공주',
+        route: '당진대전선',
+        section: '85~90'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.7592698, 36.91897632])),
+        name: '당진',
+        route: '서해안선',
+        section: '250~255'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.7118658, 36.89619104])),
+        name: '당진',
+        route: '서해안선',
+        section: '265~270'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.8384186, 36.28728694])),
+        name: '대전',
+        route: '서천공주선',
+        section: '30~35'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.9134826, 36.35325241])),
+        name: '대전',
+        route: '서천공주선',
+        section: '40~45'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.7980863, 36.2578517])),
+        name: '부여',
+        route: '서천공주선',
+        section: '25~30'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.0650887, 36.47368018])),
+        name: '대전',
+        route: '서천공주선',
+        section: '60~65'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4275565, 36.37954895])),
+        name: '대전',
+        route: '경부선',
+        section: '275~280'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4182949, 36.42173577])),
+        name: '대전',
+        route: '경부선',
+        section: '280~285'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.428891, 36.50678565])),
+        name: '대전',
+        route: '경부선',
+        section: '290~295'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([129.1011208, 35.28664685])),
+        name: '서울산',
+        route: '경부선',
+        section: '5~10'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.0823501, 35.1122444])),
+        name: '진주',
+        route: '남해선',
+        section: '65~70'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.4744032, 35.27140042])),
+        name: '창원',
+        route: '남해제1지선',
+        section: '0~5'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4213701, 37.24895728])),
+        name: '경기광주',
+        route: '중부선',
+        section: '325~330'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3854826, 37.28299638])),
+        name: '경기광주',
+        route: '제2중부선',
+        section: '325~330'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.38492, 37.28319266])),
+        name: '경기광주',
+        route: '중부선',
+        section: '330~335'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3855901, 37.28305944])),
+        name: '경기광주',
+        route: '제2중부선',
+        section: '330~335'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.347204, 37.31495746])),
+        name: '경기광주',
+        route: '중부선',
+        section: '335~340'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4213701, 37.24895728])),
+        name: '경기광주',
+        route: '중부선',
+        section: '325~330'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.38492, 37.28319266])),
+        name: '경기광주',
+        route: '중부선',
+        section: '330~335'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3472754, 37.31532541])),
+        name: '경기광주',
+        route: '제2중부선',
+        section: '335~340'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.347204, 37.31495746])),
+        name: '경기광주',
+        route: '중부선',
+        section: '335~340'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.249511, 37.4667647])),
+        name: '경기광주',
+        route: '중부선',
+        section: '355~360'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3205395, 37.3536425])),
+        name: '경기광주',
+        route: '중부선',
+        section: '340~345'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2891253, 37.43892702])),
+        name: '경기광주',
+        route: '중부선',
+        section: '350~355'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.227249, 37.50779378])),
+        name: '경기광주',
+        route: '중부선',
+        section: '360~365'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3109912, 37.39826163])),
+        name: '경기광주',
+        route: '제2중부선',
+        section: '345~350'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.9574134, 37.37918532])),
+        name: '동서울',
+        route: '서울외곽순환선',
+        section: '115~120'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.7431944, 36.07055256])),
+        name: '보령',
+        route: '서해안선',
+        section: '155~160'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.5552914, 36.38716078])),
+        name: '보령',
+        route: '서해안선',
+        section: '200~205'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.5767558, 36.42683592])),
+        name: '보령',
+        route: '서해안선',
+        section: '205~210'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.5794765, 36.55869543])),
+        name: '보령',
+        route: '서해안선',
+        section: '220~225'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.0427432, 35.84029013])),
+        name: '전주',
+        route: '호남선',
+        section: '165~170'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.8805539, 35.61883789])),
+        name: '전주',
+        route: '호남선',
+        section: '135~140'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.6043356, 35.99423628])),
+        name: '무주',
+        route: '중부선',
+        section: '170~175'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.6043356, 35.99423628])),
+        name: '무주',
+        route: '중부선',
+        section: '170~175'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.5178612, 36.10547829])),
+        name: '무주',
+        route: '중부선',
+        section: '185~190'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.5073687, 36.14637535])),
+        name: '무주',
+        route: '중부선',
+        section: '190~195'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.469419, 36.26860087])),
+        name: '무주',
+        route: '중부선',
+        section: '205~210'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.1295409, 36.11999838])),
+        name: '논산',
+        route: '호남지선',
+        section: '5~10'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2525843, 36.18836587])),
+        name: '논산',
+        route: '호남지선',
+        section: '20~25'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.479322, 36.54586033])),
+        name: '보은',
+        route: '청주상주선',
+        section: '5~10'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.5774168, 36.50889424])),
+        name: '보은',
+        route: '청주상주선',
+        section: '15~20'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.7801827, 36.45529825])),
+        name: '보은',
+        route: '청주상주선',
+        section: '35~40'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.8359285, 36.45562475])),
+        name: '보은',
+        route: '청주상주선',
+        section: '40~45'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.8359285, 36.45562475])),
+        name: '보은',
+        route: '청주상주선',
+        section: '40~45'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.8883615, 36.44741086])),
+        name: '보은',
+        route: '청주상주선',
+        section: '45~50'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.1320701, 36.36991838])),
+        name: '보은',
+        route: '청주상주선',
+        section: '70~75'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.1320701, 36.36991838])),
+        name: '보은',
+        route: '청주상주선',
+        section: '70~75'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4202485, 36.62226641])),
+        name: '진천',
+        route: '중부선',
+        section: '250~255'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4691291, 36.745619])),
+        name: '진천',
+        route: '중부선',
+        section: '265~270'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4761971, 36.90295427])),
+        name: '진천',
+        route: '중부선',
+        section: '285~290'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.474735, 36.99133408])),
+        name: '진천',
+        route: '중부선',
+        section: '295~300'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.474735, 36.99133408])),
+        name: '진천',
+        route: '중부선',
+        section: '295~300'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4448231, 37.11851464])),
+        name: '진천',
+        route: '중부선',
+        section: '310~315'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4400351, 37.16308808])),
+        name: '진천',
+        route: '중부선',
+        section: '315~320'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4422137, 37.20776473])),
+        name: '진천',
+        route: '중부선',
+        section: '320~325'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.2059482, 37.05124758])),
+        name: '제천',
+        route: '중앙선',
+        section: '270~275'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.2059482, 37.05124758])),
+        name: '제천',
+        route: '중앙선',
+        section: '270~275'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.1698621, 37.08378056])),
+        name: '제천',
+        route: '중앙선',
+        section: '275~280'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.1698621, 37.08378056])),
+        name: '제천',
+        route: '중앙선',
+        section: '275~280'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.1495986, 37.12122317])),
+        name: '제천',
+        route: '중앙선',
+        section: '280~285'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.127351, 37.16116765])),
+        name: '제천',
+        route: '중앙선',
+        section: '285~290'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.127351, 37.16116765])),
+        name: '제천',
+        route: '중앙선',
+        section: '285~290'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.1182106, 37.20204558])),
+        name: '제천',
+        route: '중앙선',
+        section: '290~295'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.1182106, 37.20204558])),
+        name: '제천',
+        route: '중앙선',
+        section: '290~295'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.0807089, 37.23250758])),
+        name: '제천',
+        route: '중앙선',
+        section: '295~300'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.9552371, 37.31322277])),
+        name: '제천',
+        route: '중앙선',
+        section: '310~315'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3855901, 37.2830594])),
+        name: '경기광주',
+        route: '제2중부선',
+        section: '330~335'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3472754, 37.3153254])),
+        name: '경기광주',
+        route: '제2중부선',
+        section: '335~340'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3849201, 37.2831926])),
+        name: '경기광주',
+        route: '중부선',
+        section: '330~335'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3205395, 37.3536425])),
+        name: '경기광주',
+        route: '중부선',
+        section: '340~345'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4213702, 37.2489572])),
+        name: '경기광주',
+        route: '중부선',
+        section: '325~330'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3849201, 37.2831926])),
+        name: '경기광주',
+        route: '중부선',
+        section: '330~335'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2891253, 37.438927])),
+        name: '경기광주',
+        route: '중부선',
+        section: '350~355'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.0096347, 37.3903004])),
+        name: '동서울',
+        route: '수도권제1순환선',
+        section: '120~125'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.1420652, 37.6138233])),
+        name: '동서울',
+        route: '수도권제1순환선',
+        section: '30~35'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.9574134, 37.3791853])),
+        name: '동서울',
+        route: '수도권제1순환선',
+        section: '115~120'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.8492325, 37.4398798])),
+        name: '시흥',
+        route: '제2경인선',
+        section: '20~25'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([129.0907032, 37.4862924])),
+        name: '강릉',
+        route: '동해선',
+        section: '15~20'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.8971321, 37.6908378])),
+        name: '강릉',
+        route: '동해선',
+        section: '50~55'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.1371004, 37.7885332])),
+        name: '양양',
+        route: '서울양양선',
+        section: '95~100'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.23533, 37.2477833])),
+        name: '이천',
+        route: '영동선',
+        section: '55~60'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.5412771, 37.3480828])),
+        name: '이천',
+        route: '중부내륙선',
+        section: '280~285'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.9125914, 37.340987])),
+        name: '홍천',
+        route: '중앙선',
+        section: '315~320'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.9732079, 37.572884])),
+        name: '홍천',
+        route: '중앙선',
+        section: '345~350'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.9563302, 37.6134811])),
+        name: '홍천',
+        route: '중앙선',
+        section: '350~355'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.9193938, 37.646758])),
+        name: '홍천',
+        route: '중앙선',
+        section: '355~360'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.8743817, 37.6701836])),
+        name: '홍천',
+        route: '중앙선',
+        section: '360~365'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.7909967, 37.7664292])),
+        name: '홍천',
+        route: '중앙선',
+        section: '375~380'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.7779955, 37.8387689])),
+        name: '홍천',
+        route: '중앙선',
+        section: '385~390'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.9125914, 37.340987])),
+        name: '홍천',
+        route: '중앙선',
+        section: '315~320'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.916969, 37.4183258])),
+        name: '홍천',
+        route: '중앙선',
+        section: '325~330'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.9732079, 37.572884])),
+        name: '홍천',
+        route: '중앙선',
+        section: '345~350'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.7909967, 37.7664292])),
+        name: '홍천',
+        route: '중앙선',
+        section: '375~380'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.7716686, 37.8022068])),
+        name: '홍천',
+        route: '중앙선',
+        section: '380~385'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.7779955, 37.8387689])),
+        name: '홍천',
+        route: '중앙선',
+        section: '385~390'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4306527, 36.5647448])),
+        name: '보은',
+        route: '청주상주선',
+        section: '0~5'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.479322, 36.5458603])),
+        name: '보은',
+        route: '청주상주선',
+        section: '5~10'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.8883615, 36.4474108])),
+        name: '보은',
+        route: '청주상주선',
+        section: '45~50'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.7918926, 37.0363053])),
+        name: '엄정',
+        route: '평택제천선',
+        section: '90~95'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2375483, 36.9817443])),
+        name: '엄정',
+        route: '평택제천선',
+        section: '35~40'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.2059482, 37.0512475])),
+        name: '제천',
+        route: '중앙선',
+        section: '270~275'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.2941624, 37.0048542])),
+        name: '제천',
+        route: '중앙선',
+        section: '260~265'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4240858, 36.666547])),
+        name: '진천',
+        route: '중부선',
+        section: '255~260'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4714058, 36.9476101])),
+        name: '진천',
+        route: '중부선',
+        section: '290~295'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4801145, 37.035401])),
+        name: '진천',
+        route: '중부선',
+        section: '300~305'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4422137, 37.2077647])),
+        name: '진천',
+        route: '중부선',
+        section: '320~325'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4202485, 36.6222664])),
+        name: '진천',
+        route: '중부선',
+        section: '250~255'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4375391, 36.7088023])),
+        name: '진천',
+        route: '중부선',
+        section: '260~265'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.5066813, 36.7782731])),
+        name: '진천',
+        route: '중부선',
+        section: '270~275'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4801145, 37.035401])),
+        name: '진천',
+        route: '중부선',
+        section: '300~305'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4625306, 37.0774519])),
+        name: '진천',
+        route: '중부선',
+        section: '305~310'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.9895716, 36.5450241])),
+        name: '공주',
+        route: '당진대전선',
+        section: '50~55'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.0585342, 36.4847862])),
+        name: '공주',
+        route: '당진대전선',
+        section: '60~65'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2883162, 36.4278717])),
+        name: '공주',
+        route: '당진대전선',
+        section: '85~90'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.1654894, 36.4975705])),
+        name: '공주',
+        route: '당진대전선',
+        section: '70~75'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2162697, 36.4878046])),
+        name: '공주',
+        route: '당진대전선',
+        section: '75~80'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3203725, 36.393598])),
+        name: '공주',
+        route: '당진대전선',
+        section: '90~95'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.6897475, 36.7825784])),
+        name: '당진',
+        route: '당진대전선',
+        section: '10~15'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.5639501, 36.7323702])),
+        name: '당진',
+        route: '서해안선',
+        section: '240~245'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.5662366, 36.7762619])),
+        name: '당진',
+        route: '서해안선',
+        section: '245~250'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.7591522, 36.919073])),
+        name: '당진',
+        route: '서해안선',
+        section: '270~275'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.5547572, 36.688381])),
+        name: '당진',
+        route: '서해안선',
+        section: '235~240'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.5662366, 36.7762619])),
+        name: '당진',
+        route: '서해안선',
+        section: '245~250'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4275565, 36.379549])),
+        name: '대전',
+        route: '경부선',
+        section: '275~280'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4183421, 36.4657563])),
+        name: '대전',
+        route: '경부선',
+        section: '285~290'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4663024, 36.3496295])),
+        name: '대전',
+        route: '경부선',
+        section: '270~275'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.31392, 36.2991])),
+        name: '대전',
+        route: '호남지선',
+        section: '35~40'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.6029307, 36.2948484])),
+        name: '영동',
+        route: '경부선',
+        section: '255~260'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.5564176, 36.3177499])),
+        name: '영동',
+        route: '경부선',
+        section: '260~265'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.8809713, 36.2197596])),
+        name: '영동',
+        route: '경부선',
+        section: '225~230'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3160565, 36.2940785])),
+        name: '영동',
+        route: '대전남부순환선',
+        section: '0~5'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3700006, 36.2856573])),
+        name: '영동',
+        route: '대전남부순환선',
+        section: '5~10'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3836864, 36.6253599])),
+        name: '천안',
+        route: '경부선',
+        section: '305~310'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3727573, 36.668489])),
+        name: '천안',
+        route: '경부선',
+        section: '310~315'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3472224, 36.7044544])),
+        name: '천안',
+        route: '경부선',
+        section: '315~320'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3085103, 36.7264483])),
+        name: '천안',
+        route: '경부선',
+        section: '320~325'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2563955, 36.7345899])),
+        name: '천안',
+        route: '경부선',
+        section: '325~330'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.1747598, 36.7820643])),
+        name: '천안',
+        route: '경부선',
+        section: '335~340'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.1681066, 36.8254311])),
+        name: '천안',
+        route: '경부선',
+        section: '340~345'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2563955, 36.7345899])),
+        name: '천안',
+        route: '경부선',
+        section: '325~330'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.274989, 36.2269574])),
+        name: '논산',
+        route: '호남지선',
+        section: '25~30'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.6379344, 35.8031469])),
+        name: '무주',
+        route: '중부선',
+        section: '145~150'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.7431945, 36.0705525])),
+        name: '보령',
+        route: '서해안선',
+        section: '155~160'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.6208259, 36.1478478])),
+        name: '보령',
+        route: '서해안선',
+        section: '170~175'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.569913, 36.2267079])),
+        name: '보령',
+        route: '서해안선',
+        section: '180~185'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.5552914, 36.3871607])),
+        name: '보령',
+        route: '서해안선',
+        section: '200~205'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.5767559, 36.4268359])),
+        name: '보령',
+        route: '서해안선',
+        section: '205~210'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.5794765, 36.5586954])),
+        name: '보령',
+        route: '서해안선',
+        section: '220~225'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.5794765, 36.5586954])),
+        name: '보령',
+        route: '서해안선',
+        section: '220~225'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.7772633, 36.2167446])),
+        name: '부여',
+        route: '서천공주선',
+        section: '20~25'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.7980863, 36.2578517])),
+        name: '부여',
+        route: '서천공주선',
+        section: '25~30'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.9134826, 36.3532524])),
+        name: '부여',
+        route: '서천공주선',
+        section: '40~45'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.1369875, 35.3629986])),
+        name: '남원',
+        route: '광주대구선',
+        section: '30~35'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.289384, 35.3936382])),
+        name: '남원',
+        route: '광주대구선',
+        section: '45~50'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.6965106, 35.543314])),
+        name: '남원',
+        route: '광주대구선',
+        section: '90~95'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.5283704, 34.9903282])),
+        name: '순천',
+        route: '남해선',
+        section: '5~10'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.244546, 35.1753033])),
+        name: '순천',
+        route: '호남선',
+        section: '35~40'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.4391644, 35.0158235])),
+        name: '함평',
+        route: '무안광주선',
+        section: '5~10'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.4896234, 35.030325])),
+        name: '함평',
+        route: '무안광주선',
+        section: '10~15'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.6874541, 35.0984857])),
+        name: '함평',
+        route: '무안광주선',
+        section: '30~35'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.6874541, 35.0984857])),
+        name: '함평',
+        route: '무안광주선',
+        section: '30~35'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.7343378, 35.1199527])),
+        name: '함평',
+        route: '무안광주선',
+        section: '35~40'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.4719396, 34.8496291])),
+        name: '함평',
+        route: '서해안선',
+        section: '5~10'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.4796394, 35.0649544])),
+        name: '함평',
+        route: '서해안선',
+        section: '30~35'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.481287, 35.1099659])),
+        name: '함평',
+        route: '서해안선',
+        section: '35~40'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.4957519, 34.9761177])),
+        name: '함평',
+        route: '서해안선',
+        section: '20~25'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.4892992, 35.0207604])),
+        name: '함평',
+        route: '서해안선',
+        section: '25~30'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.481287, 35.1099659])),
+        name: '함평',
+        route: '서해안선',
+        section: '35~40'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.5436837, 35.2732961])),
+        name: '함평',
+        route: '서해안선',
+        section: '55~60'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.6178162, 36.4786835])),
+        name: '영주',
+        route: '중앙선',
+        section: '180~185'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.54378, 36.8098916])),
+        name: '영주',
+        route: '중앙선',
+        section: '225~230'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.6084357, 36.4335624])),
+        name: '청송',
+        route: '당진영덕선',
+        section: '115~120'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.3813689, 34.9752193])),
+        name: '고성',
+        route: '중부선',
+        section: '15~20'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.6091613, 35.2610778])),
+        name: '창원',
+        route: '남해제1지선',
+        section: '15~20'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.9125914, 37.34098704])),
+        name: '홍천',
+        route: '중앙선',
+        section: '315~320'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.9125914, 37.34098704])),
+        name: '홍천',
+        route: '중앙선',
+        section: '315~320'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.7779955, 37.83876894])),
+        name: '홍천',
+        route: '중앙선',
+        section: '385~390'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.8238867, 37.80291629])),
+        name: '강릉',
+        route: '동해선',
+        section: '65~70'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.7965065, 37.75493092])),
+        name: '대관령',
+        route: '영동선',
+        section: '230~235'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.8714305, 37.3461271])),
+        name: '원주',
+        route: '영동선',
+        section: '120~125'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.9732079, 37.57288403])),
+        name: '홍천',
+        route: '중앙선',
+        section: '345~350'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.7716686, 37.80220681])),
+        name: '홍천',
+        route: '중앙선',
+        section: '380~385'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.8743817, 37.6701836])),
+        name: '홍천',
+        route: '중앙선',
+        section: '360~365'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([129.0955466, 37.53076573])),
+        name: '강릉',
+        route: '동해선',
+        section: '20~25'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.8971321, 37.69083783])),
+        name: '강릉',
+        route: '동해선',
+        section: '50~55'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.2052831, 37.49256431])),
+        name: '대관령',
+        route: '영동선',
+        section: '160~165'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.250337, 37.51607231])),
+        name: '대관령',
+        route: '영동선',
+        section: '165~170'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.0360124, 37.44539209])),
+        name: '원주',
+        route: '영동선',
+        section: '140~145'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.155756, 37.47547139])),
+        name: '원주',
+        route: '영동선',
+        section: '155~160'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.9481384, 37.40120957])),
+        name: '원주',
+        route: '영동선',
+        section: '130~135'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.7146223, 37.24914838])),
+        name: '원주',
+        route: '영동선',
+        section: '100~105'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.7967582, 37.72454318])),
+        name: '홍천',
+        route: '중앙선',
+        section: '370~375'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.9787662, 37.52998812])),
+        name: '홍천',
+        route: '중앙선',
+        section: '340~345'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.7967582, 37.72454318])),
+        name: '홍천',
+        route: '중앙선',
+        section: '370~375'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.6874541, 35.0984857])),
+        name: '함평',
+        route: '무안광주선',
+        section: '30~35'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3225054, 35.02851072])),
+        name: '순천',
+        route: '호남선',
+        section: '15~20'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.7343378, 35.11995266])),
+        name: '함평',
+        route: '무안광주선',
+        section: '35~40'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.4896234, 35.03032502])),
+        name: '함평',
+        route: '무안광주선',
+        section: '10~15'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.5877008, 35.06678093])),
+        name: '함평',
+        route: '무안광주선',
+        section: '20~25'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.4829252, 35.15494396])),
+        name: '함평',
+        route: '서해안선',
+        section: '40~45'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4358331, 35.44407521])),
+        name: '남원',
+        route: '광주대구선',
+        section: '60~65'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.1897231, 35.36635794])),
+        name: '남원',
+        route: '광주대구선',
+        section: '35~40'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.6965106, 35.54331396])),
+        name: '남원',
+        route: '광주대구선',
+        section: '90~95'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3358398, 35.4147937])),
+        name: '남원',
+        route: '광주대구선',
+        section: '50~55'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.1393044, 35.26162353])),
+        name: '담양',
+        route: '호남선',
+        section: '50~55'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.6690088, 34.97673035])),
+        name: '순천',
+        route: '남해선',
+        section: '20~25'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2799286, 35.05398465])),
+        name: '순천',
+        route: '호남선',
+        section: '20~25'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.5399563, 35.04682455])),
+        name: '함평',
+        route: '무안광주선',
+        section: '15~20'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.4796394, 35.06495443])),
+        name: '함평',
+        route: '서해안선',
+        section: '30~35'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.5714513, 36.60963803])),
+        name: '영주',
+        route: '중앙선',
+        section: '200~205'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.4387041, 36.90126846])),
+        name: '영주',
+        route: '중앙선',
+        section: '240~245'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2883162, 36.42787173])),
+        name: '공주',
+        route: '당진대전선',
+        section: '85~90'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.1654894, 36.49757054])),
+        name: '공주',
+        route: '당진대전선',
+        section: '70~75'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2501974, 36.45888882])),
+        name: '공주',
+        route: '당진대전선',
+        section: '80~85'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2883162, 36.42787173])),
+        name: '공주',
+        route: '당진대전선',
+        section: '85~90'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.825385, 36.64697591])),
+        name: '공주',
+        route: '당진대전선',
+        section: '30~35'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.428891, 36.50678565])),
+        name: '대전',
+        route: '경부선',
+        section: '290~295'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.8551808, 36.95813112])),
+        name: '당진',
+        route: '서해안선',
+        section: '280~285'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4275565, 36.37954895])),
+        name: '대전',
+        route: '경부선',
+        section: '275~280'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4231656, 36.59470447])),
+        name: '대전',
+        route: '경부선',
+        section: '300~305'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.0013392, 36.40765114])),
+        name: '부여',
+        route: '서천공주선',
+        section: '50~55'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.0306515, 36.44453615])),
+        name: '부여',
+        route: '서천공주선',
+        section: '55~60'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3700006, 36.28565727])),
+        name: '영동',
+        route: '대전남부순환선',
+        section: '5~10'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3836864, 36.62535986])),
+        name: '천안',
+        route: '경부선',
+        section: '305~310'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.217288, 36.7602895])),
+        name: '천안',
+        route: '경부선',
+        section: '330~335'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2501974, 36.45888882])),
+        name: '공주',
+        route: '당진대전선',
+        section: '80~85'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.6534305, 36.81626191])),
+        name: '당진',
+        route: '당진대전선',
+        section: '5~10'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.7591522, 36.91907304])),
+        name: '당진',
+        route: '서해안선',
+        section: '270~275'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.5547572, 36.688381])),
+        name: '당진',
+        route: '서해안선',
+        section: '235~240'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4183421, 36.4657563])),
+        name: '대전',
+        route: '경부선',
+        section: '285~290'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4663024, 36.34962947])),
+        name: '대전',
+        route: '경부선',
+        section: '270~275'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.31392, 36.29909996])),
+        name: '대전',
+        route: '호남지선',
+        section: '35~40'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3188678, 36.34065836])),
+        name: '대전',
+        route: '호남지선',
+        section: '40~45'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.31392, 36.29909996])),
+        name: '대전',
+        route: '호남지선',
+        section: '35~40'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.5564176, 36.31774985])),
+        name: '영동',
+        route: '경부선',
+        section: '260~265'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.931716, 36.21621999])),
+        name: '영동',
+        route: '경부선',
+        section: '220~225'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3160565, 36.29407848])),
+        name: '영동',
+        route: '대전남부순환선',
+        section: '0~5'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.1681066, 36.8254311])),
+        name: '천안',
+        route: '경부선',
+        section: '340~345'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.1866601, 36.86733004])),
+        name: '천안',
+        route: '경부선',
+        section: '345~350'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([129.073631, 35.43939439])),
+        name: '서울산',
+        route: '경부선',
+        section: '25~30'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.0420868, 35.08554152])),
+        name: '진주',
+        route: '남해선',
+        section: '60~65'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.4996875, 35.28170874])),
+        name: '창원',
+        route: '남해선',
+        section: '115~120'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3472041, 37.31495742])),
+        name: '경기광주',
+        route: '중부선',
+        section: '335~340'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2891253, 37.43892698])),
+        name: '경기광주',
+        route: '중부선',
+        section: '350~355'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.9574134, 37.37918528])),
+        name: '동서울',
+        route: '수도권제1순환선',
+        section: '115~120'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.7974413, 37.45570348])),
+        name: '시흥',
+        route: '수도권제1순환선',
+        section: '95~100'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3849201, 37.28319262])),
+        name: '경기광주',
+        route: '중부선',
+        section: '330~335'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.1032033, 37.38131932])),
+        name: '수원',
+        route: '경부선',
+        section: '405~410'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.8558042, 37.38097843])),
+        name: '시흥',
+        route: '수도권제1순환선',
+        section: '105~110'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.828963, 37.41908589])),
+        name: '시흥',
+        route: '수도권제1순환선',
+        section: '100~105'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.7966235, 37.42861052])),
+        name: '시흥',
+        route: '제2경인선',
+        section: '15~20'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.1644793, 36.15337118])),
+        name: '논산',
+        route: '호남지선',
+        section: '10~15'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2921401, 36.2669873])),
+        name: '논산',
+        route: '호남지선',
+        section: '30~35'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2148303, 36.1588182])),
+        name: '논산',
+        route: '호남지선',
+        section: '15~20'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2921401, 36.2669873])),
+        name: '논산',
+        route: '호남지선',
+        section: '30~35'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.6498785, 35.97307729])),
+        name: '무주',
+        route: '중부선',
+        section: '165~170'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.6208259, 36.14784775])),
+        name: '보령',
+        route: '서해안선',
+        section: '170~175'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.646671, 36.10898749])),
+        name: '보령',
+        route: '서해안선',
+        section: '165~170'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.6736746, 35.46608388])),
+        name: '부안',
+        route: '서해안선',
+        section: '80~85'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([126.6566442, 35.42328638])),
+        name: '부안',
+        route: '서해안선',
+        section: '75~80'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.023669, 35.79845501])),
+        name: '전주',
+        route: '호남선',
+        section: '160~165'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.1867518, 35.8616768])),
+        name: '진안',
+        route: '순천완주선',
+        section: '115~120'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.2197934, 35.86611375])),
+        name: '진안',
+        route: '익산장수선',
+        section: '15~20'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4202485, 36.62226637])),
+        name: '진천',
+        route: '중부선',
+        section: '250~255'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4714058, 36.9476101])),
+        name: '진천',
+        route: '중부선',
+        section: '290~295'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4910263, 36.81738099])),
+        name: '진천',
+        route: '중부선',
+        section: '275~280'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.1698621, 37.08378052])),
+        name: '제천',
+        route: '중앙선',
+        section: '275~280'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4275038, 36.57914957])),
+        name: '진천',
+        route: '중부선',
+        section: '245~250'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4375391, 36.70880232])),
+        name: '진천',
+        route: '중부선',
+        section: '260~265'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.48117, 36.8593107])),
+        name: '진천',
+        route: '중부선',
+        section: '280~285'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4306527, 36.56474484])),
+        name: '보은',
+        route: '청주상주선',
+        section: '0~5'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.9932382, 37.07592453])),
+        name: '엄정',
+        route: '평택제천선',
+        section: '110~115'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.0807089, 37.23250754])),
+        name: '제천',
+        route: '중앙선',
+        section: '295~300'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.0807089, 37.23250754])),
+        name: '제천',
+        route: '중앙선',
+        section: '295~300'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.258328, 37.03734287])),
+        name: '제천',
+        route: '중앙선',
+        section: '265~270'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4625306, 37.07745194])),
+        name: '진천',
+        route: '중부선',
+        section: '305~310'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.5066813, 36.77827315])),
+        name: '진천',
+        route: '중부선',
+        section: '270~275'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4422137, 37.20776468])),
+        name: '진천',
+        route: '중부선',
+        section: '320~325'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.474735, 36.99133404])),
+        name: '진천',
+        route: '중부선',
+        section: '295~300'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4202485, 36.62226637])),
+        name: '진천',
+        route: '중부선',
+        section: '250~255'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.5774168, 36.5088942])),
+        name: '보은',
+        route: '청주상주선',
+        section: '15~20'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.288285, 36.97198525])),
+        name: '엄정',
+        route: '평택제천선',
+        section: '40~45'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4426183, 36.9473256])),
+        name: '엄정',
+        route: '평택제천선',
+        section: '55~60'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.5506555, 36.95473654])),
+        name: '엄정',
+        route: '평택제천선',
+        section: '65~70'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.3946104, 36.96917182])),
+        name: '엄정',
+        route: '평택제천선',
+        section: '50~55'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4426183, 36.9473256])),
+        name: '엄정',
+        route: '평택제천선',
+        section: '55~60'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.1495986, 37.12122313])),
+        name: '제천',
+        route: '중앙선',
+        section: '280~285'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([128.3338959, 36.9277543])),
+        name: '제천',
+        route: '중앙선',
+        section: '250~255'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4400352, 37.16308804])),
+        name: '진천',
+        route: '중부선',
+        section: '315~320'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4422137, 37.20776468])),
+        name: '진천',
+        route: '중부선',
+        section: '320~325'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4240858, 36.666547])),
+        name: '진천',
+        route: '중부선',
+        section: '255~260'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.4691292, 36.74561896])),
+        name: '진천',
+        route: '중부선',
+        section: '265~270'
+    });
+    features.push(feature);
+
+    var feature = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([127.5066813, 36.77827315])),
+        name: '진천',
+        route: '중부선',
+        section: '270~275'
+    });
+    features.push(feature);
+
+    var vectorSource = new ol.source.Vector({
+        features: features
+    });
+
+    var vectorLayer = new ol.layer.Vector({
+        source: vectorSource,
+        style: new ol.style.Style({
+            image: new ol.style.Circle({
+                radius: 5,
+                fill: new ol.style.Fill({ color: 'red' }),
+                stroke: new ol.style.Stroke({ color: 'black', width: 1 })
+            })
+        })
+    });
+
+    map.addLayer(vectorLayer);
+
+    map.on('singleclick', function(evt) {
+        var coordinate = evt.coordinate;
+        var feature = map.forEachFeatureAtPixel(evt.pixel, function(feature) {
+            return feature;
+        });
+        if (feature) {
+            var geometry = feature.getGeometry();
+            var coord = geometry.getCoordinates();
+            var name = feature.get('name');
+            var route = feature.get('route');
+            var section = feature.get('section');
+            content.innerHTML = '<b>지사명:</b> ' + name + '<br><b>노선명:</b> ' + route + '<br><b>구간:</b> ' + section;
+            overlay.setPosition(coord);
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+2024-12-04 21:13:45,357 INFO    MainThread:53384 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2024-12-04 21:13:45,357 INFO    MainThread:53384 [wandb_setup.py:_flush():79] Configure stats pid to 53384
+2024-12-04 21:13:45,357 INFO    MainThread:53384 [wandb_setup.py:_flush():79] Loading settings from C:\Users\user\.config\wandb\settings
+2024-12-04 21:13:45,357 INFO    MainThread:53384 [wandb_setup.py:_flush():79] Loading settings from C:\Users\user\Documents\Obsidian Vault\obsidian\1. Projects\DeepLearning_Cloud\강의 노트\16장_RNN\chap16_source_code\wandb\settings
+2024-12-04 21:13:45,358 INFO    MainThread:53384 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-12-04 21:13:45,358 INFO    MainThread:53384 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': '1. Projects\\DeepLearning_Cloud\\강의 노트\\16장_RNN\\chap16_source_code\\practice2_v2.py', 'program_abspath': 'C:\\Users\\user\\Documents\\Obsidian Vault\\obsidian\\1. Projects\\DeepLearning_Cloud\\강의 노트\\16장_RNN\\chap16_source_code\\practice2_v2.py', 'program': 'C:\\Users\\user\\Documents\\Obsidian Vault\\obsidian\\1. Projects\\DeepLearning_Cloud\\강의 노트\\16장_RNN\\chap16_source_code\\practice2_v2.py'}
+2024-12-04 21:13:45,358 INFO    MainThread:53384 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-12-04 21:13:45,358 INFO    MainThread:53384 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-12-04 21:13:45,358 INFO    MainThread:53384 [wandb_init.py:_log_setup():533] Logging user logs to C:\Users\user\Documents\Obsidian Vault\obsidian\1. Projects\DeepLearning_Cloud\강의 노트\16장_RNN\chap16_source_code\wandb\run-20241204_211345-zk7u9qwn\logs\debug.log
+2024-12-04 21:13:45,358 INFO    MainThread:53384 [wandb_init.py:_log_setup():534] Logging internal logs to C:\Users\user\Documents\Obsidian Vault\obsidian\1. Projects\DeepLearning_Cloud\강의 노트\16장_RNN\chap16_source_code\wandb\run-20241204_211345-zk7u9qwn\logs\debug-internal.log
+2024-12-04 21:13:45,358 INFO    MainThread:53384 [wandb_init.py:init():619] calling init triggers
+2024-12-04 21:13:45,358 INFO    MainThread:53384 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {}
+2024-12-04 21:13:45,358 INFO    MainThread:53384 [wandb_init.py:init():669] starting backend
+2024-12-04 21:13:45,358 INFO    MainThread:53384 [wandb_init.py:init():673] sending inform_init request
+2024-12-04 21:13:45,366 INFO    MainThread:53384 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-12-04 21:13:45,366 INFO    MainThread:53384 [wandb_init.py:init():686] backend started and connected
+2024-12-04 21:13:45,379 INFO    MainThread:53384 [wandb_init.py:init():781] updated telemetry
+2024-12-04 21:13:45,436 INFO    MainThread:53384 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2024-12-04 21:13:45,888 INFO    MainThread:53384 [wandb_init.py:init():867] starting run threads in backend
+2024-12-04 21:13:45,962 INFO    MainThread:53384 [wandb_run.py:_console_start():2456] atexit reg
+2024-12-04 21:13:45,963 INFO    MainThread:53384 [wandb_run.py:_redirect():2305] redirect: wrap_raw
+2024-12-04 21:13:45,963 INFO    MainThread:53384 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2024-12-04 21:13:45,963 INFO    MainThread:53384 [wandb_run.py:_redirect():2395] Redirects installed.
+2024-12-04 21:13:45,966 INFO    MainThread:53384 [wandb_init.py:init():911] run started, returning control to user process
+2024-12-04 21:13:45,980 INFO    MainThread:53384 [wandb_run.py:_config_callback():1387] config_cb None None {'sequence_length': 30, 'train_data_points': 2863, 'test_data_points': 96}
+2024-12-04 21:16:05,057 INFO    MainThread:53384 [wandb_run.py:_finish():2155] finishing run jdh251425142514-dankook-university/DeepCl_LSTM_Prac2/zk7u9qwn
+2024-12-04 21:16:05,058 INFO    MainThread:53384 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2024-12-04 21:16:05,058 INFO    MainThread:53384 [wandb_run.py:_restore():2402] restore
+2024-12-04 21:16:05,058 INFO    MainThread:53384 [wandb_run.py:_restore():2408] restore done
+2024-12-04 21:16:09,113 INFO    MainThread:53384 [wandb_run.py:_footer_history_summary_info():3960] rendering history
+2024-12-04 21:16:09,114 INFO    MainThread:53384 [wandb_run.py:_footer_history_summary_info():3992] rendering summary
+2024-12-04 21:16:09,123 INFO    MainThread:53384 [wandb_run.py:_footer_sync_info():3921] logging synced files

@@ -1,0 +1,1408 @@
+{
+  "id": "798481aa-cf10-4600-88f9-7ca00a1ee3b0",
+  "title": "- Scaling Laws for Neural Language Models(2020) 논문",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "- Scaling Laws for Neural Language Models(2020) 논문을 참고해서 설명해줘.",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "```1. Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md\nGPT-3이 어떻게 LLM 시대의 중심이 되었는지 확인해야함.\n```\n\n\n- Scaling Laws for Neural Language Models(2020) 논문을 참고해서 설명해줘.\n\n\n"
+        }
+      ],
+      "id": "2828cf37-a928-4a7a-b14e-1bb458195254",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "1. Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md"
+        },
+        {
+          "type": "block",
+          "content": "GPT-3이 어떻게 LLM 시대의 중심이 되었는지 확인해야함.",
+          "file": "1. Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md",
+          "startLine": 5,
+          "endLine": 5
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "The file appears to be discussing the beginning era of LLMs (Large Language Models) and highlights the influence of GPT-3. Here's how you can add the reference to the \"Scaling Laws for Neural Language Models (2020)\" paper to your markdown file:\n\n<smtcmp_block filename=\"Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md\" language=\"markdown\">\n<!-- ... existing content ... -->\nGPT-3이 어떻게 LLM 시대의 중심이 되었는지 확인해야함.\n\n- Scaling Laws for Neural Language Models(2020) 논문을 참고해서 설명해줘.\n<!-- ... existing content ... -->\n</smtcmp_block>\n\nThe edit has included the bullet point at the end of the file where it refers to the scaling laws paper.",
+      "id": "0a79a548-7b55-4288-93e8-a6871ee0f6ae",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4o",
+          "model": "gpt-4o"
+        },
+        "usage": {
+          "prompt_tokens": 555,
+          "completion_tokens": 160,
+          "total_tokens": 715,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "한국어로 답변",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n한국어로 답변\n\n"
+        }
+      ],
+      "id": "fa108052-63e5-4d6f-8c90-59389ae23d08",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "1. Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "이 파일은 LLM(대규모 언어 모델) 시대의 시작과 GPT-3의 중심 역할을 강조하고 있습니다. \"Scaling Laws for Neural Language Models (2020)\" 논문을 참고하라는 내용을 다음과 같이 추가할 수 있습니다:\n\n<smtcmp_block filename=\"Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md\" language=\"markdown\">\n<!-- ... 기존 내용 ... -->\nGPT-3이 어떻게 LLM 시대의 중심이 되었는지 확인해야함.\n\n- Scaling Laws for Neural Language Models(2020) 논문을 참고해서 설명해줘.\n<!-- ... 기존 내용 ... -->\n</smtcmp_block>\n\n이 수정은 파일 끝에 논문에 대한 참고 내용을 추가한 것입니다.",
+      "id": "beecb02d-77a9-4399-9a81-85196e2cb6f1",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4o",
+          "model": "gpt-4o"
+        },
+        "usage": {
+          "prompt_tokens": 729,
+          "completion_tokens": 155,
+          "total_tokens": 884,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "아니 논문을 참고해서 'GPT-3이 어떻게 LLM 시대의 중심이 되었는지 확인해야함.' 이 질문에 답변하라고",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n아니 논문을 참고해서 'GPT-3이 어떻게 LLM 시대의 중심이 되었는지 확인해야함.' 이 질문에 답변하라고\n\n"
+        }
+      ],
+      "id": "937f2f47-bbe3-4729-a473-c658efb8a17c",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "1. Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "\"Scaling Laws for Neural Language Models (2020)\" 논문은 모델의 크기, 데이터 양, 컴퓨팅 자원의 증가가 모델의 성능에 어떻게 영향을 미치는지를 다룹니다. 이 논문에 따르면, 더 큰 모델과 더 많은 데이터는 성능을 비례적으로 향상시킬 수 있다는 것이 입증되었습니다. GPT-3은 이 같은 스케일링 법칙을 따르는 대규모 모델로, 뛰어난 성능을 발휘하며 LLM 시대의 중심에 서게 되었습니다. 주요 요점은 다음과 같습니다:\n\n- **모델 크기:** GPT-3은 1750억 개의 매개변수를 가지고 있어, 전례 없는 규모로 복잡한 언어 태스크를 효과적으로 처리할 수 있습니다.\n- **데이터 양:** 방대한 양의 텍스트 데이터를 사용하여 학습되어, 다양한 문맥을 이해하고 생성할 수 있습니다.\n- **스케일링 법칙:** 논문에서 제시한 스케일링 법칙을 충실히 따름으로써, GPT-3은 기존 모델들보다 월등한 성능을 달성했습니다.\n\n이러한 요소들이 결합되어 GPT-3이 LLM 시대의 중심이 되는 데 크게 기여했습니다.",
+      "id": "fa49af2d-76cd-499c-8239-c60ccf777c0e",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4o",
+          "model": "gpt-4o"
+        },
+        "usage": {
+          "prompt_tokens": 926,
+          "completion_tokens": 270,
+          "total_tokens": 1196,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "더 큰 모델과 더 많은 데이터는 성능을 비례적으로 향상시킬 수 있다는 것이 입증되었습니다. ",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "이걸 한 단어로 부를 수 있지 않아?",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n더 큰 모델과 더 많은 데이터는 성능을 비례적으로 향상시킬 수 있다는 것이 입증되었습니다. \n\n이걸 한 단어로 부를 수 있지 않아?\n\n"
+        }
+      ],
+      "id": "86eea808-48a1-4bbd-bc61-3a931abf5619",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "1. Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "네, \"Scaling Laws\" 또는 \"스케일링 법칙\"이라고 부를 수 있습니다. 이 법칙은 모델의 크기와 데이터의 양, 컴퓨팅 비용이 증가함에 따라 성능이 향상된다는 것을 설명합니다.",
+      "id": "fc6a6076-e542-4664-b4ae-4d304f2fe05a",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4o",
+          "model": "gpt-4o"
+        },
+        "usage": {
+          "prompt_tokens": 1244,
+          "completion_tokens": 55,
+          "total_tokens": 1299,
+          "prompt_tokens_details": {
+            "cached_tokens": 1152,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "LLada에서는 이 스케일링 법칙을 언급했던 것 같은 기억이 있어 맞아?",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\nLLada에서는 이 스케일링 법칙을 언급했던 것 같은 기억이 있어 맞아?\n\n"
+        }
+      ],
+      "id": "7ce62790-6958-45bb-a44f-2d286ad8b0dd",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "1. Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "네, LLada에서는 \"스케일링 법칙\"을 언급한 적이 있습니다. LLada는 대규모 언어 모델의 설계 및 성능 향상에 있어 이 법칙이 중요하다는 점을 강조합니다. 이 법칙은 대규모 언어 모델 연구에서 자주 다뤄지는 주제입니다.",
+      "id": "dbbb0cb9-a43f-48f7-92ac-003f5f6aa3cf",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4o",
+          "model": "gpt-4o"
+        },
+        "usage": {
+          "prompt_tokens": 1329,
+          "completion_tokens": 75,
+          "total_tokens": 1404,
+          "prompt_tokens_details": {
+            "cached_tokens": 1280,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "이 흐름이 맞아?",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "```1. Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md\n- 흐름\n\t- 논문에서 스케일링 법칙을 가정함. \n\t- 그런데 GPT-3이 이 스케일링 법칙을 만족하는 동시에 엄청난 양의 파라미터 수로 높은 성능을 보였다. \n\t- 그 이후 방대한 양의 데이터를 학습시킨, 많은 파라미터 수를 가지는 LLM의 시대가 열렸다.\n```\n\n\n이 흐름이 맞아?\n\n"
+        }
+      ],
+      "id": "fc19d72d-b10d-4297-bf54-2117bbcc874e",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "1. Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md"
+        },
+        {
+          "type": "block",
+          "content": "- 흐름\n\t- 논문에서 스케일링 법칙을 가정함. \n\t- 그런데 GPT-3이 이 스케일링 법칙을 만족하는 동시에 엄청난 양의 파라미터 수로 높은 성능을 보였다. \n\t- 그 이후 방대한 양의 데이터를 학습시킨, 많은 파라미터 수를 가지는 LLM의 시대가 열렸다.",
+          "file": "1. Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md",
+          "startLine": 7,
+          "endLine": 10
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "네, 흐름이 적절하게 설명되어 있습니다. \"**스케일링 법칙**\"을 가정으로, GPT-3이 이를 만족하면서 대규모 매개변수를 통해 높은 성능을 보였으며, 이것이 방대한 데이터와 많은 매개변수를 가진 LLM의 시대를 열었다는 내용이 잘 전달되고 있습니다. 이 흐름은 GPT-3과 LLM의 관계를 이해하는 데 필요한 핵심 요소들을 잘 정리하고 있습니다.",
+      "id": "78fd1b60-d81c-4cb5-a245-d915fbd50f64",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4o",
+          "model": "gpt-4o"
+        },
+        "usage": {
+          "prompt_tokens": 1619,
+          "completion_tokens": 104,
+          "total_tokens": 1723,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "논문에서 '스케일링 법칙'을 가정했고, 이것을 GPT-3가 만족한게 맞아?",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n논문에서 '스케일링 법칙'을 가정했고, 이것을 GPT-3가 만족한게 맞아?\n\n"
+        }
+      ],
+      "id": "1992f4fd-af77-49ac-9df1-cc784f273b2f",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "1. Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "맞습니다. \"Scaling Laws for Neural Language Models\" 논문에서는 스케일링 법칙을 제안하고, 모델의 크기, 학습 데이터의 양, 컴퓨팅 비용이 증가할 때 성능이 향상될 수 있다고 설명하고 있습니다. GPT-3은 이 법칙을 충실히 따르는 사례로, 그 결과로 높은 성능을 보였다는 것이 해당 내용의 핵심입니다.",
+      "id": "23e067e4-a51e-4515-ada4-165d24e62060",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4o",
+          "model": "gpt-4o"
+        },
+        "usage": {
+          "prompt_tokens": 1759,
+          "completion_tokens": 91,
+          "total_tokens": 1850,
+          "prompt_tokens_details": {
+            "cached_tokens": 1664,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "아하 그럼 논문에선 GPT-3를 언급한게 아니네?",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n아하 그럼 논문에선 GPT-3를 언급한게 아니네?\n\n"
+        }
+      ],
+      "id": "a2e6b1dd-ad18-4de1-8877-0727da9be466",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "1. Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "맞습니다. \"Scaling Laws for Neural Language Models\" 논문에서는 직접적으로 GPT-3를 언급하지 않습니다. 대신, 모델의 크기, 데이터의 양, 컴퓨팅 비용이 커질수록 성능이 향상된다는 일반적인 스케일링 법칙을 다루고 있습니다. 이 법칙을 GPT-3가 잘 충족하여 높은 성능을 보였다는 것은 연구개발 과정에서 나타난 후속 결과입니다. GPT-3는 이러한 법칙의 훌륭한 예시로 언급됩니다.",
+      "id": "d3585842-ef1d-41b4-b8ea-e02cf591b1b0",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4o",
+          "model": "gpt-4o"
+        },
+        "usage": {
+          "prompt_tokens": 1942,
+          "completion_tokens": 119,
+          "total_tokens": 2061,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "그럼 GPT-3가 LLM의 시대의 중심이 되었다고 평가받는 근거를 알려줘",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n그럼 GPT-3가 LLM의 시대의 중심이 되었다고 평가받는 근거를 알려줘\n\n"
+        }
+      ],
+      "id": "ec5d0f3e-6dab-493d-b8dc-75da6fa66d3d",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "1. Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "GPT-3가 LLM 시대의 중심이 되었다고 평가받는 근거는 다음과 같습니다:\n\n1. **매개변수의 규모:** GPT-3은 1750억 개의 매개변수를 보유하며, 이는 당시 다른 모델들에 비해 압도적으로 큰 규모였습니다.\n\n2. **다양한 태스크 수행 능력:** GPT-3은 추가적인 미세 조정 없이도 다양한 태스크(예: 번역, 질문 응답, 글쓰기 등)를 수행할 수 있는 능력을 보여주었습니다.\n\n3. **범용성:** 다른 기존의 모델들과 달리 특정 태스크에 구애받지 않고, 광범위한 어플리케이션 영역에서 활용될 수 있었습니다.\n\n4. **자연어 처리(NLP) 발전 촉진:** GPT-3의 등장으로 인해 NLP 분야에서 대규모 언어 모델의 중요성이 부각되었으며, 이는 이후 연구 및 상용 서비스에서 큰 영향을 미쳤습니다.\n\n이런 이유들 덕분에 GPT-3은 LLM 시대의 중심에 서게 되었습니다.",
+      "id": "e72fbeaf-43ff-4f17-aaa4-e6eeb77a6b48",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4o",
+          "model": "gpt-4o"
+        },
+        "usage": {
+          "prompt_tokens": 2045,
+          "completion_tokens": 236,
+          "total_tokens": 2281,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "이런 GPT-3에 대한 논문이 있어? GPT-3를 분석한 논문이 아니라 GPT-3의 제작자가 작성한 이에 대한 논문이면 좋겠어.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n이런 GPT-3에 대한 논문이 있어? GPT-3를 분석한 논문이 아니라 GPT-3의 제작자가 작성한 이에 대한 논문이면 좋겠어.\n\n"
+        }
+      ],
+      "id": "6509f2c7-6e3b-462d-9c3a-7731006ca72e",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "1. Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "네, GPT-3에 대한 논문은 OpenAI에서 발표한 \"**Language Models are Few-Shot Learners**\"입니다. 이 논문은 GPT-3의 제작자들이 작성한 것으로, 모델의 구조, 성능, 능력에 대한 상세한 설명을 제공합니다. 주요 내용에는 대규모 매개변수와 다양한 태스크를 수행하는 능력 등이 포함되어 있습니다. 이는 GPT-3의 설계와 구현에 관한 공식적인 자료로, 모델의 강력한 성능을 설명하는 데 중요한 역할을 합니다.",
+      "id": "9b70721a-40cb-4f38-a552-5a225dfa906e",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4o",
+          "model": "gpt-4o"
+        },
+        "usage": {
+          "prompt_tokens": 2328,
+          "completion_tokens": 117,
+          "total_tokens": 2445,
+          "prompt_tokens_details": {
+            "cached_tokens": 2176,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "아래 내용에 대한 근거는 \"**Language Models are Few-Shot Learners**\"에서 찾을 수 있을까?",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "내용:",
+                  "type": "text",
+                  "version": 1
+                },
+                {
+                  "type": "linebreak",
+                  "version": 1
+                },
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "1. **매개변수의 규모:** GPT-3은 1750억 개의 매개변수를 보유하며, 이는 당시 다른 모델들에 비해 압도적으로 큰 규모였습니다.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "2. **다양한 태스크 수행 능력:** GPT-3은 추가적인 미세 조정 없이도 다양한 태스크(예: 번역, 질문 응답, 글쓰기 등)를 수행할 수 있는 능력을 보여주었습니다.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "3. **범용성:** 다른 기존의 모델들과 달리 특정 태스크에 구애받지 않고, 광범위한 어플리케이션 영역에서 활용될 수 있었습니다.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "4. **자연어 처리(NLP) 발전 촉진:** GPT-3의 등장으로 인해 NLP 분야에서 대규모 언어 모델의 중요성이 부각되었으며, 이는 이후 연구 및 상용 서비스에서 큰 영향을 미쳤습니다.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n아래 내용에 대한 근거는 \"**Language Models are Few-Shot Learners**\"에서 찾을 수 있을까?\n\n내용:\n1. **매개변수의 규모:** GPT-3은 1750억 개의 매개변수를 보유하며, 이는 당시 다른 모델들에 비해 압도적으로 큰 규모였습니다.2. **다양한 태스크 수행 능력:** GPT-3은 추가적인 미세 조정 없이도 다양한 태스크(예: 번역, 질문 응답, 글쓰기 등)를 수행할 수 있는 능력을 보여주었습니다.3. **범용성:** 다른 기존의 모델들과 달리 특정 태스크에 구애받지 않고, 광범위한 어플리케이션 영역에서 활용될 수 있었습니다.4. **자연어 처리(NLP) 발전 촉진:** GPT-3의 등장으로 인해 NLP 분야에서 대규모 언어 모델의 중요성이 부각되었으며, 이는 이후 연구 및 상용 서비스에서 큰 영향을 미쳤습니다.\n\n"
+        }
+      ],
+      "id": "8c5b15c7-53f6-4623-91eb-bd2837e3b2d3",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "1. Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "네, \"**Language Models are Few-Shot Learners**\" 논문에서 아래와 같은 내용을 찾을 수 있습니다:\n\n1. **매개변수의 규모:** 논문은 GPT-3이 1750억 개의 매개변수를 가지고 있음을 명시하며, 당시 가장 큰 모델 중 하나로 설명합니다.\n\n2. **다양한 태스크 수행 능력:** 논문에서는 GPT-3의 few-shot, one-shot, zero-shot 학습 능력을 강조하며, 추가적인 미세 조정 없이 다양한 태스크를 수행할 수 있는 능력을 보여줍니다.\n\n3. **범용성:** GPT-3의 설계가 특정 태스크에 구애받지 않고 여러 적용 분야에 활용될 수 있는 범용성을 보유하고 있음을 설명합니다.\n\n4. **자연어 처리(NLP) 발전 촉진:** 대규모 언어 모델이 NLP 연구 및 상용 서비스에 미친 영향에 대해 논의하며, GPT-3의 등장이 이 분야의 중요성을 부각시킨 점도 다룹니다.\n\n이 논문은 GPT-3의 설계 및 성능에 대해 공식적으로 설명하는 중요한 자료입니다.",
+      "id": "19f29847-5a9c-4fbe-9022-312219db591b",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4o",
+          "model": "gpt-4o"
+        },
+        "usage": {
+          "prompt_tokens": 2845,
+          "completion_tokens": 250,
+          "total_tokens": 3095,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "마크다운 형식으로 정리 및 볼드 최소화",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "```1. Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md\n### **1. 멀티모달의 원리는 무엇인가?**\n\n  \n\n멀티모달 학습의 핵심 원리는 **서로 다른 형태의 데이터를 하나의 모델에서 통합하여 처리**하는 것입니다. 보통 시각(이미지), 언어(텍스트), 청각(음성) 등의 modality가 함께 사용됩니다.\n\n이를 위해 다음 세 가지가 중요합니다:\n\n- **공통 표현 공간(shared representation)**: 서로 다른 modality를 동일한 표현 공간에 매핑해야 합니다.\n    \n- **정렬(alignment)**: 예를 들어, 텍스트 “cat”과 고양이 이미지가 의미적으로 같은 것을 알아야 합니다.\n    \n- **합성(reasoning)**: 두 modality 간의 정보를 통합해 새로운 결론을 내릴 수 있어야 합니다.\n    \n\n  \n\nCLIP, Flamingo, Gemini 같은 대표적 모델은 각각 다른 구조로 이 원리를 실현합니다.\n\n---\n\n### **2. CLIP은 어떻게 작동하는가?**\n\n  \n\nCLIP(OpenAI, 2021)은 **이미지와 텍스트를 동일한 임베딩 공간으로 매핑**하여, 이미지-텍스트 쌍의 의미적 유사도를 측정할 수 있도록 설계된 모델입니다.\n\n- 이미지 인코더: ResNet 또는 Vision Transformer 사용\n    \n- 텍스트 인코더: Transformer 기반의 텍스트 인코더\n    \n- 학습 목표: 대규모 인터넷 이미지와 텍스트 쌍을 사용해 **contrastive learning** (양의 쌍은 가까이, 음의 쌍은 멀리) 수행\n    \n\n  \n\n이렇게 학습된 CLIP은 **“텍스트 기반의 분류기”**처럼 동작하며, 직접적인 fine-tuning 없이도 다양한 이미지 분류 작업에 zero-shot으로 적용됩니다 .\n\n---\n\n### **3. Flamingo는 CLIP과 다른 역할을 하는 것인가?**\n\n  \n\nCLIP과는 다른 목적과 구조를 가지고 있습니다.\n\n- CLIP: 이미지-텍스트 쌍의 유사도만 계산 가능 → 분류(classification) 중심\n    \n- **Flamingo**: **이미지/비디오 + 텍스트를 입력받고, 자연어를 출력**할 수 있음 → captioning, VQA, 대화 등 **생성(generation)** 작업에 적합\n    \n\n  \n\nFlamingo는 CLIP과 같은 비전 백본을 사용하지만, 이를 LLM에 연결하기 위해 **Perceiver Resampler + Cross-Attention Layer(Gated XATTN-DENSE)**를 사용합니다.\n\n이 구조 덕분에 Flamingo는 **“few-shot multimodal prompting”**이 가능해졌고, fine-tuning 없이 다양한 멀티모달 작업을 수행할 수 있습니다 .\n\n---\n\n### **4. Gato는 이전 모델들의 어떤 한계점을 개선했는가?**\n\n  \n\nGato는 “범용 멀티모달 에이전트”를 지향합니다. 기존 모델은:\n\n- 특정 task나 modality에 최적화됨 (예: 텍스트 → 언어모델, 이미지 → CNN)\n    \n- modality마다 모델을 따로 설계해야 했음\n    \n\n  \n\n이에 비해 **Gato는 텍스트, 이미지, proprioception(신체 감각), 행동 등 다양한 입력을 모두 하나의 시퀀스로 토큰화**하여 하나의 transformer 모델로 처리합니다.\n\n  \n\n→ 즉, Gato는 하나의 가중치 집합으로 604개의 다양한 작업을 수행할 수 있게 되었고, 이는 **“범용성”**이라는 새로운 방향성을 보여줍니다 .\n\n---\n\n### **5. Gato에서 언급하는 ‘범용 멀티모달 모델의 가능성’이란 무엇인가?**\n\n  \n\n“범용 멀티모달 모델”이란, **하나의 모델이 다양한 작업과 입력 형태(modality)를 모두 처리할 수 있다는 개념**입니다.\n\nGato는 이를 위해 다음과 같은 특징을 가집니다:\n\n- 텍스트, 이미지, 로봇 센서값 등 모든 modality를 **하나의 토큰 시퀀스로 직렬화(serialization)**\n    \n- 다양한 작업(대화, VQA, 게임 플레이, 로봇 제어 등)을 **하나의 transformer**로 처리\n    \n\n  \n\n이는 **“멀티태스킹 + 멀티모달 + few-shot”** 가능성을 동시에 열었다는 점에서, 기존 모델들과 차별화됩니다 .\n\n---\n\n### **6. Gemini는 어떻게 처음부터 멀티모달로 설계됐는가?**\n\n  \n\n**Gemini 1.5**는 “처음부터 멀티모달 학습을 위한 데이터와 구조로 설계된 LLM”입니다.\n\n- 데이터: 웹 문서, 코드, 이미지, 오디오, 비디오 등 다양한 modality 포함\n    \n- 구조: 최대 **10M tokens**의 긴 context 처리 가능\n    \n- 아키텍처: Sparse MoE(Mixture of Experts) 기반으로, 효율적이고 확장 가능한 구조 사용\n    \n- 성능: 텍스트 + 이미지 + 비디오 등 **혼합 입력에 대한 reasoning** 가능\n    \n\n  \n\n즉, Gemini는 단순히 “텍스트 모델에 이미지 추가한 것”이 아니라, 처음부터 **복합 modality를 동시 처리하고 상호작용하도록 설계된 모델**입니다 .\n\n---\n\n### **7. Gemini와 Gato는 어떻게 다른가?**\n\n|**항목**|**Gato**|**Gemini 1.5**|\n|---|---|---|\n|목적|범용 멀티태스킹 에이전트|고성능 멀티모달 LLM|\n|입력 처리|모든 modality를 flat sequence로 직렬화|modality interleaving + MoE architecture|\n|맥락 길이|약 1,024 tokens|최대 10 million tokens|\n|학습 방식|supervised learning + imitation learning 중심|대규모 pretrain + instruction tuning + preference tuning|\n|주요 응용|로봇 제어, 게임, VQA 등 실시간 제어까지 포함|코드베이스 QA, 비디오 이해, 긴 문서 reasoning 등|\n\n→ **Gato**는 “물리적 환경과 상호작용하는 generalist agent”로, **Gemini**는 “거대 멀티모달 context reasoning에 최적화된 모델”이라고 이해할 수 있습니다.\n\n---\n\n이제 멀티모달에 대한 큰 흐름이 보일 거예요. 다음은 Flamingo와 Gemini의 구조를 비교하거나, 각 모델의 성능 그래프를 정리하는 것도 추천합니다. 필요하면 말씀해주세요!\n```\n\n\n마크다운 형식으로 정리 및 볼드 최소화\n\n"
+        }
+      ],
+      "id": "d972cc33-1b41-4a96-8b8a-268098c6ba60",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "1. Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md"
+        },
+        {
+          "type": "block",
+          "content": "### **1. 멀티모달의 원리는 무엇인가?**\n\n  \n\n멀티모달 학습의 핵심 원리는 **서로 다른 형태의 데이터를 하나의 모델에서 통합하여 처리**하는 것입니다. 보통 시각(이미지), 언어(텍스트), 청각(음성) 등의 modality가 함께 사용됩니다.\n\n이를 위해 다음 세 가지가 중요합니다:\n\n- **공통 표현 공간(shared representation)**: 서로 다른 modality를 동일한 표현 공간에 매핑해야 합니다.\n    \n- **정렬(alignment)**: 예를 들어, 텍스트 “cat”과 고양이 이미지가 의미적으로 같은 것을 알아야 합니다.\n    \n- **합성(reasoning)**: 두 modality 간의 정보를 통합해 새로운 결론을 내릴 수 있어야 합니다.\n    \n\n  \n\nCLIP, Flamingo, Gemini 같은 대표적 모델은 각각 다른 구조로 이 원리를 실현합니다.\n\n---\n\n### **2. CLIP은 어떻게 작동하는가?**\n\n  \n\nCLIP(OpenAI, 2021)은 **이미지와 텍스트를 동일한 임베딩 공간으로 매핑**하여, 이미지-텍스트 쌍의 의미적 유사도를 측정할 수 있도록 설계된 모델입니다.\n\n- 이미지 인코더: ResNet 또는 Vision Transformer 사용\n    \n- 텍스트 인코더: Transformer 기반의 텍스트 인코더\n    \n- 학습 목표: 대규모 인터넷 이미지와 텍스트 쌍을 사용해 **contrastive learning** (양의 쌍은 가까이, 음의 쌍은 멀리) 수행\n    \n\n  \n\n이렇게 학습된 CLIP은 **“텍스트 기반의 분류기”**처럼 동작하며, 직접적인 fine-tuning 없이도 다양한 이미지 분류 작업에 zero-shot으로 적용됩니다 .\n\n---\n\n### **3. Flamingo는 CLIP과 다른 역할을 하는 것인가?**\n\n  \n\nCLIP과는 다른 목적과 구조를 가지고 있습니다.\n\n- CLIP: 이미지-텍스트 쌍의 유사도만 계산 가능 → 분류(classification) 중심\n    \n- **Flamingo**: **이미지/비디오 + 텍스트를 입력받고, 자연어를 출력**할 수 있음 → captioning, VQA, 대화 등 **생성(generation)** 작업에 적합\n    \n\n  \n\nFlamingo는 CLIP과 같은 비전 백본을 사용하지만, 이를 LLM에 연결하기 위해 **Perceiver Resampler + Cross-Attention Layer(Gated XATTN-DENSE)**를 사용합니다.\n\n이 구조 덕분에 Flamingo는 **“few-shot multimodal prompting”**이 가능해졌고, fine-tuning 없이 다양한 멀티모달 작업을 수행할 수 있습니다 .\n\n---\n\n### **4. Gato는 이전 모델들의 어떤 한계점을 개선했는가?**\n\n  \n\nGato는 “범용 멀티모달 에이전트”를 지향합니다. 기존 모델은:\n\n- 특정 task나 modality에 최적화됨 (예: 텍스트 → 언어모델, 이미지 → CNN)\n    \n- modality마다 모델을 따로 설계해야 했음\n    \n\n  \n\n이에 비해 **Gato는 텍스트, 이미지, proprioception(신체 감각), 행동 등 다양한 입력을 모두 하나의 시퀀스로 토큰화**하여 하나의 transformer 모델로 처리합니다.\n\n  \n\n→ 즉, Gato는 하나의 가중치 집합으로 604개의 다양한 작업을 수행할 수 있게 되었고, 이는 **“범용성”**이라는 새로운 방향성을 보여줍니다 .\n\n---\n\n### **5. Gato에서 언급하는 ‘범용 멀티모달 모델의 가능성’이란 무엇인가?**\n\n  \n\n“범용 멀티모달 모델”이란, **하나의 모델이 다양한 작업과 입력 형태(modality)를 모두 처리할 수 있다는 개념**입니다.\n\nGato는 이를 위해 다음과 같은 특징을 가집니다:\n\n- 텍스트, 이미지, 로봇 센서값 등 모든 modality를 **하나의 토큰 시퀀스로 직렬화(serialization)**\n    \n- 다양한 작업(대화, VQA, 게임 플레이, 로봇 제어 등)을 **하나의 transformer**로 처리\n    \n\n  \n\n이는 **“멀티태스킹 + 멀티모달 + few-shot”** 가능성을 동시에 열었다는 점에서, 기존 모델들과 차별화됩니다 .\n\n---\n\n### **6. Gemini는 어떻게 처음부터 멀티모달로 설계됐는가?**\n\n  \n\n**Gemini 1.5**는 “처음부터 멀티모달 학습을 위한 데이터와 구조로 설계된 LLM”입니다.\n\n- 데이터: 웹 문서, 코드, 이미지, 오디오, 비디오 등 다양한 modality 포함\n    \n- 구조: 최대 **10M tokens**의 긴 context 처리 가능\n    \n- 아키텍처: Sparse MoE(Mixture of Experts) 기반으로, 효율적이고 확장 가능한 구조 사용\n    \n- 성능: 텍스트 + 이미지 + 비디오 등 **혼합 입력에 대한 reasoning** 가능\n    \n\n  \n\n즉, Gemini는 단순히 “텍스트 모델에 이미지 추가한 것”이 아니라, 처음부터 **복합 modality를 동시 처리하고 상호작용하도록 설계된 모델**입니다 .\n\n---\n\n### **7. Gemini와 Gato는 어떻게 다른가?**\n\n|**항목**|**Gato**|**Gemini 1.5**|\n|---|---|---|\n|목적|범용 멀티태스킹 에이전트|고성능 멀티모달 LLM|\n|입력 처리|모든 modality를 flat sequence로 직렬화|modality interleaving + MoE architecture|\n|맥락 길이|약 1,024 tokens|최대 10 million tokens|\n|학습 방식|supervised learning + imitation learning 중심|대규모 pretrain + instruction tuning + preference tuning|\n|주요 응용|로봇 제어, 게임, VQA 등 실시간 제어까지 포함|코드베이스 QA, 비디오 이해, 긴 문서 reasoning 등|\n\n→ **Gato**는 “물리적 환경과 상호작용하는 generalist agent”로, **Gemini**는 “거대 멀티모달 context reasoning에 최적화된 모델”이라고 이해할 수 있습니다.\n\n---\n\n이제 멀티모달에 대한 큰 흐름이 보일 거예요. 다음은 Flamingo와 Gemini의 구조를 비교하거나, 각 모델의 성능 그래프를 정리하는 것도 추천합니다. 필요하면 말씀해주세요!",
+          "file": "1. Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md",
+          "startLine": 43,
+          "endLine": 177
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "<smtcmp_block filename=\"Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md\" language=\"markdown\">\n### 1. 멀티모달의 원리는 무엇인가?\n\n멀티모달 학습은 서로 다른 형태의 데이터를 하나의 모델에서 통합하여 처리하는 것을 의미합니다. 보통 시각(이미지), 언어(텍스트), 청각(음성) 등의 modality가 함께 사용됩니다.\n\n이를 위해 다음이 중요합니다:\n\n- 공통 표현 공간: 서로 다른 modality를 동일한 표현 공간에 매핑해야 합니다.\n- 정렬: 예를 들어, 텍스트 \"cat\"과 고양이 이미지가 의미적으로 같은 것을 알아야 합니다.\n- 합성: 두 modality 간의 정보를 통합해 새로운 결론을 내릴 수 있어야 합니다.\n\n클립(Clip), 플라밍고(Flamingo), 제미니(Gemini) 같은 모델은 각각 다른 구조로 이를 실현합니다.\n\n---\n\n### 2. CLIP은 어떻게 작동하는가?\n\nCLIP는 이미지와 텍스트를 동일한 임베딩 공간으로 매핑하여 이미지-텍스트 쌍의 의미적 유사도를 측정할 수 있는 모델입니다.\n\n- 이미지 인코더: ResNet 또는 Vision Transformer 사용\n- 텍스트 인코더: Transformer 기반\n- 학습 목표: 대규모 인터넷 이미지와 텍스트 쌍을 사용해 대조 학습 수행\n\n이렇게 학습된 CLIP은 텍스트 기반의 분류기처럼 동작하며, 다양한 이미지 분류 작업에 zero-shot으로 적용됩니다.\n\n---\n\n### 3. Flamingo는 CLIP과 다른 역할을 하는가?\n\nCLIP과는 다른 목적과 구조:\n\n- CLIP: 이미지-텍스트 쌍의 유사도 계산(분류 중심)\n- Flamingo: 이미지/비디오 + 텍스트를 입력받고, 자연어를 출력(생성 작업에 적합)\n\nFlamingo는 Perceiver Resampler + Cross-Attention Layer를 사용하여 다양한 멀티모달 작업을 수행할 수 있습니다.\n\n---\n\n### 4. Gato는 이전 모델들의 한계점을 어떻게 개선했는가?\n\nGato는 범용 멀티모달 에이전트를 지향합니다:\n\n- 특정 task나 modality에 최적화된 기존 모델과 다르게, Gato는 다양한 입력을 하나의 시퀀스로 토큰화하여 처리합니다.\n- 하나의 가중치 집합으로 604개의 다양한 작업을 수행할 수 있게 되었습니다.\n\n---\n\n### 5. Gato에서 '범용 멀티모달 모델의 가능성'은 무엇인가?\n\n범용 멀티모달 모델은 하나의 모델이 다양한 작업과 입력 형태를 모두 처리할 수 있다는 개념입니다. \n\n- 모든 modality를 하나의 토큰 시퀀스로 직렬화\n- 다양한 작업을 하나의 transformer로 처리\n\n이는 멀티태스킹 + 멀티모달 + few-shot 가능성을 동시에 제시합니다.\n\n---\n\n### 6. Gemini는 어떻게 처음부터 멀티모달로 설계됐는가?\n\nGemini 1.5는 멀티모달 학습을 위한 데이터와 구조로 설계된 LLM입니다.\n\n- 데이터: 웹 문서, 코드, 이미지, 오디오, 비디오 등 포함\n- 구조: 10M tokens의 긴 context 처리 가능\n- 아키텍처: Sparse MoE 기반\n\n즉, Gemini는 복합 modality를 동시 처리하고 상호작용하도록 설계된 모델입니다.\n\n---\n\n### 7. Gemini와 Gato는 어떻게 다른가?\n\n| 항목 | Gato | Gemini 1.5 |\n|---|---|---|\n| 목적 | 범용 멀티태스킹 에이전트 | 고성능 멀티모달 LLM |\n| 입력 처리 | 모든 modality를 flat sequence로 직렬화 | modality interleaving + MoE architecture |\n| 맥락 길이 | 약 1,024 tokens | 최대 10 million tokens |\n| 학습 방식 | supervised learning + imitation learning 중심 | 대규모 pretrain + instruction tuning + preference tuning |\n| 주요 응용 | 로봇 제어, 게임, VQA 등 실시간 제어 | 코드베이스 QA, 비디오 이해 등 |\n\nGato는 \"물리적 환경과 상호작용하는 일반 에이전트\"로, Gemini는 \"거대 멀티모달 context reasoning에 최적화된 모델\"입니다.\n\n이제 멀티모달에 대한 큰 흐름이 보일 것입니다. 필요할 경우 플라밍고와 제미니의 구조를 비교하거나 성능 그래프를 정리하는 것도 추천합니다.\n</smtcmp_block>",
+      "id": "06cde42e-578c-4faf-bbef-290dff473443",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4o",
+          "model": "gpt-4o"
+        },
+        "usage": {
+          "prompt_tokens": 6067,
+          "completion_tokens": 1017,
+          "total_tokens": 7084,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A. 부분에 답변 작성해줘",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "```1. Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md\nQ1. 이미지 인코더로 ResNet 또는 Vision Transformer를 사용한다고 하는데 이는 무슨 원리인가?\nA.\nQ2. 대규모 인터넷 이미지와 텍스트 쌍을 데이터셋으로 사용하는 것 같은데, 이런 데이터는 어떻게 만드는 것인가?\nA.\n```\n\n\nA. 부분에 답변 작성해줘\n\n"
+        }
+      ],
+      "id": "821e6b19-a2f5-440c-b3ab-030b89a9c75f",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "1. Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md"
+        },
+        {
+          "type": "block",
+          "content": "Q1. 이미지 인코더로 ResNet 또는 Vision Transformer를 사용한다고 하는데 이는 무슨 원리인가?\nA.\nQ2. 대규모 인터넷 이미지와 텍스트 쌍을 데이터셋으로 사용하는 것 같은데, 이런 데이터는 어떻게 만드는 것인가?\nA.",
+          "file": "1. Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md",
+          "startLine": 62,
+          "endLine": 65
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "<smtcmp_block filename=\"Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md\" language=\"markdown\">\nQ1. 이미지 인코더로 ResNet 또는 Vision Transformer를 사용한다고 하는데 이는 무슨 원리인가?\nA. ResNet은 이미지의 계층적 특징을 학습하도록 설계된 잔차 네트워크로, 이미지의 레이어별 학습을 통해 인식 성능을 향상합니다. Vision Transformer는 이미지를 패치 단위로 나누고, 각 패치를 토큰으로 처리하여 Transformer 구조에서 다루는 방식으로 이미지의 패턴을 학습합니다.\n\nQ2. 대규모 인터넷 이미지와 텍스트 쌍을 데이터셋으로 사용하는 것 같은데, 이런 데이터는 어떻게 만드는 것인가?\nA. 이러한 데이터셋은 주로 웹 크롤링을 통해 다양한 이미지와 해당 텍스트 설명을 모은 뒤, 데이터 정제 및 필터링 과정을 거쳐 생성됩니다. 이미지와 설명의 유의미한 쌍을 형성하는 알고리즘적 과정도 포함됩니다.\n</smtcmp_block>",
+      "id": "e700bfb0-bf13-456b-9ab1-1c67cfe4eda5",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4o",
+          "model": "gpt-4o"
+        },
+        "usage": {
+          "prompt_tokens": 6633,
+          "completion_tokens": 242,
+          "total_tokens": 6875,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Q1. Perceiver Resampler가 무엇인가?",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Q2. Cross-Attention Layer가 무엇인가?",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            },
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A.",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\nQ1. Perceiver Resampler가 무엇인가?A.Q2. Cross-Attention Layer가 무엇인가?A.\n\n"
+        }
+      ],
+      "id": "3fc3c0b9-260a-4cef-b522-4ce52b60264e",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "1. Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "<smtcmp_block filename=\"Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md\" language=\"markdown\">\nQ1. Perceiver Resampler가 무엇인가?\nA. Perceiver Resampler는 입력 데이터를 더 작은 형태로 샘플링하여 처리하는 메커니즘으로, 다양한 입력 데이터를 효과적으로 요약하여 모델의 계산 부담을 줄입니다. 이는 특히 멀티모달 입력을 다룰 때 유용합니다.\n\nQ2. Cross-Attention Layer가 무엇인가?\nA. Cross-Attention Layer는 서로 다른 두 세트의 입력 간의 상호작용을 학습하는 레이어입니다. 한 세트의 정보가 다른 세트의 정보에 어떻게 관련되는지를 학습하여, 보다 풍부한 표현을 가능하게 합니다. 이는 멀티모달 모델에서 서로 다른 modality 간의 정보를 통합하는 데 사용됩니다.\n</smtcmp_block>",
+      "id": "4e49aa03-0386-43d8-b71e-2aa841bace84",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4o",
+          "model": "gpt-4o"
+        },
+        "usage": {
+          "prompt_tokens": 6765,
+          "completion_tokens": 197,
+          "total_tokens": 6962,
+          "prompt_tokens_details": {
+            "cached_tokens": 1024,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Q1. 여기서 '시퀀스'가 뭐야?",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\nQ1. 여기서 '시퀀스'가 뭐야?\n\n"
+        }
+      ],
+      "id": "7d31c80e-bddb-4288-b6a0-af38b4dd3d21",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "1. Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "<smtcmp_block filename=\"Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md\" language=\"markdown\">\nQ1. 여기서 '시퀀스'가 뭐야?\nA. '시퀀스'는 입력 데이터를 순차적으로 배열한 형태를 의미합니다. Gato 모델의 경우, 텍스트, 이미지, 행동 등의 다양한 입력 데이터를 모두 하나의 토큰 시퀀스로 변환하여 통합적으로 처리합니다. 이를 통해 여러 modality의 데이터를 단일 모델로 다룰 수 있게 됩니다.\n</smtcmp_block>",
+      "id": "597a80d8-e6a3-473f-b886-203a798291d5",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4o",
+          "model": "gpt-4o"
+        },
+        "usage": {
+          "prompt_tokens": 7049,
+          "completion_tokens": 123,
+          "total_tokens": 7172,
+          "prompt_tokens_details": {
+            "cached_tokens": 1408,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Q1. Sparse MoE가 뭐야?",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\nQ1. Sparse MoE가 뭐야?\n\n"
+        }
+      ],
+      "id": "6c789ed7-2f36-4230-b71a-67468bedf3e6",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "1. Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "<smtcmp_block filename=\"Projects/0515 ; 대학원 준비 ; NLP 서베이/대본.md\" language=\"markdown\">\nQ1. Sparse MoE가 뭐야?\nA. Sparse MoE (Mixture of Experts)는 모델의 여러 전문가 네트워크 중 일부만 활성화하여 계산을 수행하는 방법입니다. 이는 필요한 계산량을 줄이면서도 모델의 표현력을 향상시킵니다. 즉, 각 입력에 대해 가장 적합한 전문가들만 선택적으로 사용되어 효율성을 높입니다.\n</smtcmp_block>",
+      "id": "687ca707-c2fb-4d85-b9f9-51bd161d3369",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4o",
+          "model": "gpt-4o"
+        },
+        "usage": {
+          "prompt_tokens": 7072,
+          "completion_tokens": 119,
+          "total_tokens": 7191,
+          "prompt_tokens_details": {
+            "cached_tokens": 1664,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    }
+  ],
+  "createdAt": 1747889609465,
+  "updatedAt": 1747893437054,
+  "schemaVersion": 1
+}

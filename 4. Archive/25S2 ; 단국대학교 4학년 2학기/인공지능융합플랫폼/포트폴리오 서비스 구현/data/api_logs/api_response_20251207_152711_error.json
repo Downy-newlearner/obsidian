@@ -1,0 +1,19 @@
+{
+  "timestamp": "20251207_152711",
+  "status": "error",
+  "input_file": "/Users/downy/Documents/25S2 인공지능융합플랫폼 포트폴리오 서비스 구현/data/백앤드 시나리오.json",
+  "response": {
+    "status_code": 400,
+    "headers": {
+      "Date": "Sun, 07 Dec 2025 06:27:11 GMT",
+      "Content-Type": "application/json",
+      "Content-Length": "254",
+      "Connection": "keep-alive",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Methods": "OPTIONS,GET,POST",
+      "Access-Control-Allow-Origin": "*",
+      "X-Upstage-Request-Id": "1682be17-bfaa-427b-b811-5f2023a2114d"
+    },
+    "content": "{\"error\":{\"message\":\"The requested model is invalid or no longer supported. You can find the list of available models on our models page at https://console.upstage.ai/docs/models.\",\"type\":\"invalid_request_error\",\"param\":\"\",\"code\":\"invalid_request_body\"}}"
+  }
+}
